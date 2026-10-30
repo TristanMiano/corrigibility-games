@@ -2,7 +2,7 @@
 
 This queue is executable by ChatGPT, Codex, or another research agent. There is **one main recurring research task**, `CG-R001`. Its internal research fronts are not a long sequence of mandatory mini-projects. Most project effort belongs there.
 
-Status: scaffold initialized 2026-10-30. No full recurrence has yet been completed.
+Status: CG-01 and CG-02 completed 2026-10-30; see [preparation handoff](research/PREPARATION.md). No CG-R001 recurrence has been invoked or completed by this preparation.
 
 ## CG-00 — Initialize the project
 
@@ -10,7 +10,7 @@ Status: scaffold initialized 2026-10-30. No full recurrence has yet been complet
 
 ## CG-01 — Establish the minimal formal contract
 
-**Status: TODO; draft supplied in `research/MODEL.md`.**
+**Status: DONE — [flexible contract C1](research/MODEL.md) and [reference instance E1](research/models/E1.md).** The contract leaves timing, information, physics, utility classes, and implementation technology open to variation. E1's concrete choices are a specification witness, not recurrence defaults.
 
 Read the owner's research brief as reflected in the charter. Specify a minimal two-agent dynamic game: histories, physical states, power, legal actions, timing, beliefs, stochastic transitions, utility evaluation, update semantics, and solution concept. Give combat, ordinary compromise, and utility-modifying compromise explicit transition rules. Specify what the loser, survivors, and successor agents value.
 
@@ -18,7 +18,7 @@ Exit when one tractable model is fully defined, units and accounting are coheren
 
 ## CG-02 — Initial literature and comparison map
 
-**Status: TODO; screened leads supplied in `research/LITERATURE.md`.**
+**Status: DONE — [initial source/comparison map](research/LITERATURE.md).** Selected closest statements, assumptions, and proofs/arguments checked; unread/inaccessible leads and remaining audits are labeled. This is an initial map, not a comprehensive review or a novelty claim.
 
 Review primary work on bargaining with costly conflict and commitment failures; strategic self-modification; delegation and program games; safe Pareto improvements; useful work and irreversible physical processes; and indirect evolution of preferences. Include repeated bargaining, changing power, coalitions, and preference observability as needed.
 
@@ -63,4 +63,4 @@ Check notation, figures, links, citations, proof dependencies, rendering, and cl
 
 ## Next-agent handoff
 
-The next substantive task is **CG-01**, then **CG-02**, then an explicitly invoked **CG-R001** run. A useful instruction is: `Complete CG-01 and CG-02, then run CG-R001 with its default four-hour active-research floor and 75% minimum theory allocation.` Preparation does not consume that recurrence floor. If runtime prevents completion, checkpoint the unfinished work honestly.
+Read [the latest preparation handoff](research/PREPARATION.md), then wait for an explicit **CG-R001** invocation. A useful instruction is: `Run CG-R001 with its default four-hour active-research floor and 75% minimum theory allocation, starting with dispersion recovery and its bargaining implications.` Read the recurrence protocol first. C1 is flexible; choose or revise the smallest instance suited to the question instead of treating E1 as frozen. Preparation does not consume that recurrence floor. If runtime prevents completion, checkpoint the unfinished work honestly.

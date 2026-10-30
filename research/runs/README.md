@@ -2,6 +2,8 @@
 
 No CG-R001 recurrence has been completed at initialization.
 
+Latest handoff: [CG-01/CG-02 preparation](../PREPARATION.md), completed 2026-10-30. This is not a recurrence and creates no r0001 record or research-time credit.
+
 Use `TEMPLATE.md` to create `r0001.md`, `r0002.md`, and so on for explicitly invoked research increments. Preserve partial runs and resume them transparently; do not reset the clock to hide an interruption or count overlapping intervals twice.
 
 Initialization, bounded preparation, literature screening, and publication work are not automatically recurrence runs. An initialization note may document those activities without claiming a four-hour research increment.

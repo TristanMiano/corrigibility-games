@@ -1,6 +1,6 @@
 # Assumption register
 
-Status at initialization: proposed distinctions, not an empirical ranking of importance. Each substantive claim must name the assumptions it actually uses and link to a removal test, counterexample, or open proof obligation. Separate structural necessity from convenience in the current proof.
+Updated for CG-01/CG-02, 2026-10-30. These are indexed distinctions, not an empirical ranking of importance. [Contract C1](MODEL.md) leaves instance assumptions open; [E1](models/E1.md) makes local example choices only. Each substantive claim must name the assumptions it actually uses and link to a removal test, counterexample, or open proof obligation. Separate structural necessity from convenience in the current proof.
 
 | ID | Assumption / setting | Role and removal test |
 | --- | --- | --- |
@@ -24,6 +24,32 @@ Status at initialization: proposed distinctions, not an empirical ranking of imp
 | A18 | Outcome-only utility without combat/process bonus | Seed convenience; test direct preferences about conflict, identity, control, and the route to outcomes. |
 | A19 | Specified fitness and transmission map | Required for population claims. Never equate fitness with utility by default. |
 | A20 | Specified mixing, observation, and mutation | Required for evolutionary conclusions. Test assortment, rare invasion, exploitation, and inaccessible mutant types. |
+| A21 | Time resolution and interruption opportunities | Declare simultaneous/sequential moves and collision priority. Vary slot size, attack during implementation, and first-move advantage. |
+| A22 | Agency, ownership, and delivered-output boundary | Specify survival/incapacity, shared/private control, and whether past output can be seized or destroyed. Do not infer loser welfare from loss of control. |
+| A23 | Recovery technology and resource boundary | Integer vs divisible stocks, sequential vs parallel processing, work store vs total exergy, imports, material conversion, infrastructure repair. Recheck feasibility and accounting on replacement. |
+| A24 | Utility identity and admissible objective menu | Declare the common outcome domain and equivalence of representations. Menu restrictions and finite vs lexicographic preferences are instance assumptions. |
+| A25 | Current-self solution concept and selection | Specify best responses of incumbents/successors, off-path behavior, beliefs, and any selection rule. Founder optimization is only an external welfare perspective after change. |
+
+## Scope of C1 and reference instance E1
+
+C1's invariants concern physical availability, honest accounting, current-utility evaluation, and comparison/reporting. They do not require E1's public information, utility menu, horizon, or transition coefficients. A new instance may change any local choice below without changing C1, but must reassess affected claims.
+
+| IDs | E1 setting | Status / informative variation |
+| --- | --- | --- |
+| A01–A04 | Own objective/menu known; specified stochastic model; agent choices dominate | Starting idealizations; correct modeling does not reveal chance draws |
+| A05, A21 | Both capable agents may attack in every slot/phase; attack has priority | Core availability rule with local simultaneous timing; vary initiative/interruptions |
+| A06, A23 | O/D/Z feedstock, finite battery work, recovery costs, capacity damage | Local engineering abstraction; no thermodynamic calibration or entropy theorem |
+| A07, A14, A18 | S/F monotone in own delivery; G balanced joint output; no combat bonus | Menu convenience, not a restriction on C1; try destruction/status/threshold goals |
+| A08, A22 | Integer shared stock, alternating access, ordinary Work and P; protected deliveries | Local property/control arrangement; vary divisibility, ownership, output vulnerability |
+| A09–A10 | Complete information and public labels; common contest probabilities | Strong instance assumption; not implied by self-knowledge; compare hidden types |
+| A11–A12 | Reliable individual installation; reciprocal installation sequential, reversible | No global atomicity/durability. E1-D separately grants durable delegation and protected installation |
+| A13 | E1-F matches physics/info; E1-D has a larger contingent-policy menu and stronger execution | No modification/commitment equivalence assumed; match durability and verification before causal comparison |
+| A15–A16 | Twelve-hour task; fixed equal power; no first-strike advantage | Finite witness only; repeated and endogenous-power instances remain available |
+| A17, A24 | Three explicit utility classes; S has finite per-change penalty, F/G omit it | Positive affine recoding excluded from change; hard/lexicographic freezing remains open |
+| A19–A20 | No population process in E1 | No prevalence, invasion, or reproductive-fitness result |
+| A25 | Local stage best responses of current decision selves at every history; mixed actions allowed | No unique selection imposed; private information requires new belief consistency conditions |
+
+Source assumptions and transfer limits are in [the literature audit](LITERATURE.md). In particular L02's modification independence, L04/L05's program implementation, and L08's private-type/matching assumptions are not silently inherited by C1.
 
 ## Required comparison record
 
