@@ -20,13 +20,23 @@ We distinguish terminal-goal preservation, utility-freezing preferences, policy 
 
 - [TODO](TODO.md): preparation, initial literature review, **one main repeatable research task**, then synthesis and publication.
 - [AGENTS](AGENTS.md): instructions for ChatGPT, Codex, and other contributors.
-- [Research charter](research/CHARTER.md): questions, scope, and contribution standards.
-- [Recurrence protocol](research/RECURRENCE.md): the canonical `CG-R001` task; default **four-hour active-research floor**, with **at least 75% theory**, both overridable per invocation.
+- [Research charter](research/CHARTER.md) and [recurrence protocol](research/RECURRENCE.md): the canonical `CG-R001` task; default **four-hour active-research floor**, with **at least 75% theory**, both overridable per invocation.
+- [Model contract](research/MODEL.md) and [assumption register](research/ASSUMPTIONS.md): physical transitions, bargaining, utility semantics, freezing, and selection.
+- [Literature map](research/LITERATURE.md), [claim ledger](research/CLAIMS.md), and [seed derivations](research/notes/000-baselines.md): sources, proof obligations, and elementary benchmarks.
+- [Run records](research/runs/README.md) and [initialization record](research/INITIALIZATION.md): actual work and handoffs.
 
-The remaining research files are added as the scaffold develops: a model contract, assumption register, literature map, claim ledger, mathematical notes, and run records. Research is not an automatically scheduled service; each recurrence is explicitly invoked and leaves a handoff.
+Research is not an automatically scheduled service; each recurrence is explicitly invoked and leaves a handoff. Most substantive work belongs inside `CG-R001`, not an expanding sequence of administrative milestones.
 
-## Status
+## Status and checks
 
-Initialized on 2026-10-30. The initial commits establish the research workflow and seed elementary benchmarks; they do **not** constitute a completed four-hour recurrence or a completed literature review. `CG-01` and `CG-02` are the next preparation tasks. Most substantive work belongs inside `CG-R001`, not an expanding sequence of administrative milestones.
+Initialized on 2026-10-30. The initial commits establish the research workflow and seed elementary benchmarks; they do **not** constitute a completed four-hour recurrence or a completed literature review. `CG-01` and `CG-02` are the next preparation tasks.
+
+Run the standard-library exact-arithmetic checks from the repository root:
+
+```sh
+python -m unittest discover -s tests -v
+```
+
+These check seed calculations, not the full physical, equilibrium, or evolutionary research claims.
 
 The existing [MIT license](LICENSE) is retained. References to third-party works do not relicense those works.
