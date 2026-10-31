@@ -1,6 +1,6 @@
 # R0001 working note — selection depends on what offspring inherit
 
-The essay's population intuition requires a fitness and transmission model, not just a bargaining advantage. This note adds an explicitly restricted population process to the finite E2-U encounter. It gives counterexamples to universal elimination of freezing and separates an individual's objective, its reproduction and the frequency of its former goal type. These are self-checked calculations for a renewal population, not a model of all agents sharing one indefinitely evolving universe.
+This note specifies fitness and transmission for a restricted renewal population built from the finite E2-U encounter. It derives conditions for both frozen-type persistence and elimination: random matching sustains frozen and balanced-goal types together, while sufficient same-type matching eliminates the frozen type and, at a higher threshold, yields balanced-goal fixation. Individual objectives, reproduction and transmitted goal frequencies remain separate. These are self-checked conditional calculations; the naturalness of the encounter, inheritance and matching assumptions requires further investigation in every region. The 2026-10-31 aim review revises interpretation, leaving the process and proofs unchanged.
 
 ## 1. Encounter, fitness and birth assumptions
 
@@ -143,9 +143,11 @@ The control shares encounter physics and choices with the installed-template mod
 
 ## 6. Scope and next removal tests
 
-This is an explicit counterexample family to universal elimination of finite freezing, and a demonstration that goal change, individual reproductive success and goal-type prevalence can diverge. The algebra uses familiar population-update methods; no novelty claim is made. The preference-evolution literature in L08 is a close comparison, but its theorem is not imported: this note has its own encounter, fitness, transmission and assortment assumptions.
+In the installed-template process with r_0>0 and 0<k_0<1, rho<50/123 sustains a positive frozen-type share; rho>=50/123 eliminates it, and rho>=2/3 yields balanced-goal fixation. Same-type matching reduces K's favorable encounters with accommodating types while concentrating K–K combat; at higher assortment it also removes R's advantage from meeting G. These are conditional answers about population change, alongside voluntary adoption within encounters. They establish neither universal persistence nor universal elimination, and neither side's parameter examples establish representative frequency. The algebra uses familiar population-update methods; no novelty claim is made. The preference-evolution literature in L08 is a close comparison, but its theorem is not imported: this note has its own encounter, fitness, transmission and assortment assumptions.
 
 The strongest restrictions are the finite public goal menu and selected encounter equilibria, renewal resources, one-batch objectives, inherited constructor templates, equal encounter strengths and exogenous assortment. Hidden types, strategic matching, correlated execution failures, offspring inheriting strength, expanded goals or different continuation selections can change the table before any population calculation begins. A continuous-time replicator equation that ignores conversion is not a substitute for the discrete birth kernel used here.
+
+For a broader model, derive feasible partner choice and richer inherited goals, then test whether an accommodating population can be constructed and sustained and whether resistant types can persist or invade under the same rules. Charge search, execution and reproduction costs in both directions. Sections 7–9 already test explicit innovation and nearby birth maps; they supply worked robustness comparisons without resolving arbitrary new preference types.
 
 ## 7. Recurrent innovation removes exact extinction without removing selection
 
@@ -197,7 +199,7 @@ $$r_\epsilon=\frac{32}{9}\nu_R\epsilon+O(\epsilon^2).$$
 
 For the first expansion, the derivative of the original K map at 50/73 is 73/96; implicit differentiation of k=(1-epsilon)T_K(k)+epsilon nu_K gives the coefficient. For the second, A(50/73,0)=23/32, so the linearized R balance is (1-23/32)r=epsilon nu_R. Both fixed-point equations have nonzero derivatives at the limiting roots, justifying their local expansions.
 
-Thus R is present at every positive innovation rate but remains of order epsilon when innovation is rare, while K retains an order-one share approaching 50/73. The K fixed point lies between nu_K and 50/73: outside that interval the selection drift and the innovation drift have the same sign, so they cannot cancel. Innovation does not generically favor flexibility; its direction depends on the specified channel.
+Thus R is present at every positive innovation rate but remains of order epsilon when innovation is rare, while K retains an order-one share approaching 50/73. The K fixed point lies between nu_K and 50/73: outside that interval the selection drift and the innovation drift have the same sign, so they cannot cancel. An innovation share nu_K<50/73 lowers the limiting frozen share below its no-innovation value; nu_K>50/73 raises it, and equality preserves it. The direction is determined by the specified channel.
 
 These results use rho=0, full-support parent-independent innovation and the original encounter menu. They do not extend the four assortment phases unchanged, assign mutation rates from rationality, or turn population replacement into voluntary current-utility choice.
 

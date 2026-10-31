@@ -1,6 +1,6 @@
 # Assumption register
 
-Updated for CG-01/CG-02, 2026-10-30. These are indexed distinctions, not an empirical ranking of importance. [Contract C1](MODEL.md) leaves instance assumptions open; [E1](models/E1.md) makes local example choices only. Each substantive claim must name the assumptions it actually uses and link to a removal test, counterexample, or open proof obligation. Separate structural necessity from convenience in the current proof.
+Established for CG-01/CG-02, extended through r0001; interpretation reviewed 2026-10-31. These are indexed distinctions, not an empirical ranking of importance. [Contract C1](MODEL.md) leaves instance assumptions open; [E1](models/E1.md) makes local example choices only. Each substantive claim must name the assumptions it actually uses and link to its construction or obstruction, relevant variation/repair tests and remaining proof obligations. Separate structural necessity from convenience in the current proof. Apply [AIM_BALANCE](AIM_BALANCE.md) to both successful and failed regimes.
 
 | ID | Assumption / setting | Role and removal test |
 | --- | --- | --- |
@@ -10,7 +10,7 @@ Updated for CG-01/CG-02, 2026-10-30. These are indexed distinctions, not an empi
 | A04 | Agent-dominated environment | Physical work, spatial structure, and resource constraints remain. Track any additional environmental hazards. |
 | A05 | Combat remains physically available | Core main-model requirement. Do not remove attacks after agreement; label incapacity/terminal exceptions and disarmament controls. |
 | A06 | Distinct physical transition mechanisms | Core main-model requirement. A scalar cost is a benchmark reduction, not the final physical analysis. |
-| A07 | Resource/work monotonicity of goals | Potential heavy-lifting condition, not universal. Test destructive, relative, threshold, and process preferences. |
+| A07 | Resource/work monotonicity of goals | Construct accommodation conditions for monotone goals; test both accommodating and combative regions of relative, threshold and process preferences. Assess the motivation and robustness of each class. |
 | A08 | Rich peaceful feasible set | Divisibility, transfers, lotteries, and enforceable allocations are separate sub-assumptions. Remove each without quietly retaining its substitute. |
 | A09 | Public observability and common knowledge | Separate from A01. Vary private information, truthful reporting, semantic verification, and observed implementation. |
 | A10 | Common beliefs about combat and dynamics | Separate from the ability to calculate expectations. Test disagreement and incompatible posteriors when relaxing correct common models. |
@@ -70,7 +70,7 @@ C1's invariants concern physical availability, honest accounting, current-utilit
 | A01–A04 | Own objective/menu known; specified stochastic model; agent choices dominate | Starting idealizations; correct modeling does not reveal chance draws |
 | A05, A21 | Both capable agents may attack in every slot/phase; attack has priority | Core availability rule with local simultaneous timing; vary initiative/interruptions |
 | A06, A23 | O/D/Z feedstock, finite battery work, recovery costs, capacity damage | Local engineering abstraction; no thermodynamic calibration or entropy theorem |
-| A07, A14, A18 | S/F monotone in own delivery; G balanced joint output; no combat bonus | Menu convenience, not a restriction on C1; try destruction/status/threshold goals |
+| A07, A14, A18 | S/F monotone in own delivery; G balanced joint output; no combat bonus | Menu convenience, not a restriction on C1; construct broader accommodating goals and test destruction/status/threshold boundaries |
 | A08, A22 | Integer shared stock, alternating access, ordinary Work and P; protected deliveries | Local property/control arrangement; vary divisibility, ownership, output vulnerability |
 | A09–A10 | Complete information and public labels; common contest probabilities | Strong instance assumption; not implied by self-knowledge; compare hidden types |
 | A11–A12 | Reliable individual installation; reciprocal installation sequential, reversible | No global atomicity/durability. E1-D separately grants durable delegation and protected installation |
@@ -99,29 +99,29 @@ At the E2.0 checkpoint no fitness/transmission mechanism (A19–A20) had been ad
 
 R119 varies A32 at zero freezing; R120 combines unequal success probabilities with finite initial freezing. Its strict-region classification is local to E2-U and the declared continuation selection. R119's nonmonotone combat probability comes from changing the number of attempts, not from worse reliability under a fixed protocol.
 
-## R0001 continuation: removal tests that change the conclusion
+## R0001 continuation: constructions, repairs and variation tests
 
 - Broader successor objectives remove the homothetic threat-softening obstruction (notes 011/014), but approximate execution creates a new normalized accuracy requirement (017).
-- Local consent to fusion can harm the original founder; finite goal-preservation can help in a restricted menu, while enforceable transfers or randomized installation can bypass some protections (012). An unsecured prepayment attempt was rejected after checking handover incentives.
+- Finite goal-preservation makes initial accommodation attractive in the staged menu, protecting a founder otherwise exposed to later concessions (012). Enforceable transfers or randomized installation can bypass some protections; an unsecured prepayment attempt fails its handover incentive check.
 - Detection needs a credible post-detection continuation and a current incentive to inspect. A passed test need not be accepted, and a no-trade equilibrium can coexist with trade (013).
-- Additive-strength linear contests and nonlinear coalition contests have different stability boundaries (015). Endogenous deployment can make earlier war attractive even when every later fixed-strength split is stable (016).
-- Public observation of an installed goal does not prevent an original proposer from revising an earlier declaration after preparation. Actual binding or a timely renewed response is a separate capability (020).
-- Population prevalence depends on the birth kernel and assortment, even with the same encounter physics. Neither current utility nor parent offspring count alone determines transmission of its original goal template (019).
+- Additive-strength linear contests support proportional coalition deterrence in the stated class; squared-strength contests supply an obstruction (015). Endogenous deployment can make earlier war attractive even when every later fixed-strength split is stable (016); extending the successful fixed-strength arrangement requires handling those investment incentives.
+- Binding the proposed goal before preparation, or giving the opponent a timely renewed response to revisions, supports the stated installation outcome. Mere post-installation observation leaves a profitable earlier declaration revision (020).
+- The declared birth kernel and same-type matching yield both frozen-type persistence and elimination, including balanced-goal fixation at high assortment (019). Parent offspring count and transmitted goal type are distinct quantities in every region.
 - Recurrent innovation removes exact zero frequencies but leaves different linear/square-root small-innovation rates at the selection thresholds (019 sections 7–8). This varies the transmission channel, not agents' decision criteria.
 - Recursive concave averaging need not be associative; calibrated additive and power-mean rules can be associative while disagreeing about lotteries (025). Universal preservation of original lottery indifferences prevents a unique interior output optimum.
-- Failure of a merger under freezing does not exclude an unchanged-utility split. Full-menu payoff certificates, finite combat bonuses and relative-goal examples separate those questions (026).
-- Positive physical surplus at every date does not guarantee one fixed split survives changing strength (027). Overlapping stochastic budgets can obstruct all unique output-only implementations even when deterministic nonhomothetic goals repair the corresponding separated-budget case (028).
+- Full-menu payoff certificates locate where unchanged-utility splits or modifications beat combat and where combat beats every declared peaceful route; finite change penalties, combat bonuses and relative goals enter different comparisons (026).
+- A constructed goal change sustains a changing-strength path whose unchanged-goal dated threats exceed total output (027). The finite stochastic feasibility criterion supplies smooth output-only implementations in its positive region and an obstruction in its negative region; history-sensitive goals repair the stated overlap example (028).
 - Restoring code can activate a fresh first-change criterion; finite virtual evaluator memory repairs the stationary existence argument without making archived founders control descendants (029).
-- Equal strength-weighted ideal output means do not equate random-operator and territorial strategic authority (030).
+- Territorial control supports peace with unchanged project goals; revocable random-operator control yields war with those goals in the matched final game (030). Ideal strength-weighted means alone leave these control rights unspecified.
 - Dropping concavity changes the sharp regret allowance from second to first order, but fixed normalized regularity restores a quadratic obstruction; exact optimization can still fail after a physical stock loss (031).
 - A specified finite behavioral perturbation selects E2-U's local peaceful continuations while preserving its reliability/freezing effects (032). Positive-error population maps remain separate; only explicitly nearby finite birth kernels receive the local stability result in 019 section 9.
 
-These are optional E2 modules and counterexamples. They do not narrow C1 or fix the next recurrence's utility class, protocol, population process or research focus.
+These are optional E2 constructions, repairs and counterexamples. C1 and the next recurrence's utility class, protocol, population process and focus remain open.
 
 ## Required comparison record
 
-For a claimed peace advantage, record the model version, utility class, feasible mechanisms, physics, horizon, beliefs, and solution concept. State whether the result establishes feasibility, individual preference, adoption equilibrium, dynamic stability, coalition stability, or prevalence.
+For a claimed accommodation advantage or obstruction, record the model version, utility class, feasible mechanisms, physics, horizon, beliefs, and solution concept. State whether the result establishes feasibility, individual preference, adoption equilibrium, dynamic stability, coalition stability, or prevalence.
 
-For every major positive result, seek a minimal negative instance. Try both one-at-a-time removals and meaningful interactions: e.g. reversibility plus changing power; finite freezing plus discounting; observability plus commitment benefits; physical recovery cost plus target-specific utility.
+For every major positive result, seek a minimal failure boundary and test consequential deviations. For every major negative result, construct a successful counterpart or seriously test repairs over an explicit enlarged agreement class. An existing worked counterpart can satisfy a focused task when its relevance is explained. Try both one-at-a-time variations and meaningful interactions: e.g. reversibility plus changing power; finite freezing plus discounting; observability plus commitment benefits; physical recovery cost plus target-specific utility.
 
-Do not rank assumptions by frequency of favorable simulations alone. Explain the proof dependency and how much the conclusion changes when an assumption is removed. At synthesis, classify each as essential in the model, a replaceable sufficient condition, a tractability choice, or unresolved.
+Counts of favorable simulations and counts of adverse simulations each require a justified sampling law before supporting prevalence claims. Explain the proof dependency and how much the conclusion changes when an assumption is varied or a mechanism repaired. At synthesis, classify each as essential in the model, a replaceable sufficient condition, a tractability choice, or unresolved.
