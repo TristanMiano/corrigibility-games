@@ -146,3 +146,103 @@ The control shares encounter physics and choices with the installed-template mod
 This is an explicit counterexample family to universal elimination of finite freezing, and a demonstration that goal change, individual reproductive success and goal-type prevalence can diverge. The algebra uses familiar population-update methods; no novelty claim is made. The preference-evolution literature in L08 is a close comparison, but its theorem is not imported: this note has its own encounter, fitness, transmission and assortment assumptions.
 
 The strongest restrictions are the finite public goal menu and selected encounter equilibria, renewal resources, one-batch objectives, inherited constructor templates, equal encounter strengths and exogenous assortment. Hidden types, strategic matching, correlated execution failures, offspring inheriting strength, expanded goals or different continuation selections can change the table before any population calculation begins. A continuous-time replicator equation that ignores conversion is not a substitute for the discrete birth kernel used here.
+
+## 7. Recurrent innovation removes exact extinction without removing selection
+
+Retain random matching (rho=0) and the installed-template encounter/birth map above. After reproduction, with probability epsilon in (0,1] independently of the parent's type, instantiate the offspring template from a fixed full-support distribution nu=(nu_R,nu_K,nu_G). With probability 1-epsilon inherit the just-produced template. This is an explicit mutation/innovation channel, not voluntary relaxation by an incumbent. Its material/work requirements come from the same declared renewal supply; template-independent instantiation cost is a local assumption.
+
+If T is the original frequency map, the new map is
+
+$$p'=(1-\epsilon)T(p)+\epsilon\nu.$$
+
+Every type then has frequency at least epsilon nu_i after one generation. More strongly, the map has a unique interior fixed point and converges to it from every initial population. For epsilon=1 this is immediate: p'=nu. The following proof covers 0<epsilon<1.
+
+The K frequency still evolves autonomously, with
+
+$$k'=(1-\epsilon)\frac{150k-123k^2}{100-73k^2}
++\epsilon\nu_K.$$
+
+The numerator of k'-k after multiplying by its positive denominator is
+
+$$D(k)=73k^3-[123(1-\epsilon)+73\epsilon\nu_K]k^2
++(50-150\epsilon)k+100\epsilon\nu_K.$$
+
+It satisfies D(0)>0 and D(1)=27epsilon(nu_K-1)<0. Its leading coefficient is positive, so there is also a negative root and a root greater than one, by the signs at minus/plus infinity. A cubic cannot have more than these three distinct roots. Therefore exactly one root k_epsilon lies in (0,1), and D is positive below it and negative above it inside that interval. The K update is increasing, because the original update is increasing and the mutation term is constant. Iteration thus moves monotonically toward k_epsilon without crossing it.
+
+Given k, the R update is
+
+$$r'=A(k)r-B(k)r^2+\epsilon\nu_R,$$
+$$A(k)=\frac{(1-\epsilon)(3/4)(1-k)}{Z(k)},\qquad
+B(k)=\frac{(1-\epsilon)(3/8)}{Z(k)},\qquad
+Z(k)=\frac12-\frac{73}{200}k^2.$$
+
+At the limiting k_epsilon, the fixed-point equation is
+
+$$B_*r^2+(1-A_*)r-\epsilon\nu_R=0.$$
+
+It has one positive and one negative root. The positive root r_epsilon lies strictly between zero and 1-k_epsilon: at the lower endpoint the R update is positive, while at the upper endpoint the mandatory G innovation leaves R below that endpoint. Explicitly,
+
+$$r_\epsilon=
+\frac{A_*-1+\sqrt{(1-A_*)^2+4B_*\epsilon\nu_R}}{2B_*},
+\qquad g_\epsilon=1-k_\epsilon-r_\epsilon>0.$$
+
+For convergence, the limiting R map is increasing on the feasible interval: its derivative is proportional to 1-k_epsilon-r. For all sufficiently late generations, the bound g>=epsilon nu_G keeps the evolving R values in a slightly smaller interval where this monotonicity also holds uniformly. The coefficients converge with k. Continuity and monotonicity imply that the liminf and limsup of r_t are fixed points of the limiting map. Its only feasible fixed point is r_epsilon, so both limits coincide. This proves global convergence of the full frequency vector under the stated innovation channel.
+
+The small-innovation behavior makes the distinction from a no-mutation extinction claim quantitative. As epsilon tends to zero,
+
+$$k_\epsilon=\frac{50}{73}
++\frac{96}{23}\left(\nu_K-\frac{50}{73}\right)\epsilon
++O(\epsilon^2),$$
+$$r_\epsilon=\frac{32}{9}\nu_R\epsilon+O(\epsilon^2).$$
+
+For the first expansion, the derivative of the original K map at 50/73 is 73/96; implicit differentiation of k=(1-epsilon)T_K(k)+epsilon nu_K gives the coefficient. For the second, A(50/73,0)=23/32, so the linearized R balance is (1-23/32)r=epsilon nu_R. Both fixed-point equations have nonzero derivatives at the limiting roots, justifying their local expansions.
+
+Thus R is present at every positive innovation rate but remains of order epsilon when innovation is rare, while K retains an order-one share approaching 50/73. The K fixed point lies between nu_K and 50/73: outside that interval the selection drift and the innovation drift have the same sign, so they cannot cancel. Innovation does not generically favor flexibility; its direction depends on the specified channel.
+
+These results use rho=0, full-support parent-independent innovation and the original encounter menu. They do not extend the four assortment phases unchanged, assign mutation rates from rationality, or turn population replacement into voluntary current-utility choice.
+
+## 8. Assortment with innovation: persistence at the thresholds
+
+The same innovation channel can be applied explicitly to section 4's assortative map; one must recompute that map rather than retain its zero-frequency phases. Fix rho in [0,1] and 0<epsilon<1. Put
+
+$$C_\rho=50-123\rho,\quad D_\rho=73(1-\rho),\quad
+H_\rho(k)=100-73\rho k-D_\rho k^2=200Z_\rho(k).$$
+
+The sign of the new K drift is the sign of
+
+$$D_{\rho,\epsilon}(k)=
+(1-\epsilon)k(1-k)(C_\rho-D_\rho k)
++\epsilon(\nu_K-k)H_\rho(k).$$
+
+For rho<1 this is a cubic with positive leading coefficient D_rho, positive value at zero and negative value 27epsilon(nu_K-1) at one. The negative/unit/above-one root argument from section 7 applies unchanged, giving a unique k_{rho,epsilon} in (0,1) and convergence to it. At rho=1 the polynomial is quadratic with positive leading coefficient 73; its signs give one root in (0,1) and one above one, with the same conclusion. The K update remains increasing.
+
+The R coefficients now are
+
+$$A_\rho(k)=\frac{(1-\epsilon)
+[(3/8)\rho+(3/4)(1-\rho)(1-k)]}{Z_\rho(k)},\qquad
+B_\rho(k)=\frac{(1-\epsilon)(3/8)(1-\rho)}{Z_\rho(k)}.$$
+
+Its update is A_rho(k)r-B_rho(k)r^2+epsilon nu_R. For rho<1 the same positive-root equation and monotone limiting-map proof give one interior fixed point and global convergence. At rho=1 it is linear in r; at the limiting k the obligatory G innovation forces A<1, so r=epsilon nu_R/(1-A) is the unique feasible fixed point and attracts the sequence. Thus every positive innovation rate gives a unique all-positive limiting population for every fixed assortment value in this model.
+
+The no-innovation thresholds remain visible in the **rate** at which small-innovation frequencies vanish. With nu fixed and epsilon tending to zero:
+
+- At rho=18/91, k tends to 32/73 and the limiting R linear multiplier is one. Here Z=75/182 and B=73/100, so
+  $$r_{\rho,\epsilon}\sim10\sqrt{\nu_R/73}\,\sqrt\epsilon.$$
+- At rho=50/123, the zero-K linear multiplier is one and the leading selection drift is -[5329/12300]k^2. Hence
+  $$k_{\rho,\epsilon}\sim\frac{10\sqrt{123\nu_K}}{73}\,\sqrt\epsilon.$$
+- At rho=2/3, k is of order epsilon, the zero-R linear multiplier is one and B=1/4. Therefore
+  $$r_{\rho,\epsilon}\sim2\sqrt{\nu_R}\,\sqrt\epsilon.$$
+
+These expansions follow by balancing the stated negative quadratic selection drift against epsilon nu_i. At the first and third thresholds the other frequency alters the linear multiplier only by order epsilon, so its product with the square-root frequency is of smaller order. At the K threshold the factor epsilon k and cubic terms are likewise smaller than the leading epsilon and k^2 terms. Continuity and the unique fixed-point equations justify choosing the nonnegative branch.
+
+Away from the thresholds, vanishing types are ordinarily of order epsilon. For example, for fixed rho>50/123,
+
+$$k_{\rho,\epsilon}\sim
+\frac{100\nu_K}{123\rho-50}\epsilon,$$
+
+and for fixed rho>2/3,
+
+$$r_{\rho,\epsilon}\sim
+\frac{4\nu_R}{3\rho-2}\epsilon.$$
+
+The limits here hold at a **fixed** rho; the coefficients diverge on approaching a threshold and must not be used uniformly through it. Positive innovation therefore removes exact extinction, while selection still determines whether a type has an order-one, square-root, or linear small-innovation share. The result depends on the specified channel and remains distinct from an incumbent choosing to relax its own goal.
