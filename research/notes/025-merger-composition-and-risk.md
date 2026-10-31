@@ -70,6 +70,8 @@ by Cauchy-Schwarz. Equality requires v proportional to z. On a fixed total-resou
 
 For a group with total budget Y, its optimal value is Q_S=Y. This explains the term quantity-equivalent; Q is still a utility function, not conserved energy or a physical resource stock.
 
+The power-mean/CES functional form is classical. Arrow, Chenery, Minhas and Solow (1961), pp. 229–231, equations (9)–(14), use the corresponding degree-one production form; their exponent parameter has the opposite sign to rho here. Those pages were inspected in the [original scan](https://faculty.econ.ucsb.edu/~tedb/Courses/GraduateTheoryUCSB/ACMS.pdf); L21 records the limited audit. The present interpretation as an installed expected-utility criterion requires the separate lottery/consent analysis below.
+
 ## 5. The two associative designs have different lottery preferences
 
 For phi(t)=t^rho, the additive goal G_S and power-mean goal Q_S have the same deterministic maximizers because Q_S=A_S(G_S/A_S)^(1/rho). For rho!=1 this is generally **not** a positive affine transformation, so it is a genuine expected-utility preference difference.
