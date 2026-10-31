@@ -10,6 +10,7 @@
 - Research time floor: 4h unless explicitly overridden
 - Minimum theory share: 0.75 unless explicitly overridden
 - Central question and why it matters:
+- Original constructive aim, precise quantifier and scope; positive and negative possibilities this task distinguishes:
 - Integrated target, defensible class and missing link this run advances:
 
 ## Work accounting
@@ -30,7 +31,8 @@ Record active segments without double-counting concurrent work. Do not infer ela
 
 - Exact claims and assumption IDs:
 - Definitions / derivations / proof artifact paths:
-- Counterexamples and attempted falsifications:
+- Positive constructions, constructive attempts, sufficient conditions and successful repairs:
+- Counterexamples, attempted falsifications, limiting conditions and persistent obstructions:
 - Which assumptions did the work:
 - Ordinary fixed-utility / commitment comparison:
 - Which conclusions are new, standard, or unresolved:
@@ -45,7 +47,7 @@ Record active segments without double-counting concurrent work. Do not infer ela
 - Preference-change incentive: benefit over refusal, available alternatives, strict choice/indifference/displacement, and hypothetical stronger controls:
 - When relevant, capability effects and joint choice of accommodation/safeguards; scope of long-lived choice, innovation and descendant/population analysis:
 
-Use these entries to explain the mathematical target and evidence. Mark irrelevant items briefly; completion of a run does not require solving every link or extension.
+Use these entries to explain the mathematical target and evidence. Mark irrelevant items briefly; completion of a run does not require solving every link or extension. Record actual work in both search directions without inventing a positive or negative result to fill a field.
 
 ## Readable findings
 
@@ -60,8 +62,21 @@ Use these entries to explain the mathematical target and evidence. Mark irreleva
 
 - Primary sources checked and exact relevant sections:
 - Reproducible calculations, commands, seeds, and outcomes:
-- Unsuccessful approaches worth retaining:
+- Successful and unsuccessful approaches worth retaining:
 - Claim and assumption ledger changes:
+
+## End-of-task aim-preservation review
+
+Follow [AIM_BALANCE](../AIM_BALANCE.md#4-end-of-task-review). This is a substantive self-review, not a checkbox or an independent verification claim.
+
+- Original aim and quantifier compared with the actual question answered:
+- Complete changed artifacts and surrounding active instructions reviewed (paths/sections):
+- Constructive work and limiting work actually pursued, with artifact links; relevance of any existing counterpart or explicit scope override:
+- Missing counterpart instructions, directional or quantifier substitutions, and asymmetric standards found; concrete corrections made:
+- Checks that headlines preserve both established positive content and scoped negative results, without confusing existence, adoption, stability and prevalence:
+- Remaining research obligations or review limits; next action checked against the original aim; completion or partial-handoff assessment:
+
+Do not declare completion while this required review or an identified framing correction is outstanding. Unresolved mathematics must remain honestly scoped, not be relabeled as a completed repair. Review/report preparation adds no research-time credit.
 
 ## Coverage and handoff
 
