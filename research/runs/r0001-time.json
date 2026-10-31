@@ -400,21 +400,127 @@
       "gross_seconds": 135,
       "active_seconds_estimate": 110,
       "exclusion": "25 seconds excluded for tools, test runtime, commentary and accounting."
+    },
+    {
+      "id": "A6",
+      "category": "excluded",
+      "start": "2026-10-31 04:46:25 UTC",
+      "topic": "Registering aggregation, full-menu, staged and stochastic results; source and timing checkpoint",
+      "end": "2026-10-31 04:48:53 UTC",
+      "active_seconds_estimate": 0,
+      "exclusion": "Ledger, citation, time-record and commit handling excluded."
+    },
+    {
+      "id": "T20",
+      "category": "theory",
+      "start": "2026-10-31 04:48:53 UTC",
+      "topic": "Preference-domain consistency, reinitialized evaluators and finite-memory current-self equilibrium construction",
+      "end": "2026-10-31 04:58:00 UTC",
+      "gross_seconds": 547,
+      "active_seconds_estimate": 480,
+      "exclusion": "67 seconds excluded for tools, commentary and repository reads; preference-domain, memory and fixed-point proof work counted."
+    },
+    {
+      "id": "C10",
+      "category": "computation",
+      "start": "2026-10-31 04:58:00 UTC",
+      "topic": "Exact evaluator-memory policy values and current-tenure deviation checks",
+      "end": "2026-10-31 04:58:49 UTC",
+      "gross_seconds": 49,
+      "active_seconds_estimate": 30,
+      "exclusion": "19 seconds excluded for tools, test runtime, source discovery and accounting."
+    },
+    {
+      "id": "L7",
+      "category": "literature",
+      "start": "2026-10-31 04:58:49 UTC",
+      "topic": "Primary structured-population and classical power-mean/CES comparison",
+      "end": "2026-10-31 05:02:00 UTC",
+      "gross_seconds": 191,
+      "active_seconds_estimate": 100,
+      "exclusion": "91 seconds excluded for failed retrievals, tool latency, search handling and commentary; primary CES/aggregation and accessible structured-population comparison counted. Incidental proof reasoning is conservatively left in literature."
+    },
+    {
+      "id": "T21",
+      "category": "theory",
+      "start": "2026-10-31 05:02:00 UTC",
+      "topic": "Audit strength-weighted control semantics and matched peaceful mechanisms",
+      "end": "2026-10-31 05:05:32 UTC",
+      "gross_seconds": 212,
+      "active_seconds_estimate": 180,
+      "exclusion": "32 seconds excluded for tools and commentary; only the interval ending at the last recoverable observed clock is credited."
+    },
+    {
+      "id": "A7",
+      "category": "excluded",
+      "start": "2026-10-31 05:05:32 UTC",
+      "end": "2026-10-31 05:14:09 UTC",
+      "active_seconds_estimate": 0,
+      "topic": "Unpersisted derivation, context transfer and recovery",
+      "exclusion": "The later derivation interval lacks a recoverable observed endpoint; excluded conservatively along with context transfer."
+    },
+    {
+      "id": "T22",
+      "category": "theory",
+      "start": "2026-10-31 05:14:09 UTC",
+      "topic": "Audit sharp robustness without concavity and its current-self/physical assumptions",
+      "end": "2026-10-31 05:18:43 UTC",
+      "gross_seconds": 274,
+      "active_seconds_estimate": 220,
+      "exclusion": "54 seconds excluded for tools, commentary and repository reads; nonconcave upper bound, exact affine certificates and current-self adoption audit counted."
+    },
+    {
+      "id": "C11",
+      "category": "computation",
+      "start": "2026-10-31 05:18:43 UTC",
+      "topic": "Independent exact lottery checks of the nonconcave robustness boundary",
+      "end": "2026-10-31 05:20:36 UTC",
+      "gross_seconds": 113,
+      "active_seconds_estimate": 80,
+      "exclusion": "25 seconds plus rounding excluded for tools and test runtime; subsequent regularity and physical-state derivation conservatively remains classified as computation."
+    },
+    {
+      "id": "T23",
+      "category": "theory",
+      "start": "2026-10-31 05:20:36 UTC",
+      "topic": "Normalized regularity bounds, changed physical frontiers and cross-note proof audit",
+      "end": "2026-10-31 05:27:41 UTC",
+      "gross_seconds": 425,
+      "active_seconds_estimate": 330,
+      "exclusion": "95 seconds excluded for tools, commentary and reads; regularity/physical counterexample, information correction, cross-note audit and finite behavioral-refinement proof counted."
+    },
+    {
+      "id": "C12",
+      "category": "computation",
+      "start": "2026-10-31 05:27:41 UTC",
+      "end": "2026-10-31 05:29:07 UTC",
+      "gross_seconds": 86,
+      "active_seconds_estimate": 60,
+      "topic": "Backward finite-game perturbation checks and physical-sensitivity witness",
+      "exclusion": "26 seconds excluded for tools, test runtime and accounting; accompanying proof audit conservatively classified as computation."
+    },
+    {
+      "id": "T24",
+      "category": "theory",
+      "start": "2026-10-31 05:29:07 UTC",
+      "topic": "Final adversarial audit of execution refinement, regularity bounds and model compatibility",
+      "end": "2026-10-31 05:40:26 UTC",
+      "gross_seconds": 679,
+      "active_seconds_estimate": 540,
+      "exclusion": "139 seconds excluded for tools, commentary, repository/administrative reads and closing accounting. Population local-stability proof, physical affordability repair, refinement welfare limit and cross-note proof checking counted."
     }
   ],
-  "current": {
-    "id": "A6",
-    "category": "excluded",
-    "start": "2026-10-31 04:46:25 UTC",
-    "topic": "Registering aggregation, full-menu, staged and stochastic results; source and timing checkpoint"
-  },
+  "current": null,
   "excluded": "Startup, repository reads, branch creation, essay retrieval/read before T1 excluded conservatively.",
-  "total_counted_active_seconds_estimate": 12389,
-  "theory_active_seconds_estimate": 11130,
+  "total_counted_active_seconds_estimate": 14409,
+  "theory_active_seconds_estimate": 12880,
   "required_active_seconds": 14400,
-  "status": "IN-PROGRESS",
-  "research_closed_at": null,
+  "status": "COMPLETE",
+  "research_closed_at": "2026-10-31 05:40:26 UTC",
   "method": "Observed interval boundaries with conservative active estimates; all administration, idle/between-response gaps, context transfer and tool latency excluded.",
   "resumed_at": "2026-10-31 00:59:48 UTC",
-  "owner_clarification": "Continue within the same task until the active floor is met; no floor or theory-share override."
+  "owner_clarification": "Continue within the same task until the active floor is met; no floor or theory-share override.",
+  "floor_met": true,
+  "theory_share_met": true,
+  "post_research_administration": "All consolidation, final tests/tool runtime, commits, push and PR editing after research_closed_at are excluded."
 }
