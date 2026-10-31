@@ -263,21 +263,50 @@
       "gross_seconds": 153,
       "active_seconds_estimate": 120,
       "exclusion": "At least 30 seconds plus rounding excluded for tools, test runtime and commentary; subsequent physical proof-audit reasoning is conservatively left in computation."
+    },
+    {
+      "id": "A4",
+      "category": "excluded",
+      "start": "2026-10-31 03:40:46 UTC",
+      "topic": "Persisting checkpoint, coherent commits and ledger registration",
+      "end": "2026-10-31 03:43:06 UTC",
+      "active_seconds_estimate": 0,
+      "exclusion": "Checkpoint commits, ledgers, citations and time-record persistence excluded."
+    },
+    {
+      "id": "T14",
+      "category": "theory",
+      "start": "2026-10-31 03:43:06 UTC",
+      "topic": "Audit and repair recovery scheduling under infrastructure loss; exact serial and parallel physical frontiers",
+      "end": "2026-10-31 03:53:19 UTC",
+      "gross_seconds": 613,
+      "active_seconds_estimate": 540,
+      "exclusion": "At least 60 seconds plus rounding excluded for tools, commentary and repository reads; includes the accompanying mathematical audit of current-self, fusion and population proofs."
+    },
+    {
+      "id": "C6",
+      "category": "computation",
+      "start": "2026-10-31 03:53:19 UTC",
+      "topic": "Independent serial/parallel recovery checks, two-resource LP vertices and corrected E1 execution fixture",
+      "end": "2026-10-31 03:57:09 UTC",
+      "gross_seconds": 230,
+      "active_seconds_estimate": 180,
+      "exclusion": "At least 30 seconds plus rounding excluded for tools, test execution and commentary; incidental mathematical audit during this block is conservatively classified as computation."
     }
   ],
   "current": {
-    "id": "A4",
+    "id": "A5",
     "category": "excluded",
-    "start": "2026-10-31 03:40:46 UTC",
-    "topic": "Persisting checkpoint, coherent commits and ledger registration"
+    "start": "2026-10-31 03:57:09 UTC",
+    "topic": "Registering the scheduling correction and persisting a resumable checkpoint"
   },
   "excluded": "Startup, repository reads, branch creation, essay retrieval/read before T1 excluded conservatively.",
-  "total_counted_active_seconds_estimate": 9479,
-  "theory_active_seconds_estimate": 8700,
+  "total_counted_active_seconds_estimate": 10199,
+  "theory_active_seconds_estimate": 9240,
   "required_active_seconds": 14400,
   "status": "IN-PROGRESS",
   "research_closed_at": null,
-  "method": "Observed interval boundaries; conservative active estimates. Exclude all open A2 publication time and any gap before resumption.",
+  "method": "Observed interval boundaries with conservative active estimates; all administration, idle/between-response gaps, context transfer and tool latency excluded.",
   "resumed_at": "2026-10-31 00:59:48 UTC",
   "owner_clarification": "Continue within the same task until the active floor is met; no floor or theory-share override."
 }

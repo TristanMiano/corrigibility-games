@@ -26,7 +26,7 @@ Exit with a compact source-to-question table, checked theorem assumptions for th
 
 ## CG-R001 — Main recurrence: physical conflict, compromise, and preference evolution
 
-**Status: OPEN / REPEATABLE; r0001 is PARTIAL.** Its one-run focus is the seed essay's strength/control, probabilistic combat, split/merge/deception model. The four-hour floor and 75% theory minimum were not overridden. Execute the detailed [recurrence protocol](research/RECURRENCE.md).
+**Status: OPEN / REPEATABLE; r0001 is IN-PROGRESS.** It is continuing within the same task to meet its floor. Its one-run focus is the seed essay's strength/control, probabilistic combat, split/merge/deception model. The four-hour floor and 75% theory minimum were not overridden. Execute the detailed [recurrence protocol](research/RECURRENCE.md).
 
 **Defaults per invocation:** minimum four hours of active research; at least 75% of counted research time on substantial mathematical work. Both are overridable. Record the actual override, duration, time split, and completion status. Never silently shorten the floor.
 
@@ -63,4 +63,4 @@ Check notation, figures, links, citations, proof dependencies, rendering, and cl
 
 ## Next-agent handoff
 
-Read [r0001's partial handoff](research/runs/r0001.md), its mathematical note and time ledger, then resume that invocation. Next: interruptible bilateral fusion with rollback and verification, compared with a matched fixed-utility delegate. The remaining active floor is estimated at 3h 29m 31s; no between-response gap counts. C1 remains flexible and E1/E2 remain local choices. The essay focus applies only to this invocation. Read the recurrence protocol before resuming; do not relabel the partial run complete or create r0002 to hide it.
+Read [r0001's checkpoint](research/runs/r0001.md), its mathematical notes and interval ledger, then continue that invocation. Through 03:57:09 UTC the remaining active floor is estimated at 1h 10m 01s; subsequent excluded intervals do not count. Current work audits merger composition and the assembled proofs after completing the staged-fusion, verification, population and scheduling modules. C1 remains flexible and E1/E2 remain local choices. The essay focus applies only to this invocation. Do not create r0002 to hide an unfinished r0001.
