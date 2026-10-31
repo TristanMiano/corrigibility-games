@@ -53,7 +53,7 @@ $$K_j(dz',dL',d\mathbf U',d\mathbf a',d\tau\mid h,\text{actions}),\quad j\in\{C,
 
 Account for material flows, transformations, unavailable work, damage, restoration effort, delay, and negotiation/verification/computation/install costs within those transitions. Matter can change categories without disappearing; energy dissipation is not energy destruction. Useful output, available work, conserved energy, and utility must remain distinct. No identification of Shannon with thermodynamic entropy is licensed. [L07 and L11](LITERATURE.md) delimit the physical background and its access limits.
 
-No uniform ordering K_P > K_C is imposed. Expensive negotiations, recoverable debris, heterogeneous target requirements, short deadlines, and destructive preferences may reverse a comparison.
+Derive both the region where avoided damage leaves a larger implementable peaceful opportunity set after negotiation costs and the region where that margin disappears or reverses. Scarce recovery work, infrastructure loss and delay can favor compromise; expensive verification, cheap recovery or goals valuing combat can favor another route. Test each through the declared physical kernels and current utilities, with no uniform ordering imposed. A constructive region and an adverse region each retain their conditional scope.
 
 The initialization's recovery frontier remains a useful **optional continuous submodel**:
 
@@ -86,7 +86,7 @@ Compare the following, stating any differences in feasible actions, physical inp
 3. Voluntary utility modification, including future modification/rollback options.
 4. Combat and noncombat disagreement continuations.
 
-Do not grant the third verifiable, atomic, durable implementation while denying comparable technology to the second without labeling that difference. Likewise, irreversible delegation is not automatically a matched control for reversible utility changes. Preserve strong fixed-utility controls even when they reproduce modification's outcome.
+Do not grant the third verifiable, atomic, durable implementation while denying comparable technology to the second without labeling that difference. Likewise, irreversible delegation is not automatically a matched control for reversible utility changes. Preserve strong fixed-utility controls even when they reproduce modification's outcome, and preserve voluntary-change results when a matched delegate reproduces their benefit. Determine which devices are actually available, their costs and stability, and whether modification is strictly chosen, tied or displaced. Unique superiority to every equivalent device is a separate question from instrumental adoption.
 
 Each instance must choose a solution concept. Ordinary SPE can describe fixed-utility complete-information games. With changing utilities, a finite **decision-self** formulation can require local best responses under the utility installed at each decision, given the actual policies of later selves; E1 defines this precisely. Private-information variants must specify information sets, belief consistency, and an appropriate sequential solution concept. Discounted/infinite variants must supply convergence and any equilibrium existence assumptions. No concept or equilibrium selection is mandated across all instances.
 

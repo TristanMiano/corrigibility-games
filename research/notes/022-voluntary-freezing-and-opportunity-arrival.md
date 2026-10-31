@@ -1,6 +1,6 @@
 # R0001 working note: voluntary freezing over an indefinite horizon
 
-This note supplies a separate individual-choice analysis alongside note 019's population process. Its optimal-stopping machinery is conventional; the contribution is the explicit current-utility, implementation, and resource interpretation. Proofs are AI self-checked only. Neither survival of a population type nor adoption at one date implies a voluntary long-run theorem.
+This note supplies an individual-choice analysis alongside note 019's population process. Under the specified discounted renewal process, sufficiently valuable recurring opportunities induce eventual voluntary change, while gains uniformly below the current change penalty support continued retention. Its optimal-stopping machinery is conventional; the contribution is the explicit current-utility, implementation, and resource interpretation. Proofs are AI self-checked only. The 2026-10-31 aim review revises interpretation while preserving the proofs and the distinction between individual choice and population replacement.
 
 McCall (1970), sections II–III, is the closest inspected primary comparison for reservation rules and waiting times; the present incumbent-utility application is derived below rather than attributed to that article. See L19's scope in the [literature ledger](../LITERATURE.md). [Original article scan](https://christine-braun.github.io/Papers/McCall1970.pdf).
 
@@ -76,7 +76,7 @@ so the expected waiting time diverges, although eventual change has probability 
 
 At delta=1, continuous bounded marks supply an existence warning. The supremum of undiscounted excess gain is M-kappa, approached by accepting G>M-epsilon. It is not attained by any almost-surely finite stopping time because G_tau<M almost surely. Never changing gives zero, below that supremum when kappa<M. Thus an optimal stopping rule need not exist at this undiscounted boundary; one must not take the discounted policy's limit and declare it an attained equilibrium.
 
-## 5. Positive opportunities at every date do not suffice
+## 5. A divergent sum of acceptance hazards ensures eventual change
 
 For any process, define h_n=Pr(first change at n | no earlier change), whenever the conditioning event has positive probability. The chain rule, without an independence assumption, gives
 
@@ -122,7 +122,7 @@ $$J'(\kappa)=\frac{c}{a}-
 
 As kappa increases, z decreases, so the second term increases strictly. Thus J is strictly concave on [0,M). Its right derivative at 0 is c/a, and its left derivative at M is (c-eta)/a. If 0<c<eta, it has a unique maximizer strictly between 0 and M. The present color-only designer voluntarily chooses a positive finite future freezing penalty, while that successor still eventually changes with probability one under the stationary opportunities. At c=0 the optimum is kappa=0; at c>=eta the endpoint kappa=M maximizes the specified menu, subject to the tie convention at the zero-probability top mark.
 
-This is an exact conditional incentive tradeoff, not a claim that all environments pay a linear commitment premium. If a fixed-utility commitment supplies the same premium and execution while preserving the same future deviations, compare its actual founder value; modification has no automatic advantage. A small genuine initial installation cost preserves a strict interior preference only when it is below the derived gain over the unchanged alternative.
+This establishes chosen accommodation with a finite safeguard in the declared menu, conditional on the linear premium and renewed opportunities. If a fixed-utility commitment supplies the same premium and execution while preserving the same future deviations, compare its actual founder value: matched value supports both implementations, while a better available alternative can displace modification. A genuine initial installation cost below the derived gain over the unchanged alternative preserves the strict interior choice; a cost exhausting that gain removes this adoption advantage. Deriving the premium and opportunities jointly from a richer bargaining game remains open.
 
 ## 8. Early relaxation is a different action and must be checked
 
@@ -134,4 +134,4 @@ This removal test relies on matched future feasible policies and opportunity law
 
 ## 9. What remains open
 
-The result gives conditional long-run individual behavior, distinct from reproductive transmission. It does not prove that all future preferences converge, that descendants preserve founder welfare, or that the linear commitment premium arises generically. Deriving the opportunity law and premium together from an interruptible repeated bargaining game with endogenous strength and verification remains open. The first-change analysis is useful precisely because its assumptions expose where a claimed inevitable thaw would need additional evidence.
+The result gives sufficient conditions for eventual voluntary change and for continued retention, distinct from reproductive transmission. Deriving the opportunity law and premium together from an interruptible repeated bargaining game with endogenous strength and verification remains open. Carry the successful adoption region into that richer game and test whether credible offers and chosen safeguards sustain it; test whether its retention region survives feasible renegotiation and new opportunities. All-future preference convergence, descendants' welfare and typicality are further questions, with the same evidential standard for accommodating and resistant outcomes.
