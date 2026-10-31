@@ -1,6 +1,6 @@
 # R0001 working note — late goal changes, credible threats, and rollback
 
-This continues E2 with a broader update menu. The two-round restriction in note 010 is an informative local model, not a claim that capable agents cannot update later. All derivations here are provisional self-checked mathematics until entered in the claim ledger. Combat remains available before and after installation. A conditional equilibrium calculation must specify the selected continuations; weak mutual-attack equilibria are not silently discarded.
+This continues E2 with a broader update menu. The two-round restriction in note 010 is an informative local model, not a claim that capable agents cannot update later. The claim ledger registers the results; their review remains contributing-agent self-check only. Combat remains available before and after installation. A conditional equilibrium calculation must specify the selected continuations; weak mutual-attack equilibria are not silently discarded.
 
 ## 1. The operator can still change its goal
 

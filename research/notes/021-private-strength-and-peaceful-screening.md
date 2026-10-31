@@ -2,6 +2,8 @@
 
 This is a local asymmetric-information module of E2, not an assertion that strength is always private. Proofs are AI self-checked only. The elementary bargaining machinery is not claimed as new. In particular, a known stochastic contest law does not reveal its private strength parameter or the random winner.
 
+The nearest primary comparison is Fearon (1995), pp. 394–396 and appendix pp. 410–414, including the take-it-or-leave-it and restricted cheap-talk arguments. Its private-cost model differs from this note's private-strength calculation; see L01's exact audit scope in the [literature ledger](../LITERATURE.md). [Original article](https://pages.ucsd.edu/~bslantchev/courses/pdf/Fearon%20-%20Rationalist%20Explanations%20for%20War.pdf).
+
 ## 1. A restricted but explicit information structure
 
 A's effective strength gives its combat probability Q in [l,h], where 0<l<h<1; B knows the distribution F and A knows its realized Q. For example, B's strength is b and A's strength is bQ/(1-Q), so the E2 contest rule gives exactly Q. Ordinary uncontracted operator selection can use that same probability. The agreement route considered here instead binds a declared allocation; an uncontrolled operator draw is not silently treated as an enforceable agreement.

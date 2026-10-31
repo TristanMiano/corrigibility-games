@@ -87,19 +87,197 @@
       "gross_seconds": 32,
       "active_seconds_estimate": 20,
       "exclusion": "12 seconds excluded for tool calls, execution latency and accounting."
+    },
+    {
+      "id": "A2",
+      "category": "excluded",
+      "start": "2026-10-31 00:50:37 UTC",
+      "topic": "Final consolidation, validation, commits and draft PR checkpoint",
+      "end": "2026-10-31 00:59:48 UTC",
+      "active_seconds_estimate": 0,
+      "exclusion": "Publication, between-response gap, and resumption reads excluded."
+    },
+    {
+      "id": "T4",
+      "category": "theory",
+      "start": "2026-10-31 00:59:48 UTC",
+      "topic": "Late modification, endogenous postwar production, rollback, and strength-weighted bargaining",
+      "end": "2026-10-31 01:19:28 UTC",
+      "gross_seconds": 1180,
+      "active_seconds_estimate": 1080,
+      "exclusion": "At least 60 seconds plus rounding excluded for status, tool calls and accounting; remaining interval was active derivation and proof checking."
+    },
+    {
+      "id": "T5",
+      "category": "theory",
+      "start": "2026-10-31 01:19:28 UTC",
+      "topic": "Interruptible sequential fusion, renegotiation, founder exposure, and protective finite freezing",
+      "end": "2026-10-31 01:40:28 UTC",
+      "gross_seconds": 1260,
+      "active_seconds_estimate": 1140,
+      "exclusion": "At least 90 seconds plus rounding excluded for tools, small arithmetic checks, status and accounting; mathematical construction and removal tests counted."
+    },
+    {
+      "id": "T6",
+      "category": "theory",
+      "start": "2026-10-31 01:40:28 UTC",
+      "topic": "Smooth concave goal implementation across physical opportunity sets and approximation robustness",
+      "end": "2026-10-31 01:50:34 UTC",
+      "gross_seconds": 606,
+      "active_seconds_estimate": 540,
+      "exclusion": "At least 60 seconds plus rounding excluded for status/tools/accounting; active goal-construction, error-bound and removal-proof work counted."
+    },
+    {
+      "id": "T7",
+      "category": "theory",
+      "start": "2026-10-31 01:50:34 UTC",
+      "topic": "Physical credibility of rejecting deception and sequentially rational verification",
+      "end": "2026-10-31 01:54:08 UTC",
+      "active_seconds_estimate": 0,
+      "exclusion": "Context transfer and recovery of working state excluded conservatively."
+    },
+    {
+      "id": "T7a",
+      "category": "theory",
+      "start": "2026-10-31 01:54:08 UTC",
+      "topic": "Credible inspection, coalitional combat, endogenous strength investment, and initial approximation-bound derivations",
+      "end": "2026-10-31 02:11:36 UTC",
+      "gross_seconds": 1048,
+      "active_seconds_estimate": 900,
+      "exclusion": "At least 120 seconds plus rounding excluded for tools, commentary, repository reads and accounting; active mathematical derivation and substantive proof writing counted."
+    },
+    {
+      "id": "T8",
+      "category": "theory",
+      "start": "2026-10-31 02:11:36 UTC",
+      "topic": "Exact approximation robustness and normalized quadratic-goal conditioning near a small bargaining surplus",
+      "end": "2026-10-31 02:21:57 UTC",
+      "gross_seconds": 621,
+      "active_seconds_estimate": 540,
+      "exclusion": "At least 60 seconds plus rounding excluded for tools, status, source discovery and accounting."
+    },
+    {
+      "id": "L4",
+      "category": "literature",
+      "start": "2026-10-31 02:21:57 UTC",
+      "topic": "Primary-source comparison for contest investment, inspection games and finite discounted stochastic equilibrium",
+      "end": "2026-10-31 02:24:24 UTC",
+      "gross_seconds": 147,
+      "active_seconds_estimate": 90,
+      "exclusion": "At least 45 seconds plus rounding excluded for retrieval, rendering, failed searches, status and accounting; only inspected primary material and comparison analysis counted."
+    },
+    {
+      "id": "T9",
+      "category": "theory",
+      "start": "2026-10-31 02:24:24 UTC",
+      "topic": "Current-self equilibrium existence/perturbation proofs, unsecured prepayment removal audit, and initial transmission-aware population derivations",
+      "end": "2026-10-31 02:40:44 UTC",
+      "gross_seconds": 980,
+      "active_seconds_estimate": 840,
+      "exclusion": "At least 90 seconds plus rounding excluded for tools, commentary, repository-state reads and accounting."
+    },
+    {
+      "id": "T10",
+      "category": "theory",
+      "start": "2026-10-31 02:40:44 UTC",
+      "topic": "Transmission-aware population phases, proposal-revision hold-up, and robust finite installer comparison",
+      "end": "2026-10-31 02:54:17 UTC",
+      "gross_seconds": 813,
+      "active_seconds_estimate": 720,
+      "exclusion": "At least 75 seconds plus rounding excluded for tools, status, file inspection and accounting."
+    },
+    {
+      "id": "C3",
+      "category": "computation",
+      "start": "2026-10-31 02:54:17 UTC",
+      "topic": "Independent exact checks for coalition feasibility, approximate-goal envelopes, and population transmission",
+      "end": "2026-10-31 03:01:08 UTC",
+      "gross_seconds": 411,
+      "active_seconds_estimate": 360,
+      "exclusion": "At least 45 seconds plus rounding excluded for tool execution, test runtime, commentary and accounting; coding and inspecting independent mathematical checks counted."
+    },
+    {
+      "id": "A3",
+      "category": "excluded",
+      "start": "2026-10-31 03:01:08 UTC",
+      "topic": "Persisting research checkpoint, primary-source access records and coherent local commits",
+      "end": "2026-10-31 03:11:28 UTC",
+      "active_seconds_estimate": 0,
+      "exclusion": "Ledgers, sources, checkpoint handling, context transfer and resumption inspection excluded."
+    },
+    {
+      "id": "T11",
+      "category": "theory",
+      "start": "2026-10-31 03:11:28 UTC",
+      "topic": "Private strength, peaceful revelation limits, sequential offer selection and information costs",
+      "end": "2026-10-31 03:20:31 UTC",
+      "gross_seconds": 543,
+      "active_seconds_estimate": 480,
+      "exclusion": "At least 60 seconds plus rounding excluded for the opening commit, tools, commentary and repository/source searches."
+    },
+    {
+      "id": "T12",
+      "category": "theory",
+      "start": "2026-10-31 03:20:31 UTC",
+      "topic": "Long-run voluntary freezing, optimal stopping, bounded resources, and goal-preservation incentives",
+      "end": "2026-10-31 03:26:36 UTC",
+      "gross_seconds": 365,
+      "active_seconds_estimate": 300,
+      "exclusion": "At least 45 seconds plus rounding excluded for tools, commentary, repository searches and the failed patch."
+    },
+    {
+      "id": "L5",
+      "category": "literature",
+      "start": "2026-10-31 03:26:36 UTC",
+      "topic": "Primary bargaining/private-information and optimal-stopping comparisons",
+      "end": "2026-10-31 03:28:09 UTC",
+      "active_seconds_estimate": 30,
+      "exclusion": "Conservative 30 seconds for inspected primary arguments; searches, retrieval, rendering, tool latency and metadata handling excluded."
+    },
+    {
+      "id": "C4",
+      "category": "computation",
+      "start": "2026-10-31 03:28:09 UTC",
+      "topic": "Independent finite-offer and stopping-policy checks for private information and voluntary freezing",
+      "end": "2026-10-31 03:29:30 UTC",
+      "gross_seconds": 81,
+      "active_seconds_estimate": 60,
+      "exclusion": "21 seconds excluded for tools, test execution, commentary and handling."
+    },
+    {
+      "id": "T13",
+      "category": "theory",
+      "start": "2026-10-31 03:29:30 UTC",
+      "topic": "Sharp normalized robustness bound, three-plane goal construction and smooth attainment",
+      "end": "2026-10-31 03:38:13 UTC",
+      "gross_seconds": 523,
+      "active_seconds_estimate": 450,
+      "exclusion": "At least 60 seconds plus rounding excluded for tools, commentary, repository reads and accounting."
+    },
+    {
+      "id": "C5",
+      "category": "computation",
+      "start": "2026-10-31 03:38:13 UTC",
+      "topic": "Independent lottery-LP checks and smooth-goal derivatives for the sharp regret bound",
+      "end": "2026-10-31 03:40:46 UTC",
+      "gross_seconds": 153,
+      "active_seconds_estimate": 120,
+      "exclusion": "At least 30 seconds plus rounding excluded for tools, test runtime and commentary; subsequent physical proof-audit reasoning is conservatively left in computation."
     }
   ],
   "current": {
-    "id": "A2",
+    "id": "A4",
     "category": "excluded",
-    "start": "2026-10-31 00:50:37 UTC",
-    "topic": "Final consolidation, validation, commits and draft PR checkpoint"
+    "start": "2026-10-31 03:40:46 UTC",
+    "topic": "Persisting checkpoint, coherent commits and ledger registration"
   },
   "excluded": "Startup, repository reads, branch creation, essay retrieval/read before T1 excluded conservatively.",
-  "total_counted_active_seconds_estimate": 1829,
-  "theory_active_seconds_estimate": 1710,
+  "total_counted_active_seconds_estimate": 9479,
+  "theory_active_seconds_estimate": 8700,
   "required_active_seconds": 14400,
-  "status": "PARTIAL",
-  "research_closed_at": "2026-10-31 00:50:37 UTC",
-  "method": "Observed interval boundaries; conservative active estimates. Exclude all open A2 publication time and any gap before resumption."
+  "status": "IN-PROGRESS",
+  "research_closed_at": null,
+  "method": "Observed interval boundaries; conservative active estimates. Exclude all open A2 publication time and any gap before resumption.",
+  "resumed_at": "2026-10-31 00:59:48 UTC",
+  "owner_clarification": "Continue within the same task until the active floor is met; no floor or theory-share override."
 }

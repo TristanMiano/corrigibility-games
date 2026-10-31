@@ -188,6 +188,8 @@ For fixed interior s and a shrinking positive surplus, second-power normalized r
 
 ## 8. Boundaries of the result
 
+[Note 023](023-sharp-smooth-goal-robustness.md) sharpens the sufficient constant: when d<=sr and r>=s, the section 5 upper bound is the exact supremum over smooth strictly increasing strictly concave goals, including original-founder participation. It adds a third affine piece before calibrated smoothing; the earlier two-piece construction remains a simpler order-optimal witness.
+
 The goals are nonhomothetic and change allocation sharply across nearby physical budgets. Stochastic or misestimated frontiers require evaluating their actual induced schedules; inserting an expected budget is not valid. A fixed-utility delegate that can execute the same conditional allocations with the same error and verification guarantees supplies the corresponding control, although revocability and deviation incentives remain separate.
 
 A solver certificate epsilon=2^(-b) would have to increase b as the surplus closes, with the indicated second- or fourth-power logarithmic dependence. This does **not** prove a lower bound on energy use, runtime, code length or verification complexity. An exact rational policy, a restricted action menu or a different error model may avoid that certificate requirement. Utilities outside the monotone concave class, combat-history-dependent goals, changes in the feasible set or additional initial freezing penalties also require new bounds. The minimal contract does not fix these choices.

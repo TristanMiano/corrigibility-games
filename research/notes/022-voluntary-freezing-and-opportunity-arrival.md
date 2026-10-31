@@ -2,6 +2,8 @@
 
 This note supplies a separate individual-choice analysis alongside note 019's population process. Its optimal-stopping machinery is conventional; the contribution is the explicit current-utility, implementation, and resource interpretation. Proofs are AI self-checked only. Neither survival of a population type nor adoption at one date implies a voluntary long-run theorem.
 
+McCall (1970), sections II–III, is the closest inspected primary comparison for reservation rules and waiting times; the present incumbent-utility application is derived below rather than attributed to that article. See L19's scope in the [literature ledger](../LITERATURE.md). [Original article scan](https://christine-braun.github.io/Papers/McCall1970.pdf).
+
 ## 1. What the incumbent evaluates
 
 Until its first genuine preference change, the incumbent uses an expected-utility criterion F_kappa. It values its original color stream with discount delta in (0,1) and subtracts a finite penalty kappa>=0 at the date of that first change. Positive affine recoding, belief revision, and ordinary policy adjustment do not trigger the penalty. The event and the history flag that records it are explicit. Later criteria are those actually installed; the founder's F_kappa evaluation is retained only for welfare reporting.
