@@ -246,3 +246,30 @@ $$r_{\rho,\epsilon}\sim
 \frac{4\nu_R}{3\rho-2}\epsilon.$$
 
 The limits here hold at a **fixed** rho; the coefficients diverge on approaching a threshold and must not be used uniformly through it. Positive innovation therefore removes exact extinction, while selection still determines whether a type has an order-one, square-root, or linear small-innovation share. The result depends on the specified channel and remains distinct from an incumbent choosing to relax its own goal.
+
+## 9. Local stability under other small encounter or transmission changes
+
+Parent-independent innovation is one specific perturbation. A limited robustness statement also applies to other nearby finite birth kernels. It does not assume that every new utility type or implementation technology is nearby.
+
+Use coordinates (r,k), with g=1-r-k. At rho=0 the original fixed point is p_*=(0,50/73). The derivative of the original normalized map at this point is diagonal:
+
+$$D T(p_*)=\begin{pmatrix}23/32&0\\0&73/96\end{pmatrix}.$$
+
+The first off-diagonal entry is zero because every R-output term contains r; the second is zero because the K map is autonomous. Both eigenvalues lie strictly between zero and one. Suppose a family of actual finite birth maps T_eta maps the population simplex into itself, has a continuously differentiable extension near p_*, and converges in C1 there to T as eta tends to zero. Positive total expected reproduction is required so normalization remains well defined.
+
+There is then a unique fixed point near p_* for sufficiently small eta, and it is locally attracting. Here is a direct justification of the local statement. In a suitable norm the derivative at p_* has norm below one. Continuity gives a neighborhood on which the original and all sufficiently close derivative maps have a common contraction bound below one. A small closed ball about p_* is mapped into itself once the displacement T_eta(p_*)-p_* is sufficiently small. The contraction theorem gives a unique fixed point in that ball and convergence from a smaller neighborhood. Starting at the physical p_* and using simplex invariance shows that this fixed point is physically feasible even though the differentiable extension's ball may cross the simplex boundary. This is local uniqueness and attraction; global convergence of a changed map needs an additional proof.
+
+If, more specifically, T_eta=T+eta h+o(eta) in that neighborhood, the fixed-point equation yields
+
+$$r_\eta=\frac{32}{9}h_R(p_*)\eta+o(\eta),\qquad
+k_\eta=\frac{50}{73}+\frac{96}{23}h_K(p_*)\eta+o(\eta).$$
+
+Subtract the unperturbed equation, expand T at p_*, and invert I-DT(p_*). This recovers section 7 when h=nu-p, but also states exactly which first-order component a different transmission or encounter perturbation would have to supply. Simplex invariance implies h_R(p_*)>=0 for a one-sided positive perturbation. Full-support births at positive eta put the nearby fixed point in the interior; a perturbation that never regenerates R need not do so.
+
+Away from the three assortment thresholds, the same argument applies to the attracting limit in section 4. Its Jacobian is triangular because K is autonomous. At a positive K fixed point the K eigenvalue is
+
+$$1-\frac{73(1-\rho)k_*(1-k_*)}{200Z_*}\in(0,1),$$
+
+and at K=0 above its threshold it is (150-123rho)/100 in (0,1). At a positive R fixed point the R eigenvalue is 1-B_* r_* in (0,1), using the quadratic form A r-B r^2 and its fixed-point identity; at R=0 it is the strictly subunit rare-R multiplier in the corresponding phase. Monotonicity proved earlier gives the positive lower bounds. At rho=1 both eigenvalues are directly 3/4 and 27/100. At the stated threshold surfaces an eigenvalue is one, so this contraction argument and its linear response fail; section 8's square-root examples show why the omission matters.
+
+This supplies a stability check for small, explicitly matched changes to the **same finite type system**. It does not prove uninvadability against arbitrary new preferences, preservation of every global basin, or interchange of an execution-noise limit with a population limit at a phase boundary. A small change in a strategic protocol can change its selected encounter equilibrium discontinuously and need not induce a small C1 change of this birth map. Note 032's finite behavioral refinement specifies one execution limit; positive-error population claims still require the actual resulting birth kernel.

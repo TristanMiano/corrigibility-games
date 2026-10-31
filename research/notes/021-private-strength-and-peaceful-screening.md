@@ -30,6 +30,8 @@ $$\boxed{\Delta\geq W(h-\mu).}$$
 
 Strict participation for every supported type, including h, is possible when the inequality is strict. A pooled fixed split attains the bound. When all types accept, observing acceptance does not change B's prior, so the same B condition applies at the final checkpoint. A's pointwise condition also continues to hold. This establishes a peaceful equilibrium continuation under the binding split technology, not that every negotiation game selects it.
 
+The pooling qualification matters. If a truthful direct report publicly reveals Q before B's final attack decision, its sequential participation must instead hold for each revealed type. Constant x must then satisfy hW<=x<=P-(1-l)W, requiring Delta>=(h-l)W. Truthful reporting remains only weakly incentive compatible because every report gives the same expected output. The lower prior threshold above is attained by an uninformative pooled split; it is not a certificate for a mechanism that also reveals every type publicly while retaining B's later attack option.
+
 Publicly observing an installed utility template does not invalidate this argument when every original type can select the same template at the same cost and obtains the same peaceful output from it. The original agent evaluates the report/adoption under its current own-color utility. Templates can alter later incentives without certifying the original strength. Type-dependent physical signals, collateral, testing, unequal implementation costs, or a combat branch can make the report's consequences type dependent and are outside this particular impossibility statement.
 
 ## 3. A proposer can prefer an offer that sometimes starts war
