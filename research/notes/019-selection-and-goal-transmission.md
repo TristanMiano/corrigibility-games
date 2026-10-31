@@ -1,0 +1,148 @@
+# R0001 working note — selection depends on what offspring inherit
+
+The essay's population intuition requires a fitness and transmission model, not just a bargaining advantage. This note adds an explicitly restricted population process to the finite E2-U encounter. It gives counterexamples to universal elimination of freezing and separates an individual's objective, its reproduction and the frequency of its former goal type. These are self-checked calculations for a renewal population, not a model of all agents sharing one indefinitely evolving universe.
+
+## 1. Encounter, fitness and birth assumptions
+
+Each pair receives the finite physical encounter from note 010, with equal initial strengths, total peaceful output one, initial war output 27/100, the specified positive operation costs and the selected peaceful continuations when a G-controller is present. Either capable agent retains Attack at the relevant checkpoints. Roles A and B are independently assigned with equal probability. Goals and the finite menu are public. The initial types are:
+
+- R: own-color linear utility and zero intrinsic penalty for the allowed change to G.
+- K: own-color utility with a finite initial change penalty kappa=1/5. In the specified encounter this exceeds the relevant adoption thresholds, so K keeps its goal.
+- G: the installed balanced criterion (sqrt(x_A)+sqrt(x_B))/sqrt(2), with no extra freezing penalty.
+
+The goal menu and equilibrium selections are exactly part of the encounter definition. Existing G types keep G; a larger menu permitting new goals, reversals or alternative indifference selections needs a new payoff and transmission table. This is not a theorem that every revisable agent behaves as R or G.
+
+After its single encounter, each parent's **own-color physical output** produces offspring at the same conversion rate. That is the fitness map. In particular G does not maximize its own offspring count: its utility values both colors through a concave joint criterion. K's intrinsic penalty affects its decisions but is not subtracted from physical offspring unless an actual resource mechanism says so. Combat winners, losers and modified lineages reproduce from their actual delivered quantities; losing agency is not automatically assigned an additional fitness penalty.
+
+The next generation receives fresh encounter resources from a specified external renewal supply; they are not created by recycling the previous generation's consumed work. Each parent acts in one finite batch and its decision criterion concerns that batch. Birth instantiates the inherited objective template for the new agent's batch and color identity. Thus types describe **objective constructors**, not an assertion that distinct agents or newly indexed batches have identical complete-history preferences. The current installed template, or a reset template in the separate control below, is inherited by a stated birth kernel. No parent is forced to optimize a founder's criterion after modification.
+
+Use an infinite-population deterministic limit of expected offspring, no mutation, and no immigration. A common fertility multiplier or type-neutral density regulation can normalize population size without changing the frequency equations; any extra birth inputs come from the declared renewal supply. Copying/instantiating the finite templates is assumed to have the same already-accounted per-offspring resource cost in the two transmission controls. A costlier reset would require a different birth kernel. Finite-population drift, resource competition across batches, long-lived agents, coalition encounters and preferences about later descendants are outside this process.
+
+## 2. The encounter table must include transmitted types
+
+The selected E2-U continuations give the following expected totals **per pair**:
+
+| Pair before play | Behavior / own-color quantities | Offspring by installed template |
+| --- | --- | --- |
+| R–R | Earlier R keeps and gets 3/4; later R changes to G and gets 1/4 | 3/4 R, 1/4 G |
+| R–K | R changes and gets 1/4; K keeps and gets 3/4 | 1/4 G, 3/4 K |
+| R–G | R keeps and gets 3/4; G gets 1/4 | 3/4 R, 1/4 G |
+| K–K | Initial war; expected 27/200 for each parent | 27/100 K |
+| K–G | K keeps and gets 3/4; G gets 1/4 | 3/4 K, 1/4 G |
+| G–G | Both retain the balanced goal; 1/2 each | 1 G |
+
+The R–R and R–K changes are evaluated by the original own-color criterion as in note 010, not by G's later approval. In R–G, changing would give the original R only 1/2 instead of its 3/4 separate continuation, so it declines. K declines the same change even more strongly. A G-controller prefers the selected peaceful continuation to available combat. These are encounter equilibrium statements conditional on the specified menus and selections; the evolutionary equations do not supply missing strategic incentives.
+
+Own-color expectations suffice for the chosen linear reproduction rule. A different nonlinear fitness map cannot generally be applied to the mean quantities in this table instead of to their full outcome lotteries.
+
+## 3. Random matching with inheritance of the installed template
+
+Let r,k,g be current frequencies, summing to one. Under independent random matching, expected offspring masses per current individual are
+
+$$R=\frac38r^2+\frac34rg,$$
+$$K=\frac34k(r+g)+\frac{27}{200}k^2,$$
+$$G=\frac18r^2+\frac14rk+\frac14rg+\frac14kg+\frac12g^2.$$
+
+The R–R terms are halved because the pair's 3/4 R and 1/4 G offspring are shared between two current individuals. The cross-pair terms separately count the two parental types. Their total is
+
+$$Z=R+K+G=\frac12-\frac{73}{200}k^2>0.$$
+
+Every peaceful pair delivers total one; only a K–K pair delivers 27/100. The next frequencies are (R/Z,K/Z,G/Z).
+
+The K-frequency evolves independently of the mix of R and G:
+
+$$k'-k=\frac{k(1-k)(50-73k)}{200Z}.$$
+
+For 0<k<1 it converges to k*=50/73. To see that it cannot oscillate across this fixed point, differentiate its update map: the derivative has numerator (300-492k+219k^2)/800 and positive denominator Z^2. On [0,1] that numerator is positive, since it decreases there to 27/800. Thus the map is increasing; values below k* increase while staying below it, and values above decrease while staying above it.
+
+Within the non-K population set q=r/(1-k). Its update is
+
+$$q'=\frac32\frac{1-k}{2-k}\,q(2-q).$$
+
+Once k is sufficiently close to 50/73, q contracts uniformly: its limiting multiplier is at most 23/32<1. Hence any initial r>0 and 0<k<1 converges to
+
+$$\boxed{(r,k,g)\longrightarrow(0,50/73,23/73).}$$
+
+Finite-freezing K types survive at positive frequency. The selfish revisable template R disappears through the combination of competition and conversion into G, while the revisable balanced template G remains. This does not say that revisability itself disappears.
+
+At this limiting K/G mixture, a rare R parent has total expected offspring (1/4)(50/73)+(3/4)(23/73), which exceeds the resident average 24/73. Nevertheless its **R-template offspring** come only from the G encounters and have growth factor 23/32<1. Offspring produced after changing to G transmit G. A parent can therefore have above-average reproduction while the frequency of its initial goal template declines. Selection on a transmitted trait cannot be inferred from parent payoff alone.
+
+Boundary populations differ without mutation. Pure K remains pure K. If K is absent and R is present, q'=(3/4)q(2-q) and the population converges to (r,g)=(2/3,1/3). Pure G remains pure G. Claims about invasion require specifying that the corresponding rare type is actually introduced.
+
+## 4. Explicit assortative matching
+
+Let rho in [0,1]. A parent meets its own current type with probability rho; otherwise it meets a random population member. Thus P(partner=j | type=i)=rho 1{i=j}+(1-rho)p_j. This is a symmetric feasible pairing rule: cross-type pair masses agree in both directions. It is exogenous matching, not an inferred social capability.
+
+The R and K offspring masses become
+
+$$R=\frac38\rho r+(1-\rho)\left(\frac38r^2+\frac34rg\right),$$
+$$K=\frac{27}{200}\rho k+(1-\rho)
+\left[\frac34k(1-k)+\frac{27}{200}k^2\right],$$
+
+and
+
+$$Z=\frac12-\frac{73}{200}
+[\rho k+(1-\rho)k^2].$$
+
+Again G=Z-R-K. The K update satisfies
+
+$$k'-k=
+\frac{k(1-k)[50-123\rho-73(1-\rho)k]}{200Z}.$$
+
+Its map remains strictly increasing on [0,1]. The derivative numerator, after multiplication by 800, is
+
+$$300-246\rho-492(1-\rho)k+219(1-\rho)k^2,$$
+
+which decreases with k and is at least 27(1+rho)>0. Therefore for 0<k_0<1,
+
+$$k_t\to
+\begin{cases}
+(50-123\rho)/[73(1-\rho)],&\rho<50/123,\\
+0,&\rho\ge50/123.
+\end{cases}$$
+
+At the equality threshold convergence to zero can be slow; the formula does not assert exponential convergence there.
+
+The non-K share q has the update
+
+$$q'=\frac32q\,
+\frac{\rho+(1-\rho)(1-k)(2-q)}{2-(1-\rho)k}.$$
+
+For each k this map is increasing on [0,1] and has the form A(k)q-B(k)q^2. Since k converges, its coefficients converge. If the limiting A<=1, q converges to zero; at A=1 the positive quadratic term still decreases every positive q. If A>1, q converges to (A-1)/B when q_0>0. For the latter claim, outside any small interval around that positive fixed point the limiting growth ratio is uniformly above or below one; the same holds for all sufficiently late maps. Monotonicity makes a slightly larger interval invariant, giving convergence by shrinking the interval. Zero cannot be a limit when A>1 because sufficiently small positive q then grows by a factor bounded above one.
+
+Substituting the K limit gives the full phase table below, for r_0>0 and 0<k_0<1. A missing initial G type is generated by the R encounters.
+
+| Assortment rho | Limiting r | Limiting k | Limiting g |
+| --- | --- | --- | --- |
+| 0<=rho<=18/91 | 0 | (50-123rho)/[73(1-rho)] | 1-k |
+| 18/91<rho<50/123 | (91rho-18)/[73(1-rho)] | (50-123rho)/[73(1-rho)] | 41/73 |
+| 50/123<=rho<2/3 | (2/3-rho)/(1-rho) | 0 | 1/[3(1-rho)] |
+| 2/3<=rho<=1 | 0 | 0 | 1 |
+
+For rho<50/123, the limiting rare-R growth ratio within the non-K population crosses one at rho=18/91. In the middle coexistence region the G fraction is exactly 41/73; the other two fractions exchange mass as assortment changes. Once K disappears, R can invade the G population only for rho<2/3. Very strong same-type matching removes R's opportunity to exploit G while R–R encounters still convert some offspring to G.
+
+These thresholds concern this matching and transmission kernel. They do not follow from a general assertion that intelligence favors compromise or that a goal's numerical utility equals reproductive fitness.
+
+## 5. A reset-transmission control gives a different type story
+
+For comparison, suppose birth resets every descendant of an R parent to the selfish revisable template R even when that parent installed G. This is an explicit reinitialization mechanism, not inheritance of the installed preference. Keep only the hereditary R/K labels. Their own-color fitness matrix is
+
+$$\begin{array}{c|cc}
+&R&K\\\hline
+R&1/2&1/4\\
+K&3/4&27/200
+\end{array}.$$
+
+Under random matching, R's fitness minus K's is (23-73r)/200, giving stable coexistence r=23/73. Under the assortment rule it is
+
+$$[23+50\rho-73(1-\rho)r]/200.$$
+
+For rho<50/123 the stable interior R fraction is (23+50rho)/[73(1-rho)]; at or above that threshold R tends to fixation from a mixed population. The finite-freezing parent has not voluntarily relaxed its penalty: its frequency changes through the declared birth and matching process.
+
+The control shares encounter physics and choices with the installed-template model but changes what reproduction transmits. Even where the total non-K frequency happens to agree, it cannot answer the same question about actual current goals. Treating the 2x2 fitness matrix as a closed model while claiming that offspring inherit the installed G would omit a real type transition.
+
+## 6. Scope and next removal tests
+
+This is an explicit counterexample family to universal elimination of finite freezing, and a demonstration that goal change, individual reproductive success and goal-type prevalence can diverge. The algebra uses familiar population-update methods; no novelty claim is made. The preference-evolution literature in L08 is a close comparison, but its theorem is not imported: this note has its own encounter, fitness, transmission and assortment assumptions.
+
+The strongest restrictions are the finite public goal menu and selected encounter equilibria, renewal resources, one-batch objectives, inherited constructor templates, equal encounter strengths and exogenous assortment. Hidden types, strategic matching, correlated execution failures, offspring inheriting strength, expanded goals or different continuation selections can change the table before any population calculation begins. A continuous-time replicator equation that ignores conversion is not a substitute for the discrete birth kernel used here.
