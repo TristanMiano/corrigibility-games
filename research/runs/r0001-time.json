@@ -1,0 +1,105 @@
+{
+  "segments": [
+    {
+      "id": "T1",
+      "category": "theory",
+      "start": "2026-10-31 00:06:36 UTC",
+      "topic": "Essay-faithful influence, combat, split and merger semantics; normalization and aggregation boundaries",
+      "end": "2026-10-31 00:21:47 UTC",
+      "gross_seconds": 911,
+      "active_seconds_estimate": 840,
+      "exclusion": "Conservative estimate: at least 60 seconds plus rounding removed for tools, status, and bookkeeping; no idle waits used."
+    },
+    {
+      "id": "L1",
+      "category": "literature",
+      "start": "2026-10-31 00:21:47 UTC",
+      "topic": "Primary source check of corrigibility scope and inspection-game comparison",
+      "end": "2026-10-31 00:24:05 UTC",
+      "gross_seconds": 138,
+      "active_seconds_estimate": 0,
+      "exclusion": "Tool output was not inspected before context transfer; interval conservatively excluded."
+    },
+    {
+      "id": "L2",
+      "category": "literature",
+      "start": "2026-10-31 00:24:05 UTC",
+      "topic": "Inspect primary sources on corrigibility and inspection games",
+      "end": "2026-10-31 00:24:54 UTC",
+      "active_seconds_estimate": 20,
+      "exclusion": "Conservative estimate; retrieval, failed certificate/timeout attempts, and repository reads excluded."
+    },
+    {
+      "id": "T2",
+      "category": "theory",
+      "start": "2026-10-31 00:24:54 UTC",
+      "topic": "Formal game schema, physical transitions, proof audit, and sequential commitment boundary",
+      "end": "2026-10-31 00:39:42 UTC",
+      "gross_seconds": 888,
+      "active_seconds_estimate": 780,
+      "exclusion": "At least 60 seconds plus rounding excluded for status messages, tool latency and repository reads."
+    },
+    {
+      "id": "C1",
+      "category": "computation",
+      "start": "2026-10-31 00:39:42 UTC",
+      "topic": "Independent exact LP vertex enumeration and finite-game deviation checks",
+      "end": "2026-10-31 00:40:24 UTC",
+      "gross_seconds": 42,
+      "active_seconds_estimate": 22,
+      "exclusion": "20 seconds excluded for tool invocation, latency and repository metadata; computation coding/check inspection counted."
+    },
+    {
+      "id": "L3",
+      "category": "literature",
+      "start": "2026-10-31 00:40:24 UTC",
+      "topic": "Primary bargaining source and exact source/access records",
+      "end": "2026-10-31 00:41:51 UTC",
+      "gross_seconds": 87,
+      "active_seconds_estimate": 57,
+      "exclusion": "30 seconds excluded for downloads, rendering, tool latency and source-file handling."
+    },
+    {
+      "id": "A1",
+      "category": "excluded",
+      "start": "2026-10-31 00:41:51 UTC",
+      "topic": "Consolidation, source records, ledgers and durable checkpoint",
+      "end": "2026-10-31 00:48:01 UTC",
+      "active_seconds_estimate": 0,
+      "exclusion": "Consolidation and ledger/source writing excluded; incidental mathematical reasoning also excluded conservatively."
+    },
+    {
+      "id": "T3",
+      "category": "theory",
+      "start": "2026-10-31 00:48:01 UTC",
+      "topic": "Public stochastic installation failure and endogenous number of update attempts",
+      "end": "2026-10-31 00:50:05 UTC",
+      "gross_seconds": 124,
+      "active_seconds_estimate": 90,
+      "exclusion": "Conservative 90-second theory estimate; 34 seconds excluded for status/tools and test editing/inspection."
+    },
+    {
+      "id": "C2",
+      "category": "computation",
+      "start": "2026-10-31 00:50:05 UTC",
+      "topic": "Check combined unequal-reliability/freezing classification against finite-game best responses",
+      "end": "2026-10-31 00:50:37 UTC",
+      "gross_seconds": 32,
+      "active_seconds_estimate": 20,
+      "exclusion": "12 seconds excluded for tool calls, execution latency and accounting."
+    }
+  ],
+  "current": {
+    "id": "A2",
+    "category": "excluded",
+    "start": "2026-10-31 00:50:37 UTC",
+    "topic": "Final consolidation, validation, commits and draft PR checkpoint"
+  },
+  "excluded": "Startup, repository reads, branch creation, essay retrieval/read before T1 excluded conservatively.",
+  "total_counted_active_seconds_estimate": 1829,
+  "theory_active_seconds_estimate": 1710,
+  "required_active_seconds": 14400,
+  "status": "PARTIAL",
+  "research_closed_at": "2026-10-31 00:50:37 UTC",
+  "method": "Observed interval boundaries; conservative active estimates. Exclude all open A2 publication time and any gap before resumption."
+}

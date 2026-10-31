@@ -22,14 +22,15 @@ We distinguish terminal-goal preservation, utility-freezing preferences, policy 
 - [AGENTS](AGENTS.md): instructions for ChatGPT, Codex, and other contributors.
 - [Research charter](research/CHARTER.md) and [recurrence protocol](research/RECURRENCE.md): the canonical `CG-R001` task; default **four-hour active-research floor**, with **at least 75% theory**, both overridable per invocation.
 - [Flexible model contract C1](research/MODEL.md), [reference instance E1](research/models/E1.md), and [assumption register](research/ASSUMPTIONS.md): physical transitions, bargaining, utility semantics, freezing, and selection. E1's choices are replaceable examples, not recurrence defaults.
+- [Essay model E2](research/models/E2.md) and [first-recurrence mathematics](research/notes/010-essay-formalization.md): strength, recovery, adoption, deception, freezing and installation reliability; local assumptions remain revisable.
 - [Literature map](research/LITERATURE.md), [claim ledger](research/CLAIMS.md), and [seed derivations](research/notes/000-baselines.md): sources, proof obligations, and elementary benchmarks.
-- [Latest preparation handoff](research/PREPARATION.md), [run records](research/runs/README.md), and [initialization record](research/INITIALIZATION.md): actual work and handoffs.
+- [Latest run handoff: r0001, partial](research/runs/r0001.md), [preparation handoff](research/PREPARATION.md), [run index](research/runs/README.md), and [initialization record](research/INITIALIZATION.md): actual work and handoffs.
 
 Research is not an automatically scheduled service; each recurrence is explicitly invoked and leaves a handoff. Most substantive work belongs inside `CG-R001`, not an expanding sequence of administrative milestones.
 
 ## Status and checks
 
-Initialized on 2026-10-30. **CG-01 and CG-02 are complete:** a flexible formal contract, a finite reference game, and an initial literature map with selected assumption/proof audits. No CG-R001 recurrence has been invoked or completed by this preparation. The next substantive work is an explicitly invoked recurrence; Q01–Q06 remain open.
+Initialized on 2026-10-30. **CG-01 and CG-02 are complete. R0001 has begun and is PARTIAL:** an essay-faithful model family, proofs/counterexamples and a finite adoption-game classification are recorded. Counted active research is estimated at 30m 29s; the four-hour floor remains unmet. Resume r0001 from its handoff. Q01–Q06 remain broadly open; no recurrence is yet complete.
 
 Run the standard-library exact-arithmetic checks from the repository root:
 
@@ -37,6 +38,6 @@ Run the standard-library exact-arithmetic checks from the repository root:
 python -m unittest discover -s tests -v
 ```
 
-These check seed calculations and E1's local physical ledgers and utility-evaluation examples. They do not solve the dynamic game, calibrate physics, or establish evolutionary results.
+The 31 checks cover seed calculations, E1's ledgers and E2's recovery/adoption examples. E2 uses exact arithmetic except for explicitly identified square-root comparisons. Tests do not replace proofs, calibrate physics, solve every model-family game or establish evolutionary results.
 
 The existing [MIT license](LICENSE) is retained. References to third-party works do not relicense those works.

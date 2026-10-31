@@ -1,5 +1,7 @@
 # CG-01 / CG-02 preparation handoff — 2026-10-30
 
+Historical preparation record. The later [r0001 partial handoff](runs/r0001.md) now governs resumption; the preparation status and accounting below remain unchanged.
+
 **Status: both preparation tasks complete. No CG-R001 invocation.** Input commit: 4dc58b2103af430258a8a00abee1f57db5e52521. Work is on research branch `codex/cg-01-cg-02-preparation`; publication is through its pull request, not direct commits to main.
 
 This is bounded preparation, not a four-hour research run. Active duration and theory percentage were not measured as recurrence accounting; no duration or recurrence credit is claimed. The observed validation checkpoint was 2026-10-30 23:55:49 UTC. No background or unattended work is claimed.

@@ -2,7 +2,7 @@
 
 This queue is executable by ChatGPT, Codex, or another research agent. There is **one main recurring research task**, `CG-R001`. Its internal research fronts are not a long sequence of mandatory mini-projects. Most project effort belongs there.
 
-Status: CG-01 and CG-02 completed 2026-10-30; see [preparation handoff](research/PREPARATION.md). No CG-R001 recurrence has been invoked or completed by this preparation.
+Status: CG-01 and CG-02 completed 2026-10-30; see [preparation handoff](research/PREPARATION.md). **First recurrence r0001 invoked; PARTIAL**, with [model/proof/accounting handoff](research/runs/r0001.md). Resume it before starting another run. No recurrence is yet complete.
 
 ## CG-00 — Initialize the project
 
@@ -26,7 +26,7 @@ Exit with a compact source-to-question table, checked theorem assumptions for th
 
 ## CG-R001 — Main recurrence: physical conflict, compromise, and preference evolution
 
-**Status: OPEN / REPEATABLE.** Start after CG-01 and CG-02, or an explicit owner override. Execute the detailed [recurrence protocol](research/RECURRENCE.md).
+**Status: OPEN / REPEATABLE; r0001 is PARTIAL.** Its one-run focus is the seed essay's strength/control, probabilistic combat, split/merge/deception model. The four-hour floor and 75% theory minimum were not overridden. Execute the detailed [recurrence protocol](research/RECURRENCE.md).
 
 **Defaults per invocation:** minimum four hours of active research; at least 75% of counted research time on substantial mathematical work. Both are overridable. Record the actual override, duration, time split, and completion status. Never silently shorten the floor.
 
@@ -63,4 +63,4 @@ Check notation, figures, links, citations, proof dependencies, rendering, and cl
 
 ## Next-agent handoff
 
-Read [the latest preparation handoff](research/PREPARATION.md), then wait for an explicit **CG-R001** invocation. A useful instruction is: `Run CG-R001 with its default four-hour active-research floor and 75% minimum theory allocation, starting with dispersion recovery and its bargaining implications.` Read the recurrence protocol first. C1 is flexible; choose or revise the smallest instance suited to the question instead of treating E1 as frozen. Preparation does not consume that recurrence floor. If runtime prevents completion, checkpoint the unfinished work honestly.
+Read [r0001's partial handoff](research/runs/r0001.md), its mathematical note and time ledger, then resume that invocation. Next: interruptible bilateral fusion with rollback and verification, compared with a matched fixed-utility delegate. The remaining active floor is estimated at 3h 29m 31s; no between-response gap counts. C1 remains flexible and E1/E2 remain local choices. The essay focus applies only to this invocation. Read the recurrence protocol before resuming; do not relabel the partial run complete or create r0002 to hide it.
