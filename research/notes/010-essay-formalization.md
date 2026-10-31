@@ -73,7 +73,9 @@ For disjoint groups C,D, unnormalized objectives add: G_{C union D}=G_C+G_D. Kee
 
 An unchanged-utility principal can delegate the identical production policy to an executor if that policy is equally expressible, verifiable, and durable at equal physical cost. Consequently these allocation results alone do not establish a special advantage of changing terminal preferences.
 
-## 5. Physical module: exact dispersion-recovery frontier
+## 5. Physical module: exact aggregate dispersion-recovery frontier
+
+**R0001 audit correction:** the formula below is exact for the written aggregate LP. Its original description as a literal serial line with production rate k was too strong. When damaged capacity makes k<1/tau, recovery time must also be added to y/k. [Note 024](024-recovery-scheduling-and-infrastructure.md) gives the counterexample, corrected attainable serial frontier, parallel alternative and two-feedstock extension. The old LP is preserved as a relaxation; its algebraic result is not withdrawn.
 
 Fix nonnegative usable stock O and dispersed stock D in material units; total M=O+D. Work reserve B>=0 and processing time T>=0 are independent budgets. Production costs c>0 work/unit and tau>0 time/unit; recovering dispersed stock costs w>=0 work/unit and r>=0 time/unit. Capacity k>=0 is output/time. No additional material or work can be harvested.
 
@@ -82,7 +84,7 @@ Choose recovered x and delivered y under
 $$0\le x\le D,\quad0\le y\le O+x,$$
 $$cy+wx\le B,\qquad \tau y+rx\le T,\qquad y\le kT.$$
 
-This is a divisible, sequential-processing abstraction. For any given y, the least necessary recovery is x=(y-O)_+. Nonnegative costs make that choice weakly best. Hence the exact output frontier is
+This is a divisible aggregate workload/capacity abstraction. For any given y, the least necessary recovery is x=(y-O)_+. Nonnegative costs make that choice weakly best. Hence the exact LP output frontier is
 
 $$Y=\min\left\{M,kT,\frac{B}{c},\frac{B+wO}{c+w},
 \frac{T}{\tau},\frac{T+rO}{\tau+r}\right\}.$$
@@ -102,7 +104,7 @@ Y_0\le C_t+\beta(O-d).$$
 
 For positive alpha/beta these identify the exact threshold d before recovery becomes binding; omit a zero-slope restriction because it is already satisfied. Increasing damage can cross a bottleneck and change marginal losses, so a constant scalar war penalty is not generally an exact representation across states/deadlines. For a single fixed state its numerical value can always be summarized as a scalar; that weaker reduction must not be confused with uniform predictive equivalence.
 
-This derivation is conditional on fixed control. It has not removed attack from a bargaining game. Combat and compromise must next be assigned distinct (O,D,B,k,T) transitions, including their own work and delays, before using Y as a continuation payoff input.
+This derivation is conditional on fixed control. It has not removed attack from a bargaining game. Combat and compromise must next be assigned distinct (O,D,B,k,T) transitions, including their own work and delays, before using a physically attained frontier as a continuation payoff input. Use this LP's Y directly only when its constraints accurately specify the chosen technology; otherwise substitute the appropriate scheduled frontier from note 024 or another proved model.
 
 ## 6. Physical costs, unequal survival, and adoption boundaries
 

@@ -11,7 +11,7 @@ This is bounded preparation, not a four-hour research run. Active duration and t
 | Task / exit condition | Artifact and evidence |
 | --- | --- |
 | CG-01: flexible formal contract | [C1](MODEL.md) declares histories, physics, agency, actions, kernels, observations/beliefs, utilities, implementation, and solution concepts. Instance assumptions remain replaceable. |
-| CG-01: one fully defined tractable game | [E1.0](models/E1.md) specifies finite primitives, legal actions, all protocol phases, stochastic combat, resource accounting, successor/loser values, and current-self equilibrium. This is a witness, not a permanent baseline. |
+| CG-01: one fully defined tractable game | [E1](models/E1.md) specifies finite primitives, legal actions, all protocol phases, stochastic combat, resource accounting, successor/loser values, and current-self equilibrium. The initial E1.0 was corrected to E1.1 during R0001 for serial processing after capacity damage; note 024 preserves the correction. This is a witness, not a permanent baseline. |
 | CG-01: invariants and assumptions | [Assumption register](ASSUMPTIONS.md) distinguishes C1 invariants from E1 choices and stronger delegation technology. [C01](CLAIMS.md) gives the local mass/nonnegativity proof and limits. |
 | CG-01: first mechanism | Dispersion recovery work/time under a finite budget/deadline; derive the frontier before embedding it in a game. Continuous and integer formulations remain alternatives. |
 | CG-02: compact primary-source map | [Literature map](LITERATURE.md) records twelve sources, actual versions/locators, selected audits, screened leads, access failures, and source-to-question mapping. |

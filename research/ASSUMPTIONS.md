@@ -49,6 +49,7 @@ Updated for CG-01/CG-02, 2026-10-30. These are indexed distinctions, not an empi
 | A43 | Private strength and public evidence | Note 021 makes A's strength private, the agreement kernel type neutral conditional on reports, and split execution binding. A physical strength-dependent signal changes that kernel. Its local offer formulas explicitly idealize additional marginal messaging cost as zero; testing costs require dated frontiers. |
 | A44 | Incumbent stopping problem and renewed opportunities | Note 022 evaluates the first genuine change using a current finite penalty and discount below one. Iid arrivals, integrable actual old-utility gains and an ordinary peaceful baseline are separate assumptions. The post-change continuation is already specified, not commanded by the founder. |
 | A45 | Public freezing premium as a declared menu | Note 022's long-run design result assumes a linear baseline premium and matched opportunity law, with the allocated baseline preserved or compensated after adoption. The premium is not derived from arbitrary opponents; note 012 supplies a distinct finite strategic witness. |
+| A46 | Scheduling and actual production rate | A separate bound y<=kT does not account for recovery time on a serial line slowed to rate k. Note 024 distinguishes aggregate workload relaxations, literal serial schedules, parallel fluid machines with latency, and two-stock work/time tradeoffs. Each is a replaceable physical technology. |
 
 ## Scope of C1 and reference instance E1
 
@@ -77,7 +78,7 @@ These are local alternatives, not new C1 invariants. [E2](models/E2.md) leaves i
 
 | Setting / dependencies | What follows locally | Removal or limitation |
 | --- | --- | --- |
-| A06, A23: divisible O/D material, finite work/time, fixed sequential coefficients | Exact recovery frontier and damage thresholds, R106 | Parallel processing, endogenous repair, multiple outputs and interruptions need a new feasibility proof; spare capacity can erase a dispersion loss |
+| A06, A23, A46: divisible material, finite work/time and declared scheduling | R106 solves the aggregate LP; note 024 corrects its serial-rate interpretation and proves serial/parallel/two-stock frontiers | A throughput cap must be coupled to recovery duration on a serial line. Batch latency, repair and interruptions require their own scheduling proof; spare capacity can erase a dispersion loss |
 | A07–A08, A14, A18: own-color linear utilities and feasible full-output splits | R107 bargaining interval and merger participation thresholds | Concavity versus convexity changes lottery comparisons; asymmetric winners defeat fixed proportional division; process goals need actual history payoffs |
 | A24, A26–A27: preference classes, fixed strength weights, a declared physical domain | R101–R105, R114–R115 semantic and implementation boundaries | A raw utility vector is not a probability law; literal code-driven influence is a stronger behavioral assumption |
 | A09–A13, A28–A29: observation, cost, durability and delegate expressivity | Conditional replication R113 and verification boundaries R110–R111 | Unverifiable goals, revocable programs or identity-dependent responses break equivalence; inspection need not supply credible sanctions |
