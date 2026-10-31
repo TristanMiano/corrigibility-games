@@ -2,7 +2,7 @@
 
 This queue is executable by ChatGPT, Codex, or another research agent. There is **one main recurring research task**, `CG-R001`. Its internal research fronts are not a long sequence of mandatory mini-projects. Most project effort belongs there.
 
-Status: CG-01 and CG-02 completed 2026-10-30; see [preparation handoff](research/PREPARATION.md). **First recurrence r0001 COMPLETE**, with [model/proof/accounting handoff](research/runs/r0001.md): estimated 4h 00m 09s active research, 89.39% theory. The synthesis gate is met for a bounded audit/synthesis, not a universal theorem. CG-03 is recommended and has not started.
+Status: CG-01 and CG-02 completed 2026-10-30; see [preparation handoff](research/PREPARATION.md). **First recurrence r0001 COMPLETE**, including the [readable findings report](research/reports/r0001-findings.md) added in the 2026-10-31 follow-up and the [model/proof/accounting handoff](research/runs/r0001.md). Its estimated 4h 00m 09s active research, 89.39% theory, is unchanged. **The synthesis gate is NOT MET; CG-03 is BLOCKED.** The first round's local results do not establish the required breadth across agent preferences, game environments and parameter settings.
 
 ## CG-00 — Initialize the project
 
@@ -45,11 +45,13 @@ A recurrence can primarily pursue one front, but the accumulated portfolio must 
 
 Recommend CG-03 when the portfolio contains: (a) an explicit physical-model result, not only an assumed cheaper peace; (b) clear existence/adoption/stability boundaries with combat retained; (c) a matched assessment of utility modification against ordinary commitments; (d) characterized pro-combat preferences including freezing; (e) distinct long-run voluntary and population analyses, including a persistence counterexample or theorem boundary; and (f) an assumption-dependence map and honest literature/contribution assessment.
 
-Each item needs a proof, counterexample, or precisely bounded unresolved conclusion with evidence explaining the limit. Do not require a universal positive theorem, convergence of all agents, or a solution of every open question. Do not promote an elementary bargain-existence lemma as the whole project. If progress stalls, diagnose and redirect within CG-R001; do not fill the time with paperwork. Obtain owner direction for a major scope change or proceeding to synthesis with unmet central obligations.
+Each item needs a proof, counterexample, or precisely bounded unresolved conclusion with evidence explaining the limit. Merely finding a local example under each heading does not satisfy the gate. The accumulated work must explain when combat or compromise is favored across a sufficiently broad, explicitly justified range of preferences and game environments, with parameter boundaries and robustness checks. Discuss the simplicity or special construction of both agent goals and environment assumptions; do not infer what is natural or prevalent from an arbitrary finite menu. No fixed number of runs substitutes for this substantive coverage.
+
+Do not require a universal positive theorem, convergence of all agents, or a solution of every open question. Do not promote an elementary bargain-existence lemma as the whole project. If progress stalls, diagnose and redirect within CG-R001; do not fill the time with paperwork. Obtain owner direction for a major scope change or proceeding to synthesis with unmet central obligations. A readable report is required for each recurrence, independently of eventual CG-03/CG-04 work.
 
 ## CG-03 — Synthesize and audit the research
 
-**Status: READY / RECOMMENDED, not started.** R0001's [gate coverage](research/runs/r0001.md#synthesis-gate-and-next-action) supplies proofs, counterexamples and bounded unresolved conclusions for (a)–(f). Begin only when this next task is invoked; prioritize an independent audit of E2.1's physical correction, adoption/implementation comparisons and robustness bounds.
+**Status: BLOCKED — synthesis gate not met.** This is only the first recurrence. Its [coverage and remaining obligations](research/runs/r0001.md#research-coverage-and-next-action) identify useful local results and substantial unresolved breadth. The earlier recommendation to advance was premature and is withdrawn. Continue substantive research within CG-R001 when invoked; do not treat this reporting follow-up as the start of synthesis.
 
 Select a coherent contribution, freeze its model version, audit every main proof and counterexample, verify citations and comparisons, reproduce supporting calculations, and map every headline to a claim ID. Seek an independent agent review when available and label its scope. Separate results, limitations, and remaining conjectures. Additional mathematical repairs return to CG-R001 rather than spawning a second research loop.
 
@@ -63,4 +65,4 @@ Check notation, figures, links, citations, proof dependencies, rendering, and cl
 
 ## Next-agent handoff
 
-Read [r0001's completed handoff](research/runs/r0001.md), E2.1's compatibility map and the claim/assumption ledgers. The one recommended next action is a bounded CG-03 independent proof audit and synthesis; no new recurrence or synthesis has been automatically launched. C1 remains flexible, E1.1/E2.1 remain local choices, and the first-run essay focus does not bind future work.
+Read [r0001's findings](research/reports/r0001-findings.md), its [handoff](research/runs/r0001.md), E2.1's compatibility map and the claim/assumption ledgers. The recommended next substantive action is another CG-R001 recurrence comparing preference classes and game environments under matched assumptions, deriving parameter regions and testing which conclusions survive less tailored goals and joint changes in information, power and implementation. No new recurrence or synthesis has been automatically launched. C1 remains flexible, E1.1/E2.1 remain local choices, and the first-run essay focus does not bind future work.

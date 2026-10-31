@@ -6,6 +6,8 @@ Investigate voluntary utility modification as a response to strategic conflict i
 
 The goal is a conditional theory and an assumption map, not a demonstration that every rational agent must become cooperative. Useful negative results, equivalence to established commitment methods, and new applications of ordinary game theory are legitimate contributions.
 
+The central comparison spans agent preferences, game environments and parameter settings: which favor combat, which favor compromise, and why? Investigate how simple or specially constructed the agents' goals are, separately from how demanding the environment and implementation assumptions are. Do not freeze a taxonomy of natural and unnatural agents in advance. A claim about typical behavior needs a justified distribution or a structural result over a clearly described class.
+
 ## Baseline idealizations
 
 Agents know their own utility functions, understand available self-modifications, and can model the specified future dynamics and compute expected utilities. Stochastic combat depends on power parameters. Other agents dominate strategic uncertainty and opportunity; physics still constrains them. Start with two agents and tractable finite or discounted horizons. Public knowledge and common priors are optional strengthening assumptions to be explicitly identified.
@@ -31,5 +33,7 @@ These mechanisms motivate models, not a universal assertion that every fight is 
 ## What successful research reports
 
 State a model, prove or refute a precisely quantified claim, identify the assumptions doing the work, compare the strongest relevant conventional alternative, and explain which part is standard and which contribution is new or useful. Distinguish theoretical possibility, equilibrium behavior, and prevalence under a specified population process. No unqualified frequency claim about arbitrary utility functions is meaningful without a type distribution or structural theorem.
+
+Every completed recurrence also explains its findings for a reader who has not followed the derivations. Begin with the main conclusions, develop the mechanisms through examples and parameter boundaries, and tie them back to the central questions. Explain what remains unknown about breadth across agents and environments. This reporting is required during research; it is not deferred to final synthesis or publication.
 
 Keep mathematical discoveries in one main recurrence. Preparation and publication support the research rather than absorbing it. The four-hour floor and theory allocation are workload defaults, never substitutes for evidence or reasons to fabricate progress.
