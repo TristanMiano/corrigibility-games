@@ -292,17 +292,125 @@
       "gross_seconds": 230,
       "active_seconds_estimate": 180,
       "exclusion": "At least 30 seconds plus rounding excluded for tools, test execution and commentary; incidental mathematical audit during this block is conservatively classified as computation."
+    },
+    {
+      "id": "A5",
+      "category": "excluded",
+      "start": "2026-10-31 03:57:09 UTC",
+      "topic": "Registering the scheduling correction and persisting a resumable checkpoint",
+      "end": "2026-10-31 03:58:42 UTC",
+      "active_seconds_estimate": 0,
+      "exclusion": "Scheduling registration, commits, run-index updates and time-record handling excluded."
+    },
+    {
+      "id": "T15",
+      "category": "theory",
+      "start": "2026-10-31 03:58:42 UTC",
+      "topic": "Associative merger objectives, calibration, order dependence and incumbent lottery preferences",
+      "end": "2026-10-31 04:07:56 UTC",
+      "gross_seconds": 554,
+      "active_seconds_estimate": 480,
+      "exclusion": "At least 60 seconds plus rounding excluded for tools, commentary and reads; includes preliminary derivation of full-peace preference frontiers."
+    },
+    {
+      "id": "T16",
+      "category": "theory",
+      "start": "2026-10-31 04:07:56 UTC",
+      "topic": "Full peaceful mechanism sets, lottery separation and antagonistic/process preferences",
+      "end": "2026-10-31 04:14:27 UTC",
+      "gross_seconds": 391,
+      "active_seconds_estimate": 330,
+      "exclusion": "61 seconds excluded for tools, commentary and associated check planning; the counted portion covers payoff-set, matrix-inverse and full-menu proofs."
+    },
+    {
+      "id": "C7",
+      "category": "computation",
+      "start": "2026-10-31 04:14:27 UTC",
+      "topic": "Exact preference-frontier LPs, dual certificates and merger-composition checks",
+      "end": "2026-10-31 04:15:32 UTC",
+      "gross_seconds": 65,
+      "active_seconds_estimate": 40,
+      "exclusion": "At least 20 seconds plus rounding excluded for tool execution, tests and commentary."
+    },
+    {
+      "id": "L6",
+      "category": "literature",
+      "start": "2026-10-31 04:15:32 UTC",
+      "topic": "Primary-source comparison for lottery aggregation and weaker commitment technologies",
+      "end": "2026-10-31 04:19:17 UTC",
+      "active_seconds_estimate": 0,
+      "exclusion": "Source download output was not inspected before context transfer; the interval is excluded conservatively."
+    },
+    {
+      "id": "L6a",
+      "category": "literature",
+      "start": "2026-10-31 04:19:17 UTC",
+      "topic": "Inspect primary aggregation and ex-post commitment sources",
+      "end": "2026-10-31 04:20:36 UTC",
+      "gross_seconds": 79,
+      "active_seconds_estimate": 40,
+      "exclusion": "39 seconds excluded for tool calls, image rendering, failed reads, commentary and accounting; inspected source statements and comparisons only."
+    },
+    {
+      "id": "T17",
+      "category": "theory",
+      "start": "2026-10-31 04:20:36 UTC",
+      "topic": "Current-self and sharp-bound proof audit; staged implementation certificates; initial stochastic opportunity-overlap derivation",
+      "end": "2026-10-31 04:29:09 UTC",
+      "gross_seconds": 513,
+      "active_seconds_estimate": 450,
+      "exclusion": "63 seconds excluded for tools, commentary, repository reads and accounting."
+    },
+    {
+      "id": "T18",
+      "category": "theory",
+      "start": "2026-10-31 04:29:09 UTC",
+      "topic": "Stochastic physical opportunity overlap and exact implementable bargaining frontiers",
+      "end": "2026-10-31 04:35:44 UTC",
+      "gross_seconds": 395,
+      "active_seconds_estimate": 330,
+      "exclusion": "65 seconds excluded for tools, commentary and reads; finite-support, current-goal, conditional-information and sensitivity derivations counted."
+    },
+    {
+      "id": "C8",
+      "category": "computation",
+      "start": "2026-10-31 04:35:44 UTC",
+      "topic": "Independent finite-support LP and continuous-checkpoint verification",
+      "end": "2026-10-31 04:37:56 UTC",
+      "gross_seconds": 132,
+      "active_seconds_estimate": 110,
+      "exclusion": "22 seconds excluded for tools, test execution, commentary and accounting."
+    },
+    {
+      "id": "T19",
+      "category": "theory",
+      "start": "2026-10-31 04:37:56 UTC",
+      "topic": "Audit voluntary stopping and population convergence; explicit recurrent innovation and rare-type persistence",
+      "end": "2026-10-31 04:44:10 UTC",
+      "gross_seconds": 374,
+      "active_seconds_estimate": 300,
+      "exclusion": "74 seconds excluded for tools, commentary and repository/source reads; stopping/population proof audit and innovation derivations counted."
+    },
+    {
+      "id": "C9",
+      "category": "computation",
+      "start": "2026-10-31 04:44:10 UTC",
+      "topic": "Independent birth-kernel checks of innovation fixed points and threshold asymptotics",
+      "end": "2026-10-31 04:46:25 UTC",
+      "gross_seconds": 135,
+      "active_seconds_estimate": 110,
+      "exclusion": "25 seconds excluded for tools, test runtime, commentary and accounting."
     }
   ],
   "current": {
-    "id": "A5",
+    "id": "A6",
     "category": "excluded",
-    "start": "2026-10-31 03:57:09 UTC",
-    "topic": "Registering the scheduling correction and persisting a resumable checkpoint"
+    "start": "2026-10-31 04:46:25 UTC",
+    "topic": "Registering aggregation, full-menu, staged and stochastic results; source and timing checkpoint"
   },
   "excluded": "Startup, repository reads, branch creation, essay retrieval/read before T1 excluded conservatively.",
-  "total_counted_active_seconds_estimate": 10199,
-  "theory_active_seconds_estimate": 9240,
+  "total_counted_active_seconds_estimate": 12389,
+  "theory_active_seconds_estimate": 11130,
   "required_active_seconds": 14400,
   "status": "IN-PROGRESS",
   "research_closed_at": null,
