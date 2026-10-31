@@ -29,6 +29,13 @@ Updated for CG-01/CG-02, 2026-10-30. These are indexed distinctions, not an empi
 | A23 | Recovery technology and resource boundary | Integer vs divisible stocks, sequential vs parallel processing, work store vs total exergy, imports, material conversion, infrastructure repair. Recheck feasibility and accounting on replacement. |
 | A24 | Utility identity and admissible objective menu | Declare the common outcome domain and equivalence of representations. Menu restrictions and finite vs lexicographic preferences are instance assumptions. |
 | A25 | Current-self solution concept and selection | Specify best responses of incumbents/successors, off-path behavior, beliefs, and any selection rule. Founder optimization is only an external welfare perspective after change. |
+| A26 | Strength-weighted control and contest | E2 separates controllable policies from utility representations. Additive strength plus identity-neutral grouping forces linear weights (R102); nonlinear synergy is a different physical assumption. Control draws need not end the other's attack capability. |
+| A27 | Goal aggregation and actual outcome domain | Deterministic mixed-color worlds, lotteries over exclusive worlds, and vectors of expected utility are distinct domains. R105 constructs a proportional deterministic objective; R114 obstructs unique interior lottery implementation. Weights do not automatically change when a founder loses agency. |
+| A28 | Deception observation and credible response | Detection kernel, verification effort/cost, physical camouflage and postdetection choices must be specified. R110's restored-honesty example defeats an assumed punitive threat; R111 requires implementable branch payoffs. |
+| A29 | Exclusive-control delegation versus retained attack | Note 010 section 13 grants a stronger control-transfer technology; E2-U section 14 retains both agents' attack capability after the operator draw. Neither comparison licenses silently removing attacks from the baseline. |
+| A30 | Restricted sequential update menu and finite task | E2-U permits A then B one opportunity to install G, plus attacks, ordinary production and rejection. R117–R118 do not prove claims about arbitrary rollback, repeated encounters or physical fusion. Remove the restriction in a new protocol. |
+| A31 | Locally peaceful continuation selection | E2-U selects peaceful last-stage equilibria where a G-agent is present. R118 specifies round-2 selection too. Weak war equilibria remain; changing off-path selections can alter adoption. No claim of generic/unique equilibrium selection. |
+| A32 | Publicly recognized stochastic installation failure | R119–R120 use independent trials, success installs G, failure preserves the old goal, and either result pays the round's physical cost. Known probabilities are not known draws. Hidden corruption, correlated failures and costly verification require new continuations. |
 
 ## Scope of C1 and reference instance E1
 
@@ -50,6 +57,23 @@ C1's invariants concern physical availability, honest accounting, current-utilit
 | A25 | Local stage best responses of current decision selves at every history; mixed actions allowed | No unique selection imposed; private information requires new belief consistency conditions |
 
 Source assumptions and transfer limits are in [the literature audit](LITERATURE.md). In particular L02's modification independence, L04/L05's program implementation, and L08's private-type/matching assumptions are not silently inherited by C1.
+
+## E2.0 / R0001 dependency and removal map
+
+These are local alternatives, not new C1 invariants. [E2](models/E2.md) leaves its protocol and implementation parameters open; [note 010](notes/010-essay-formalization.md) states them separately for each result.
+
+| Setting / dependencies | What follows locally | Removal or limitation |
+| --- | --- | --- |
+| A06, A23: divisible O/D material, finite work/time, fixed sequential coefficients | Exact recovery frontier and damage thresholds, R106 | Parallel processing, endogenous repair, multiple outputs and interruptions need a new feasibility proof; spare capacity can erase a dispersion loss |
+| A07–A08, A14, A18: own-color linear utilities and feasible full-output splits | R107 bargaining interval and merger participation thresholds | Concavity versus convexity changes lottery comparisons; asymmetric winners defeat fixed proportional division; process goals need actual history payoffs |
+| A24, A26–A27: preference classes, fixed strength weights, a declared physical domain | R101–R105, R114–R115 semantic and implementation boundaries | A raw utility vector is not a probability law; literal code-driven influence is a stronger behavioral assumption |
+| A09–A13, A28–A29: observation, cost, durability and delegate expressivity | Conditional replication R113 and verification boundaries R110–R111 | Unverifiable goals, revocable programs or identity-dependent responses break equivalence; inspection need not supply credible sanctions |
+| A05, A16, A21–A22, A25, A30–A31: finite E2-U protocol and selected continuations | Voluntary one-sided change R117; finite-freezing/preemption classification R118 | No population or unlimited self-modification claim; weak war equilibria and off-path selection remain; actual fusion is not dual goal adoption |
+| A17: finite historical preference-change penalty kappa | R118 can reverse which agent changes; negotiation work changes the threat by date | This compares initial types only. Voluntarily rewriting kappa, hard freezing and transmission/fitness remain unresolved |
+
+No fitness/transmission mechanism (A19–A20) has been added. R118 is not evidence of invasion or of voluntary adoption of a stronger freeze.
+
+R119 varies A32 at zero freezing; R120 combines unequal success probabilities with finite initial freezing. Its strict-region classification is local to E2-U and the declared continuation selection. R119's nonmonotone combat probability comes from changing the number of attempts, not from worse reliability under a fixed protocol.
 
 ## Required comparison record
 
