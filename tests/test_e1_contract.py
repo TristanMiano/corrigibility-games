@@ -33,14 +33,17 @@ class E1ContractChecks(unittest.TestCase):
         # Independently reconcile material flows in the documented two steps.
         initial = (12, 0, 0, 0, 0)
         combat_flow = (-9, 6, 3, 0, 0)
-        work_flow = (-2, -1, 0, 3, 0)  # Recover 1 D, produce 3.
+        work_flow = (-1, -1, 0, 2, 0)  # Recover 1 D, produce 2 at damaged k=3.
         after_combat = tuple(a + b for a, b in zip(initial, combat_flow))
         after_work = tuple(a + b for a, b in zip(after_combat, work_flow))
         self.assertEqual(after_combat, (3, 6, 3, 0, 0))
-        self.assertEqual(after_work, (1, 5, 3, 3, 0))
+        self.assertEqual(after_work, (2, 5, 3, 2, 0))
         self.assertEqual(sum(after_work), 12)
-        self.assertEqual(24 - 2 - (2 * 1 + 3), 17)
-        self.assertEqual(F(1 + 3, 4), 1)  # Exactly one processing hour.
+        self.assertEqual(24 - 2 - (2 * 1 + 2), 18)
+        self.assertEqual(F(1, 4)+F(2, 3), F(11, 12))
+        # E1.0's recovery-plus-three-output fixture exceeded the serial slot.
+        self.assertEqual(F(1 + 3, 4), 1)  # The old aggregate test passed it.
+        self.assertGreater(F(1, 4)+F(3, 3), 1)  # Actual serial time rejects it.
 
     def test_local_combat_accounting_boundaries(self):
         for usable in range(13):
@@ -62,10 +65,10 @@ class E1ContractChecks(unittest.TestCase):
         for usable, dispersed, transformed in product(range(13), repeat=3):
             if usable + dispersed + transformed > 12:
                 continue
-            for xd, xz, output in product(range(5), repeat=3):
+            for capacity, xd, xz, output in product(range(1, 5), range(5), range(5), range(5)):
                 if (xd > dispersed or xz > transformed
                         or output > usable + xd + xz
-                        or xd + xz + output > 4):
+                        or capacity*(xd+xz)+4*output > 4*capacity):
                     continue
                 required_work = 2 * xd + 4 * xz + output
                 if required_work > 24:

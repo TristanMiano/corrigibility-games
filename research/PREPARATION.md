@@ -1,5 +1,7 @@
 # CG-01 / CG-02 preparation handoff — 2026-10-30
 
+Historical preparation record. The later [r0001 partial handoff](runs/r0001.md) now governs resumption; the preparation status and accounting below remain unchanged.
+
 **Status: both preparation tasks complete. No CG-R001 invocation.** Input commit: 4dc58b2103af430258a8a00abee1f57db5e52521. Work is on research branch `codex/cg-01-cg-02-preparation`; publication is through its pull request, not direct commits to main.
 
 This is bounded preparation, not a four-hour research run. Active duration and theory percentage were not measured as recurrence accounting; no duration or recurrence credit is claimed. The observed validation checkpoint was 2026-10-30 23:55:49 UTC. No background or unattended work is claimed.
@@ -9,7 +11,7 @@ This is bounded preparation, not a four-hour research run. Active duration and t
 | Task / exit condition | Artifact and evidence |
 | --- | --- |
 | CG-01: flexible formal contract | [C1](MODEL.md) declares histories, physics, agency, actions, kernels, observations/beliefs, utilities, implementation, and solution concepts. Instance assumptions remain replaceable. |
-| CG-01: one fully defined tractable game | [E1.0](models/E1.md) specifies finite primitives, legal actions, all protocol phases, stochastic combat, resource accounting, successor/loser values, and current-self equilibrium. This is a witness, not a permanent baseline. |
+| CG-01: one fully defined tractable game | [E1](models/E1.md) specifies finite primitives, legal actions, all protocol phases, stochastic combat, resource accounting, successor/loser values, and current-self equilibrium. The initial E1.0 was corrected to E1.1 during R0001 for serial processing after capacity damage; note 024 preserves the correction. This is a witness, not a permanent baseline. |
 | CG-01: invariants and assumptions | [Assumption register](ASSUMPTIONS.md) distinguishes C1 invariants from E1 choices and stronger delegation technology. [C01](CLAIMS.md) gives the local mass/nonnegativity proof and limits. |
 | CG-01: first mechanism | Dispersion recovery work/time under a finite budget/deadline; derive the frontier before embedding it in a game. Continuous and integer formulations remain alternatives. |
 | CG-02: compact primary-source map | [Literature map](LITERATURE.md) records twelve sources, actual versions/locators, selected audits, screened leads, access failures, and source-to-question mapping. |

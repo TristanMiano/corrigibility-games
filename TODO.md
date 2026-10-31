@@ -2,7 +2,7 @@
 
 This queue is executable by ChatGPT, Codex, or another research agent. There is **one main recurring research task**, `CG-R001`. Its internal research fronts are not a long sequence of mandatory mini-projects. Most project effort belongs there.
 
-Status: CG-01 and CG-02 completed 2026-10-30; see [preparation handoff](research/PREPARATION.md). No CG-R001 recurrence has been invoked or completed by this preparation.
+Status: CG-01 and CG-02 completed 2026-10-30; see [preparation handoff](research/PREPARATION.md). **First recurrence r0001 COMPLETE**, with [model/proof/accounting handoff](research/runs/r0001.md): estimated 4h 00m 09s active research, 89.39% theory. The synthesis gate is met for a bounded audit/synthesis, not a universal theorem. CG-03 is recommended and has not started.
 
 ## CG-00 — Initialize the project
 
@@ -26,7 +26,7 @@ Exit with a compact source-to-question table, checked theorem assumptions for th
 
 ## CG-R001 — Main recurrence: physical conflict, compromise, and preference evolution
 
-**Status: OPEN / REPEATABLE.** Start after CG-01 and CG-02, or an explicit owner override. Execute the detailed [recurrence protocol](research/RECURRENCE.md).
+**Status: OPEN / REPEATABLE; r0001 COMPLETE.** Its one-run focus was the seed essay's strength/control, probabilistic combat, split/merge/deception model. The four-hour floor and 75% theory minimum were met without override. Future invocations need not retain that focus. No next recurrence is currently running. Execute the detailed [recurrence protocol](research/RECURRENCE.md) for any new invocation.
 
 **Defaults per invocation:** minimum four hours of active research; at least 75% of counted research time on substantial mathematical work. Both are overridable. Record the actual override, duration, time split, and completion status. Never silently shorten the floor.
 
@@ -49,7 +49,7 @@ Each item needs a proof, counterexample, or precisely bounded unresolved conclus
 
 ## CG-03 — Synthesize and audit the research
 
-**Status: BLOCKED on the synthesis gate or explicit owner instruction.**
+**Status: READY / RECOMMENDED, not started.** R0001's [gate coverage](research/runs/r0001.md#synthesis-gate-and-next-action) supplies proofs, counterexamples and bounded unresolved conclusions for (a)–(f). Begin only when this next task is invoked; prioritize an independent audit of E2.1's physical correction, adoption/implementation comparisons and robustness bounds.
 
 Select a coherent contribution, freeze its model version, audit every main proof and counterexample, verify citations and comparisons, reproduce supporting calculations, and map every headline to a claim ID. Seek an independent agent review when available and label its scope. Separate results, limitations, and remaining conjectures. Additional mathematical repairs return to CG-R001 rather than spawning a second research loop.
 
@@ -63,4 +63,4 @@ Check notation, figures, links, citations, proof dependencies, rendering, and cl
 
 ## Next-agent handoff
 
-Read [the latest preparation handoff](research/PREPARATION.md), then wait for an explicit **CG-R001** invocation. A useful instruction is: `Run CG-R001 with its default four-hour active-research floor and 75% minimum theory allocation, starting with dispersion recovery and its bargaining implications.` Read the recurrence protocol first. C1 is flexible; choose or revise the smallest instance suited to the question instead of treating E1 as frozen. Preparation does not consume that recurrence floor. If runtime prevents completion, checkpoint the unfinished work honestly.
+Read [r0001's completed handoff](research/runs/r0001.md), E2.1's compatibility map and the claim/assumption ledgers. The one recommended next action is a bounded CG-03 independent proof audit and synthesis; no new recurrence or synthesis has been automatically launched. C1 remains flexible, E1.1/E2.1 remain local choices, and the first-run essay focus does not bind future work.

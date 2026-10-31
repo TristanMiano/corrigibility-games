@@ -22,14 +22,15 @@ We distinguish terminal-goal preservation, utility-freezing preferences, policy 
 - [AGENTS](AGENTS.md): instructions for ChatGPT, Codex, and other contributors.
 - [Research charter](research/CHARTER.md) and [recurrence protocol](research/RECURRENCE.md): the canonical `CG-R001` task; default **four-hour active-research floor**, with **at least 75% theory**, both overridable per invocation.
 - [Flexible model contract C1](research/MODEL.md), [reference instance E1](research/models/E1.md), and [assumption register](research/ASSUMPTIONS.md): physical transitions, bargaining, utility semantics, freezing, and selection. E1's choices are replaceable examples, not recurrence defaults.
+- [Essay model E2](research/models/E2.md) and [first-recurrence mathematics](research/notes/010-essay-formalization.md): strength, recovery, adoption, deception, freezing and installation reliability; local assumptions remain revisable.
 - [Literature map](research/LITERATURE.md), [claim ledger](research/CLAIMS.md), and [seed derivations](research/notes/000-baselines.md): sources, proof obligations, and elementary benchmarks.
-- [Latest preparation handoff](research/PREPARATION.md), [run records](research/runs/README.md), and [initialization record](research/INITIALIZATION.md): actual work and handoffs.
+- [Completed first recurrence: r0001](research/runs/r0001.md), [preparation handoff](research/PREPARATION.md), [run index](research/runs/README.md), and [initialization record](research/INITIALIZATION.md): actual work and handoffs.
 
 Research is not an automatically scheduled service; each recurrence is explicitly invoked and leaves a handoff. Most substantive work belongs inside `CG-R001`, not an expanding sequence of administrative milestones.
 
 ## Status and checks
 
-Initialized on 2026-10-30. **CG-01 and CG-02 are complete:** a flexible formal contract, a finite reference game, and an initial literature map with selected assumption/proof audits. No CG-R001 recurrence has been invoked or completed by this preparation. The next substantive work is an explicitly invoked recurrence; Q01–Q06 remain open.
+Initialized on 2026-10-30. **CG-01, CG-02 and the first recurrence r0001 are complete.** R0001's conservative active-research estimate is **4h 00m 09s, 89.39% theory**. E2.1 provides an essay-faithful formalization with physical scheduling, current-self adoption, staged fusion, verification, robustness and separate voluntary/population analyses. C1 remains flexible. Q01–Q06 remain broadly open; the results are conditional, with contributing-agent self-checks. The handoff recommends a bounded CG-03 audit and synthesis; it has not begun. [Draft PR #2](https://github.com/TristanMiano/corrigibility-games/pull/2) is unmerged.
 
 Run the standard-library exact-arithmetic checks from the repository root:
 
@@ -37,6 +38,6 @@ Run the standard-library exact-arithmetic checks from the repository root:
 python -m unittest discover -s tests -v
 ```
 
-These check seed calculations and E1's local physical ledgers and utility-evaluation examples. They do not solve the dynamic game, calibrate physics, or establish evolutionary results.
+The **109 checks** cover seed calculations, E1.1's physical ledgers and E2's mathematical examples, including exact LP/game checks and explicitly labeled numerical support. Tests do not replace proofs, calibrate physics, solve every model-family game or independently verify the population results.
 
 The existing [MIT license](LICENSE) is retained. References to third-party works do not relicense those works.

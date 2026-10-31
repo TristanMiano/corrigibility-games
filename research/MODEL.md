@@ -65,7 +65,7 @@ $$0\le x_D\le D,\quad0\le x_Z\le Z,\quad0\le y\le O+x_D+x_Z,$$
 $$w_Dx_D+w_Zx_Z+w_y y\le B,$$
 $$t_Dx_D+t_Zx_Z+t_y y\le T,\qquad y\le kT.$$
 
-Material units, work/unit, time/unit, and output/time must match. Sequential processing, divisibility, single output, fixed coefficients, and the capacity bound are assumptions of this LP, not C1 invariants. Parallel lines, integer batches, spatial transport, cooling, endogenous repair, and vector outputs can replace it. An aggregate LP is not automatically equivalent to a dynamic scheduling problem.
+Material units, work/unit, time/unit, and output/time must match. Additive processing-workload time, divisibility, single output, fixed coefficients, and the separate aggregate capacity bound are assumptions of this LP, not C1 invariants. A literal serial line whose production rate is k needs the coupled time condition with production duration max(t_y,1/k) per unit; [note 024](notes/024-recovery-scheduling-and-infrastructure.md) supplies that correction and other scheduling models. Parallel lines, integer batches, spatial transport, cooling, endogenous repair, and vector outputs can replace the aggregate LP. An aggregate LP is not automatically equivalent to a dynamic scheduling problem.
 
 ## 4. Timing, information, and persistent combat
 
