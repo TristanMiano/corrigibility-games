@@ -18,6 +18,7 @@ We distinguish terminal-goal preservation, utility-freezing preferences, policy 
 
 ## Start here
 
+- **[First-round findings: when agents favor combat or compromise](research/reports/r0001-findings.md)**: readable conclusions, worked examples, a parameter guide, and what remains unanswered about natural agents and game environments.
 - [TODO](TODO.md): preparation, initial literature review, **one main repeatable research task**, then synthesis and publication.
 - [AGENTS](AGENTS.md): instructions for ChatGPT, Codex, and other contributors.
 - [Research charter](research/CHARTER.md) and [recurrence protocol](research/RECURRENCE.md): the canonical `CG-R001` task; default **four-hour active-research floor**, with **at least 75% theory**, both overridable per invocation.
@@ -30,7 +31,9 @@ Research is not an automatically scheduled service; each recurrence is explicitl
 
 ## Status and checks
 
-Initialized on 2026-10-30. **CG-01, CG-02 and the first recurrence r0001 are complete.** R0001's conservative active-research estimate is **4h 00m 09s, 89.39% theory**. E2.1 provides an essay-faithful formalization with physical scheduling, current-self adoption, staged fusion, verification, robustness and separate voluntary/population analyses. C1 remains flexible. Q01–Q06 remain broadly open; the results are conditional, with contributing-agent self-checks. The handoff recommends a bounded CG-03 audit and synthesis; it has not begun. [Draft PR #2](https://github.com/TristanMiano/corrigibility-games/pull/2) is unmerged.
+Initialized on 2026-10-30. **CG-01, CG-02 and the first recurrence r0001 are complete, with its reader-facing report added in the 2026-10-31 follow-up.** The research was merged in [PR #2](https://github.com/TristanMiano/corrigibility-games/pull/2). R0001's conservative active-research estimate remains **4h 00m 09s, 89.39% theory**; reporting adds no research-time credit. E2.1 provides an essay-faithful family of conditional models, with contributing-agent self-checks. C1 remains flexible.
+
+For agents valuing their own project output, a credible division above each agent's expected combat return makes compromise attractive. Revocable sole control instead produces war in the solved final-decision game, and private-strength bargaining produces risky offers when the proposer gains more from demanding a larger share than it loses through combat. Direct combat rewards raise the compensation a peaceful bargain must provide; moderate goal-preservation preferences can protect a staged compromise against later concessions. The [findings report](research/reports/r0001-findings.md) explains the conditions and parameter boundaries. Establishing their breadth across preferences and environments remains the research priority. **CG-R001 remains the main research task; CG-03 is BLOCKED and the synthesis gate is not met.** Q01–Q06 remain open. No next recurrence is currently running.
 
 Run the standard-library exact-arithmetic checks from the repository root:
 

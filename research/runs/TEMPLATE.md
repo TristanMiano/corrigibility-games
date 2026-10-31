@@ -34,6 +34,15 @@ Record active segments without double-counting concurrent work. Do not infer ela
 - Ordinary fixed-utility / commitment comparison:
 - Which conclusions are new, standard, or unresolved:
 
+## Readable findings
+
+- Reader-facing report path (required for completion):
+- Main conditional headlines: which values, settings and incentives favor combat or compromise, and their connection to the charter questions:
+- Explained mechanisms, worked examples and parameter boundaries:
+- Preferences and environments covered; limits on naturalness or prevalence claims:
+- What remains unresolved across the broader project:
+- Reporting time excluded from research accounting:
+
 ## Supporting work
 
 - Primary sources checked and exact relevant sections:
