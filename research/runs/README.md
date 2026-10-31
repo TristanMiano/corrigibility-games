@@ -2,7 +2,7 @@
 
 **r0001 is COMPLETE, including the [reader-facing findings report](../reports/r0001-findings.md) added in the 2026-10-31 follow-up.** It continued within the same task until the required active-research floor was met; the initial handoff still owed this explanation. No second recurrence was started.
 
-Latest handoff: [r0001 — essay-faithful formalization](r0001.md), with [interval accounting](r0001-time.json). Conservative active estimates total **4h 00m 09s**, including **3h 34m 40s theory (89.39%)**. Both requirements were met without override. Earlier [CG-01/CG-02 preparation](../PREPARATION.md) and the reporting follow-up contribute no recurrence-time credit. **CG-03 is blocked: the synthesis gate is not met.** The next substantive task remains CG-R001, with broader comparisons of preferences, environments and parameter regions.
+Latest handoff: [r0001 — essay-faithful formalization](r0001.md), with [interval accounting](r0001-time.json). Conservative active estimates total **4h 00m 09s**, including **3h 34m 40s theory (89.39%)**. Both requirements were met without override. Earlier [CG-01/CG-02 preparation](../PREPARATION.md), the reporting follow-up and protocol revisions contribute no recurrence-time credit. **CG-03 is blocked: the synthesis gate is not met.** The next substantive task remains CG-R001, directed toward an integrated conditional result or an obstruction surviving richer agreements under the [revised protocol](../RECURRENCE.md). No next recurrence is running.
 
 Use `TEMPLATE.md` to create `r0001.md`, `r0002.md`, and so on for explicitly invoked research increments. Preserve partial runs and resume them transparently; do not reset the clock to hide an interruption or count overlapping intervals twice.
 

@@ -6,6 +6,8 @@ Game-theoretic research on voluntary utility modification, physically costly con
 
 The motivating essay is Tristan Miano's [The Corrigibility Folk Theorem](https://thothhermes.substack.com/p/the-corrigibility-folk-theorem). The essay motivates a research question; its title is not a theorem claim established by this repository. Here, corrigibility means a scoped willingness to accept utility modification, not automatically human alignment, obedience, or the usual full collection of AI corrigibility properties.
 
+The [core hypothesis](research/CHARTER.md#core-hypothesis-to-investigate) is that agents can choose genuine preference changes instrumentally: negotiated accommodation, including safeguards, can advance their current goals when other agents retain meaningful influence over their futures. Research seeks conditions that imply greater cooperation or combat, assesses how natural those conditions are, and investigates what capable agents can arrange through richer agreements. An integrated class result or an obstruction surviving serious repair attempts is the target. The [protocol](research/RECURRENCE.md) treats a matching delegation mechanism as an informative comparison, while evaluating preference change on its actual availability and adoption incentives.
+
 ## Research commitments
 
 Combat and compromise must differ in their **physical transition models**, not merely in an arbitrary payoff penalty. Conflict can disperse materials, damage organized infrastructure, dissipate available work, and create reconstruction and cooling delays. Negotiation, verification, and consensual updating also consume resources. We study when those differences change feasible outcomes and incentives.

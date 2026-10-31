@@ -10,6 +10,7 @@
 - Research time floor: 4h unless explicitly overridden
 - Minimum theory share: 0.75 unless explicitly overridden
 - Central question and why it matters:
+- Integrated target, defensible class and missing link this run advances:
 
 ## Work accounting
 
@@ -34,6 +35,18 @@ Record active segments without double-counting concurrent work. Do not infer ela
 - Ordinary fixed-utility / commitment comparison:
 - Which conclusions are new, standard, or unresolved:
 
+## Conditional explanation and agreement design
+
+- Conditions implying cooperation or combat; outcome measure, comparison, parameter range and selection assumptions:
+- Which conditions are simple or physically motivated, chosen by agents, or specially constructed; robustness and naturalness evidence:
+- Link from beneficial opportunities to proposal, current-goal adoption, installation and continuation:
+- Initial agreement space; relevant repairs attempted and their costs/capabilities; resulting enlarged class:
+- Obstruction classification: protocol-specific, repaired, persistent over the stated class, or unresolved; consequential repairs excluded and why:
+- Preference-change incentive: benefit over refusal, available alternatives, strict choice/indifference/displacement, and hypothetical stronger controls:
+- When relevant, capability effects and joint choice of accommodation/safeguards; scope of long-lived choice, innovation and descendant/population analysis:
+
+Use these entries to explain the mathematical target and evidence. Mark irrelevant items briefly; completion of a run does not require solving every link or extension.
+
 ## Readable findings
 
 - Reader-facing report path (required for completion):
@@ -53,7 +66,7 @@ Record active segments without double-counting concurrent work. Do not infer ela
 ## Coverage and handoff
 
 - Changes to answers on physics, combat availability, modification, freezing, and selection:
-- Synthesis gate status; specific remaining obligations:
+- Synthesis gate status; integrated class result or obstruction surviving feasible repairs, and specific remaining obligations:
 - One recommended next action:
 - Exact resumption point if partial:
 - Output commits / pull request:
