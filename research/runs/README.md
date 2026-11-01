@@ -1,8 +1,10 @@
 # Research runs
 
-**r0001 is COMPLETE, including the [reader-facing findings report](../reports/r0001-findings.md) added in the 2026-10-31 follow-up.** It continued within the same task until the required active-research floor was met; the initial handoff still owed this explanation. No second recurrence was started.
+**r0001 is COMPLETE, including the [reader-facing findings report](../reports/r0001-findings.md) added in the 2026-10-31 follow-up.** It continued within the same task until the required active-research floor was met; the initial handoff still owed this explanation. The reporting follow-up started no recurrence. R0002 has since been explicitly invoked.
 
-Latest handoff: [r0001 — essay-faithful formalization](r0001.md), with [interval accounting](r0001-time.json). Conservative active estimates total **4h 00m 09s**, including **3h 34m 40s theory (89.39%)**. Both requirements were met without override. Earlier [CG-01/CG-02 preparation](../PREPARATION.md), the reporting follow-up and protocol revisions contribute no recurrence-time credit. **CG-03 is blocked: the synthesis gate is not met.** The next substantive task remains CG-R001, directed toward an integrated conditional result or an obstruction surviving richer agreements under the [revised protocol](../RECURRENCE.md). No next recurrence is running.
+**Latest completed handoff: [r0002 — negotiated goals and protected continuations](r0002.md)**, with [readable findings](../reports/r0002-findings.md), [E3](../models/E3.md) and [interval accounting](r0002-time.json). Conservative estimates total **4h 2m 31s**, including **3h 53m 28s theory (96.27%)**. Both requirements were met without override; reporting and final review are uncredited.
+
+Earlier [r0001](r0001.md) records **4h 00m 09s**, **89.39% theory**, with unchanged accounting. [Preparation](../PREPARATION.md) and protocol/reporting follow-ups are separate. **CG-03 remains blocked: the synthesis gate is not met.** The next substantive task is CG-R001 only when explicitly invoked; r0002 recommends completing the private-information protocol and testing costed continuation refresh with partner choice.
 
 Use `TEMPLATE.md` to create `r0001.md`, `r0002.md`, and so on for explicitly invoked research increments. Preserve partial runs and resume them transparently; do not reset the clock to hide an interruption or count overlapping intervals twice.
 

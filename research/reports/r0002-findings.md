@@ -1,0 +1,110 @@
+# When changing goals helps agents obtain more of what they already want
+
+**Second recurrence, completed 2026-10-31 in the project timezone.** This report explains the findings of r0002. The [technical model E3](../models/E3.md), [claim ledger R201–R222](../CLAIMS.md#r0002--negotiated-goals-productive-commitments-and-protected-continuations) and [run record](../runs/r0002.md) supply the statements, proofs, assumptions and accounting. This is a report of one research round; CG-03 and project synthesis remain blocked. Results received contributing-agent self-checks, not independent verification.
+
+## Main conclusions
+
+**Productive interdependence can make a broader goal and a protective commitment jointly worth choosing.** Agents who initially care only about their own projects can obtain more of those projects by adopting goals that also reward a partner's output and fulfillment of an agreement. The useful package combines motivation to contribute with protection against later concessions. The initial decision is evaluated under the old goal; the successor genuinely uses its changed goal. In the principal numerical example, original expected project quantities rise from retained stocks of 3 each to 3.15 and 3.55 after implementation costs.
+
+**Risk buffers, insurance and diversification expand the class that benefits.** The mechanism extends from linear original preferences to diminishing-returns preferences. For the same risky batch, logarithmic agents choose productive accommodation above a stock threshold of about 6.7392. At stock 3, changing the production plan to three costed, partly independent batches makes accommodation attractive. More strongly risk-averse agents need more buffer or a better risk-sharing arrangement. These are conditions for productive cooperation; rejecting this particular gamble can mean peaceful retention.
+
+**Exclusive projects, public interception and valuable post-combat recovery can make fighting the equilibrium outcome.** In a separate one-use-project environment, a sufficiently small value for preserving agency leaves the prospective loser willing to interrupt a peaceful allocation. The resulting commitment problem supports a precise combat theorem. A voluntarily chosen concern for the other project, paired with a credible safeguard, can support peace and improve both original goals. A larger agency stake, or a sufficiently unequal strength split, can instead support ordinary peace with unchanged goals.
+
+**The attractive implementation depends on its actual alternatives.** A binding delegate with the same powers and costs can reproduce the useful behavior. That still leaves genuine preference change as an optimal available choice at a tie. Improved effort observation or larger collateral can make ordinary contracts competitive; a cheaper available device can displace direct goal change. Verification also has a price: greater accuracy can expand the adoptable region, while too many costly checks consume the gain.
+
+The central achievement is a connected conditional mechanism: **a valuable joint opportunity, credible contribution, a protected continuation and sufficiently weak outside temptations can support voluntary goal change under the founders' original preferences.** The hard implementation assumptions are explicit. The round proves the protection rule and conditional adoption results, and audits the supplied execution. A complete sequential-equilibrium specification for every off-path private-program negotiation remains unfinished. Neither that unfinished level nor the availability of a matched delegate erases the narrower constructive result.
+
+## Why a selfish founder might choose a broader successor goal
+
+Consider two agents with separate projects and a shared productive opportunity. Each begins with three finished project units. A calibration consumes 1.6 units from each contributing agent. With both contributions, the batch succeeds with probability 0.4 and yields ten new units. With only one contribution it succeeds with probability 0.1; alone, the expected new output is less than the calibration cost. Doing nothing preserves the initial stocks.
+
+Mutual contribution creates 0.8 expected net units before installation. Installing the proposed controllers costs 0.05 units per agent. A 45/55 success-output split then leaves expected holdings of 3.15 and 3.55. Both original agents strictly prefer these quantities to retention.
+
+That arithmetic establishes an opportunity. Execution needs another argument. Effort is private: an output contract that completely insures a participant can also tempt it to keep the insurance payment while saving its contribution. A more generous successor can solve one incentive problem while creating another: after it becomes willing to sacrifice its own project for joint value, a partner might exploit that willingness through new terms or manufactured threats.
+
+The construction addresses the two problems together. Its successor values its own output, places some positive weight on the other project's output, rewards actually fulfilling timely agreed obligations, and assigns a finite penalty to approving uncertified destructive or commitment-changing instructions. The obligation and approval terms are genuine history preferences. They are not part of the founders' original project-only utilities.
+
+The contribution reward is bounded but large enough that missing an agreed contribution remains unattractive even after the agent optimizes subsequent renegotiation. A missed past obligation stays missed for the self evaluating that choice. Future plans can still be amended before their deadlines. This distinction permits adaptation without pretending that rewriting a register changes the past.
+
+The guard is chosen voluntarily because its effect on the interaction benefits the founder. It does not forbid combat. Actual Work, Shirk and Attack remain available, and their incentives receive separate checks. After a contest, a surviving agent can recover materials and pursue its current goal; the guard does not punish it simply because its former partner has lost agency. [R204–R206; notes 046, 048, 049 and 056.](../CLAIMS.md#r0002--negotiated-goals-productive-commitments-and-protected-continuations)
+
+## How the protection works—and how it stays flexible
+
+Suppose an agent's current goal rewards its original welfare plus several other things. Its credible default agreement already achieves the largest feasible expected amount of each of those extra rewards. Then an alternative acceptable under that current goal must preserve at least its original expected welfare: the extra terms have no remaining room to compensate it for a loss.
+
+For example, a productive default can already maximize total expected output and fulfill the contribution obligation. Adding concern for those two things changes preferences, but it does not make an otherwise equal renegotiation that reduces the founder's project attractive. Applied to both agents, the rule protects both original welfare levels. Accepted replacements may change the controller, parameters, future tasks or allocation law when the dated conditions permit them. The protection concerns the continuation they can actually carry out, rather than eternal preservation of one piece of code.
+
+Several qualifications are essential to the result:
+
+- **Protect the real option.** If a partner can burn resources and replace the old default with a worse one, the certificate has changed. An earlier unguarded proposal failed this test: a public burn followed by a small loan request made the partner better off. The repaired package checks physical resources, commitments and timing as well as the installed utility.
+- **Use the actual information.** After a privately informed agent selects an offer, the receiver cannot safely reuse its old prior. The finite construction uses a conservative safeguard: later replacements must preserve original welfare in every still-possible private physical state. This covers deceptive offer selection without treating private effort as publicly observable. More permissive disclosure-based trades need further analysis.
+- **Refresh the agreement when opportunities improve.** If new production enlarges the frontier while the old default stays fixed, other-regard can again justify concessions of original welfare. A feasible, costed replacement that preserves old rights and reaches the new frontier restores the protection. The round derives this repair locally; implementing it repeatedly with new partners remains a next-stage obligation.
+
+These checks expose both the constructive mechanism and its implementation burden. The installed safeguards can be flexible about future plans while strict about actual rights and historical events. Reliable attestation of those facts is a strong endowed capability, not a consequence of self-knowledge. [R201–R205, R218 and R220.](../CLAIMS.md#r0002--negotiated-goals-productive-commitments-and-protected-continuations)
+
+## Which ordinary values favor productive compromise?
+
+The original agents in the productive examples value their own output. They need no initial preference for corrigibility, altruism or agreement fulfillment. Their risk preferences nevertheless matter.
+
+With logarithmic utility, an extra unit helps a poor project more than a rich one. The full batch's failure loses 1.65 units per agent after calibration and installation; success gains 3.35. At stock 3, that downside makes the single batch unattractive even if installation is free. Above about 6.7392 units, the same specified gamble with the actual installation cost becomes attractive. Both agents can then adopt a guarded goal that protects their original logarithmic welfare.
+
+The result extends across a familiar family of increasing, diminishing-returns goals, indexed by curvature gamma. Higher gamma means stronger aversion to this output risk. At every fixed stock there is a unique curvature threshold: below it the batch beats retention; above it retention beats the batch. Increasing stock strictly raises the accepted curvature threshold when the productive and combat technologies are held fixed. For gamma=2, the exact stock boundary is about 14.7929. For every fixed finite gamma, the conservative sufficient condition
+
+\[
+R\ge13\max(1,\gamma)-1
+\]
+
+supports the productive package and the associated guarded construction under its implementation assumptions. This is a quantified class result, rather than a collection of unrelated favorable utilities.
+
+Agents can also improve the arrangement instead of waiting to become wealthier. A linear risk bearer can insure an increasing concave partner if it has sufficient finite collateral. In the worked example, one founder receives 3.3 units for sure, while the risk bearer receives 0.4 or 10.4, averaging 4.4. Both original goals gain.
+
+When both founders are logarithmic and start at stock 3, splitting production among three compartments is another repair. It consumes additional material and work, and retains a 10% common-shock component. Even after those costs, each gains about 0.01143 log-utility units over retention. The result survives a specified neighborhood of cost and correlation values. As common risk grows, renegotiating from three active compartments to two extends the positive region: three remain optimal until correlation about 0.1801, two remain attractive until about 0.2695. Permanently insisting on three would lose the gain near 0.2102.
+
+Thus **lower curvature at a given stock, larger buffers, collateral-backed insurance, and affordable diversification each favor productive accommodation in the stated class**. Higher curvature, tightly correlated output and costly setup can favor retention. These comparisons concern actual goal values and production risks; they do not classify retention as fighting. [R206–R208.](../CLAIMS.md#r0002--negotiated-goals-productive-commitments-and-protected-continuations)
+
+## Which values and settings favor combat?
+
+The second environment gives the agents one core that can complete only one of two exclusive projects. Each values its own accomplishment, earlier completion, and a smaller benefit from uninterrupted agency. Peace can choose the winner by lottery and preserve both agents' agency. But the chosen project becomes public before completion, and the loser retains a chance to intercept, win control, repair the damage and complete its own project.
+
+The relevant combat condition combines values and institutions. If the agency benefit is small enough, the known loser wants to intercept a valuable peaceful project. Waiting until the project is sufficiently discounted can make restraint possible, but that delayed settlement can be worse for both initial agents than fighting immediately. Under the model's public-finalization and recoverability premises, the proved inequality then forces immediate combat in every sequentially rational equilibrium satisfying those premises. The theorem is conditional on such an equilibrium; it does not supply one for every unspecified infinite bargaining protocol.
+
+In the example, agency has weight 0.1, the project weight is 0.9, and discounting is 0.99 per time step. Combat takes ten steps to arrive, then two to repair, and project conversion takes 24. At equal strength, immediate combat gives each original agent about 0.36339. A verified guarded arrangement starts at step 13, completes at step 37 and gives each about 0.41025. Its implementation is slightly slower than combat plus repair, but preserving both agents' agency more than pays for that delay.
+
+A successor that values the other original goal sufficiently—concern above about 0.56891 in this example—prefers to respect even a losing lottery outcome. The founder chooses that changed goal because the resulting peace improves its original project-and-agency expectation. The successor still prioritizes its own project, and combat remains available. Concern values from 0.7 to 0.9 supply a strict working interval, rather than one exact equality.
+
+Relative strength changes both the threat and the feasible bargain. The sufficient ordinary-combat region in this example runs from victory probability about 0.1471 to 0.8529. At strength 0.8, negotiating project probability 0.85 for the stronger agent and choosing concern 0.8 for both supports guarded peace with strict original gains. At strength 0.9, the weaker original agent values preserving agency more than its small chance of winning: assigning the whole project to the stronger party already supports ordinary peace. A larger agency weight likewise supports unchanged-goal peace at equal strength.
+
+This supplies the requested positive answers. **Valuing an exclusive accomplishment highly relative to continued agency favors combat when its visible loss can be reversed by a profitable contest. Valuing retained agency sufficiently, being sufficiently weak relative to that stake, or choosing credible concern for the other project favors compromise in that environment.** Binding delegation, hidden final allocation and altered recovery can also repair the commitment problem when physically available. The combat result's public-interception and protected-recovery assumptions are as consequential as the guarded construction's attestation assumptions; neither is treated as typical by default. [R215–R216; full derivation and controls in note 054.](../notes/054-public-conversion-combat-and-accommodation.md)
+
+## What capability and alternative mechanisms change
+
+The productive physics explicitly separates material from useful work. Its default causal schedule consumes 10.402 of eleven work units. Combat disperses material and damages infrastructure; recovery needs both work and time. Before production the recoverable total is at most four units. After the reaction spends ten work units, it is at most 4/11. Those limits make the displayed productive holdings preferable to attacking; no infinite combat penalty or rule deleting Attack supplies peace. They are engineering assumptions, not empirically calibrated thermodynamics.
+
+Other capabilities affect a different part of the argument:
+
+| Change, with the stated other features held fixed | Consequence established this round |
+| --- | --- |
+| Negotiate shares instead of insisting on a fixed split | More strength configurations satisfy both founders' participation bounds. |
+| Observe effort and provide the binding option contract | Ordinary unchanged-goal incentives can implement an insurance/effort repair. |
+| Increase usable collateral and permit private mediated recommendations | The best ordinary linear contract approaches the efficient productive frontier. |
+| Supply an equal-cost binding delegate with matched authority | Delegation and genuine goal change can tie as optimal implementations. |
+| Supply a cheaper compatible device | Direct goal change can be displaced; compare actual costs. |
+| Improve a uniform adversarial verification bound | Fewer costly checking layers can suffice for the displayed adoption margin. |
+| Improve production while preserving an obsolete fallback | The old protection can weaken; feasible costed refresh restores it. |
+| Improve combat speed or recovery | Fighting becomes a better outside option in the relevant dated comparisons. |
+
+One exact cost comparison makes the ordinary control substantive. At stock 3, the optimal specified hidden-effort ordinary output contract yields total net surplus 0.4, while the guarded arrangement yields 0.7 after its 0.1 combined installation cost. Increasing collateral improves the ordinary frontier. If ordinary implementation is free, its frontier ties 0.7 at stock 17.6 and exceeds it above that. Implementing that mediated frontier safely through every earlier attack checkpoint remains a separate obligation. The arithmetic nevertheless shows why a fixed-cost modification advantage should not be extrapolated indefinitely.
+
+Verification quality should also be distinguished from the consequence of failure. A rejected installation that safely leaves almost all stock intact can be tolerable; a tiny chance of losing everything can consume the same expected gain. In the large-stock power-utility calculation, tolerance of the specified safe-abort error approaches 7/8, while tolerance of a catastrophic zero-utility failure approaches zero. These are preferences over declared error laws, not measured reliability claims. Strategic false acceptance requires the additional uniform bounds derived in the technical model. [R209–R214, R217–R218.](../CLAIMS.md#r0002--negotiated-goals-productive-commitments-and-protected-continuations)
+
+## What is natural, what is engineered, and what remains open?
+
+The strongest naturalness evidence here concerns the **original values** and the existence of parameter regions. Own-project utility, diminishing returns, finite risk buffers, an exclusive accomplishment, discounting and agency are simple interpretable starting preferences. Productive complementarity, finite collateral, communication delay and costly recovery have independent physical or economic motivations. The results vary curvature, stocks, correlation, strength, shares, costs and implementation errors instead of relying only on one fitted example.
+
+The successor package is deliberately engineered. It needs a bounded history-sensitive reward, a verified instruction relation, reliable records, credible default rights and suitable installation timing. The finite coefficients can be large relative to output utility. The model shows why an original agent can choose such a package when it is available and worthwhile; it does not show that arbitrary agents can cheaply discover, represent or certify it. The ordinary combat module likewise relies on demanding control and information properties. Applying equal scrutiny to these assumptions is essential to interpreting the comparison.
+
+Strategically useful altruism, team incentives, mediated contracts, commitment and peaceful lotteries have substantial prior literature. The [source map](../LITERATURE.md#r0002-additions-productive-commitments-and-broader-ordinary-contracts) records the primary texts and access limits. The contribution claimed here is the explicit connection among current-goal choice, protection of original welfare, retained physical conflict, finite implementation costs and repaired agreement design. Generic strategic altruism or commitment is not claimed as novel.
+
+The achieved levels are a general continuation certificate, conditional initial adoption, and the audited selected execution in declared technologies. Weak mutual-attack or failed-coordination equilibria can coexist. Complete off-path private-information equilibrium, repeated opportunities and partner choice, general coalition stability, goal innovation, inheritance and population prevalence remain open. A three-agent coalition calculation supplies one conditional repair, not a completed multi-agent extension. No claim about how frequently natural agents adopt the package follows from counting these examples.
+
+**The next task should close the specified private-information protocol before extending it to renewed opportunities.** Start with a finite version allowing private effort, offers, timely amendments, exit and attacks; construct complete current-self strategies and consistent beliefs. Test whether a costed refresh and partner option preserve the successful adoption region, and identify the conditions that instead favor ordinary contracting, retention or combat. This advances the original constructive question while subjecting both success and obstruction claims to the same agreement-repair standard. It requires another explicitly invoked recurrence.

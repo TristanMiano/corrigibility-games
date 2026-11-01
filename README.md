@@ -20,6 +20,7 @@ We distinguish terminal-goal preservation, utility-freezing preferences, policy 
 
 ## Start here
 
+- **[Second-round findings: when changing goals advances existing goals](research/reports/r0002-findings.md)**: the protected-continuation mechanism, risk and strength boundaries, ordinary contract repairs, and what is simple or engineered in the conditions.
 - **[First-round findings: when agents favor combat or compromise](research/reports/r0001-findings.md)**: readable conclusions, worked examples, a parameter guide, and what remains unanswered about natural agents and game environments.
 - [TODO](TODO.md): preparation, initial literature review, **one main repeatable research task**, then synthesis and publication.
 - [AGENTS](AGENTS.md): instructions for ChatGPT, Codex, and other contributors.
@@ -27,6 +28,7 @@ We distinguish terminal-goal preservation, utility-freezing preferences, policy 
 - **[Aim preservation and balanced research](research/AIM_BALANCE.md)**: binding charter companion, initial framing audit, equal explicit constructive and limiting searches, and required self-review after every task.
 - [Flexible model contract C1](research/MODEL.md), [reference instance E1](research/models/E1.md), and [assumption register](research/ASSUMPTIONS.md): physical transitions, bargaining, utility semantics, freezing, and selection. E1's choices are replaceable examples, not recurrence defaults.
 - [Essay model E2](research/models/E2.md) and [first-recurrence mathematics](research/notes/010-essay-formalization.md): strength, recovery, adoption, deception, freezing and installation reliability; local assumptions remain revisable.
+- [Negotiated-goal model E3](research/models/E3.md) and [completed second recurrence r0002](research/runs/r0002.md): conditional adoption with chosen safeguards, finite physical execution, concave original goals, ordinary alternatives and a conditional combat module.
 - [Literature map](research/LITERATURE.md), [claim ledger](research/CLAIMS.md), and [seed derivations](research/notes/000-baselines.md): sources, proof obligations, and elementary benchmarks.
 - [Completed first recurrence: r0001](research/runs/r0001.md), [preparation handoff](research/PREPARATION.md), [run index](research/runs/README.md), and [initialization record](research/INITIALIZATION.md): actual work and handoffs.
 
@@ -36,7 +38,9 @@ Research is not an automatically scheduled service; each recurrence is explicitl
 
 Initialized on 2026-10-30. **CG-01, CG-02 and the first recurrence r0001 are complete, with its reader-facing report added in the 2026-10-31 follow-up.** The research was merged in [PR #2](https://github.com/TristanMiano/corrigibility-games/pull/2). R0001's conservative active-research estimate remains **4h 00m 09s, 89.39% theory**; reporting adds no research-time credit. E2.1 provides an essay-faithful family of conditional models, with contributing-agent self-checks. C1 remains flexible.
 
-R0001 constructs genuine voluntary preference change: an agent adopts a balanced goal because the resulting interaction gives it more of its original project than keeping its goal or attacking. Further constructions combine accommodation with chosen safeguards and sustain a changing-strength path. Explicit boundaries identify where costs, control rights, information or combat returns favor retention or fighting instead; the long-run models contain both change and persistence regions. The [findings report](research/reports/r0001-findings.md) explains these conditions and their naturalness assumptions. The separate [2026-10-31 aim review](research/runs/r0001.md#end-of-task-aim-preservation-review--2026-10-31) corrects omissions in their earlier interpretation without adding recurrence time. Establishing their breadth and integrating the mechanisms remains the research priority. **CG-R001 remains the main research task; CG-03 is BLOCKED and the synthesis gate is not met.** Q01–Q06 remain open. No next recurrence is currently running.
+R0001 constructs genuine voluntary preference change: an agent adopts a balanced goal because the resulting interaction gives it more of its original project than keeping its goal or attacking. Further constructions combine accommodation with chosen safeguards and sustain a changing-strength path. Explicit boundaries identify where costs, control rights, information or combat returns favor retention or fighting instead; the long-run models contain both change and persistence regions. The [findings report](research/reports/r0001-findings.md) explains these conditions and their naturalness assumptions. The separate [2026-10-31 aim review](research/runs/r0001.md#end-of-task-aim-preservation-review--2026-10-31) corrects omissions in their earlier interpretation without adding recurrence time. Establishing their breadth and integrating the mechanisms remains the research priority. **CG-R001 remains the main research task; CG-03 is BLOCKED and the synthesis gate is not met.** Q01–Q06 remain open.
+
+**[R0002 is COMPLETE](research/runs/r0002.md): 4h 2m 31s estimated active research, 96.27% theory, with the [readable findings report](research/reports/r0002-findings.md) and required aim review.** E3 connects protected continuations to conditional adoption across linear and diminishing-returns original goals. Full off-path private-protocol equilibrium and repeated opportunity/partner-choice analysis remain open; CG-03 stays blocked.
 
 Run the standard-library exact-arithmetic checks from the repository root:
 
@@ -44,6 +48,6 @@ Run the standard-library exact-arithmetic checks from the repository root:
 python -m unittest discover -s tests -v
 ```
 
-The **109 checks** cover seed calculations, E1.1's physical ledgers and E2's mathematical examples, including exact LP/game checks and explicitly labeled numerical support. Tests do not replace proofs, calibrate physics, solve every model-family game or independently verify the population results.
+The **131 checks** cover seed calculations, E1.1's physical ledgers, E2's examples and E3's contract, risk, implementation and combat inequalities. They include exact LP/game calculations and rational interval bounds. Tests do not replace proofs, calibrate physics, solve every model-family game or independently verify results.
 
 The existing [MIT license](LICENSE) is retained. References to third-party works do not relicense those works.
