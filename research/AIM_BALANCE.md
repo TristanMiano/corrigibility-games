@@ -71,6 +71,8 @@ Read the complete changed material and its surrounding active instructions, not 
 
 Record the review in the existing run record, task report, or pull-request description; a separate administrative file is not required. Include the original aim and scope, paths/sections reviewed, constructive and limiting evidence or attempts, specific omissions or inversions found, corrections made, and remaining obligations. A bare “no bias found” checkbox is insufficient. For a documentation task, examine whether the resulting instructions actually require both kinds of research; new mathematical results are not required.
 
+Every findings report must also end with about one paragraph acknowledging this de-biasing review, describing any bias or risk of bias reintroduced during the work and the concrete steps taken to mitigate it. Summarize actual findings and corrections, distinguish identified bias from possible risks, and state relevant remaining limits; do not invent a bias finding or claim that the review guarantees impartiality. Preserve constructive results and limiting results at their supported scope. The paragraph may link to the detailed run review but must convey the acknowledgment and mitigation itself. This supplements the detailed review record above.
+
 For work under the unoverridden default policy, an unperformed review or an uncorrected framing defect means the task is not yet complete. An honestly scoped unresolved mathematical question is not itself a framing defect. The review is an agent self-review unless an independent review actually occurred. Documentation and reporting time remain outside the mathematical research clock.
 
 ## 5. Initial framing audit and corrective interpretation
