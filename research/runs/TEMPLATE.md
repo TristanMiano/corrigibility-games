@@ -56,6 +56,7 @@ Use these entries to explain the mathematical target and evidence. Mark irreleva
 - Explained mechanisms, worked examples and parameter boundaries:
 - Preferences and environments covered; limits on naturalness or prevalence claims:
 - What remains unresolved across the broader project:
+- Final report paragraph acknowledging the [AIM_BALANCE](../AIM_BALANCE.md#4-end-of-task-review) de-biasing review, any identified or possible reintroduced bias, concrete mitigations and remaining limits:
 - Reporting time excluded from research accounting:
 
 ## Supporting work
