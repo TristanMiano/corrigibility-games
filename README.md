@@ -20,6 +20,8 @@ We distinguish terminal-goal preservation, utility-freezing preferences, policy 
 
 ## Start here
 
+- **[Third-round findings: credible information, chosen goal change and combat](research/reports/r0003-findings.md)**: a solved finite private-information game, verification-price boundaries, costed peaceful repairs, and the remaining physical implementation gap.
+
 - **[Second-round findings: when changing goals advances existing goals](research/reports/r0002-findings.md)**: the protected-continuation mechanism, risk and strength boundaries, ordinary contract repairs, and what is simple or engineered in the conditions.
 - **[First-round findings: when agents favor combat or compromise](research/reports/r0001-findings.md)**: readable conclusions, worked examples, a parameter guide, and what remains unanswered about natural agents and game environments.
 - [TODO](TODO.md): preparation, initial literature review, **one main repeatable research task**, then synthesis and publication.
@@ -36,6 +38,8 @@ Research is not an automatically scheduled service; each recurrence is explicitl
 
 ## Status and checks
 
+**[R0003 is COMPLETE](research/runs/r0003.md): 4h 5m 40s estimated active research, 88.74% theory.** [E4](research/models/E4.md) proves selected staged goal adoption and a verification-cost boundary between peaceful diagnosis and actual combat. The [findings report](research/reports/r0003-findings.md) explains the mechanisms, ordinary controls and naturalness assumptions. Full physical implementation of the enlarged agreement menu and repeated choice remain open; CG-03 stays blocked.
+
 Initialized on 2026-10-30. **CG-01, CG-02 and the first recurrence r0001 are complete, with its reader-facing report added in the 2026-10-31 follow-up.** The research was merged in [PR #2](https://github.com/TristanMiano/corrigibility-games/pull/2). R0001's conservative active-research estimate remains **4h 00m 09s, 89.39% theory**; reporting adds no research-time credit. E2.1 provides an essay-faithful family of conditional models, with contributing-agent self-checks. C1 remains flexible.
 
 R0001 constructs genuine voluntary preference change: an agent adopts a balanced goal because the resulting interaction gives it more of its original project than keeping its goal or attacking. Further constructions combine accommodation with chosen safeguards and sustain a changing-strength path. Explicit boundaries identify where costs, control rights, information or combat returns favor retention or fighting instead; the long-run models contain both change and persistence regions. The [findings report](research/reports/r0001-findings.md) explains these conditions and their naturalness assumptions. The separate [2026-10-31 aim review](research/runs/r0001.md#end-of-task-aim-preservation-review--2026-10-31) corrects omissions in their earlier interpretation without adding recurrence time. Establishing their breadth and integrating the mechanisms remains the research priority. **CG-R001 remains the main research task; CG-03 is BLOCKED and the synthesis gate is not met.** Q01–Q06 remain open.
@@ -48,6 +52,6 @@ Run the standard-library exact-arithmetic checks from the repository root:
 python -m unittest discover -s tests -v
 ```
 
-The **131 checks** cover seed calculations, E1.1's physical ledgers, E2's examples and E3's contract, risk, implementation and combat inequalities. They include exact LP/game calculations and rational interval bounds. Tests do not replace proofs, calibrate physics, solve every model-family game or independently verify results.
+The **161 checks** cover seed calculations, E1.1's physical ledgers, E2's examples, E3's contract/risk/implementation inequalities, and E4's finite assessments, diagnostic/combat boundaries and repair controls. They include exact LP/game calculations and rational interval bounds. Tests do not replace proofs, calibrate physics, solve every model-family game or independently verify results.
 
 The existing [MIT license](LICENSE) is retained. References to third-party works do not relicense those works.
