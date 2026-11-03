@@ -1,0 +1,229 @@
+{
+  "run_id": "r0004",
+  "status": "COMPLETE",
+  "input_commit": "0eebdaf8fdfd5f7dd40f9accdbc0c0195d14e2f9",
+  "floor_seconds": 14400,
+  "theory_share_min": 0.75,
+  "accounting": "Observed nonoverlapping UTC boundaries with conservative active estimates. Setup, reporting, administration, idle time and unattended computation are excluded. No prior-run time is credited.",
+  "segments": [
+    {
+      "id": "T01",
+      "category": "theory",
+      "start_utc": "2026-11-02T22:17:52Z",
+      "end_utc": "2026-11-02T22:37:57Z",
+      "gross_seconds": 1205,
+      "active_seconds_estimate": 1100,
+      "topic": "Causal timing audit; derive public-progress staged screening, compromise-goal continuation, current-self adoption and recursive posterior/cost formulas.",
+      "artifact": "research/notes/073-observable-progress-and-staged-screening.md",
+      "exclusion": "105 seconds conservatively excluded for tool/read overhead, progress commentary and nonmathematical organization; active amount is an estimate."
+    },
+    {
+      "id": "T02",
+      "category": "theory",
+      "start_utc": "2026-11-02T22:38:07Z",
+      "end_utc": "2026-11-02T22:53:37Z",
+      "gross_seconds": 930,
+      "active_seconds_estimate": 860,
+      "topic": "Stage-combat cap recursion, sunk-cost/high-type proof strengthening, common-belief timing audit, and exact ordinary burn/payment supporting bound with constructive compromise region.",
+      "artifact": "research/notes/073-observable-progress-and-staged-screening.md; research/notes/074-ordinary-costly-signals-and-transfer-capacity.md",
+      "exclusion": "70 seconds excluded for command/read overhead, commentary and artifact organization. Algebraic work and proof writing counted as theory; no reporting credit."
+    },
+    {
+      "id": "T03",
+      "category": "theory",
+      "start_utc": "2026-11-02T22:53:57Z",
+      "end_utc": "2026-11-02T23:05:41Z",
+      "gross_seconds": 704,
+      "active_seconds_estimate": 650,
+      "topic": "Prove capped combat recursion, relaxed remaining-cost adoption, stage-order comparative statics; construct conserved resource/clock kernel and repair the off-path increasing-damage posterior case.",
+      "artifact": "research/notes/075-stage-costs-combat-and-implementation-order.md; research/notes/076-causal-frames-and-recovery-costs.md",
+      "exclusion": "54 seconds conservatively excluded for commentary, tool latency and organization; no reporting or idle time credited."
+    },
+    {
+      "id": "C01",
+      "category": "computation",
+      "start_utc": "2026-11-02T23:05:55Z",
+      "end_utc": "2026-11-02T23:12:43Z",
+      "gross_seconds": 408,
+      "active_seconds_estimate": 385,
+      "topic": "Build and audit the complete staged finite tree and independent mathematical checks; repair recognized-controller perturbation powers exposed by cheaper delegation.",
+      "artifact": "experiments/r0004_staged_assessment.py; tests/test_r0004_staged_assessment.py",
+      "exclusion": "23 seconds excluded for command latency and commentary; no unattended-compute credit."
+    },
+    {
+      "id": "T04",
+      "category": "theory",
+      "start_utc": "2026-11-02T23:12:43Z",
+      "end_utc": "2026-11-02T23:19:54Z",
+      "gross_seconds": 431,
+      "active_seconds_estimate": 390,
+      "topic": "Audit terminal exposure, early and reused controllers, safe-exit races and endogenous receiver reservation payoffs; repair finite shipping/recovery timing.",
+      "artifact": "research/notes/076-causal-frames-and-recovery-costs.md; forthcoming 077/078 proof and alternative-controller notes",
+      "exclusion": "41 seconds excluded for small supporting code changes, test latency, status inspection and bookkeeping. Theoretical controller/renegotiation analysis remains scoped as work in progress."
+    },
+    {
+      "id": "T05",
+      "category": "theory",
+      "start_utc": "2026-11-02T23:20:07Z",
+      "end_utc": "2026-11-02T23:36:50Z",
+      "gross_seconds": 1003,
+      "active_seconds_estimate": 930,
+      "topic": "Complete finite-core consistency/current-self proof; derive a late-controller counterexample, strategically adjusted screening equilibrium and a voluntarily purchased recovery repair; audit partial activation and controller cost bounds.",
+      "artifact": "research/notes/077-staged-assessment-and-controller-completion.md; research/notes/078-late-threats-and-chosen-recovery.md",
+      "exclusion": "73 seconds excluded for commentary, small exact support calculations, tool latency and organization. The enriched H tree is not yet claimed checked."
+    },
+    {
+      "id": "C02",
+      "category": "computation",
+      "start_utc": "2026-11-02T23:37:00Z",
+      "end_utc": "2026-11-02T23:41:43Z",
+      "gross_seconds": 283,
+      "active_seconds_estimate": 260,
+      "topic": "Extend the exact staged tree with a genuine hostile evaluator, non-atomic H installations at every frame, changing low continuations and selected backup recovery; verify adapted equilibria and welfare differences.",
+      "artifact": "experiments/r0004_staged_assessment.py; tests/test_r0004_staged_assessment.py; research/notes/078-late-threats-and-chosen-recovery.md",
+      "exclusion": "23 seconds excluded for tool latency and nonresearch presentation. Sixteen focused exact checks passed."
+    },
+    {
+      "id": "L01",
+      "category": "literature",
+      "start_utc": "2026-11-02T23:42:17Z",
+      "end_utc": "2026-11-02T23:47:45Z",
+      "gross_seconds": 328,
+      "active_seconds_estimate": 240,
+      "topic": "Inspect primary costly-signaling and recursive-inspection sources, including the correction to the burned-money result; identify matched controls and information conditions.",
+      "artifact": "research/LITERATURE.md (L33-L35 additions pending consolidation)",
+      "exclusion": "88 seconds excluded for browsing latency, context restoration and nonresearch organization. Scope of source reading recorded separately; abstract or metadata access is not counted as theorem verification."
+    },
+    {
+      "id": "T06",
+      "category": "theory",
+      "start_utc": "2026-11-02T23:47:54Z",
+      "end_utc": "2026-11-03T00:13:49Z",
+      "gross_seconds": 1555,
+      "active_seconds_estimate": 1450,
+      "topic": "Derive two-cap and combat-information ordinary-mechanism bounds; solve post-refusal cash bargaining and continuous-policy screening; derive endogenous disagreement values and a strict funded-adoption candidate; audit cash timing and controller-price closure assumptions.",
+      "artifact": "research/notes/079-funded-controls-and-combat-information.md; research/notes/080-continuous-policies-and-late-cash-bargaining.md; 081 funded-adoption construction pending",
+      "exclusion": "105 seconds conservatively excluded for commentary, tool latency, context/read overhead and organization. Short exact arithmetic assisted the derivations; no reporting or idle credit."
+    },
+    {
+      "id": "T07",
+      "category": "theory",
+      "start_utc": "2026-11-03T00:14:02Z",
+      "end_utc": "2026-11-03T00:41:19Z",
+      "gross_seconds": 1637,
+      "active_seconds_estimate": 1500,
+      "topic": "Derive initial funded-adoption and robust prior interval; audit non-atomic escrow, live cash and controller deviations; derive a causal cheap-threat safeguard and preemptive combat boundary; test earlier goal changes and negotiated targets as substantive repairs; extend the ordinary bound to offset receiver goals.",
+      "artifact": "research/notes/079-funded-controls-and-combat-information.md; research/notes/081-funded-adoption-before-private-information.md; research/notes/082-fast-exit-early-goals-and-negotiated-safeguards.md",
+      "exclusion": "137 seconds conservatively excluded for commentary, tool/read latency, artifact organization and brief exploratory support calculations. Initial interface and expanded safeguard closure remain explicitly scoped; no reporting or idle time credited."
+    },
+    {
+      "id": "C03",
+      "category": "computation",
+      "start_utc": "2026-11-03T00:41:40Z",
+      "end_utc": "2026-11-03T00:57:44Z",
+      "gross_seconds": 964,
+      "active_seconds_estimate": 880,
+      "topic": "Extend the exact tree to threatening preemption, causal exit with retained shots, paid post-refusal quotes and rational continuous-policy fixtures; independently certify participation and the prior interval; use a small linear program to audit the strongest ordinary contest control.",
+      "artifact": "experiments/r0004_staged_assessment.py; experiments/r0004_funded_checks.py; tests/test_r0004_staged_assessment.py; tests/test_r0004_funded_checks.py",
+      "exclusion": "84 seconds excluded for command/test latency, commentary and organization. Thirty focused checks passed. The linear program is diagnostic numerical support; its sharp-bound derivation is the next theory interval."
+    },
+    {
+      "id": "T08",
+      "category": "theory",
+      "start_utc": "2026-11-03T00:58:05Z",
+      "end_utc": "2026-11-03T01:27:47Z",
+      "gross_seconds": 1782,
+      "active_seconds_estimate": 1660,
+      "topic": "Derive the sharp ordinary contest/burn frontier and finite captured-state punishment bound; construct a punitive control that displaces the first package, then repair the goal and prove a uniform negotiated-target family and receiver-proposer witness; audit finite representation and pre-state current-self completion.",
+      "artifact": "research/notes/083-costed-combat-information-and-renegotiated-goals.md; research/notes/084-prestate-completion-and-scope-of-the-offer-game.md",
+      "exclusion": "122 seconds conservatively excluded for command/read latency, commentary and organization. Exact support calculations assisted the proofs; initial completion is conditional on the explicitly priced recognition/custody interface."
+    },
+    {
+      "id": "L02",
+      "category": "literature",
+      "start_utc": "2026-11-03T01:28:07Z",
+      "end_utc": "2026-11-03T01:34:13Z",
+      "gross_seconds": 366,
+      "active_seconds_estimate": 280,
+      "topic": "Read Townsend 1979 stochastic verification model and Section 4; compare audit incentives and finite punishment with primary metadata for Border-Sobel and the Kattwinkel-Preusser model; verify Kartik publication metadata.",
+      "artifact": "Literature ledger update pending; notes 079 and 083 comparison",
+      "exclusion": "86 seconds conservatively excluded for web latency, context compaction, commentary and administration. Border-Sobel full PDF inaccessible; no theorem audit claimed."
+    },
+    {
+      "id": "C04",
+      "category": "computation",
+      "start_utc": "2026-11-03T01:34:35Z",
+      "end_utc": "2026-11-03T01:36:37Z",
+      "gross_seconds": 122,
+      "active_seconds_estimate": 105,
+      "topic": "Add exact finite-punishment frontier, repaired full-budget packages, both proposer comparisons and uniform prior-family certificates; repair continuous-policy combat branching and broaden common tremble exponent; run 36 focused checks.",
+      "artifact": "experiments/r0004_funded_checks.py; experiments/r0004_staged_assessment.py; tests/test_r0004_funded_checks.py",
+      "exclusion": "17 seconds excluded for test/tool latency and commentary."
+    },
+    {
+      "id": "T09",
+      "category": "theory",
+      "start_utc": "2026-11-03T01:37:04Z",
+      "end_utc": "2026-11-03T02:00:02Z",
+      "gross_seconds": 1378,
+      "active_seconds_estimate": 1290,
+      "topic": "Derive the attained audit frontier and payment-slack segment, finite-punishment crossing, monotone original-welfare goal tradeoff, and all-strength extension; construct a cheap early-goal disagreement and renegotiated repair; derive beneficial further accommodation, a scoped stability threshold and the exact cash-allocation identity.",
+      "artifact": "research/notes/083-costed-combat-information-and-renegotiated-goals.md; research/notes/085-sharp-choice-frontiers-and-goal-bargaining.md; research/notes/086-early-accommodation-and-a-repaired-disagreement.md; research/notes/087-further-goal-change-and-the-price-of-stability.md",
+      "exclusion": "88 seconds conservatively excluded for commentary, tools, administrative reads and organization. Short exact calculations supported derivation. Repeated cheap two-sided goal choice remains explicitly unresolved."
+    },
+    {
+      "id": "C05",
+      "category": "computation",
+      "start_utc": "2026-11-03T02:00:57Z",
+      "end_utc": "2026-11-03T02:02:10Z",
+      "gross_seconds": 73,
+      "active_seconds_estimate": 60,
+      "topic": "Certify the all-strength prior family, changed-disagreement early-goal repair, sharp ordinary frontier inversion, successor incentive comparison and exact cash-allocation identity; 40 focused checks pass.",
+      "artifact": "experiments/r0004_funded_checks.py; tests/test_r0004_funded_checks.py",
+      "exclusion": "13 seconds excluded for test/tool latency and administration."
+    },
+    {
+      "id": "T10",
+      "category": "theory",
+      "start_utc": "2026-11-03T02:02:51Z",
+      "end_utc": "2026-11-03T02:16:09Z",
+      "gross_seconds": 798,
+      "active_seconds_estimate": 735,
+      "topic": "Audit finite-tree current-self evaluation, continuous deviations, custody, finite-punishment coupling and matched delegation; derive an interim renegotiation condition without freezing proposal beliefs; replace the history-penalty threat by an outcome-threshold preference and derive its combat/guard conditions.",
+      "artifact": "research/notes/088-assessment-audit-and-renegotiation-scope.md; research/notes/089-outcome-threshold-goals-and-combat.md; proof audit of notes 073--087 and the exact tree",
+      "exclusion": "63 seconds conservatively excluded for commentary, read/tool latency, accounting and organization. No reporting or idle time credited."
+    },
+    {
+      "id": "C06",
+      "category": "computation",
+      "start_utc": "2026-11-03T02:16:23Z",
+      "end_utc": "2026-11-03T02:18:07Z",
+      "gross_seconds": 104,
+      "active_seconds_estimate": 88,
+      "topic": "Implement the outcome-threshold successor with its actual current utility; check effective attacks, refusal to fire after causal exit, and return of preemptive combat with expensive exit. All 43 focused checks pass.",
+      "artifact": "experiments/r0004_staged_assessment.py; tests/test_r0004_staged_assessment.py",
+      "exclusion": "16 seconds excluded for test/tool latency and accounting."
+    },
+    {
+      "id": "T11",
+      "category": "theory",
+      "start_utc": "2026-11-03T02:18:07Z",
+      "end_utc": "2026-11-03T02:45:52Z",
+      "gross_seconds": 1665,
+      "active_seconds_estimate": 1550,
+      "topic": "Derive optimal stage ordering and founder/current verification-cost tradeoffs; prove a joint-surplus stability bound over arbitrary successor criteria, concave-goal and stable-threshold constructions, and the transparent funded-trade Pareto obstruction; derive the timely-counteroffer repair; audit the complete ordinary-control remainder and strict-truth early-goal variant.",
+      "artifact": "research/notes/090-ordering-work-under-a-changed-goal.md; research/notes/091-joint-surplus-and-stable-outcome-goals.md; research/notes/092-paid-counteroffers-before-goal-activation.md; research/notes/093-remainder-certificate-for-the-ordinary-bound.md; amendments to 083, 085 and 086",
+      "exclusion": "115 seconds conservatively excluded for commentary, command/read latency, accounting, administrative navigation and organization. Brief exact and symbolic calculations assisted proof checking. Reporting and final repository review begin after this interval and receive no credit."
+    }
+  ],
+  "research_floor_met": true,
+  "research_end_utc": "2026-11-03T02:45:52Z",
+  "active_seconds_estimate": 14413,
+  "category_seconds_estimate": {
+    "theory": 12115,
+    "computation": 1778,
+    "literature": 520
+  },
+  "theory_share": 0.8405606050093666,
+  "completion_note": "Floor and theory share met; findings report and substantive AIM_BALANCE self-review completed. Reporting, final review, post-floor corrections and publication are uncredited."
+}
