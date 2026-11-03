@@ -20,6 +20,8 @@ We distinguish terminal-goal preservation, utility-freezing preferences, policy 
 
 ## Start here
 
+- **[Fourth-round findings: funded goals, credible threats and protection](research/reports/r0004-findings.md)**: mutually preferred genuine changes, stronger ordinary controls and negotiated repairs, value conditions for combat, and scoped stability with chosen safeguards. [E5](research/models/E5.md) gives the technical model.
+
 - **[Third-round findings: credible information, chosen goal change and combat](research/reports/r0003-findings.md)**: a solved finite private-information game, verification-price boundaries, costed peaceful repairs, and the remaining physical implementation gap.
 
 - **[Second-round findings: when changing goals advances existing goals](research/reports/r0002-findings.md)**: the protected-continuation mechanism, risk and strength boundaries, ordinary contract repairs, and what is simple or engineered in the conditions.
@@ -38,6 +40,8 @@ Research is not an automatically scheduled service; each recurrence is explicitl
 
 ## Status and checks
 
+**[R0004 is COMPLETE](research/runs/r0004.md): 4h 00m 13s counted active-research estimate, 84.06% theory.** [E5](research/models/E5.md) connects observable progress and funded negotiation to conditional initial adoption across a prior/strength class, with actual ordinary controls, early-goal repairs and protection/stability boundaries. The [findings report](research/reports/r0004-findings.md) explains what values and incentives favor each outcome. Reusable two-sided goals, live renegotiation and broader long-run coverage remain open; **CG-03 stays blocked**.
+
 **[R0003 is COMPLETE](research/runs/r0003.md): 4h 5m 40s estimated active research, 88.74% theory.** [E4](research/models/E4.md) proves selected staged goal adoption and a verification-cost boundary between peaceful diagnosis and actual combat. The [findings report](research/reports/r0003-findings.md) explains the mechanisms, ordinary controls and naturalness assumptions. Full physical implementation of the enlarged agreement menu and repeated choice remain open; CG-03 stays blocked.
 
 Initialized on 2026-10-30. **CG-01, CG-02 and the first recurrence r0001 are complete, with its reader-facing report added in the 2026-10-31 follow-up.** The research was merged in [PR #2](https://github.com/TristanMiano/corrigibility-games/pull/2). R0001's conservative active-research estimate remains **4h 00m 09s, 89.39% theory**; reporting adds no research-time credit. E2.1 provides an essay-faithful family of conditional models, with contributing-agent self-checks. C1 remains flexible.
@@ -52,6 +56,6 @@ Run the standard-library exact-arithmetic checks from the repository root:
 python -m unittest discover -s tests -v
 ```
 
-The **161 checks** cover seed calculations, E1.1's physical ledgers, E2's examples, E3's contract/risk/implementation inequalities, and E4's finite assessments, diagnostic/combat boundaries and repair controls. They include exact LP/game calculations and rational interval bounds. Tests do not replace proofs, calibrate physics, solve every model-family game or independently verify results.
+The **207 checks** cover seed calculations, E1.1's physical ledgers, E2's examples, E3's contract/risk/implementation inequalities, E4's finite assessments, and E5's public-progress/threshold-goal trees, funded adoption intervals, ordinary-control frontiers and repair comparisons. They include exact LP/game calculations and rational interval bounds. Tests do not replace proofs, calibrate physics, solve every model-family game or independently verify results.
 
 The existing [MIT license](LICENSE) is retained. References to third-party works do not relicense those works.
