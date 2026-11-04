@@ -12,6 +12,8 @@
 - Central question and why it matters:
 - Original constructive aim, precise quantifier and scope; positive and negative possibilities this task distinguishes:
 - Integrated target, defensible class and missing link this run advances:
+- Portfolio position: environment/preference dimensions advanced recently, underexamined dimensions, and reason for further depth or a different family:
+- How task selection gives consensual utility change modest priority while preserving ordinary controls and equal constructive/limiting scrutiny:
 
 ## Work accounting
 
@@ -41,6 +43,8 @@ Record active segments without double-counting concurrent work. Do not infer ela
 
 - Conditions implying cooperation or combat; outcome measure, comparison, parameter range and selection assumptions:
 - Which conditions are simple or physically motivated, chosen by agents, or specially constructed; robustness and naturalness evidence:
+- Deliberate incentive creation: baseline, controlling party/action, feasibility/cost/funding, information/timing, current-goal incentive and others' responses; what is proved versus assumed:
+- Separate effects on consent, genuine installation and its stability, unchanged-goal compromise, combat and original welfare; informative enabling and limiting regions:
 - Link from beneficial opportunities to proposal, current-goal adoption, installation and continuation:
 - Initial agreement space; relevant repairs attempted and their costs/capabilities; resulting enlarged class:
 - Obstruction classification: protocol-specific, repaired, persistent over the stated class, or unresolved; consequential repairs excluded and why:
@@ -76,6 +80,7 @@ Follow [AIM_BALANCE](../AIM_BALANCE.md#4-end-of-task-review). This is a substant
 - Missing counterpart instructions, directional or quantifier substitutions, and asymmetric standards found; concrete corrections made:
 - Checks that headlines preserve both established positive content and scoped negative results, without confusing existence, adoption, stability and prevalence:
 - Remaining research obligations or review limits; next action checked against the original aim; completion or partial-handoff assessment:
+- Cross-run narrowing, mechanism priority, and naturality versus parties' ability and incentive to create conditions; corrections or reasons to retain the focus:
 
 Do not declare completion while this required review or an identified framing correction is outstanding. Unresolved mathematics must remain honestly scoped, not be relabeled as a completed repair. Review/report preparation adds no research-time credit.
 

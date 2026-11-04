@@ -1,5 +1,7 @@
 # Research runs
 
+**Latest non-recurrence review: [2026-11-03 scope and incentive audit](../reports/2026-11-03-scope-and-incentives-review.md).** It supersedes the next-step recommendation in r0004: study renewable complementary production with partner choice, giving consensual utility change modest priority and separately tracking natural and deliberately attainable incentives. No recurrence time or theorem status changed.
+
 **Latest completed handoff: [r0004 — funded accommodation and chosen protection](r0004.md)**, with [readable findings](../reports/r0004-findings.md), [E5](../models/E5.md) and [interval accounting](r0004-time.json). Counted conservative active estimates total **4h 00m 13s**, including **3h 21m 55s theory (84.06%)**. Reporting and final review are uncredited. The initial implementation is conditional; reusable goals and live renegotiation remain open.
 
 **Previous completed handoff: [r0003 — credible information and combat thresholds](r0003.md)**, with [readable findings](../reports/r0003-findings.md), [E4](../models/E4.md) and [interval accounting](r0003-time.json). Conservative active estimates total **4h 5m 40s**, including **3h 38m theory (88.74%)**. The finite private-information core is solved at its stated scope; full enlarged physical/renegotiation completion remains open. Reporting and review are uncredited.
@@ -8,7 +10,7 @@
 
 **Previous completed handoff: [r0002 — negotiated goals and protected continuations](r0002.md)**, with [readable findings](../reports/r0002-findings.md), [E3](../models/E3.md) and [interval accounting](r0002-time.json). Conservative estimates total **4h 2m 31s**, including **3h 53m 28s theory (96.27%)**. Both requirements were met without override; reporting and final review are uncredited.
 
-Earlier [r0001](r0001.md) records **4h 00m 09s**, **89.39% theory**, with unchanged accounting. [Preparation](../PREPARATION.md) and protocol/reporting follow-ups are separate. **CG-03 remains blocked: the synthesis gate is not met.** The next substantive task is CG-R001 only when explicitly invoked; r0004 recommends one joint offer and continuation with priced reusable goal/safeguard authority and live funded counteroffers, seeking stable accommodation and testing obstructions after feasible redesign.
+Earlier [r0001](r0001.md) records **4h 00m 09s**, **89.39% theory**, with unchanged accounting. [Preparation](../PREPARATION.md) and protocol/reporting follow-ups are separate. **CG-03 remains blocked: the synthesis gate is not met.** The next substantive task is CG-R001 only when explicitly invoked; use the updated [TODO](../../TODO.md#next-agent-handoff) and scope review above. E5's reusable-goal and live-counteroffer questions remain open alongside the broader recommended environment.
 
 Use `TEMPLATE.md` to create `r0001.md`, `r0002.md`, and so on for explicitly invoked research increments. Preserve partial runs and resume them transparently; do not reset the clock to hide an interruption or count overlapping intervals twice.
 
