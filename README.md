@@ -2,7 +2,7 @@
 
 Game-theoretic research on voluntary utility modification, physically costly conflict, and the stability and evolution of compromise.
 
-**Central question:** When do agents prefer and sustain peaceful compromises, including consensual changes to their utilities, rather than combat? Which assumptions make that conclusion possible, and which initial preferences reverse it?
+**Central question:** When do agents choose and sustain consensual changes to their utilities because the arrangement advances their current goals? Across different preferences and environments, which conditions favor such changes, compromise with unchanged goals, or combat—and which incentives can the parties feasibly create themselves? Consensual utility change has a modest research priority, with ordinary compromise retained as an important outcome and comparison.
 
 The motivating essay is Tristan Miano's [The Corrigibility Folk Theorem](https://thothhermes.substack.com/p/the-corrigibility-folk-theorem). Its target is a pessimistic claim about agents' resistance to correction, not a thesis that every agent must become cooperative. The research seeks constructive conditional cases of instrumental corrigibility and tests their limits with equal seriousness; neither universal success nor universal failure is presumed. Here, corrigibility means a scoped willingness to accept utility modification, not automatically human alignment, obedience, or the usual full collection of AI corrigibility properties.
 
@@ -19,6 +19,8 @@ Utilities are initially transparent to their owners; agents understand permitted
 We distinguish terminal-goal preservation, utility-freezing preferences, policy rigidity, and commitment devices. We separately investigate voluntary relaxation of freezing and population selection against freezing; one does not imply the other.
 
 ## Start here
+
+- **[2026-11-03 scope and incentive review](research/reports/2026-11-03-scope-and-incentives-review.md)**: audits narrowing across four recurrences, clarifies utility-change priority, and separates natural incentives from conditions parties can deliberately create. It updates the next recommendation without starting a recurrence.
 
 - **[Fourth-round findings: funded goals, credible threats and protection](research/reports/r0004-findings.md)**: mutually preferred genuine changes, stronger ordinary controls and negotiated repairs, value conditions for combat, and scoped stability with chosen safeguards. [E5](research/models/E5.md) gives the technical model.
 

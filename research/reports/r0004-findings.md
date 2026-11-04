@@ -225,12 +225,21 @@ The [literature ledger](../LITERATURE.md) records versions and reading limits.
 The contribution claimed here is the conditional integration, comparisons
 and repairs, rather than priority for those established techniques.
 
-The next step is one joint initial-offer and continuation game with a priced
-reusable goal/safeguard menu and live funded counteroffers. It should seek
+The run's original next recommendation was one joint initial-offer and
+continuation game with a priced reusable goal/safeguard menu and live funded
+counteroffers. It should seek
 stable mutually attractive accommodation and equally test obstructions
 after changing goals, payments, delegates and protection. Repeated resource
 renewal, counterparty choice and population prevalence remain open.
 **CG-03 remains blocked; this report completes a recurrence, not synthesis.**
+
+**2026-11-03 review update:** the [portfolio review](2026-11-03-scope-and-incentives-review.md)
+redirects the next recommendation toward renewable productive cooperation
+and partner choice, preserving the implementation questions above as open
+backlog. It also gives consensual utility change modest research priority
+and adds explicit assessment of which incentives parties can feasibly
+create and would choose to create. This editorial update adds no theorem
+or recurrence time; its separate aim review is recorded in the linked audit.
 
 This report and its supporting work received the required [AIM_BALANCE](../AIM_BALANCE.md#4-end-of-task-review)
 de-biasing self-review. The research risked favoring the initial goal package
