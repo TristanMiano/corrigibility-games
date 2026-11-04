@@ -20,6 +20,8 @@ We distinguish terminal-goal preservation, utility-freezing preferences, policy 
 
 ## Start here
 
+- **[Fifth-round findings: when productive partners make changing goals worthwhile](research/reports/r0005-findings.md)**: negotiated net-gain goals can improve investment and finance both originals' genuine changes. Renewal, chosen financing, partner access and concern's scope determine adoption and combat boundaries. [E6](research/models/E6.md) gives the conditional model and its remaining initial-launch gap.
+
 - **[2026-11-03 scope and incentive review](research/reports/2026-11-03-scope-and-incentives-review.md)**: audits narrowing across four recurrences, clarifies utility-change priority, and separates natural incentives from conditions parties can deliberately create. It updates the next recommendation without starting a recurrence.
 
 - **[Fourth-round findings: funded goals, credible threats and protection](research/reports/r0004-findings.md)**: mutually preferred genuine changes, stronger ordinary controls and negotiated repairs, value conditions for combat, and scoped stability with chosen safeguards. [E5](research/models/E5.md) gives the technical model.
@@ -42,6 +44,8 @@ Research is not an automatically scheduled service; each recurrence is explicitl
 
 ## Status and checks
 
+**[R0005 is COMPLETE](research/runs/r0005.md): 4h 01m 12s counted active-research estimate, 89.24% theory.** [E6](research/models/E6.md) connects productive investment to genuine net-gain goals, original consent regions and continued incentives, then compares renewal, financing, willing partners and coalition capture. Both ordinary and changed-goal paths in the main example are peaceful; the change raises production. Initial recognition/installation and endogenous coalition formation remain open. The [findings report](research/reports/r0005-findings.md) explains naturality and deliberately attainable incentives separately. **CG-03 stays blocked**; the next recommended inquiry concerns productive-coalition formation and negotiated scope of concern.
+
 **[R0004 is COMPLETE](research/runs/r0004.md): 4h 00m 13s counted active-research estimate, 84.06% theory.** [E5](research/models/E5.md) connects observable progress and funded negotiation to conditional initial adoption across a prior/strength class, with actual ordinary controls, early-goal repairs and protection/stability boundaries. The [findings report](research/reports/r0004-findings.md) explains what values and incentives favor each outcome. Reusable two-sided goals, live renegotiation and broader long-run coverage remain open; **CG-03 stays blocked**.
 
 **[R0003 is COMPLETE](research/runs/r0003.md): 4h 5m 40s estimated active research, 88.74% theory.** [E4](research/models/E4.md) proves selected staged goal adoption and a verification-cost boundary between peaceful diagnosis and actual combat. The [findings report](research/reports/r0003-findings.md) explains the mechanisms, ordinary controls and naturalness assumptions. Full physical implementation of the enlarged agreement menu and repeated choice remain open; CG-03 stays blocked.
@@ -58,6 +62,6 @@ Run the standard-library exact-arithmetic checks from the repository root:
 python -m unittest discover -s tests -v
 ```
 
-The **207 checks** cover seed calculations, E1.1's physical ledgers, E2's examples, E3's contract/risk/implementation inequalities, E4's finite assessments, and E5's public-progress/threshold-goal trees, funded adoption intervals, ordinary-control frontiers and repair comparisons. They include exact LP/game calculations and rational interval bounds. Tests do not replace proofs, calibrate physics, solve every model-family game or independently verify results.
+The **279 checks** cover seed calculations, E1.1's physical ledgers, E2's examples, E3's contract/risk/implementation inequalities, E4's finite assessments, E5's funded adoption and repair comparisons, and E6's productive investment, renewal, matching, financing and coalition boundaries. They include exact LP/game calculations, finite-game responses and rational interval bounds. Tests do not replace proofs, calibrate physics, solve every model-family game or independently verify results.
 
 The existing [MIT license](LICENSE) is retained. References to third-party works do not relicense those works.
