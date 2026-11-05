@@ -1,0 +1,316 @@
+{
+  "run_id": "r0006",
+  "status": "COMPLETE",
+  "input_commit": "d6f1b6408b5dcb66791e893618f9645b5baa9db4",
+  "floor_seconds": 14400,
+  "theory_share_min": 0.75,
+  "accounting": "Observed nonoverlapping UTC intervals with conservative active estimates. Exclude preparation, administration, reporting, idle time, tool latency and unattended computation. No previous-run credit.",
+  "segments": [
+    {
+      "id": "T01",
+      "category": "theory",
+      "start_utc": "2026-11-05T05:08:29Z",
+      "end_utc": "2026-11-05T05:18:12Z",
+      "wall_seconds": 583,
+      "active_seconds_estimate": 420,
+      "work": "Defined cost-weighted process overlap and own-color physical opportunity set; derived setup-saving and capacity thresholds; distinguished knowledge, equipment, inputs, and captureability.",
+      "artifact": "research/notes/112-process-overlap-and-disjoint-terminal-values.md",
+      "exclusions": "163 seconds conservatively excluded for tool latency, context compression and uncertain nonresearch time."
+    },
+    {
+      "id": "T02",
+      "category": "theory",
+      "start_utc": "2026-11-05T05:18:26Z",
+      "end_utc": "2026-11-05T05:33:03Z",
+      "wall_seconds": 877,
+      "active_seconds_estimate": 840,
+      "work": "Derived local response theorem, exact strategic goal weights and fixed-cost pure-equilibrium thresholds; derived additive shared-knowledge contrast and negotiated reciprocal goal frontier; examined staged conditional activation and hold-up scope.",
+      "artifacts": [
+        "research/notes/113-complementary-production-and-chosen-goals.md",
+        "research/notes/114-shared-knowledge-and-conditional-consent.md"
+      ],
+      "exclusions": "37 seconds conservatively excluded for brief tool latency, clock/accounting and nonresearch overhead."
+    },
+    {
+      "id": "T03",
+      "category": "theory",
+      "start_utc": "2026-11-05T05:33:47Z",
+      "end_utc": "2026-11-05T05:47:54Z",
+      "wall_seconds": 847,
+      "active_seconds_estimate": 790,
+      "work": "Constructed finite-energy and recoverable-combat embedding; unified additive, complementary and substitutable production; derived exact externality and goal-adoption classification; derived full transfer frontier, capture incentives, funded bargaining margins and repair scope.",
+      "artifacts": [
+        "research/notes/115-physical-realizations-and-retained-combat.md",
+        "research/notes/116-a-common-class-for-spillovers-and-complementarity.md",
+        "research/notes/117-captureability-transfers-and-compromise.md"
+      ],
+      "exclusions": "57 seconds excluded for brief tool latency, progress updates and nonmathematical ledger/template inspection."
+    },
+    {
+      "id": "L01",
+      "category": "literature",
+      "start_utc": "2026-11-05T05:48:10Z",
+      "end_utc": "2026-11-05T05:51:17Z",
+      "wall_seconds": 187,
+      "active_seconds_estimate": 150,
+      "work": "Read author reprint of dAspremont-Jacquemin and complete erratum, Fershtman-Judd introduction/basic model; screen primary Rotemberg, Bester-Guth and Bolle records with explicit access limits. Distinguish ordinary research cooperation, delegation, deliberate preference change and evolutionary selection.",
+      "artifact": "research/notes/118-literature-and-mechanism-audit.md",
+      "exclusions": "37 seconds excluded for retrieval latency, failed downloads and nonresearch tool handling."
+    },
+    {
+      "id": "T04",
+      "category": "theory",
+      "start_utc": "2026-11-05T05:51:17Z",
+      "end_utc": "2026-11-05T06:11:23Z",
+      "wall_seconds": 1206,
+      "active_seconds_estimate": 1160,
+      "work": "Derived smooth monotone common goals and strict joint concavity; exact revocable-policy temptation and ordinary repeated control; solved funded standardization as an endogenous action and compared actual ordinary design; derived joint reuse/capture paths and final-control boundaries. Explored network and coalition extensions for next proof block.",
+      "artifacts": [
+        "research/notes/119-smooth-common-goals-and-ordinary-repetition.md",
+        "research/notes/120-chosen-standardization-and-productive-goals.md",
+        "research/notes/121-dual-use-overlap-paths-and-final-control.md"
+      ],
+      "exclusions": "46 seconds conservatively excluded for accounting, tool latency, progress messages and nonresearch overhead."
+    },
+    {
+      "id": "C01",
+      "category": "computation",
+      "start_utc": "2026-11-05T06:11:45Z",
+      "end_utc": "2026-11-05T06:14:31Z",
+      "wall_seconds": 166,
+      "active_seconds_estimate": 135,
+      "work": "Built and inspected 18 exact-arithmetic scientific checks of actual effort/goal deviations, cost regions, common-goal gains, repeated incentives, paid standardization and capture-frontier thresholds; all pass.",
+      "artifact": "tests/test_e7_overlap_and_adoption.py",
+      "exclusions": "31 seconds excluded for test-convention inspection, tool latency and administration; no unattended compute credited."
+    },
+    {
+      "id": "T05",
+      "category": "theory",
+      "start_utc": "2026-11-05T06:14:47Z",
+      "end_utc": "2026-11-05T06:33:20Z",
+      "wall_seconds": 1113,
+      "active_seconds_estimate": 1070,
+      "work": "Extended goal menus to negative weights and proved the signed-menu equilibrium; derived many-agent productive-feedback criterion and partner/exit boundaries; derived stochastic-productivity goal best responses and correlation comparative statics; developed public-knowledge coalition and staged-renegotiation candidates for further testing.",
+      "artifacts": [
+        "research/notes/122-signed-goal-menus-and-productive-competition.md",
+        "research/notes/123-production-networks-and-willing-partners.md",
+        "research/notes/124-production-uncertainty-and-goal-choice.md"
+      ],
+      "exclusions": "43 seconds excluded for tool latency, status inspection, commentary and nonresearch overhead. Undocumented candidate arguments are not registered as results."
+    },
+    {
+      "id": "T06",
+      "category": "theory",
+      "start_utc": "2026-11-05T06:33:40Z",
+      "end_utc": "2026-11-05T06:48:04Z",
+      "wall_seconds": 864,
+      "active_seconds_estimate": 820,
+      "work": "Derived public-knowledge club membership and partition incentives; examined protocol dependence and richer repairs; proved current-goal four-agent broadening, binary coalition check and selected sequential path from exclusive originals. Corrected communication-cost and genuine-change counting details.",
+      "artifacts": [
+        "research/notes/125-public-knowledge-and-coalition-consent.md",
+        "research/notes/126-current-goal-broadening-after-small-agreements.md"
+      ],
+      "exclusions": "44 seconds excluded for tool latency, progress messages, patch repair and nonresearch overhead."
+    },
+    {
+      "id": "C02",
+      "category": "computation",
+      "start_utc": "2026-11-05T06:48:42Z",
+      "end_utc": "2026-11-05T06:51:13Z",
+      "wall_seconds": 151,
+      "active_seconds_estimate": 130,
+      "work": "Implemented 14 exact checks of signed-goal deviations, directed production feedback, random productivity, public-club participation and current-goal broadening. Enumerated selected continuation deviations after every 256 nomination profile and all binary withholding coalitions; all pass.",
+      "artifact": "tests/test_e7_networks_and_current_goals.py",
+      "exclusions": "21 seconds excluded for tool latency, test invocation and nonresearch overhead; runtime itself was under one second."
+    },
+    {
+      "id": "T07",
+      "category": "theory",
+      "start_utc": "2026-11-05T06:56:43Z",
+      "end_utc": "2026-11-05T07:18:29Z",
+      "wall_seconds": 1306,
+      "active_seconds_estimate": 1240,
+      "work": "Derived persistent-research horizon and endogenous-capacity boundaries; developed and repaired a staged output-reservation theorem against counteroffers; derived paid capture technology, actual defense choice and earlier-bargaining repair. Checked physical entry and true fallback requirements.",
+      "artifacts": [
+        "research/notes/127-persistent-knowledge-and-production-horizons.md",
+        "research/notes/128-staged-entry-with-a-negotiated-output-reserve.md",
+        "research/notes/129-chosen-capture-technology-and-defensive-design.md"
+      ],
+      "exclusions": "66 seconds conservatively excluded for tool latency, commentary, accounting and nonresearch overhead."
+    },
+    {
+      "id": "L02",
+      "category": "literature",
+      "start_utc": "2026-11-05T07:19:05Z",
+      "end_utc": "2026-11-05T07:22:23Z",
+      "wall_seconds": 198,
+      "active_seconds_estimate": 175,
+      "work": "Read Fershtman-Judd alternative-contract and random-cost discussion plus complete 2006 corrigendum; read Rubio-Ulph June 2004 working-paper model, membership definition, constrained continuation and selected grand-coalition proof; screen Barrett original with access limitation. Compare implementation and physical-boundary scope.",
+      "artifact": "research/notes/118-literature-and-mechanism-audit.md",
+      "exclusions": "23 seconds excluded for retrieval latency, failed fetches, encoding repair and nonresearch tool handling."
+    },
+    {
+      "id": "T08",
+      "category": "theory",
+      "start_utc": "2026-11-05T07:23:04Z",
+      "end_utc": "2026-11-05T07:50:23Z",
+      "wall_seconds": 1639,
+      "active_seconds_estimate": 1580,
+      "work": "Derived nonquadratic public-research membership and physical-cap boundaries; proved the broad unilateral-commitment bound and reciprocal adoption margin with a specified audit interface; derived exact CES productive-goal equilibria, boundary coordination failures and a matched sequential-production repair. Checked arbitrary-controller, current-goal, audit and resource scope.",
+      "artifacts": [
+        "research/notes/130-response-curvature-and-broad-consensual-change.md",
+        "research/notes/131-reciprocal-adoption-against-broad-unilateral-choices.md",
+        "research/notes/132-shared-process-substitutability-and-chosen-goals.md"
+      ],
+      "exclusions": "59 seconds conservatively excluded for tool latency, progress updates, accounting and nonresearch overhead."
+    },
+    {
+      "id": "T09",
+      "category": "theory",
+      "start_utc": "2026-11-05T07:50:36Z",
+      "end_utc": "2026-11-05T08:06:55Z",
+      "wall_seconds": 979,
+      "active_seconds_estimate": 930,
+      "work": "Audited physical execution and repaired late-attack exposure using paced delivery; broadened funded defensive-cost choices and derived the true chosen-defense threshold; derived conditional defensive goal adoption, a cheaper consensual replacement, and calibrated protection against later aggressive counteroffers. Rechecked current-goal and original-welfare distinctions.",
+      "artifacts": [
+        "research/notes/115-physical-realizations-and-retained-combat.md",
+        "research/notes/120-chosen-standardization-and-productive-goals.md",
+        "research/notes/129-chosen-capture-technology-and-defensive-design.md",
+        "research/notes/133-conditional-defense-and-consensual-alternatives.md"
+      ],
+      "exclusions": "49 seconds excluded for tool latency, accounting, commentary and nonresearch overhead."
+    },
+    {
+      "id": "C03",
+      "category": "computation",
+      "start_utc": "2026-11-05T08:08:02Z",
+      "end_utc": "2026-11-05T08:11:30Z",
+      "wall_seconds": 208,
+      "active_seconds_estimate": 190,
+      "work": "Built and inspected 21 scientific checks of actual horizon outputs, entry reservations, full conversion-investment grids, paced delivery, chosen defense, current-goal defensive calibration, broad unilateral bounds, nonlinear clubs and CES effort/goal deviations. All pass; floating-point cases are numerical audits.",
+      "artifact": "tests/test_e7_horizons_and_implementation.py",
+      "exclusions": "18 seconds excluded for patch/test invocation latency and nonresearch overhead; unattended execution received no credit."
+    },
+    {
+      "id": "T10",
+      "category": "theory",
+      "start_utc": "2026-11-05T08:14:27Z",
+      "end_utc": "2026-11-05T08:43:26Z",
+      "wall_seconds": 1739,
+      "active_seconds_estimate": 1680,
+      "work": "Audited local feedback, cost, current-goal and staging proofs; corrected an overly broad affine/genuineness statement; proved a general concave-production supporting-goal construction and asymmetric example; derived paid imperfect-audit adoption, false rejection, deception and mixed-selection boundaries directly from manufacturing outputs.",
+      "artifacts": [
+        "research/notes/113-complementary-production-and-chosen-goals.md",
+        "research/notes/123-production-networks-and-willing-partners.md",
+        "research/notes/134-a-concave-production-class-and-negotiated-goals.md",
+        "research/notes/135-paid-imperfect-audits-and-reciprocal-adoption.md"
+      ],
+      "exclusions": "59 seconds conservatively excluded for tool latency, commentary, accounting and nonresearch overhead."
+    },
+    {
+      "id": "C04",
+      "category": "computation",
+      "start_utc": "2026-11-05T08:44:37Z",
+      "end_utc": "2026-11-05T08:51:50Z",
+      "wall_seconds": 433,
+      "active_seconds_estimate": 110,
+      "work": "Built six exact checks of general negotiated goals, imperfect-audit payoffs, integer inspection choice, mixed selection and false rejection. All six pass.",
+      "artifact": "tests/test_e7_general_goals_and_audits.py",
+      "exclusions": "323 seconds conservatively excluded for context compression, uncertain intervening time, tool latency and administration. The active estimate covers only the short evidenced test-writing/checking segment, not the whole observed interval."
+    },
+    {
+      "id": "T11",
+      "category": "theory",
+      "start_utc": "2026-11-05T08:51:50Z",
+      "end_utc": "2026-11-05T09:13:31Z",
+      "wall_seconds": 1301,
+      "active_seconds_estimate": 1250,
+      "work": "Derived repair-compatible imperfect-audit adoption with actual post-detection bargaining and fresh current-goal installations; audited CES, stochastic, coalition, response and entry proofs; repaired mid-finishing combat coverage and an overbroad outside benchmark; derived the asymmetric sharing frontier, negotiated weights, finite-cap completeness and one-way transfer repair.",
+      "artifacts": [
+        "research/notes/136-repair-after-detected-deception.md",
+        "research/notes/137-asymmetric-sharing-and-negotiated-weights.md",
+        "research/notes/115-physical-realizations-and-retained-combat.md",
+        "research/notes/128-staged-entry-with-a-negotiated-output-reserve.md",
+        "research/notes/130-response-curvature-and-broad-consensual-change.md"
+      ],
+      "exclusions": "51 seconds conservatively excluded for brief tool latency, commentary, protocol inspection and nonresearch overhead."
+    },
+    {
+      "id": "C05",
+      "category": "computation",
+      "start_utc": "2026-11-05T09:13:56Z",
+      "end_utc": "2026-11-05T09:15:34Z",
+      "wall_seconds": 98,
+      "active_seconds_estimate": 85,
+      "work": "Built eight exact output/deviation checks for asymmetric negotiated goals, one-way funded service, bargaining derivatives, repair-compatible honesty and the mid-production protected-stock counterexample. All eight pass.",
+      "artifact": "tests/test_e7_repair_and_asymmetry.py",
+      "exclusions": "13 seconds excluded for patch/test invocation latency and overhead; no unattended runtime credited."
+    },
+    {
+      "id": "T12",
+      "category": "theory",
+      "start_utc": "2026-11-05T09:15:34Z",
+      "end_utc": "2026-11-05T09:17:47Z",
+      "wall_seconds": 133,
+      "active_seconds_estimate": 105,
+      "work": "Audited the repaired audit game against initial access to the same reliable transfer package; corrected unique-superiority language to co-optimality against its best finite-grid offer.",
+      "artifact": "research/notes/136-repair-after-detected-deception.md",
+      "exclusions": "28 seconds excluded for ledger administration, tool latency and nonresearch overhead."
+    },
+    {
+      "id": "L03",
+      "category": "literature",
+      "start_utc": "2026-11-05T09:17:47Z",
+      "end_utc": "2026-11-05T09:19:59Z",
+      "wall_seconds": 132,
+      "active_seconds_estimate": 115,
+      "work": "Checked primary access limits and read the July 2004 author manuscript What to Maximize if You Must: model, Theorem 1 mechanism and scope, noisy-observation example and selected appendix equations. Corrected an aggregator version/title mismatch; no full theorem audit claimed.",
+      "artifact": "research/notes/118-literature-and-mechanism-audit.md",
+      "exclusions": "17 seconds excluded for retrieval latency, failed requests and nonresearch handling."
+    },
+    {
+      "id": "T13",
+      "category": "theory",
+      "start_utc": "2026-11-05T09:19:59Z",
+      "end_utc": "2026-11-05T09:39:07Z",
+      "wall_seconds": 1148,
+      "active_seconds_estimate": 1100,
+      "work": "Derived durable common-goal timing with waiting and matched ordinary controllers; audited standardization, persistent research, productive networks, conversion and defense proofs; found and repaired a false broad deterrence inference by solving stock-contingent victory-concession controllers, a stronger bound and a funded combat counterexample.",
+      "artifacts": [
+        "research/notes/138-when-to-adopt-a-durable-productive-goal.md",
+        "research/notes/133-conditional-defense-and-consensual-alternatives.md"
+      ],
+      "exclusions": "48 seconds excluded for source-record writing, tool latency, commentary and nonresearch overhead."
+    },
+    {
+      "id": "C06",
+      "category": "computation",
+      "start_utc": "2026-11-05T09:39:07Z",
+      "end_utc": "2026-11-05T09:41:03Z",
+      "wall_seconds": 116,
+      "active_seconds_estimate": 105,
+      "work": "Built five exact checks of optimal waiting, repeated ordinary controller expense, contingent post-victory concessions, positive controller cost and the strengthened defensive inequality. All five pass.",
+      "artifact": "tests/test_e7_timing_and_defensive_redesign.py",
+      "exclusions": "11 seconds excluded for tool/test invocation latency and nonresearch overhead."
+    },
+    {
+      "id": "T14",
+      "category": "theory",
+      "start_utc": "2026-11-05T09:41:03Z",
+      "end_utc": "2026-11-05T09:49:11Z",
+      "wall_seconds": 488,
+      "active_seconds_estimate": 465,
+      "work": "Constructed a mixed peaceful/real-combat offer exploiting an additive defensive event bonus; derived a finite statewise-capped preference repair, its expected-utility security proof, attack bounds with and without victory-selection assumptions, and pure-peace dominance over the specified mixed offer class.",
+      "artifact": "research/notes/139-capped-reservations-and-mixed-combat-offers.md",
+      "exclusions": "23 seconds excluded for tool latency, commentary and nonresearch overhead."
+    }
+  ],
+  "active_seconds_estimate": 14645,
+  "category_seconds_estimate": {
+    "theory": 13450,
+    "literature": 440,
+    "computation": 755
+  },
+  "theory_share": 0.9184021850460908,
+  "research_floor_met": true
+}

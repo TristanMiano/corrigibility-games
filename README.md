@@ -20,6 +20,8 @@ We distinguish terminal-goal preservation, utility-freezing preferences, policy 
 
 ## Start here
 
+- **[Sixth-round findings: shared means and exclusive paperclip goals](research/reports/r0006-findings.md)**: useful shared production can pay for consensual genuine changes; asymmetric negotiation, actual audits and durable implementation determine adoption. Common capturable assets and costly execution can instead favor combat, with paid safeguards and earlier bargains supplying repairs. [E7](research/models/E7.md) separates types of overlap from none to nearly all upstream steps.
+
 - **[Fifth-round findings: when productive partners make changing goals worthwhile](research/reports/r0005-findings.md)**: negotiated net-gain goals can improve investment and finance both originals' genuine changes. Renewal, chosen financing, partner access and concern's scope determine adoption and combat boundaries. [E6](research/models/E6.md) gives the conditional model and its remaining initial-launch gap.
 
 - **[2026-11-03 scope and incentive review](research/reports/2026-11-03-scope-and-incentives-review.md)**: audits narrowing across four recurrences, clarifies utility-change priority, and separates natural incentives from conditions parties can deliberately create. It updates the next recommendation without starting a recurrence.
@@ -44,6 +46,8 @@ Research is not an automatically scheduled service; each recurrence is explicitl
 
 ## Status and checks
 
+**[R0006 is COMPLETE](research/runs/r0006.md): 4h 04m 05s counted active-research estimate, 91.84% theory.** [E7](research/models/E7.md) connects exclusive own-color values to negotiated shared goals through useful research, productive responses and paid reciprocal implementation. The [findings report](research/reports/r0006-findings.md) explains ordinary alternatives, asymmetric gains, chosen compatibility, capture, safeguards and timing. Broader formation, verification and long-run innovation remain open. **CG-03 stays blocked**; the next recommendation is endogenous three-party productive coalition formation with a rival input and negotiated concern, including nonlinear current goals.
+
 **[R0005 is COMPLETE](research/runs/r0005.md): 4h 01m 12s counted active-research estimate, 89.24% theory.** [E6](research/models/E6.md) connects productive investment to genuine net-gain goals, original consent regions and continued incentives, then compares renewal, financing, willing partners and coalition capture. Both ordinary and changed-goal paths in the main example are peaceful; the change raises production. Initial recognition/installation and endogenous coalition formation remain open. The [findings report](research/reports/r0005-findings.md) explains naturality and deliberately attainable incentives separately. **CG-03 stays blocked**; the next recommended inquiry concerns productive-coalition formation and negotiated scope of concern.
 
 **[R0004 is COMPLETE](research/runs/r0004.md): 4h 00m 13s counted active-research estimate, 84.06% theory.** [E5](research/models/E5.md) connects observable progress and funded negotiation to conditional initial adoption across a prior/strength class, with actual ordinary controls, early-goal repairs and protection/stability boundaries. The [findings report](research/reports/r0004-findings.md) explains what values and incentives favor each outcome. Reusable two-sided goals, live renegotiation and broader long-run coverage remain open; **CG-03 stays blocked**.
@@ -62,6 +66,6 @@ Run the standard-library exact-arithmetic checks from the repository root:
 python -m unittest discover -s tests -v
 ```
 
-The **279 checks** cover seed calculations, E1.1's physical ledgers, E2's examples, E3's contract/risk/implementation inequalities, E4's finite assessments, E5's funded adoption and repair comparisons, and E6's productive investment, renewal, matching, financing and coalition boundaries. They include exact LP/game calculations, finite-game responses and rational interval bounds. Tests do not replace proofs, calibrate physics, solve every model-family game or independently verify results.
+The **354 checks** cover seed calculations, E1.1's physical ledgers, E2's examples, E3's contract/risk/implementation inequalities, E4's finite assessments, E5's funded adoption and repair comparisons, E6's productive investment and coalition boundaries, and E7's overlap, reciprocal adoption, asymmetric production, audits, timing and defensive redesign. They include exact LP/game calculations, finite-game responses and rational interval bounds; CES floating-point comparisons are numerical support. Tests do not replace proofs, calibrate physics, solve every model-family game or independently verify results.
 
 The existing [MIT license](LICENSE) is retained. References to third-party works do not relicense those works.
