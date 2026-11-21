@@ -159,13 +159,123 @@
       "work": "Developed the directed referral network as a materially different three-party environment; derived the weighted surplus dual, expanding cycles in source components and the common goal support construction.",
       "artifact": "research/notes/153-when-reciprocal-referrals-can-pay-all-founders.md",
       "excluded_seconds": 17
+    },
+    {
+      "id": "T12",
+      "category": "theory",
+      "start_utc": "2026-11-21T06:59:09Z",
+      "end_utc": "2026-11-21T07:02:00Z",
+      "wall_seconds": 171,
+      "active_seconds_estimate": 139,
+      "work": "Proved the generalized-flow source criterion and single common supporting utility. Checked its participation and genuine-preference interpretation against external controls.",
+      "artifact": "research/notes/153-when-reciprocal-referrals-can-pay-all-founders.md",
+      "excluded_seconds": 32
+    },
+    {
+      "id": "C02",
+      "category": "computation",
+      "start_utc": "2026-11-21T07:02:00Z",
+      "end_utc": "2026-11-21T07:02:37Z",
+      "wall_seconds": 37,
+      "active_seconds_estimate": 30,
+      "work": "Compared all funded three-tier misreports, continuous categorical deviations, collateral and mixed-contest endpoints with direct finite/numeric checks.",
+      "artifact": "tests/test_e8_scarce_slot.py",
+      "excluded_seconds": 7
+    },
+    {
+      "id": "T13",
+      "category": "theory",
+      "start_utc": "2026-11-21T07:04:21Z",
+      "end_utc": "2026-11-21T07:10:36Z",
+      "wall_seconds": 375,
+      "active_seconds_estimate": 331,
+      "work": "Priced ring-specific builder incentives and the cost-bearing successor; derived the mutable-label, fixed-scope, broadening and paid provenance examples. Excluded institutional lookups and other uncertain time.",
+      "artifact": "research/notes/155-what-a-project-specific-goal-actually-protects.md",
+      "excluded_seconds": 44
+    },
+    {
+      "id": "T14",
+      "category": "theory",
+      "start_utc": "2026-11-21T07:10:36Z",
+      "end_utc": "2026-11-21T07:14:36Z",
+      "wall_seconds": 240,
+      "active_seconds_estimate": 222,
+      "work": "Derived conditional information value for the bottleneck and the entire private-preview subscription equilibrium, including early sponsor choice, weak edges and numerical checks.",
+      "artifact": "research/notes/157-when-the-parties-choose-to-sign-before-learning-their-roles.md",
+      "excluded_seconds": 18
+    },
+    {
+      "id": "T15",
+      "category": "theory",
+      "start_utc": "2026-11-21T07:14:36Z",
+      "end_utc": "2026-11-21T07:20:36Z",
+      "wall_seconds": 360,
+      "active_seconds_estimate": 336,
+      "work": "Derived the renewable referral credit's original and partial-concern Bellman values, donor and passive incentives, low-patience outside bound and later owner-dependent amendment choice.",
+      "artifact": "research/notes/158-when-partial-concern-makes-a-service-credit-worth-honoring.md",
+      "excluded_seconds": 24
+    },
+    {
+      "id": "T16",
+      "category": "theory",
+      "start_utc": "2026-11-21T07:20:36Z",
+      "end_utc": "2026-11-21T07:25:33Z",
+      "wall_seconds": 297,
+      "active_seconds_estimate": 275,
+      "work": "Developed the weak subgroup block for one-way gifts, an outsider's productive value through non-initiation, endogenous backup reservation and optimal inclusive state-contingent compensation, with ordinary, adoption and combat regions.",
+      "artifact": "research/notes/159-why-a-productive-pair-would-admit-an-outsider.md",
+      "excluded_seconds": 22
+    },
+    {
+      "id": "C02",
+      "category": "computation",
+      "start_utc": "2026-11-21T07:25:33Z",
+      "end_utc": "2026-11-21T07:27:49Z",
+      "wall_seconds": 136,
+      "active_seconds_estimate": 110,
+      "work": "Solved and checked rational dual multipliers and optimized the private insurance certificate.",
+      "artifact": "research/notes/160-pricing-private-insurance-against-a-nearly-optimal-contract.md",
+      "excluded_seconds": 26
+    },
+    {
+      "id": "T17",
+      "category": "theory",
+      "start_utc": "2026-11-21T07:27:49Z",
+      "end_utc": "2026-11-21T07:30:41Z",
+      "wall_seconds": 172,
+      "active_seconds_estimate": 145,
+      "work": "Bounded the reoptimized ordinary insurance price and proved an incentive robustness radius under a varying prior.",
+      "artifact": "research/notes/160-pricing-private-insurance-against-a-nearly-optimal-contract.md",
+      "excluded_seconds": 27
+    },
+    {
+      "id": "T18",
+      "category": "theory",
+      "start_utc": "2026-11-21T07:30:41Z",
+      "end_utc": "2026-11-21T07:34:53Z",
+      "wall_seconds": 252,
+      "active_seconds_estimate": 222,
+      "work": "Derived the readback incentive and choice of evidence rule and the coalition boundary-flow bound.",
+      "artifact": "research/notes/161-how-the-founders-choose-an-imperfect-readback.md",
+      "excluded_seconds": 30
+    },
+    {
+      "id": "T19",
+      "category": "theory",
+      "start_utc": "2026-11-21T07:34:53Z",
+      "end_utc": "2026-11-21T07:37:00Z",
+      "wall_seconds": 127,
+      "active_seconds_estimate": 105,
+      "work": "Checked endpoint concavity, subgroup substitutions and the strict numerical readback and participation margins.",
+      "artifact": "research/notes/161-how-the-founders-choose-an-imperfect-readback.md",
+      "excluded_seconds": 22
     }
   ],
   "category_seconds_estimate": {
-    "theory": 2719,
+    "theory": 4494,
     "literature": 38,
-    "computation": 28
+    "computation": 168
   },
-  "active_seconds_estimate": 2785,
+  "active_seconds_estimate": 4700,
   "research_floor_met": false
 }
