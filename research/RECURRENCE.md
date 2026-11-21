@@ -6,6 +6,10 @@ Read and follow the charter's binding [Aim preservation and balanced research](A
 
 ## Invocation and defaults
 
+Follow the current phase in [EXPLORATION_MODE](EXPLORATION_MODE.md). During exploration keep framing, structural mechanisms and testable instances linked. Record the rung tested, a sibling and a higher-level successor for each serious failure, and decision questions with verification procedures in the frontier ledger. Preserve the time and theory requirements. Include the ledger in the handoff and exploratory response, and close the findings report with its required aim-review paragraph.
+
+For every proposed model, including variants that change a consequential incentive, explain why the setting could arise independently or how participants could create it. For constructed conditions, identify actual control, cost, funding, information, timing, incentives under the current goals and the responses of other parties. State the unresolved step for any exploratory candidate whose feasibility or voluntary construction remains open. Apply this requirement equally to conditions favoring accommodation, ordinary cooperation, retention or combat.
+
 Example: `Run the next CG-R001 recurrence.`
 
 Canonical settings:

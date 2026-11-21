@@ -20,6 +20,8 @@ We distinguish terminal-goal preservation, utility-freezing preferences, policy 
 
 ## Start here
 
+- **[Seventh-round findings on productive coalitions](research/reports/r0007-findings.md)**. Which founders change depends on recoverable output, future access, the cost of binding local behavior and who can learn or disclose the recipient. The [model and proof guide](research/models/E8.md) and [completed handoff](research/runs/r0007.md) explain how a founder can create these incentives and when it chooses ordinary cooperation.
+
 - **[Sixth-round findings: shared means and exclusive paperclip goals](research/reports/r0006-findings.md)**: useful shared production can pay for consensual genuine changes; asymmetric negotiation, actual audits and durable implementation determine adoption. Common capturable assets and costly execution can instead favor combat, with paid safeguards and earlier bargains supplying repairs. [E7](research/models/E7.md) separates types of overlap from none to nearly all upstream steps.
 
 - **[Fifth-round findings: when productive partners make changing goals worthwhile](research/reports/r0005-findings.md)**: negotiated net-gain goals can improve investment and finance both originals' genuine changes. Renewal, chosen financing, partner access and concern's scope determine adoption and combat boundaries. [E6](research/models/E6.md) gives the conditional model and its remaining initial-launch gap.
