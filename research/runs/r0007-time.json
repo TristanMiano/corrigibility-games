@@ -1,0 +1,105 @@
+{
+  "run_id": "r0007",
+  "status": "PARTIAL",
+  "input_commit": "0faeaab8d372d197f7b3c9bd993ee4907ce8fe5d",
+  "floor_seconds": 14400,
+  "theory_share_min": 0.75,
+  "accounting": "Observed nonoverlapping UTC bounds. Active seconds are conservative estimates. Uncertain time, preparation, idle latency, reporting and administration are excluded. No previous-run credit.",
+  "segments": [
+    {
+      "id": "T01",
+      "category": "theory",
+      "start_utc": "2026-11-21T05:59:10Z",
+      "end_utc": "2026-11-21T06:02:46Z",
+      "wall_seconds": 216,
+      "active_seconds_estimate": 185,
+      "work": "Defined rival access and the nonlinear service CE; derived admission, moment bounds and the two common-load instances. Worked through priority and alternative division.",
+      "artifact": "research/notes/140-reciprocal-access-to-a-scarce-slot.md",
+      "excluded_seconds": 31
+    },
+    {
+      "id": "L01",
+      "category": "literature",
+      "start_utc": "2026-11-21T06:02:46Z",
+      "end_utc": "2026-11-21T06:03:13Z",
+      "wall_seconds": 27,
+      "active_seconds_estimate": 18,
+      "work": "Screened primary reserve-sharing, favor partnership and informal risk-sharing sources; inspected the stated passages, checked model timing and document versions.",
+      "artifact": "research/LITERATURE.md",
+      "excluded_seconds": 9
+    },
+    {
+      "id": "T02",
+      "category": "theory",
+      "start_utc": "2026-11-21T06:03:13Z",
+      "end_utc": "2026-11-21T06:12:41Z",
+      "wall_seconds": 568,
+      "active_seconds_estimate": 515,
+      "work": "Derived the role-risk and compensation thresholds and actual sponsor incentives; optimized priority with safe transfers, derived partial-concern private reporting and the independence bound, and developed conditional-correlation and scope candidates.",
+      "artifact": "research/notes/143-private-urgency-and-negotiated-concern.md",
+      "excluded_seconds": 53
+    },
+    {
+      "id": "T03",
+      "category": "theory",
+      "start_utc": "2026-11-21T06:13:14Z",
+      "end_utc": "2026-11-21T06:14:09Z",
+      "wall_seconds": 55,
+      "active_seconds_estimate": 45,
+      "work": "Checked and wrote the conditional-covariance and symmetric reward argument for ordinary private routing.",
+      "artifact": "research/notes/144-ordinary-routing-with-correlated-reports.md",
+      "excluded_seconds": 10
+    },
+    {
+      "id": "L02",
+      "category": "literature",
+      "start_utc": "2026-11-21T06:14:51Z",
+      "end_utc": "2026-11-21T06:15:46Z",
+      "wall_seconds": 55,
+      "active_seconds_estimate": 20,
+      "work": "Read the reciprocal access and urgent service rules in the Subaru/Gemini and dated NASA/Keck scheduling documents; screened verification and transfer-free mechanisms.",
+      "artifact": "research/LITERATURE.md",
+      "excluded_seconds": 35
+    },
+    {
+      "id": "C01",
+      "category": "computation",
+      "start_utc": "2026-11-21T06:15:46Z",
+      "end_utc": "2026-11-21T06:16:22Z",
+      "wall_seconds": 36,
+      "active_seconds_estimate": 28,
+      "work": "Implemented and ran exact comparisons of founder consent, report deviations, and priority assignment, including finite enumeration.",
+      "artifact": "tests/test_e8_scarce_slot.py",
+      "excluded_seconds": 8
+    },
+    {
+      "id": "T04",
+      "category": "theory",
+      "start_utc": "2026-11-21T06:16:30Z",
+      "end_utc": "2026-11-21T06:21:00Z",
+      "wall_seconds": 270,
+      "active_seconds_estimate": 235,
+      "work": "Derived spot pricing, the binary insurance lottery, the continuous local deviation and the finite three-tier welfare bound. Rounded boundaries inward on either side of context transfer.",
+      "artifact": "research/notes/145-trading-and-insuring-a-private-slot.md",
+      "excluded_seconds": 35
+    },
+    {
+      "id": "T05",
+      "category": "theory",
+      "start_utc": "2026-11-21T06:23:44Z",
+      "end_utc": "2026-11-21T06:27:07Z",
+      "wall_seconds": 203,
+      "active_seconds_estimate": 175,
+      "work": "Rebuilt and checked the insurance proof, settlement by common-goal successors and the quadratic bound against external BIC mechanisms. Excluded search and incidental activity.",
+      "artifact": "research/notes/146-the-private-value-of-a-common-goal.md",
+      "excluded_seconds": 28
+    }
+  ],
+  "category_seconds_estimate": {
+    "theory": 1155,
+    "literature": 38,
+    "computation": 28
+  },
+  "active_seconds_estimate": 1221,
+  "research_floor_met": false
+}
