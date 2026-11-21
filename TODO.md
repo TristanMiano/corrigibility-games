@@ -14,6 +14,8 @@ Status: CG-01 and CG-02 completed 2026-10-30; see [preparation handoff](research
 
 **[Sixth recurrence r0006 is COMPLETE](research/runs/r0006.md)**, with [readable findings](research/reports/r0006-findings.md), [E7](research/models/E7.md), **4h 04m 05s counted active-research estimate and 91.84% theory**. The owner-directed exclusive-paperclip inquiry derives reciprocal adoption, asymmetric negotiation, paid audits and timing boundaries across different shared processes. Capture, paid protection and richer counteroffers have explicit combat and repair regions. Broader formation, verification and innovation remain open; the synthesis gate is not met.
 
+**[Seventh recurrence r0007 is in progress](research/runs/r0007.md)** under [exploration mode](research/EXPLORATION_MODE.md). Its [findings](research/reports/r0007-findings.md) and [E8](research/models/E8.md) follow third-party cooperation through genuine, ordinary and mixed control with explicit per-model grounds for naturality or deliberate construction. CG-03 remains blocked.
+
 ## CG-00 — Initialize the project
 
 **Status: DONE for workflow initialization.** Preserve the existing license; establish the charter, agent instructions, task queue, and recurrence protocol. Seed model/literature/claim files and elementary checks are initialization aids, not completed substantive research milestones.

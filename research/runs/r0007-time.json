@@ -59,7 +59,8 @@
       "active_seconds_estimate": 20,
       "work": "Read the reciprocal access and urgent service rules in the Subaru/Gemini and dated NASA/Keck scheduling documents; screened verification and transfer-free mechanisms.",
       "artifact": "research/LITERATURE.md",
-      "excluded_seconds": 35
+      "excluded_seconds": 35,
+      "timing_note": "The enclosing interval 08:02:10\u201308:04:35 was observed. Its internal boundary is estimated. Download latency and routine writing are excluded from active estimates."
     },
     {
       "id": "C01",
@@ -269,13 +270,103 @@
       "work": "Checked endpoint concavity, subgroup substitutions and the strict numerical readback and participation margins.",
       "artifact": "research/notes/161-how-the-founders-choose-an-imperfect-readback.md",
       "excluded_seconds": 22
+    },
+    {
+      "id": "T20",
+      "category": "theory",
+      "start_utc": "2026-11-21T07:41:31Z",
+      "end_utc": "2026-11-21T07:43:56Z",
+      "wall_seconds": 145,
+      "active_seconds_estimate": 123,
+      "work": "Derived the sponsor's optimized ring offer and iid search threshold, installation law and cost reversal with recall.",
+      "artifact": "research/notes/162-when-cheaper-partner-search-changes-the-agreement.md",
+      "excluded_seconds": 22
+    },
+    {
+      "id": "T21",
+      "category": "theory",
+      "start_utc": "2026-11-21T07:43:56Z",
+      "end_utc": "2026-11-21T07:48:15Z",
+      "wall_seconds": 259,
+      "active_seconds_estimate": 240,
+      "work": "Derived a joint false-signature and participation support function, proved real common-goal execution by its supporting weights, reduced zero-cost certification to cycles and checked role-dependent gates.",
+      "artifact": "research/notes/163-which-return-paths-survive-a-false-claim-of-membership.md",
+      "excluded_seconds": 19
+    },
+    {
+      "id": "T22",
+      "category": "theory",
+      "start_utc": "2026-11-21T07:48:15Z",
+      "end_utc": "2026-11-21T07:53:20Z",
+      "wall_seconds": 305,
+      "active_seconds_estimate": 285,
+      "work": "Developed the variable-scope inspection game, checked deviations over a continuum, both roots and the full-coverage two-probe repair including an actual sponsor.",
+      "artifact": "research/notes/164-what-if-a-founder-can-change-on-only-its-cheapest-projects.md",
+      "excluded_seconds": 20
+    },
+    {
+      "id": "T23",
+      "category": "theory",
+      "start_utc": "2026-11-21T07:53:20Z",
+      "end_utc": "2026-11-21T08:00:18Z",
+      "wall_seconds": 418,
+      "active_seconds_estimate": 384,
+      "work": "Derived the mixed genuine and ordinary procurement frontier and scale choice, computed two-, one- and zero-change cases and audited in-kind compensation under a B/C deviation.",
+      "artifact": "research/notes/165-when-an-ordinary-contract-can-cover-part-of-the-job.md",
+      "excluded_seconds": 34
+    },
+    {
+      "id": "T24",
+      "category": "theory",
+      "start_utc": "2026-11-21T08:00:18Z",
+      "end_utc": "2026-11-21T08:02:10Z",
+      "wall_seconds": 112,
+      "active_seconds_estimate": 100,
+      "work": "Derived the complete-recipe input-output criterion and the deterministic column selection proof from the strictly viable mixed matrix.",
+      "artifact": "research/notes/166-when-a-job-needs-several-partners-at-the-same-time.md",
+      "excluded_seconds": 12
+    },
+    {
+      "id": "L02",
+      "category": "literature",
+      "start_utc": "2026-11-21T08:02:10Z",
+      "end_utc": "2026-11-21T08:03:13Z",
+      "wall_seconds": 63,
+      "active_seconds_estimate": 49,
+      "work": "Examined the original input-output paper, joint observation rules and numerical award columns, with counts restricted to approved joint rows.",
+      "artifact": "research/notes/166-when-a-job-needs-several-partners-at-the-same-time.md",
+      "excluded_seconds": 14,
+      "timing_note": "The enclosing interval 08:02:10\u201308:04:35 was observed. Its internal boundary is estimated. Download latency and routine writing are excluded from active estimates."
+    },
+    {
+      "id": "T25",
+      "category": "theory",
+      "start_utc": "2026-11-21T08:03:13Z",
+      "end_utc": "2026-11-21T08:04:35Z",
+      "wall_seconds": 82,
+      "active_seconds_estimate": 72,
+      "work": "Checked the multiple-donor common-goal continuation and the numerical membership margins with and without the paid extra evidence.",
+      "artifact": "research/notes/166-when-a-job-needs-several-partners-at-the-same-time.md",
+      "excluded_seconds": 10,
+      "timing_note": "The enclosing interval 08:02:10\u201308:04:35 was observed. Its internal boundary is estimated. Download latency and routine writing are excluded from active estimates."
+    },
+    {
+      "id": "T26",
+      "category": "theory",
+      "start_utc": "2026-11-21T08:04:35Z",
+      "end_utc": "2026-11-21T08:08:32Z",
+      "wall_seconds": 237,
+      "active_seconds_estimate": 220,
+      "work": "Recomputed true and false statewise utilities for threshold stocks, diagnosed a genuine but privately unprepared deviation and derived dated and fallible reserve repairs.",
+      "artifact": "research/notes/167-when-founders-protect-a-minimum-stock.md",
+      "excluded_seconds": 17
     }
   ],
   "category_seconds_estimate": {
-    "theory": 4494,
-    "literature": 38,
+    "theory": 5918,
+    "literature": 87,
     "computation": 168
   },
-  "active_seconds_estimate": 4700,
+  "active_seconds_estimate": 6173,
   "research_floor_met": false
 }
