@@ -7,7 +7,7 @@
 There is one recurring exposed job. It yields x_i>0 units of own useful production if assigned intact to site i. If any site initiates, the job instead yields y_i<x_i for the single winning site i with probability π_i, and consumes c_s units of the initiator s's own resources. Write Q_i=π_i y_i/x_i and D_i=(π_i y_i-c_i)/x_i. A court, delegate or change cannot compel a retained original to release its physical claim in this comparison. Rights survive at each live date. The probability of another job is p after service and t≤p after dispute as in 189. A damaged line may miss the next operating window. Different plant capacities, outputs from partially damaged material and control capabilities motivate the heterogeneous parameters. They are independently meaningful physical quantities. An agreement can reassign future calendar entries without changing anybody's physical strength.
 
 At the outset let O be the set staying with own-output values. For each site define its guaranteed normalized share
-     
+
     a_i=(1-p)max(0,D_i)/(1-t) for i in O, and a_i=0 otherwise.
     A=Σ_i a_i < 1.
 
@@ -35,4 +35,3 @@ It sums to one. Its coordinates are all at least their respective a_i by (1). Ch
 This construction protects individuals acting with their own continuation rights. If several unserved sites can share the expense of disputing, use 184–185 as a distinct check. A public schedule that can assign the next user's time does not automatically own each site's physical initiative. If the participants already have enforceable local delegation, the corresponding ordinary proposal can displace some or all edits.
 
 **Exploration ledger.** The framing candidate connects leverage over future production to the price of genuine accommodation. The structural candidate uses the probability of a future booking to pay *all* retained original rights on a date when a named changer is compensated. The earlier identical-strength boundary is nested in (1). A sibling prices the actual alternative signers. A higher-rung successor gives coalitions of unequal strength a choice of whom to admit to a side agreement and whom to pay with future calendar rights.
-

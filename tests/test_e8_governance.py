@@ -179,6 +179,138 @@ class GovernanceChecks(unittest.TestCase):
 
 
 class RenewalAndCapacityTests(unittest.TestCase):
+    def test_noisy_reports_and_actual_configuration_choice(self):
+        x, q, d = F(7, 10), F(1, 5), F(4, 25)
+        reservation, price, setup = F(14, 75), F(1, 25), F(1, 2000)
+        damage = x-3*q+(q-d)
+        for accuracy, winner in ((F(3, 4), 0), (F(39, 50), 1),
+                                 (F(4, 5), 2), (F(9, 10), 3)):
+            stake_slope = d*accuracy+(x-d)*(1-accuracy)
+            floor = (d*accuracy-price)/stake_slope
+            for count in range(4):
+                ordinary = 3-count
+                shares = ordinary*max(floor, reservation/x)+count*(reservation+setup)/x
+                if count == winner:
+                    self.assertLess(shares, 1)
+                excess = ordinary*floor+count*reservation/x-1
+                necessary_conflict = max(0, excess/(ordinary*q/stake_slope+count*q/x))
+                required = count*setup+damage*necessary_conflict
+                if count != winner:
+                    self.assertGreater(required, winner*setup)
+
+    def test_public_diagnostic_and_alternative_release_costs(self):
+        x, q, d = F(7, 10), F(1, 5), F(4, 25)
+        price, outside = F(9, 100), F(14, 75)
+        self.assertLess(1-price/d+2*outside/x, 1)
+        certificate_bound = (1-price/q+2*outside/x-1)/(1+2*q/x)
+        self.assertEqual(certificate_bound, F(7, 132))
+        self.assertGreater((x-3*q+(q-d))*certificate_bound, F(5, 1000))
+        self.assertGreater(q/(x-2*q+q-d), d/(x-2*q))
+
+    def test_meter_and_restore_options_are_physically_funded(self):
+        x, q, d, p = F(7, 10), F(1, 5), F(4, 25), F(2, 5)
+        self.assertEqual((2*d-p*(x-d))/(1-p), F(13, 75))
+        self.assertEqual(((q+d)-p*(x-d))/(1-p), F(6, 25))
+        transfer = F(1, 10)
+        risk = (2*d-(1-p)*transfer-p*(x-d))/((1-p)*(2*q-transfer)-p*(x-3*q+q-d))
+        self.assertEqual(risk, F(11, 31))
+        self.assertGreater(risk*(x-3*q+q-d)/(1-p), F(6, 100))
+        conversion = F(6, 5)
+        partial = F(65, 100)
+        retention = d-F(2, 100)/(1-partial*conversion)
+        self.assertEqual(retention, F(19, 275))
+        self.assertLess((1-partial*conversion)*d, F(4, 100))
+        self.assertLess(F(15, 1000), F(8, 1000)+(conversion-1)*retention)
+
+    def test_downstream_private_draw_after_an_early_reading(self):
+        x, q, d = F(7, 10), F(1, 5), F(4, 25)
+        b, last, h = F(107, 570), F(10, 57), F(1, 25)
+        contest = F(715, 2033)
+        signal_mass = 3*contest/2
+        first_loser = (b-contest*q)/x+contest*(1-d/x)
+        last_loser = last/x
+        self.assertGreater(first_loser, signal_mass*(1-d/x))
+        self.assertGreater(last_loser, signal_mass*d/x)
+        self.assertGreater((last-signal_mass*d)/(1-signal_mass), d)
+        self.assertLess(F(2, 3)*q, d)
+        self.assertEqual(d*(first_loser+last_loser)-q*contest, h)
+        self.assertGreater((b+last-x*h/d)/(2*q), contest)
+
+    def test_contingent_future_work_recovers_current_peace(self):
+        x, q, d, h = F(7, 10), F(1, 5), F(4, 25), F(1, 25)
+        b, last = F(107, 570), F(10, 57)
+        denominator = q-d+d*(q+d)/x
+        budget = d*(b+last)/x-h
+        self.assertEqual(budget, F(143, 3325))
+        for resource in (F(0), budget/3, budget):
+            contest = (budget-resource)/denominator
+            intact = ((b-contest*q)/x, (last-contest*d)/x)
+            gains = (d*(intact[0]+contest)-q*contest, d*intact[1])
+            bonuses = [resource*g/(h+resource) for g in gains]
+            self.assertGreater(min(intact), 0)
+            self.assertGreater(min(gains), 0)
+            self.assertEqual(sum(bonuses), resource)
+            self.assertEqual(sum(g-bonus for g, bonus in zip(gains, bonuses)), h)
+            self.assertEqual(x*intact[0]+contest*q, b)
+            self.assertEqual(x*intact[1]+contest*d, last)
+        self.assertEqual(1+h/budget, F(276, 143))
+
+    def test_multi_owner_full_service_and_partial_bounds(self):
+        x, q, d = F(7, 10), F(1, 5), F(4, 25)
+        base_share, fee, information = F(4, 15), F(5, 1000), F(7, 16)
+        new_share = base_share+fee/x
+        for equipped, minimum in ((0, 0), (1, 0), (2, 1), (3, 2)):
+            feasible = []
+            for count in range(equipped+1):
+                needed = (equipped-count)*information + count*new_share + (3-equipped)*base_share
+                if needed <= 1:
+                    feasible.append(count)
+            self.assertEqual(min(feasible), minimum)
+        loss = x-3*q+(q-d)
+        two = (2*information+base_share-1)/(2*q/d+q/x)
+        self.assertEqual(two, F(119, 2340))
+        self.assertGreater(loss*two, fee)
+        self.assertGreater(loss*(3*information-1)/(3*q/d), 2*fee)
+
+    def test_wealth_funded_risk_and_inspection(self):
+        # One rational tick is exp(-gamma * 0.02). The same stock pays all bills.
+        for tick, outcome in ((F(99, 100), "change"), (F(49, 50), "ordinary"),
+                              (F(9, 10), "no read"), (F(4, 5), "no initiative")):
+            intact = 1-tick**35
+            passive = (1-tick**30)/3
+            initiate = 1-(1-passive)/tick**2
+            if outcome == "no initiative":
+                self.assertLess(initiate, 0)
+                continue
+            expense = passive-initiate
+            price = 1-tick**2
+            share = F(1, 3)
+            option = (1-share)*initiate-price*(1-share*intact)
+            if outcome == "no read":
+                self.assertGreater(initiate, 0)
+                self.assertGreater(share*intact, initiate)
+                self.assertLess(option, 0)
+                continue
+            later = option/((1-share)*passive+price*(share*intact-passive))
+            early = (1-share)*(share*intact-initiate)/(share*intact-(1-share)*initiate)
+            second = early*passive+(1-early)*(initiate+later*expense)
+            third = early*passive+(1-early)*initiate
+            loss = intact-3*passive+expense
+            ordinary_contest = (initiate*(second+third)/intact-price*(1-intact+second+third)) / (
+                expense+initiate*(passive+initiate)/intact+price*loss)
+            second_mass = (second-ordinary_contest*passive)/intact
+            third_mass = (third-ordinary_contest*initiate)/intact
+            first_mass = 1-ordinary_contest-second_mass-third_mass
+            self.assertGreater(min(first_mass, second_mass, third_mass, ordinary_contest), 0)
+            ordinary = first_mass*intact+passive*ordinary_contest
+            self.assertGreater(ordinary, initiate)
+            self.assertLess(ordinary_contest/(ordinary_contest+second_mass), initiate/passive)
+            # Compare the observational deviation at its actual stock expense.
+            inspected_gross = first_mass*intact+(1-first_mass)*initiate
+            self.assertEqual(1-(1-inspected_gross)/tick**2, ordinary)
+            installed = 1-(1-intact+second+third)/tick**2
+            self.assertEqual(installed > ordinary, outcome == "change")
+
     def test_equal_load_quota_cancellation(self):
         weights = [F(4**(6-k) + 4*4**k, 5**7) for k in range(7)]
         mass = [comb(6, k)*w for k, w in enumerate(weights)]
