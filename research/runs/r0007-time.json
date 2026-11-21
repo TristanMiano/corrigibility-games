@@ -360,13 +360,92 @@
       "work": "Recomputed true and false statewise utilities for threshold stocks, diagnosed a genuine but privately unprepared deviation and derived dated and fallible reserve repairs.",
       "artifact": "research/notes/167-when-founders-protect-a-minimum-stock.md",
       "excluded_seconds": 17
+    },
+    {
+      "id": "T27",
+      "category": "theory",
+      "start_utc": "2026-11-21T08:11:21Z",
+      "end_utc": "2026-11-21T08:14:55Z",
+      "wall_seconds": 214,
+      "active_seconds_estimate": 191,
+      "work": "Solved endogenous commissioning with random recognition, repeated counteroffers, heterogeneous patience, a paid holding option and voluntary subsidy response.",
+      "artifact": "research/notes/168-what-a-builder-can-retain-after-renegotiation.md",
+      "excluded_seconds": 23
+    },
+    {
+      "id": "T28",
+      "category": "theory",
+      "start_utc": "2026-11-21T08:14:55Z",
+      "end_utc": "2026-11-21T08:20:39Z",
+      "wall_seconds": 344,
+      "active_seconds_estimate": 302,
+      "work": "Audited bargaining at intersecting productive constraints, identified the equivalent published counterexample, proved the general early-sponsor price and repriced the right to propose.",
+      "artifact": "research/notes/169-which-founder-will-pay-for-an-earlier-agreement.md",
+      "excluded_seconds": 42
+    },
+    {
+      "id": "T29",
+      "category": "theory",
+      "start_utc": "2026-11-21T08:20:39Z",
+      "end_utc": "2026-11-21T08:25:30Z",
+      "wall_seconds": 291,
+      "active_seconds_estimate": 264,
+      "work": "Proved the heterogeneous sharp settlement bound from the final unserved agent's reservation, conditional cash means and a matching private-branch mechanism. Derived its risk-neutral corollary.",
+      "artifact": "research/notes/170-the-exact-price-of-peaceful-service-with-an-ordinary-account.md",
+      "excluded_seconds": 27
+    },
+    {
+      "id": "T30",
+      "category": "theory",
+      "start_utc": "2026-11-21T08:25:30Z",
+      "end_utc": "2026-11-21T08:28:19Z",
+      "wall_seconds": 169,
+      "active_seconds_estimate": 154,
+      "work": "Priced conditional return of unused liquidity, financed partial peace and the ex ante bound against the entire ordinary class, with a strictly funded genuine offer.",
+      "artifact": "research/notes/171-who-will-pay-for-an-ordinary-clearing-account.md",
+      "excluded_seconds": 15
+    },
+    {
+      "id": "C03",
+      "category": "computation",
+      "start_utc": "2026-11-21T08:28:19Z",
+      "end_utc": "2026-11-21T08:30:25Z",
+      "wall_seconds": 126,
+      "active_seconds_estimate": 98,
+      "work": "Checked the new finite gate boundary, funded search, safeguarded outputs and ordinary settlement price against independent enumeration.",
+      "artifact": "tests/test_e8_formation.py",
+      "excluded_seconds": 28,
+      "timing_note": "Observed enclosing bounds 08:28:19\u201308:34:40. Internal switch from checks to derivation estimated; routine coding excluded."
+    },
+    {
+      "id": "T31",
+      "category": "theory",
+      "start_utc": "2026-11-21T08:30:25Z",
+      "end_utc": "2026-11-21T08:34:40Z",
+      "wall_seconds": 255,
+      "active_seconds_estimate": 230,
+      "work": "Solved the productive rehabilitation game, exact full-service incentives, credible exit and the original entrant's dynamic false-signature return.",
+      "artifact": "research/notes/172-a-productive-rehabilitation-rule-in-a-renewable-pool.md",
+      "excluded_seconds": 25,
+      "timing_note": "Observed enclosing bounds 08:28:19\u201308:34:40. Internal switch from checks to derivation estimated; routine coding excluded."
+    },
+    {
+      "id": "T32",
+      "category": "theory",
+      "start_utc": "2026-11-21T08:34:40Z",
+      "end_utc": "2026-11-21T08:39:11Z",
+      "wall_seconds": 271,
+      "active_seconds_estimate": 246,
+      "work": "Checked configuration and renewal decisions against replacement, discovered and corrected the off-path effect of paying another member's restoration costs, and established a surviving funded entry fixture.",
+      "artifact": "research/notes/173-pricing-entry-evidence-and-the-option-to-start-over.md",
+      "excluded_seconds": 25
     }
   ],
   "category_seconds_estimate": {
-    "theory": 5918,
+    "theory": 7305,
     "literature": 87,
-    "computation": 168
+    "computation": 266
   },
-  "active_seconds_estimate": 6173,
+  "active_seconds_estimate": 7658,
   "research_floor_met": false
 }
