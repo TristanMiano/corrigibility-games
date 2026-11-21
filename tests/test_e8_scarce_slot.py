@@ -5,7 +5,7 @@ Run with python -m unittest discover -s tests -p test_e8_scarce_slot.py
 
 from fractions import Fraction as F
 from itertools import product
-from math import prod
+from math import acos, cos, exp, log, prod, sin
 import unittest
 
 
@@ -128,6 +128,85 @@ class ScarceSlotChecks(unittest.TestCase):
                 self.assertEqual(losses_from_lying[0], 0)
                 self.assertGreater(losses_from_lying[1], 0)
                 self.assertEqual(own_return, F(1, 6)+gain)
+
+    def test_funded_insurance_with_three_report_levels(self):
+        # Physical levels 3 log(2), 6 log(2), 9 log(2). An equal
+        # share is an integer multiple of log(2), so CARA is rational.
+        levels = (1, 2, 3)
+        for masses, truthful in (((F(1, 8), F(5, 8), F(1, 4)), True),
+                                 ((F(1, 2), F(1, 8), F(3, 8)), False)):
+            credible = True
+            for own, lie in product(levels, repeat=2):
+                if own == lie:
+                    continue
+                truth_loss = lie_loss = F(0)
+                for a, b in product(levels, repeat=2):
+                    mass = masses[a-1] * masses[b-1]
+                    truth_loss += mass * F(2)**(-max(own, a, b))
+                    reports = (lie, a, b)
+                    largest = max(reports)
+                    winners = [i for i, x in enumerate(reports) if x == largest]
+                    lie_loss += mass * sum(
+                        F(2)**(-largest - (3*(own-lie) if i == 0 else 0))
+                        for i in winners) / len(winners)
+                if lie_loss < truth_loss:
+                    credible = False
+            self.assertEqual(credible, truthful)
+
+    def test_continuous_categories_are_best_responses(self):
+        left, right = 0.25, 0.5
+        for beta, count in ((0.5, 2), (0.8, 5)):
+            role_ratio = (1 + beta**2) / (2*beta)
+            angle = acos(1 / role_ratio)
+            cutoff = acos(left/right * cos(angle/2))
+            self.assertLess((count-0.5)*angle, cutoff)
+            self.assertGreater((count+0.5)*angle, cutoff)
+            bounds = [(left*sin((count-j)*angle) + right*sin(j*angle)) / sin(count*angle)
+                      for j in range(count+1)]
+            intervals = list(zip(bounds, bounds[1:]))
+            for index, (lo, hi) in enumerate(intervals):
+                self.assertLess(lo, hi)
+                for own in (lo+(hi-lo)/100, (lo+hi)/2, hi-(hi-lo)/100):
+                    losses = []
+                    for report in range(count):
+                        loss = 0.0
+                        for rival, (a, b) in enumerate(intervals):
+                            chance = 1 if report < rival else (0.5 if report == rival else 0)
+                            loss += (b-a)*(chance*own + (1-chance)*role_ratio*(a+b)/2)
+                        losses.append(loss)
+                    self.assertEqual(min(range(count), key=losses.__getitem__), index)
+
+    def test_deliberately_produced_collateral_and_mixed_contest(self):
+        u = lambda income: 1-exp(-income)
+        reserve = 0.045
+        free_contest = -log((2+exp(-0.5))/3)
+        reservation = free_contest-0.003
+        required = 2*reservation-reserve
+        for loss, extra_premium in ((0.6, 0.0), (0.8, 0.00170402), (1.5, 0.03144210)):
+            chosen = max(0, (1-reserve/2-log(1+loss))/(1+loss+0.5))
+            def cert_equiv(amount):
+                winner = 1-(1+loss)*amount
+                others = (reserve+amount)/2
+                self.assertGreaterEqual(winner, others)
+                return -log((exp(-winner)+2*exp(-others))/3)
+            self.assertAlmostEqual(cert_equiv(chosen)-cert_equiv(max(chosen, required)),
+                                   extra_premium, places=7)
+
+        cash = 0.19
+        critical = (u(reservation)-u(cash-reservation))/(u(cash+free_contest)-u(cash-reservation))
+        mixed = (1+critical)/2
+        self.assertLess(cash, 2*reservation)
+        self.assertGreater(mixed*u(cash+free_contest)+(1-mixed)*u(cash-reservation),
+                           u(reservation))
+        self.assertGreater(1-mixed, 0.33)
+        # Verify the two monotonic bound intervals in 152 independently.
+        cash = 0.205
+        pool_peace = u(cash/2)
+        pool_fight = pool_peace/3 + (u(0.5)+u(cash))/3
+        h = (pool_fight-u(reservation))/(pool_fight-pool_peace)
+        self.assertLess(h, 0.757)
+        self.assertLess(-log(1-0.757*u(0.256)-0.243*u(0.182)), 0.238)
+        self.assertLess(-log((exp(-0.6)+2*exp(-0.205/2))/3), 0.243)
 
 
 if __name__ == "__main__":

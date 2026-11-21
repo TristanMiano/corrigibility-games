@@ -93,13 +93,79 @@
       "work": "Rebuilt and checked the insurance proof, settlement by common-goal successors and the quadratic bound against external BIC mechanisms. Excluded search and incidental activity.",
       "artifact": "research/notes/146-the-private-value-of-a-common-goal.md",
       "excluded_seconds": 28
+    },
+    {
+      "id": "T06",
+      "category": "theory",
+      "start_utc": "2026-11-21T06:27:07Z",
+      "end_utc": "2026-11-21T06:31:19Z",
+      "wall_seconds": 252,
+      "active_seconds_estimate": 150,
+      "work": "Derived incentive-weighted upper bounds and globally sufficient adjacent-type conditions for CARA insurance; excluded source lookup, ledger and Git work.",
+      "artifact": "research/notes/147-when-an-ordinary-insurance-contract-is-truthful.md",
+      "excluded_seconds": 102
+    },
+    {
+      "id": "T07",
+      "category": "theory",
+      "start_utc": "2026-11-21T06:33:38Z",
+      "end_utc": "2026-11-21T06:36:19Z",
+      "wall_seconds": 161,
+      "active_seconds_estimate": 147,
+      "work": "Solved voluntary payments under partial concern and derived and checked the two-sided continuous categorical equilibrium, cutoff count and original welfare.",
+      "artifact": "research/notes/148-how-partial-concern-pays-and-communicates.md",
+      "excluded_seconds": 14
+    },
+    {
+      "id": "T08",
+      "category": "theory",
+      "start_utc": "2026-11-21T06:36:19Z",
+      "end_utc": "2026-11-21T06:44:02Z",
+      "wall_seconds": 463,
+      "active_seconds_estimate": 425,
+      "work": "Worked through retained stochastic contest, funded-escrow attacks on the comparison, private collateral, all-history cash bounds, founder consent, endogenous agenda and the lower bound on peaceful service and changed choices.",
+      "artifact": "research/notes/149-when-limited-collateral-makes-a-coalition-worth-forming.md",
+      "excluded_seconds": 38
+    },
+    {
+      "id": "T09",
+      "category": "theory",
+      "start_utc": "2026-11-21T06:44:02Z",
+      "end_utc": "2026-11-21T06:48:52Z",
+      "wall_seconds": 290,
+      "active_seconds_estimate": 262,
+      "work": "Derived the funded collateral floor, role-specific and early conversion optimization, and negotiated shares and partial concern against heterogeneous strength; checked private acceptance and physical scope.",
+      "artifact": "research/notes/150-choosing-concern-and-shares-under-unequal-strength.md",
+      "excluded_seconds": 28
+    },
+    {
+      "id": "T10",
+      "category": "theory",
+      "start_utc": "2026-11-21T06:48:52Z",
+      "end_utc": "2026-11-21T06:56:20Z",
+      "wall_seconds": 448,
+      "active_seconds_estimate": 428,
+      "work": "Optimized conversion under interim funding limits. Found the mixed-contest deviation to a pathwise bound, constructed an ordinary repair, derived the conditional probability and expected utility bounds, and checked the surviving paid-adoption fixture.",
+      "artifact": "research/notes/152-when-the-prospect-of-conflict-substitutes-for-cash.md",
+      "excluded_seconds": 20
+    },
+    {
+      "id": "T11",
+      "category": "theory",
+      "start_utc": "2026-11-21T06:56:20Z",
+      "end_utc": "2026-11-21T06:59:09Z",
+      "wall_seconds": 169,
+      "active_seconds_estimate": 152,
+      "work": "Developed the directed referral network as a materially different three-party environment; derived the weighted surplus dual, expanding cycles in source components and the common goal support construction.",
+      "artifact": "research/notes/153-when-reciprocal-referrals-can-pay-all-founders.md",
+      "excluded_seconds": 17
     }
   ],
   "category_seconds_estimate": {
-    "theory": 1155,
+    "theory": 2719,
     "literature": 38,
     "computation": 28
   },
-  "active_seconds_estimate": 1221,
+  "active_seconds_estimate": 2785,
   "research_floor_met": false
 }
