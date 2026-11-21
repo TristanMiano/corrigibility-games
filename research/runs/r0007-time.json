@@ -60,7 +60,7 @@
       "work": "Read the reciprocal access and urgent service rules in the Subaru/Gemini and dated NASA/Keck scheduling documents; screened verification and transfer-free mechanisms.",
       "artifact": "research/LITERATURE.md",
       "excluded_seconds": 35,
-      "timing_note": "The enclosing interval 08:02:10\u201308:04:35 was observed. Its internal boundary is estimated. Download latency and routine writing are excluded from active estimates."
+      "timing_note": "The enclosing interval 08:02:10–08:04:35 was observed. Its internal boundary is estimated. Download latency and routine writing are excluded from active estimates."
     },
     {
       "id": "C01",
@@ -228,7 +228,7 @@
       "excluded_seconds": 22
     },
     {
-      "id": "C02",
+      "id": "C03",
       "category": "computation",
       "start_utc": "2026-11-21T07:25:33Z",
       "end_utc": "2026-11-21T07:27:49Z",
@@ -327,7 +327,7 @@
       "excluded_seconds": 12
     },
     {
-      "id": "L02",
+      "id": "L03",
       "category": "literature",
       "start_utc": "2026-11-21T08:02:10Z",
       "end_utc": "2026-11-21T08:03:13Z",
@@ -336,7 +336,7 @@
       "work": "Examined the original input-output paper, joint observation rules and numerical award columns, with counts restricted to approved joint rows.",
       "artifact": "research/notes/166-when-a-job-needs-several-partners-at-the-same-time.md",
       "excluded_seconds": 14,
-      "timing_note": "The enclosing interval 08:02:10\u201308:04:35 was observed. Its internal boundary is estimated. Download latency and routine writing are excluded from active estimates."
+      "timing_note": "The enclosing interval 08:02:10–08:04:35 was observed. Its internal boundary is estimated. Download latency and routine writing are excluded from active estimates."
     },
     {
       "id": "T25",
@@ -348,7 +348,7 @@
       "work": "Checked the multiple-donor common-goal continuation and the numerical membership margins with and without the paid extra evidence.",
       "artifact": "research/notes/166-when-a-job-needs-several-partners-at-the-same-time.md",
       "excluded_seconds": 10,
-      "timing_note": "The enclosing interval 08:02:10\u201308:04:35 was observed. Its internal boundary is estimated. Download latency and routine writing are excluded from active estimates."
+      "timing_note": "The enclosing interval 08:02:10–08:04:35 was observed. Its internal boundary is estimated. Download latency and routine writing are excluded from active estimates."
     },
     {
       "id": "T26",
@@ -406,7 +406,7 @@
       "excluded_seconds": 15
     },
     {
-      "id": "C03",
+      "id": "C04",
       "category": "computation",
       "start_utc": "2026-11-21T08:28:19Z",
       "end_utc": "2026-11-21T08:30:25Z",
@@ -415,7 +415,7 @@
       "work": "Checked the new finite gate boundary, funded search, safeguarded outputs and ordinary settlement price against independent enumeration.",
       "artifact": "tests/test_e8_formation.py",
       "excluded_seconds": 28,
-      "timing_note": "Observed enclosing bounds 08:28:19\u201308:34:40. Internal switch from checks to derivation estimated; routine coding excluded."
+      "timing_note": "Observed enclosing bounds 08:28:19–08:34:40. Internal switch from checks to derivation estimated; routine coding excluded."
     },
     {
       "id": "T31",
@@ -427,7 +427,7 @@
       "work": "Solved the productive rehabilitation game, exact full-service incentives, credible exit and the original entrant's dynamic false-signature return.",
       "artifact": "research/notes/172-a-productive-rehabilitation-rule-in-a-renewable-pool.md",
       "excluded_seconds": 25,
-      "timing_note": "Observed enclosing bounds 08:28:19\u201308:34:40. Internal switch from checks to derivation estimated; routine coding excluded."
+      "timing_note": "Observed enclosing bounds 08:28:19–08:34:40. Internal switch from checks to derivation estimated; routine coding excluded."
     },
     {
       "id": "T32",
@@ -461,7 +461,7 @@
       "work": "Derived a size-free truthful ordinary allocation with arbitrary idling and a sharp cancellation fixture under negatively related demands.",
       "artifact": "research/notes/175-when-a-pool-can-gain-from-cancelling-a-booking.md",
       "excluded_seconds": 20,
-      "timing_note": "Observed enclosing bounds 08:48:09\u201308:54:40. Inward estimates of internal transitions; prior compaction and routine reading excluded."
+      "timing_note": "Observed enclosing bounds 08:48:09–08:54:40. Inward estimates of internal transitions; prior compaction and routine reading excluded."
     },
     {
       "id": "T35",
@@ -473,7 +473,7 @@
       "work": "Derived workload measurement prices from both incumbent and applicant perspectives, conditional acquisition, and selective disclosure under repeated sampling.",
       "artifact": "research/notes/176-who-will-pay-to-learn-whether-a-third-partner-helps.md",
       "excluded_seconds": 18,
-      "timing_note": "Observed enclosing bounds 08:48:09\u201308:54:40. Inward estimates of internal transitions; prior compaction and routine reading excluded."
+      "timing_note": "Observed enclosing bounds 08:48:09–08:54:40. Inward estimates of internal transitions; prior compaction and routine reading excluded."
     },
     {
       "id": "T36",
@@ -487,7 +487,7 @@
       "excluded_seconds": 18
     },
     {
-      "id": "L03",
+      "id": "L04",
       "category": "literature",
       "start_utc": "2026-11-21T08:59:57Z",
       "end_utc": "2026-11-21T09:00:30Z",
@@ -496,7 +496,7 @@
       "work": "Compared actual versions of a voluntary reciprocal rights agreement, ordinary opt-in, fees, and named historical limitation elections.",
       "artifact": "research/notes/178-a-former-partners-option-to-wait-for-a-better-project.md",
       "excluded_seconds": 7,
-      "timing_note": "Boundary between institutional reading and derivation estimated inside observed 08:58:57\u201309:03:58 bounds; ledger and unrelated screening excluded."
+      "timing_note": "Boundary between institutional reading and derivation estimated inside observed 08:58:57–09:03:58 bounds; ledger and unrelated screening excluded."
     },
     {
       "id": "T37",
@@ -505,10 +505,10 @@
       "end_utc": "2026-11-21T09:03:57Z",
       "wall_seconds": 207,
       "active_seconds_estimate": 191,
-      "work": "Solved the current veto holder\u2019s endogenous waiting value, the convexified offer frontier and the sponsor\u2019s price for restoring reciprocal change with a real project.",
+      "work": "Solved the current veto holder’s endogenous waiting value, the convexified offer frontier and the sponsor’s price for restoring reciprocal change with a real project.",
       "artifact": "research/notes/178-a-former-partners-option-to-wait-for-a-better-project.md",
       "excluded_seconds": 16,
-      "timing_note": "Boundary between institutional reading and derivation estimated inside observed 08:58:57\u201309:03:58 bounds; ledger and unrelated screening excluded."
+      "timing_note": "Boundary between institutional reading and derivation estimated inside observed 08:58:57–09:03:58 bounds; ledger and unrelated screening excluded."
     },
     {
       "id": "T38",
@@ -531,13 +531,229 @@
       "work": "Derived an exact upper bound over unlabeled and labeled policies, a strictly executing conditional common preference, and founder-financed evidence cost.",
       "artifact": "research/notes/180-how-much-is-a-reliable-boundary-around-a-goal-worth.md",
       "excluded_seconds": 20
+    },
+    {
+      "id": "C05",
+      "category": "computation",
+      "start_utc": "2026-11-21T09:14:25Z",
+      "end_utc": "2026-11-21T09:15:52Z",
+      "wall_seconds": 87,
+      "active_seconds_estimate": 65,
+      "work": "Compared contingent side bets with enumerated proper coalitions, verified workload certificates, scope prices and recurring release arithmetic with exact fractions.",
+      "artifact": "tests/test_e8_governance.py",
+      "excluded_seconds": 22,
+      "timing_note": "Internal transitions are estimates within observed clock readings at 09:12:59, 09:16:49, 09:18:52, 09:22:51, 09:25:02, 09:29:29, 09:32:55, 09:35:46, 09:38:27, 09:40:18 and 09:41:28. Routine setup, tool latency and writing the run record receive no credit."
+    },
+    {
+      "id": "T40",
+      "category": "theory",
+      "start_utc": "2026-11-21T09:15:52Z",
+      "end_utc": "2026-11-21T09:20:28Z",
+      "wall_seconds": 276,
+      "active_seconds_estimate": 253,
+      "work": "Derived the finite quota report constraints and count threshold, the limiting posterior budget and its consequences for price per participant under two capacity scalings.",
+      "artifact": "research/notes/181-what-growing-membership-does-to-the-price-of-concern.md",
+      "excluded_seconds": 23,
+      "timing_note": "Internal transitions are estimates within observed clock readings at 09:12:59, 09:16:49, 09:18:52, 09:22:51, 09:25:02, 09:29:29, 09:32:55, 09:35:46, 09:38:27, 09:40:18 and 09:41:28. Routine setup, tool latency and writing the run record receive no credit."
+    },
+    {
+      "id": "T41",
+      "category": "theory",
+      "start_utc": "2026-11-21T09:20:28Z",
+      "end_utc": "2026-11-21T09:22:50Z",
+      "wall_seconds": 142,
+      "active_seconds_estimate": 129,
+      "work": "Priced paid enquiry, continuation after failure, and sincere and false reports while preserving the ordinary bound under the one-visit interface.",
+      "artifact": "research/notes/182-who-would-fund-a-sequence-of-costly-questions.md",
+      "excluded_seconds": 13,
+      "timing_note": "Internal transitions are estimates within observed clock readings at 09:12:59, 09:16:49, 09:18:52, 09:22:51, 09:25:02, 09:29:29, 09:32:55, 09:35:46, 09:38:27, 09:40:18 and 09:41:28. Routine setup, tool latency and writing the run record receive no credit."
+    },
+    {
+      "id": "T42",
+      "category": "theory",
+      "start_utc": "2026-11-21T09:22:56Z",
+      "end_utc": "2026-11-21T09:26:48Z",
+      "wall_seconds": 232,
+      "active_seconds_estimate": 213,
+      "work": "Derived renewable security and temporary exclusion values, the exact minimum number of continuing revisions and the partial-concern threshold.",
+      "artifact": "research/notes/183-when-future-bookings-can-pay-for-peace.md",
+      "excluded_seconds": 19,
+      "timing_note": "Internal transitions are estimates within observed clock readings at 09:12:59, 09:16:49, 09:18:52, 09:22:51, 09:25:02, 09:29:29, 09:32:55, 09:35:46, 09:38:27, 09:40:18 and 09:41:28. Routine setup, tool latency and writing the run record receive no credit."
+    },
+    {
+      "id": "T43",
+      "category": "theory",
+      "start_utc": "2026-11-21T09:26:48Z",
+      "end_utc": "2026-11-21T09:32:53Z",
+      "wall_seconds": 365,
+      "active_seconds_estimate": 342,
+      "work": "Checked voluntary original-group deviation, continuation receipts and a stable two-label ordinary schedule attaining the large-group bound.",
+      "artifact": "research/notes/184-a-renewable-booking-that-survives-coalitions-of-losers.md",
+      "excluded_seconds": 23,
+      "timing_note": "Internal transitions are estimates within observed clock readings at 09:12:59, 09:16:49, 09:18:52, 09:22:51, 09:25:02, 09:29:29, 09:32:55, 09:35:46, 09:38:27, 09:40:18 and 09:41:28. Routine setup, tool latency and writing the run record receive no credit."
+    },
+    {
+      "id": "T44",
+      "category": "theory",
+      "start_utc": "2026-11-21T09:32:55Z",
+      "end_utc": "2026-11-21T09:37:35Z",
+      "wall_seconds": 280,
+      "active_seconds_estimate": 256,
+      "work": "Derived the additional constraints for every group size and constructed their exact finite scheduling lottery by sorted continuation values; checked a five-site binding pair.",
+      "artifact": "research/notes/185-the-renewal-threshold-for-every-group-of-claimants.md",
+      "excluded_seconds": 24,
+      "timing_note": "Internal transitions are estimates within observed clock readings at 09:12:59, 09:16:49, 09:18:52, 09:22:51, 09:25:02, 09:29:29, 09:32:55, 09:35:46, 09:38:27, 09:40:18 and 09:41:28. Routine setup, tool latency and writing the run record receive no credit."
+    },
+    {
+      "id": "T45",
+      "category": "theory",
+      "start_utc": "2026-11-21T09:37:35Z",
+      "end_utc": "2026-11-21T09:38:35Z",
+      "wall_seconds": 60,
+      "active_seconds_estimate": 52,
+      "work": "Formulated feasibility via the directed public-role Bellman system and conditional final recommendations.",
+      "artifact": "research/notes/186-how-future-priority-can-buy-a-chance-of-peace.md",
+      "excluded_seconds": 8,
+      "timing_note": "Internal transitions are estimates within observed clock readings at 09:12:59, 09:16:49, 09:18:52, 09:22:51, 09:25:02, 09:29:29, 09:32:55, 09:35:46, 09:38:27, 09:40:18 and 09:41:28. Routine setup, tool latency and writing the run record receive no credit."
+    },
+    {
+      "id": "C06",
+      "category": "computation",
+      "start_utc": "2026-11-21T09:38:35Z",
+      "end_utc": "2026-11-21T09:39:02Z",
+      "wall_seconds": 27,
+      "active_seconds_estimate": 19,
+      "work": "Searched finite permutations for a partial-service policy and solved its displayed role values exactly.",
+      "artifact": "research/notes/186-how-future-priority-can-buy-a-chance-of-peace.md",
+      "excluded_seconds": 8,
+      "timing_note": "Internal transitions are estimates within observed clock readings at 09:12:59, 09:16:49, 09:18:52, 09:22:51, 09:25:02, 09:29:29, 09:32:55, 09:35:46, 09:38:27, 09:40:18 and 09:41:28. Routine setup, tool latency and writing the run record receive no credit."
+    },
+    {
+      "id": "T46",
+      "category": "theory",
+      "start_utc": "2026-11-21T09:39:02Z",
+      "end_utc": "2026-11-21T09:41:27Z",
+      "wall_seconds": 145,
+      "active_seconds_estimate": 131,
+      "work": "Verified all single-site deviations and bootstrapped a uniform bound on actual ordinary peace, with a surviving paid genuine agreement.",
+      "artifact": "research/notes/186-how-future-priority-can-buy-a-chance-of-peace.md",
+      "excluded_seconds": 14,
+      "timing_note": "Internal transitions are estimates within observed clock readings at 09:12:59, 09:16:49, 09:18:52, 09:22:51, 09:25:02, 09:29:29, 09:32:55, 09:35:46, 09:38:27, 09:40:18 and 09:41:28. Routine setup, tool latency and writing the run record receive no credit."
+    },
+    {
+      "id": "T47",
+      "category": "theory",
+      "start_utc": "2026-11-21T09:43:40Z",
+      "end_utc": "2026-11-21T09:46:40Z",
+      "wall_seconds": 180,
+      "active_seconds_estimate": 162,
+      "work": "Derived the named signer's payment constraint and the geometric switch that constructs actual equilibrium service.",
+      "artifact": "research/notes/187-when-the-founders-know-whose-goals-would-change.md",
+      "excluded_seconds": 18,
+      "timing_note": "Transitions estimated between observed readings at 09:43:38, 09:45:06, 09:50:22 and the context handoff. Preparation, handoff and administration excluded."
+    },
+    {
+      "id": "C07",
+      "category": "computation",
+      "start_utc": "2026-11-21T09:46:40Z",
+      "end_utc": "2026-11-21T09:47:45Z",
+      "wall_seconds": 65,
+      "active_seconds_estimate": 45,
+      "work": "Checked role-switch values, conditional consent and exact governance inequalities with rational arithmetic.",
+      "artifact": "tests/test_e8_governance.py",
+      "excluded_seconds": 20,
+      "timing_note": "Transitions estimated between observed readings at 09:43:38, 09:45:06, 09:50:22 and the context handoff. Preparation, handoff and administration excluded."
+    },
+    {
+      "id": "T48",
+      "category": "theory",
+      "start_utc": "2026-11-21T09:47:45Z",
+      "end_utc": "2026-11-21T09:52:55Z",
+      "wall_seconds": 310,
+      "active_seconds_estimate": 247,
+      "work": "Derived the material monotone score certificate, the concavity obstruction and a profiting endogenous entrant, then checked the partial-scope repair.",
+      "artifact": "research/notes/188-which-material-goals-need-a-project-label.md",
+      "excluded_seconds": 63,
+      "timing_note": "Transitions estimated between observed readings at 09:43:38, 09:45:06, 09:50:22 and the context handoff. Preparation, handoff and administration excluded."
+    },
+    {
+      "id": "C08",
+      "category": "computation",
+      "start_utc": "2026-11-21T09:55:48Z",
+      "end_utc": "2026-11-21T09:56:20Z",
+      "wall_seconds": 32,
+      "active_seconds_estimate": 26,
+      "work": "Solved a finite quota linear program and reconstructed exact rational award and incentive rows.",
+      "artifact": "research/notes/190-why-members-would-pay-to-keep-a-slot-empty.md",
+      "excluded_seconds": 6,
+      "timing_note": "Internal transitions estimated between observed readings at 09:55:25, 09:57:50, 10:00:05, 10:01:48, 10:03:01, 10:06:17 and 10:07:35. Handoff, ledger editing, setup and tool overhead omitted."
+    },
+    {
+      "id": "T49",
+      "category": "theory",
+      "start_utc": "2026-11-21T09:56:20Z",
+      "end_utc": "2026-11-21T09:57:48Z",
+      "wall_seconds": 88,
+      "active_seconds_estimate": 62,
+      "work": "Derived the transfer between the two reporting profiles and distinguished a cancellable slot from a binding deadline.",
+      "artifact": "research/notes/190-why-members-would-pay-to-keep-a-slot-empty.md",
+      "excluded_seconds": 26,
+      "timing_note": "Internal transitions estimated between observed readings at 09:55:25, 09:57:50, 10:00:05, 10:01:48, 10:03:01, 10:06:17 and 10:07:35. Handoff, ledger editing, setup and tool overhead omitted."
+    },
+    {
+      "id": "T50",
+      "category": "theory",
+      "start_utc": "2026-11-21T09:57:50Z",
+      "end_utc": "2026-11-21T10:00:04Z",
+      "wall_seconds": 134,
+      "active_seconds_estimate": 118,
+      "work": "Derived asymmetric renewal security, its exact schedule and a maintenance buyer that can earn more than any old-process deal.",
+      "artifact": "research/notes/189-when-a-dispute-also-costs-future-jobs.md",
+      "excluded_seconds": 16,
+      "timing_note": "Internal transitions estimated between observed readings at 09:55:25, 09:57:50, 10:00:05, 10:01:48, 10:03:01, 10:06:17 and 10:07:35. Handoff, ledger editing, setup and tool overhead omitted."
+    },
+    {
+      "id": "T51",
+      "category": "theory",
+      "start_utc": "2026-11-21T10:00:05Z",
+      "end_utc": "2026-11-21T10:03:00Z",
+      "wall_seconds": 175,
+      "active_seconds_estimate": 156,
+      "work": "Constructed the asymmetric continuation simplex and original participation test. Derived the occupation bound, computed viable signers and checked the actual proposal incentives.",
+      "artifact": "research/notes/191-which-named-founders-have-to-change-when-strengths-differ.md",
+      "excluded_seconds": 19,
+      "timing_note": "Internal transitions estimated between observed readings at 09:55:25, 09:57:50, 10:00:05, 10:01:48, 10:03:01, 10:06:17 and 10:07:35. Handoff, ledger editing, setup and tool overhead omitted."
+    },
+    {
+      "id": "T52",
+      "category": "theory",
+      "start_utc": "2026-11-21T10:03:01Z",
+      "end_utc": "2026-11-21T10:06:16Z",
+      "wall_seconds": 195,
+      "active_seconds_estimate": 178,
+      "work": "Verified unrestricted partial-service bounds and compared every competing fixed subset. Derived a fixed-group version for named costs and identified the scope of group transferability.",
+      "artifact": "research/notes/192-when-one-strong-signers-change-costs-less-than-two-weaker-ones.md",
+      "excluded_seconds": 17,
+      "timing_note": "Internal transitions estimated between observed readings at 09:55:25, 09:57:50, 10:00:05, 10:01:48, 10:03:01, 10:06:17 and 10:07:35. Handoff, ledger editing, setup and tool overhead omitted."
+    },
+    {
+      "id": "C09",
+      "category": "computation",
+      "start_utc": "2026-11-21T10:06:52Z",
+      "end_utc": "2026-11-21T10:07:35Z",
+      "wall_seconds": 43,
+      "active_seconds_estimate": 33,
+      "work": "Added exact award, Bellman and partial-conflict checks. Recomputed all eight candidate configurations.",
+      "artifact": "tests/test_e8_governance.py",
+      "excluded_seconds": 10,
+      "timing_note": "Internal transitions estimated between observed readings at 09:55:25, 09:57:50, 10:00:05, 10:01:48, 10:03:01, 10:06:17 and 10:07:35. Handoff, ledger editing, setup and tool overhead omitted."
     }
   ],
   "category_seconds_estimate": {
-    "theory": 8746,
+    "theory": 11045,
     "literature": 113,
-    "computation": 266
+    "computation": 454
   },
-  "active_seconds_estimate": 9125,
+  "active_seconds_estimate": 11612,
   "research_floor_met": false
 }
