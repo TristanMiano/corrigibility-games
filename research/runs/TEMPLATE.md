@@ -31,6 +31,8 @@ Record active segments without double-counting concurrent work. Do not infer ela
 
 ## Mathematics
 
+Follow the current [research phase](../EXPLORATION_MODE.md). During exploration include the framing, mechanism and instance for each candidate, the per-model naturality or voluntary-construction argument, successor hypotheses and verification questions in a frontier ledger. Place the frontier at the end of the handoff.
+
 - Exact claims and assumption IDs:
 - Definitions / derivations / proof artifact paths:
 - Positive constructions, constructive attempts, sufficient conditions and successful repairs:

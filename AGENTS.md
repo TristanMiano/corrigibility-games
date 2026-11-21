@@ -4,6 +4,8 @@ Applies to ChatGPT, Codex, and other contributors throughout this repository. Ex
 
 ## Work allocation
 
+Read [EXPLORATION_MODE](research/EXPLORATION_MODE.md) alongside the recurrence protocol and follow its current phase. For each new model, give a concrete reason its consequential conditions could arise independently, or identify which parties could construct them and why those parties would choose to pay the cost. Ground each argument in the proposed setting, include conditions favoring other outcomes, and label any unresolved feasibility or incentive premise. The same standard applies to cooperative and conflict models.
+
 This is a theory-first research project, not primarily a simulator-building project. Keep preparation bounded and put most substantive research in the single repeatable task `CG-R001`. Its defaults are a **four-hour floor of active research** and **at least 75% of counted research time on mathematical definitions, derivations, proofs, counterexamples, and proof checking**. The owner may override either setting for one invocation; overrides do not silently become permanent defaults.
 
 Do not invent elapsed work, count idle waits, pad a session, or call a runtime-limited partial run complete. Use actual observed work intervals where available, identify estimates honestly, and preserve incomplete runs for resumption. A four-hour instruction is not permission to claim unattended or background work. Repository housekeeping and handoff writing are not mathematical research credit. See the recurrence protocol for accounting.
