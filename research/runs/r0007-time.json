@@ -1,6 +1,6 @@
 {
   "run_id": "r0007",
-  "status": "PARTIAL",
+  "status": "COMPLETE",
   "input_commit": "0faeaab8d372d197f7b3c9bd993ee4907ce8fe5d",
   "floor_seconds": 14400,
   "theory_share_min": 0.75,
@@ -1155,13 +1155,121 @@
       "artifact": "tests/test_e8_governance.py",
       "excluded_seconds": 3,
       "timing_note": "Observed enclosing readings at 10:59:34, 11:00:40, 11:02:09 and 11:03:08. Time editing the ledgers and report is outside these research estimates."
+    },
+    {
+      "id": "T81",
+      "category": "theory",
+      "start_utc": "2026-11-21T11:03:42Z",
+      "end_utc": "2026-11-21T11:04:55Z",
+      "wall_seconds": 73,
+      "active_seconds_estimate": 66,
+      "work": "Rechecked the disclosed-recipient and renewal thresholds, and priced individually purchased binding coarse readers against genuine installation and the partial-service class.",
+      "artifact": "research/notes/203-when-several-producers-can-learn-their-own-destination.md",
+      "excluded_seconds": 7,
+      "timing_note": "Transitions estimated within observed readings 11:03:08, 11:04:55, 11:05:19 and 11:06:17. Prior push, repository checks, administrative links and routine processing excluded."
+    },
+    {
+      "id": "C14",
+      "category": "computation",
+      "start_utc": "2026-11-21T11:04:55Z",
+      "end_utc": "2026-11-21T11:05:19Z",
+      "wall_seconds": 24,
+      "active_seconds_estimate": 17,
+      "work": "Checked the least required physical loss at each count of remaining high-precision owners using rational values.",
+      "artifact": "research/notes/203-when-several-producers-can-learn-their-own-destination.md",
+      "excluded_seconds": 7,
+      "timing_note": "Transitions estimated within observed readings 11:03:08, 11:04:55, 11:05:19 and 11:06:17. Prior push, repository checks, administrative links and routine processing excluded."
+    },
+    {
+      "id": "T82",
+      "category": "theory",
+      "start_utc": "2026-11-21T11:05:19Z",
+      "end_utc": "2026-11-21T11:05:52Z",
+      "wall_seconds": 33,
+      "active_seconds_estimate": 29,
+      "work": "Derived nested full-peace regions for a general experiment ordering at fixed reservations and located where realized adoption still requires separate comparison.",
+      "artifact": "research/notes/203-when-several-producers-can-learn-their-own-destination.md",
+      "excluded_seconds": 4,
+      "timing_note": "Transitions estimated within observed readings 11:03:08, 11:04:55, 11:05:19 and 11:06:17. Prior push, repository checks, administrative links and routine processing excluded."
+    },
+    {
+      "id": "L07",
+      "category": "literature",
+      "start_utc": "2026-11-21T11:05:52Z",
+      "end_utc": "2026-11-21T11:06:04Z",
+      "wall_seconds": 12,
+      "active_seconds_estimate": 9,
+      "work": "Checked Blackwell's definition of decision procedures and attainable-risk set comparison in the original Berkeley Symposium paper.",
+      "artifact": "research/LITERATURE.md",
+      "excluded_seconds": 3,
+      "timing_note": "Transitions estimated within observed readings 11:03:08, 11:04:55, 11:05:19 and 11:06:17. Prior push, repository checks, administrative links and routine processing excluded."
+    },
+    {
+      "id": "T83",
+      "category": "theory",
+      "start_utc": "2026-11-21T11:06:04Z",
+      "end_utc": "2026-11-21T11:06:17Z",
+      "wall_seconds": 13,
+      "active_seconds_estimate": 11,
+      "work": "Checked the direction of the shareholder and minimum-cardinality implication after state-independent signal garbling.",
+      "artifact": "research/notes/203-when-several-producers-can-learn-their-own-destination.md",
+      "excluded_seconds": 2,
+      "timing_note": "Transitions estimated within observed readings 11:03:08, 11:04:55, 11:05:19 and 11:06:17. Prior push, repository checks, administrative links and routine processing excluded."
+    },
+    {
+      "id": "T84",
+      "category": "theory",
+      "start_utc": "2026-11-21T11:06:18Z",
+      "end_utc": "2026-11-21T11:07:28Z",
+      "wall_seconds": 70,
+      "active_seconds_estimate": 64,
+      "work": "Derived the minimum named configuration at arbitrary membership and contrasted fixed physical initiative costs with amortized per-site observation and installation rights.",
+      "artifact": "research/notes/203-when-several-producers-can-learn-their-own-destination.md",
+      "excluded_seconds": 6,
+      "timing_note": "Observed boundaries 11:06:17, 11:07:28, 11:08:06, 11:08:22 and 11:08:34. Test-suite latency and all remaining reporting and publication excluded."
+    },
+    {
+      "id": "T85",
+      "category": "theory",
+      "start_utc": "2026-11-21T11:07:28Z",
+      "end_utc": "2026-11-21T11:08:06Z",
+      "wall_seconds": 38,
+      "active_seconds_estimate": 32,
+      "work": "Checked whether the welfare comparisons actually support strategic participation; constructed an anonymous original-goal vote followed by another vote by named signers.",
+      "artifact": "research/notes/203-when-several-producers-can-learn-their-own-destination.md",
+      "excluded_seconds": 6,
+      "timing_note": "Observed boundaries 11:06:17, 11:07:28, 11:08:06, 11:08:22 and 11:08:34. Test-suite latency and all remaining reporting and publication excluded."
+    },
+    {
+      "id": "C15",
+      "category": "computation",
+      "start_utc": "2026-11-21T11:08:06Z",
+      "end_utc": "2026-11-21T11:08:22Z",
+      "wall_seconds": 16,
+      "active_seconds_estimate": 10,
+      "work": "Compared direct enumeration and the exact ceiling formula for two, three, four, eight and thirty-two operators.",
+      "artifact": "research/notes/203-when-several-producers-can-learn-their-own-destination.md",
+      "excluded_seconds": 6,
+      "timing_note": "Observed boundaries 11:06:17, 11:07:28, 11:08:06, 11:08:22 and 11:08:34. Test-suite latency and all remaining reporting and publication excluded."
+    },
+    {
+      "id": "T86",
+      "category": "theory",
+      "start_utc": "2026-11-21T11:08:22Z",
+      "end_utc": "2026-11-21T11:08:34Z",
+      "wall_seconds": 12,
+      "active_seconds_estimate": 10,
+      "work": "Verified the exact four-member transition and its persistence by monotonicity of the aggregate required share and the named signer's reservation.",
+      "artifact": "research/notes/203-when-several-producers-can-learn-their-own-destination.md",
+      "excluded_seconds": 2,
+      "timing_note": "Observed boundaries 11:06:17, 11:07:28, 11:08:06, 11:08:22 and 11:08:34. Test-suite latency and all remaining reporting and publication excluded."
     }
   ],
   "category_seconds_estimate": {
-    "theory": 13440,
-    "literature": 153,
-    "computation": 566
+    "theory": 13652,
+    "literature": 162,
+    "computation": 593
   },
-  "active_seconds_estimate": 14159,
-  "research_floor_met": false
+  "active_seconds_estimate": 14407,
+  "research_floor_met": true
 }

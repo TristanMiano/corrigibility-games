@@ -20,7 +20,7 @@ We distinguish terminal-goal preservation, utility-freezing preferences, policy 
 
 ## Start here
 
-- **[Seventh-round findings on productive coalitions](research/reports/r0007-findings.md)** (in progress). A third party can complete a return favor, provide a scarce complementary input, or offer to stand down under a credible bargain. The [model](research/models/E8.md) prices who would actually build, verify and join the arrangement.
+- **[Seventh-round findings on productive coalitions](research/reports/r0007-findings.md)**. Which founders change depends on recoverable output, future access, the cost of binding local behavior and who can learn or disclose the recipient. The [model and proof guide](research/models/E8.md) and [completed handoff](research/runs/r0007.md) explain how a founder can create these incentives and when it chooses ordinary cooperation.
 
 - **[Sixth-round findings: shared means and exclusive paperclip goals](research/reports/r0006-findings.md)**: useful shared production can pay for consensual genuine changes; asymmetric negotiation, actual audits and durable implementation determine adoption. Common capturable assets and costly execution can instead favor combat, with paid safeguards and earlier bargains supplying repairs. [E7](research/models/E7.md) separates types of overlap from none to nearly all upstream steps.
 
