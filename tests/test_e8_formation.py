@@ -1,7 +1,7 @@
 """Finite checks for E8. Run with python -m unittest discover -s tests -p test_e8_formation.py."""
 from fractions import Fraction as F
 from itertools import product
-from math import exp, prod, sqrt
+from math import exp, log, prod, sqrt
 import unittest
 
 
@@ -122,7 +122,6 @@ class FormationChecks(unittest.TestCase):
         u = lambda x: 1 - exp(-x)
         free_contest = (2*u(0) + u(0.5))/3
         own_contest = (2*u(-0.003) + u(0.497))/3
-        from math import log
         d = -log(1 - own_contest)
         cash = 0.19
         after_late_dispute = (2*u(cash) + u(cash+0.5))/3
