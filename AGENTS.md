@@ -1,6 +1,6 @@
 # Instructions for research agents
 
-Applies to ChatGPT, Codex, and other contributors throughout this repository. Explicit owner instructions override project defaults. Read `README.md`, `TODO.md`, `research/CHARTER.md`, the binding `research/AIM_BALANCE.md`, and the latest run handoff before selecting work. Read `research/RECURRENCE.md` before invoking `CG-R001`.
+Applies to ChatGPT, Codex, and other contributors throughout this repository. Explicit owner instructions override project defaults. Read `README.md`, `TODO.md`, `research/CHARTER.md`, the binding `research/AIM_BALANCE.md`, the [research map](research/MAP.md), and the latest run handoff before selecting work. Read `research/RECURRENCE.md` before invoking `CG-R001`.
 
 ## Work allocation
 
