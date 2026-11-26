@@ -115,6 +115,61 @@
       "work": "Proved the finite physical-dictionary certificate and solved negotiated goal granularity, then solved strategic serial sampling, the sixth-trial mixed continuation and a funded chronological-evidence alternative.",
       "artifact": "research/notes/217-do-the-two-machines-mean-the-same-thing-by-a-goal.md, research/notes/218-who-chooses-which-inspection-to-show.md",
       "excluded_seconds": 12
+    },
+    {
+      "id": "T09",
+      "category": "theory",
+      "start_utc": "2026-11-26T20:36:26Z",
+      "end_utc": "2026-11-26T20:41:49Z",
+      "wall_seconds": 323,
+      "active_seconds_estimate": 311,
+      "work": "Proved finite and uniform statistical separation and the decision-regret limit, derived robust voluntary experiment purchase with strategic entry, solved the majority-length choice and the sequential information lower bound.",
+      "artifact": "research/notes/219-which-uncertainties-can-more-experience-resolve.md, research/notes/220-which-confidence-will-the-partners-pay-for.md",
+      "excluded_seconds": 12
+    },
+    {
+      "id": "T10",
+      "category": "theory",
+      "start_utc": "2026-11-26T20:41:49Z",
+      "end_utc": "2026-11-26T20:44:30Z",
+      "wall_seconds": 161,
+      "active_seconds_estimate": 153,
+      "work": "Derived discretionary stopping by concavity and gambler's ruin, checked behavior at all stopping boundaries, solved the raw-reading equilibrium and the finite strategy-envelope formulation.",
+      "artifact": "research/notes/221-what-a-customer-does-with-the-raw-readings.md",
+      "excluded_seconds": 8
+    },
+    {
+      "id": "C01",
+      "category": "computation",
+      "start_utc": "2026-11-26T20:44:31Z",
+      "end_utc": "2026-11-26T20:46:56Z",
+      "wall_seconds": 145,
+      "active_seconds_estimate": 135,
+      "work": "Implemented and ran exact threshold-envelope, equilibrium, strength-continuation and finite paced-bench backward induction checks, including re-solving the finite tree at its own induced prior.",
+      "artifact": "experiments/r0008_sequential_evidence.py; research/notes/221-what-a-customer-does-with-the-raw-readings.md",
+      "excluded_seconds": 10
+    },
+    {
+      "id": "T11",
+      "category": "theory",
+      "start_utc": "2026-11-26T20:46:57Z",
+      "end_utc": "2026-11-26T20:51:43Z",
+      "wall_seconds": 286,
+      "active_seconds_estimate": 273,
+      "work": "Proved completeness of the buyer's tie/threshold response, the no-inspection strength bound and its common-polarity repair. Derived the hidden-edit imitation result and a staged two-parcel equilibrium with priced ordinary alternative and uncertain physical yield.",
+      "artifact": "research/notes/221-what-a-customer-does-with-the-raw-readings.md, research/notes/222-can-a-working-pilot-persuade-the-partner-to-go-first.md",
+      "excluded_seconds": 13
+    },
+    {
+      "id": "L03",
+      "category": "literature",
+      "start_utc": "2026-11-26T20:51:44Z",
+      "end_utc": "2026-11-26T20:52:39Z",
+      "wall_seconds": 55,
+      "active_seconds_estimate": 46,
+      "work": "Audited the stopped-experiment KL inequality, classical Bayesian continuation regions and the fitness-specific unobservability comparison beside our founder-level pilot and monitoring claims.",
+      "artifact": "research/LITERATURE.md L89–L91; research/notes/219–222",
+      "excluded_seconds": 9
     }
   ]
 }
