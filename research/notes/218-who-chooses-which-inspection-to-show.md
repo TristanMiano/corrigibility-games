@@ -1,0 +1,37 @@
+# Who chooses which inspection to show?
+
+A supplier that can afford several commissioning trials can show the customer the first passing receipt. This helps an honest installation recover from a mistaken rejection. It also gives an unchanged controller more chances to obtain the same receipt. Whether the customer can see the failed trials changes both the meaning of a pass and the supplier's incentive to do the edit at all.
+
+## Who pays for another trial?
+
+Use the equal-strength physical job of [206](206-when-a-truthful-attempt-can-fail.md). Release gives (4,6) if the evaluator was changed and (6,0) if it was retained. Return gives (2,2), preferable to the damaging contest for both controllers. The negotiated successor values x+y/2 and delivers. Original A keeps. A privately pays an installation expense k uniform on [0,1.4] to attempt, and succeeds with q=.8. An unchanged A can falsely announce readiness. Here A pays .02 of its own stock for each fresh physical inspection, and knows its current evaluator when deciding whether to buy another. Each trial independently passes a genuine installation with t=.9 and a retained one with e=.1. The material batch, calibration and controller are fixed throughout. There are at most m trials before the production window expires.
+
+First suppose the customer sees only a valid receipt for this batch or no receipt; it knows the maximum m. If B honors a receipt with probability x and otherwise returns the batch, the current supplier values release four units above return in *either* state. For G that difference is 7−3 in successor units; for a retained A it is 6−2 in original units. With per-trial price c, a supplier in state j buys successive trials up to the cap if x p_j·4>c, and declines them if the inequality reverses. The one-remaining-trial comparison gives this result by induction, since a failure leaves the same reward opportunity with one fewer trial. At equality any stopping policy is optimal. This use of current successor incentives is separate from valuing the initial decision to change.
+
+If passes are always honored, both states try until passage or exhaustion. Set T=1−(1−t)^m and E=1−(1−e)^m. The expected numbers of trials are T/t and E/e. A founder's gain from a *successful* edit relative to the retained controller, before its private installation expense, is
+
+    Z_m = T(2−c/t) − E(4−c/e).
+
+The two-unit gain for G here is the founder's *own stock* from delivered work, 4−2. The genuine fraction is π=q clip(q Z_m/K,0,1) for K=1.4. Positives occur with probabilities T or E, so B honors a pass when πT/[πT+(1−π)E]≥1/3. A missing receipt uses 1−T and 1−E instead. The table verifies both signature incentives and B's estimated gain over return before any instrument purchase; for m=1 through 5 the no-receipt posterior is below the release threshold.
+
+| Private trial capacity | Genuine installation probability | Genuine given a reported pass | B's gain over return | A founder's gain over return |
+| ---: | ---: | ---: | ---: | ---: |
+| 1 | .6400 | .9412 | 2.2320 | .8280 |
+| 2 | .5650 | .8713 | 2.0722 | 1.0712 |
+| 3 | .4325 | .7375 | 1.4205 | 1.2343 |
+| 4 | .3066 | .5625 | .7495 | 1.4097 |
+| 5 | .1927 | .3683 | .1098 | 1.5968 |
+
+B's margin is 4πT−2(1−π)E. In these interiors A earns E(4−c/e)+(qZ_m)²/(2K). Even at fixed π, the passing receipt becomes less diagnostic as m increases: T/E is t/e times a weighted average of the decreasing values ((1−t)/(1−e))^j for j=0,…,m−1 with weights (1−e)^j. One extra opportunity appends a smaller value. The numerical game adds a fall in voluntary attempts on top of that statistical effect. The extra production capacity belongs to the evidence supplier; a verifier who controlled the trials could use different information.
+
+## The sixth trial and a weakly supported bargain
+
+With six trials, honoring all passes would induce π≈.0902 and a pass worth only .1746 genuine probability. The customer prefers return on that forecast. There is a mixed continuation. Let B honor a pass with x=c/(4e)=.05. A retained controller is indifferent about every trial. A genuine controller still tries until passage since 4xt>c. Against a retained controller's zero net trial rent, the original attempt advantage is q T(2x−c/t)−k. It supports π=q²T(2x−c/t)/K≈.0356. To make B indifferent after a pass, retained controllers must obtain a receipt with probability 2πT/(1−π), about .0737, attainable even by randomizing whether to buy just one .1-pass trial. The posterior after no receipt is below 1/3. All can sign with zero reward for a pure false declarant; offering the bargain is only weakly optimal for the customer. This is an existence statement for that selection. A failed pure policy alone would have missed it. A cheaper ordinary order or a small cost of opening an unproductive case can displace it.
+
+## A witnessed sample or the chronological record?
+
+Suppose instead the customer can require a fresh batch-specific sample or read the entire trial history. A first pass on trial k has likelihood ratio (t/e)((1−t)/(1−e))^(k−1). Here the first three ratios are 9, 1 and 1/9. A first pass on the second trial tells B exactly as much about the goal as its prior at signing, yet can still clear the *economic* threshold. In the chronological assessment where the first two passes are honored and later ones are declined, the privately chosen effort gives the m=2 prior .5650. An initial pass, or a second pass after one failure, warrants release. A third-trial pass following two failures is worth about .126 genuine probability and warrants return. After two failures further trials have no value; a small type-independent probability of trying off path gives late receipts the indicated likelihoods. The option to return or contest remains available every time the customer must choose.
+
+Against the five-concealed-trial outcome, a single eligible witnessed draw raises B's gain by 2.1222 while reducing A's by .7688, approximately. A .2-cost witness station that B can fund is strictly profitable. If an existing five-trial deal requires mutual assent to redesign, B can also pay one sure unit on enrollment in the witnessed batch. A then strictly accepts and still chooses its private effort since the payment is sunk at that choice. B still gains more than the two expenses. Under chronological recording, the effective two-trial option has a combined founder margin of 3.1434, compared with 3.0600 for the one witnessed draw. With equal recording charges the supplier could transfer part of its .2432 gain to compensate B's .1598 loss. A credible second chance for genuinely unlucky installers can be jointly worthwhile.
+
+**Naturality and reach.** Separate test benches with transferable pass receipts and a production deadline can naturally limit who sees unsuccessful trials. A purchaser can allocate one marked sample or both plants can pay for recording all trials on the same parcel. Either design requires control over which parcel is finally routed and over restarting the sequence. Shared calibration errors change the likelihood ratios, and a genuinely easier binding delivery device can bypass this market for semantic evidence. All reported combat is zero in this equal-strength fixture; a better salvage outside option changes the economic threshold for honoring a pass. The sibling uses an independent signal about final output. The wider question asks who controls *selection of the evidence* as well as who understands the evaluator.

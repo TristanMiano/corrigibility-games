@@ -60,6 +60,61 @@
       "work": "Compared the proceedings' planner-ambiguity and cross-environment identification results, the paid lottery procedure and invariance, independence and label orientation in the original two-population calibration model. Recorded versions and audit scope.",
       "artifact": "research/LITERATURE.md#r0008--recognizing-an-agreed-preference-under-uncertain-capabilities",
       "excluded_seconds": 10
+    },
+    {
+      "id": "T05",
+      "category": "theory",
+      "start_utc": "2026-11-26T20:09:07Z",
+      "end_utc": "2026-11-26T20:14:38Z",
+      "wall_seconds": 331,
+      "active_seconds_estimate": 319,
+      "work": "Derived transcript odds and common-cause ceilings, independent-source willingness to pay, the two-contract calibration inversion and finite-data bound. Constructed two indistinguishable measurement worlds and solved a truthful-repair extension with endogenous monitoring and genuine successor incentives.",
+      "artifact": "research/notes/210-what-another-positive-reading-can-establish.md; research/notes/211-can-the-parties-calibrate-their-own-evidence.md; research/notes/212-who-would-admit-an-unsuccessful-update.md",
+      "excluded_seconds": 12
+    },
+    {
+      "id": "T06",
+      "category": "theory",
+      "start_utc": "2026-11-26T20:14:39Z",
+      "end_utc": "2026-11-26T20:21:08Z",
+      "wall_seconds": 389,
+      "active_seconds_estimate": 375,
+      "work": "Solved reciprocal adoption with separate verification capabilities, the positive fixed point and its capacity bounds, and the effect of correlated technical success and transferable slots. Began deriving founder consent and risk-sharing under uncertain deliveries.",
+      "artifact": "research/notes/213-both-partners-have-to-change.md; research/notes/214-what-learning-your-own-result-tells-you-about-the-partner.md",
+      "excluded_seconds": 14
+    },
+    {
+      "id": "T07",
+      "category": "theory",
+      "start_utc": "2026-11-26T20:21:09Z",
+      "end_utc": "2026-11-26T20:27:50Z",
+      "wall_seconds": 401,
+      "active_seconds_estimate": 347,
+      "work": "Derived and audited two-stage CARA participation under implementation and physical yield uncertainty, the priced matched control, the partition insurance frontier and its collateral-constrained noisy example.",
+      "artifact": "research/notes/215-who-signs-when-even-a-correct-goal-has-an-uncertain-yield.md, research/notes/216-which-risks-can-the-signers-share.md",
+      "excluded_seconds": 54
+    },
+    {
+      "id": "L02",
+      "category": "literature",
+      "start_utc": "2026-11-26T20:27:50Z",
+      "end_utc": "2026-11-26T20:28:25Z",
+      "wall_seconds": 35,
+      "active_seconds_estimate": 30,
+      "work": "Compared the bilateral participation and state-contingent marginal utility proofs in Borch and Wilson with the coarse diagnostic and limited physical margin in 216.",
+      "artifact": "research/LITERATURE.md L87–L88; research/notes/216-which-risks-can-the-signers-share.md",
+      "excluded_seconds": 5
+    },
+    {
+      "id": "T08",
+      "category": "theory",
+      "start_utc": "2026-11-26T20:28:26Z",
+      "end_utc": "2026-11-26T20:33:51Z",
+      "wall_seconds": 325,
+      "active_seconds_estimate": 313,
+      "work": "Proved the finite physical-dictionary certificate and solved negotiated goal granularity, then solved strategic serial sampling, the sixth-trial mixed continuation and a funded chronological-evidence alternative.",
+      "artifact": "research/notes/217-do-the-two-machines-mean-the-same-thing-by-a-goal.md, research/notes/218-who-chooses-which-inspection-to-show.md",
+      "excluded_seconds": 12
     }
   ]
 }
