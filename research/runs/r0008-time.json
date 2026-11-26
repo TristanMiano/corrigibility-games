@@ -291,6 +291,39 @@
       "work": "Separated current compatibility, historical changes and causal conversions. Solved endogenous monitoring with initially compatible entrants and priced buyer switching between pools. Derived sharp attribution bounds and a strategic pre/post grant with dated-archive repair, checking both the temporarily changed successor and the grant payer's incentives.",
       "artifact": "research/notes/243–244",
       "excluded_seconds": 12
+    },
+    {
+      "id": "T20",
+      "category": "theory",
+      "start_utc": "2026-11-26T22:01:02Z",
+      "end_utc": "2026-11-26T22:05:35Z",
+      "wall_seconds": 273,
+      "active_seconds_estimate": 257,
+      "work": "Rechecked bounded-choice identification and its equality endpoint, every strength boundary, separate donor incentives, bulk insurance, receipts and current-self willingness to stay through finite and renewable sampling. Corrected a two-party delegate price, typewise compensation for replacing concealed trials and the incumbent's valuation of the buyer's future test bills.",
+      "artifact": "research/notes/205–221 (corrections in 205–207, 213, 218, 221)",
+      "excluded_seconds": 16
+    },
+    {
+      "id": "T21",
+      "category": "theory",
+      "start_utc": "2026-11-26T22:08:28Z",
+      "end_utc": "2026-11-26T22:12:53Z",
+      "wall_seconds": 265,
+      "active_seconds_estimate": 250,
+      "work": "Solved separate ability and goal states with endogenous private edits, a fallible intake log, a strategic pilot and a buyer-funded training decision. Derived the mixed reporting/training assessment, comparative skill switches, founder welfare, and a matched-skill ordinary routing control.",
+      "artifact": "research/notes/245–246",
+      "excluded_seconds": 15
+    },
+    {
+      "id": "T22",
+      "category": "theory",
+      "start_utc": "2026-11-26T22:15:35Z",
+      "end_utc": "2026-11-26T22:20:15Z",
+      "wall_seconds": 280,
+      "active_seconds_estimate": 267,
+      "work": "Derived how a public proof changes the successor's willingness to pay, the founder's enrollment threshold, and a buyer's incentive to relinquish repricing power. Solved price options, repeated invoice discipline, post-information editing and endogenous private versus visible entry by a second buyer, including the sharp setup-cost boundary.",
+      "artifact": "research/notes/247–249",
+      "excluded_seconds": 13
     }
   ]
 }
