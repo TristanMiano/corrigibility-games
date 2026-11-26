@@ -467,6 +467,94 @@
       "work": "Solved the applicant and buyer fixed points when an active-goal read can be purchased after either process result. Derived all six branches on the productive domain, their overlap and raw-signal bound, the three distinct equilibria at one price, and a physically costly custody choice that every founder strictly prefers.",
       "artifact": "research/notes/264",
       "excluded_seconds": 8
+    },
+    {
+      "id": "L08",
+      "category": "literature",
+      "start_utc": "2026-11-26T23:12:04Z",
+      "end_utc": "2026-11-26T23:12:45Z",
+      "wall_seconds": 41,
+      "active_seconds_estimate": 18,
+      "work": "Checked Holmström's signal-contingent sharing proposition and qualifications, Bolton and Harris's current and future incentives to experiment publicly, and NIST's account of common use of traceable industrial references. Distinguished agency, application and institutional scope of these comparisons.",
+      "artifact": "research/LITERATURE.md L113–115",
+      "excluded_seconds": 23
+    },
+    {
+      "id": "T33",
+      "category": "theory",
+      "start_utc": "2026-11-26T23:12:45Z",
+      "end_utc": "2026-11-26T23:15:32Z",
+      "wall_seconds": 167,
+      "active_seconds_estimate": 161,
+      "work": "Derived necessary and sufficient finite liquidity, incentive and two-sided participation conditions for full raw disclosure with any public reading/action-contingent transfer. Priced a matched transparent effort guarantee and solved a strict Pareto repair that rescues failed-process/good-goal orders with unchanged actual adoption, including renegotiation and ordinary controls.",
+      "artifact": "research/notes/265",
+      "excluded_seconds": 6
+    },
+    {
+      "id": "T34",
+      "category": "theory",
+      "start_utc": "2026-11-26T23:16:01Z",
+      "end_utc": "2026-11-26T23:20:54Z",
+      "wall_seconds": 293,
+      "active_seconds_estimate": 267,
+      "work": "Derived the minimum orientation reliability to support a self-financing locally inspected goal change and the public-reference subscription threshold. Solved two endogenously funded, physically noisy pilot experiments, the backward-induction reversal when the first buyer can rescue the second, two mutually paid repairs, and an explicitly priced ordinary retained reference on the same apparatus.",
+      "artifact": "research/notes/266–267",
+      "excluded_seconds": 26
+    },
+    {
+      "id": "C05",
+      "category": "computation",
+      "start_utc": "2026-11-26T23:21:30Z",
+      "end_utc": "2026-11-26T23:22:51Z",
+      "wall_seconds": 81,
+      "active_seconds_estimate": 73,
+      "work": "Implemented a separate exact normal-form solver enumerating all 36 complete buyer policies and intersecting every best-response region with the induced private-cost cutoffs. Reproduced all three productive equilibria, found the additional zero-buyer-profit thin entry branch and checked the full-disclosure transfers from raw state masses.",
+      "artifact": "experiments/r0008_receipt_game.py; tests/test_r0008_verification.py",
+      "excluded_seconds": 8
+    },
+    {
+      "id": "T35",
+      "category": "theory",
+      "start_utc": "2026-11-26T23:22:51Z",
+      "end_utc": "2026-11-26T23:25:43Z",
+      "wall_seconds": 172,
+      "active_seconds_estimate": 155,
+      "work": "Solved when an enforceable commissioning bonus removes the no-release assessment, including the unique induced installed fraction with private settlement, the low public-receipt branch and the exactly matched public/private launch thresholds. Checked buyer and every supplier's consent and left the remaining public equilibrium selection explicit.",
+      "artifact": "research/notes/268; experiments/r0008_receipt_game.py",
+      "excluded_seconds": 17
+    },
+    {
+      "id": "T36",
+      "category": "theory",
+      "start_utc": "2026-11-26T23:26:13Z",
+      "end_utc": "2026-11-26T23:29:32Z",
+      "wall_seconds": 199,
+      "active_seconds_estimate": 187,
+      "work": "Rechecked the two-founder commissioning equations and the risk-sharing proof in 213–216. Extended the binary observable insurance problem to both founders' costly hidden decisions and arbitrary finite deviations. Derived convex implementability, a sharp incentive interval and an explicit strict insured bilateral change with uncertain physical gifts, tested against unilateral and ordinary alternatives and a three-event counterexample.",
+      "artifact": "research/notes/213–216,269",
+      "excluded_seconds": 12
+    },
+    {
+      "id": "T37",
+      "category": "theory",
+      "start_utc": "2026-11-26T23:29:35Z",
+      "end_utc": "2026-11-26T23:31:26Z",
+      "wall_seconds": 111,
+      "active_seconds_estimate": 102,
+      "work": "Computed the sharp worst-case joint installation floor for two risk-averse founders facing unknown dependence, using monotonicity at every bilateral effort-compatible price. Exhibited a voluntary reprice between the old and best robust thresholds and a funded joint schedule, and checked the finite-sample calibration margin independently.",
+      "artifact": "research/notes/270",
+      "excluded_seconds": 9
+    },
+    {
+      "id": "T38",
+      "category": "theory",
+      "start_utc": "2026-11-26T23:32:53Z",
+      "end_utc": "2026-11-26T23:36:00Z",
+      "wall_seconds": 187,
+      "active_seconds_estimate": 174,
+      "work": "Audited the finite behavioral identification and sequential-testing arguments in 205,219–221 against changes of the live state. Derived a sharp reachable-confidence ceiling and a guarantee over all late-record policies, solved voluntary early effort versus independent later maintenance, and checked three mutually funded timing and durability choices.",
+      "artifact": "research/notes/205,219–221,225,271–272",
+      "excluded_seconds": 13
     }
   ]
 }
