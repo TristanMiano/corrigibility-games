@@ -324,6 +324,83 @@
       "work": "Derived how a public proof changes the successor's willingness to pay, the founder's enrollment threshold, and a buyer's incentive to relinquish repricing power. Solved price options, repeated invoice discipline, post-information editing and endogenous private versus visible entry by a second buyer, including the sharp setup-cost boundary.",
       "artifact": "research/notes/247–249",
       "excluded_seconds": 13
+    },
+    {
+      "id": "T23",
+      "category": "theory",
+      "start_utc": "2026-11-26T22:20:41Z",
+      "end_utc": "2026-11-26T22:25:08Z",
+      "wall_seconds": 267,
+      "active_seconds_estimate": 255,
+      "work": "Derived the joint strength/reliability phase boundaries, signs of changes in confidence, service, founding rents and conflict in the mixed region. Proved the sign reversal in combat after a cheaper test and repriced the entire settlement game, including a strict compensation for every known expense type.",
+      "artifact": "research/notes/250–251",
+      "excluded_seconds": 12
+    },
+    {
+      "id": "C03",
+      "category": "computation",
+      "start_utc": "2026-11-26T22:26:53Z",
+      "end_utc": "2026-11-26T22:28:25Z",
+      "wall_seconds": 92,
+      "active_seconds_estimate": 70,
+      "work": "Implemented the exact one-reading equilibrium from the physical fallback choices, verified the two agents’ incentives independently on 780 input pairs and checked the strength/reliability, conditional-confidence and opposite combat comparative statics. Generated and inspected the resulting three outcome maps.",
+      "artifact": "experiments/r0008_verification_boundaries.py; tests/test_r0008_verification.py; research/reports/r0008-power.png",
+      "excluded_seconds": 22
+    },
+    {
+      "id": "T24",
+      "category": "theory",
+      "start_utc": "2026-11-26T22:28:25Z",
+      "end_utc": "2026-11-26T22:30:44Z",
+      "wall_seconds": 139,
+      "active_seconds_estimate": 129,
+      "work": "Proved a finite assay/decision class with mode-dependent physical fallback stocks, solved all three power-depletion regions including the early contest option, and priced both the timing of spare capacity and a replacement that every incumbent would choose. Checked battery units, posterior responses, participation by private cost and boundary arithmetic.",
+      "artifact": "research/notes/252-when-an-inspection-spends-the-energy-needed-for-recovery.md",
+      "excluded_seconds": 10
+    },
+    {
+      "id": "T25",
+      "category": "theory",
+      "start_utc": "2026-11-26T22:30:57Z",
+      "end_utc": "2026-11-26T22:34:11Z",
+      "wall_seconds": 194,
+      "active_seconds_estimate": 181,
+      "work": "Derived and checked a discounted stochastic reserve game with fallible goals and production. Solved the buyer's stopping and test-purchase conditions at every reserve, proved the ruin boundary for independent suppliers, priced a privately desirable spare and counted the discounted additional genuine installations.",
+      "artifact": "research/notes/253-how-much-reserve-lets-a-buyer-keep-taking-risky-bargains.md",
+      "excluded_seconds": 13
+    },
+    {
+      "id": "T26",
+      "category": "theory",
+      "start_utc": "2026-11-26T22:34:23Z",
+      "end_utc": "2026-11-26T22:39:55Z",
+      "wall_seconds": 332,
+      "active_seconds_estimate": 312,
+      "work": "Derived the renewal optimum and posterior cutoff after failed deliveries, the sharp last-trial imitation constraint, and a bilateral replacement-cost intervention with revised stopping. Extended the result to random loss of a supplier, stationary negotiated installations versus the working goal mix, and an affordable chosen extension. Checked a short-term repair and a collateralized ordinary control.",
+      "artifact": "research/notes/254–255",
+      "excluded_seconds": 20
+    },
+    {
+      "id": "T27",
+      "category": "theory",
+      "start_utc": "2026-11-26T22:40:18Z",
+      "end_utc": "2026-11-26T22:42:25Z",
+      "wall_seconds": 127,
+      "active_seconds_estimate": 109,
+      "work": "Reconstructed the pilot, reversal/amendment, renewal, ambiguous consent, portfolio, common-evidence, operating-range, inspector, dated adoption, training and repricing arguments in notes 222–249. Recomputed thresholds and expected utilities independently. Tightened the archived-state definition, full-strength Lipschitz example, physical reserves, warranty collection, training attendance and enforceable early-kit choice.",
+      "artifact": "research/notes/222–249; explicit corrections in 225, 228, 234, 236, 245, 248 and 249",
+      "excluded_seconds": 18
+    },
+    {
+      "id": "L07",
+      "category": "literature",
+      "start_utc": "2026-11-26T22:43:07Z",
+      "end_utc": "2026-11-26T22:44:19Z",
+      "wall_seconds": 72,
+      "active_seconds_estimate": 49,
+      "work": "Checked primary articles on delivery options against hold-up, ownership and relational incentives, imperfectly observed reputation, empirical shifts of task versus ability, and invariances of reward data. Compared the actual model statements and experiments with E9.",
+      "artifact": "research/LITERATURE.md L105–109",
+      "excluded_seconds": 23
     }
   ]
 }

@@ -14,7 +14,7 @@ For an active margin known independently to be affine, v(x)=a+Σ b_i x_i, measur
 
     v_hat(x) = (1−Σ x_i)y₀ + Σ x_i y_i .
 
-Its error is at most η+(ε+η)(|1−Σ x_i|+Σ x_i), by applying the independent residual bound at the decision point and measurement plus residual errors at the anchors. A bound on the physically possible *sum* of intensities can therefore make extrapolation cheaper than a full cube would suggest. If the structural premise fails, v(x)=m−L dist(x,{0,e₁,…,e_d}) is a concrete competing margin agreeing on all those probes. For d≥2 it can assign a negative margin at a combined full-strength setting even when each single-coordinate perturbation looks acceptable.
+Its error is at most η+(ε+η)(|1−Σ x_i|+Σ x_i), by applying the independent residual bound at the decision point and measurement plus residual errors at the anchors. A bound on the physically possible *sum* of intensities can therefore make extrapolation cheaper than a full cube would suggest. If the structural premise fails, v(x)=m−L dist(x,{0,e₁,…,e_d}) is a concrete competing margin agreeing on all those probes. For d≥2 the all-ones input has distance one from those probes, so L>m gives it a negative margin even when each single-coordinate perturbation looks acceptable.
 
 ## Who has reason to pay for the class restriction?
 
