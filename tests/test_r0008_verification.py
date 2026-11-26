@@ -69,3 +69,56 @@ class CommissioningTests(unittest.TestCase):
         self.assertEqual((selected.accept_genuine, selected.accept_retained), (F(272, 273), F(17, 273)))
         self.assertEqual(rate, F(1088, 1365))
         self.assertIn(rate, equilibrium_rates(job))
+
+class GoalCertificateTests(unittest.TestCase):
+    def test_distinct_representations_and_incomplete_proofs(self):
+        from experiments.r0008_goal_equivalence import GoalTable, check_equality_proof, compare
+        small = GoalTable((1, 0), {"tick": ((0, 1), (0, 1)), "hold": ((1, 0), (0, 1))},
+                          (F(1, 4), F(3, 4)))
+        split = GoalTable((1, 0, 0),
+                          {"tick": ((0, 0, 1),) * 3,
+                           "hold": ((F(1, 3), F(2, 3), 0), (1, 0, 0), (0, 0, 1))},
+                          (F(1, 4), F(1, 4), F(3, 4)))
+        proof = compare(small, split)
+        self.assertIsNone(proof.witness)
+        self.assertTrue(check_equality_proof(small, split, reversed(proof.basis_words)))
+        self.assertFalse(check_equality_proof(small, split, iter([()])))
+        self.assertFalse(check_equality_proof(small, split, [("unknown",)]))
+
+    def test_single_exception_including_empty_history(self):
+        from itertools import product
+        from experiments.r0008_goal_equivalence import GoalTable, compare, point_exception
+        letters = ("a", "b")
+        base = GoalTable((1,), {s: ((1,),) for s in letters}, (F(1, 2),))
+        for k in range(5):
+            for trigger in product(letters, repeat=k):
+                other = point_exception(trigger, letters)
+                proof = compare(base, other)
+                self.assertEqual(proof.witness, trigger)
+                self.assertEqual((base.score(trigger), other.score(trigger)), (F(1, 2), 1))
+
+    def test_independent_exhaustion_to_stochastic_witness_bound(self):
+        from itertools import combinations_with_replacement, product
+        from experiments.r0008_goal_equivalence import GoalTable, compare
+        transitions = (
+            ((1, 0), (0, 1)), ((0, 1), (1, 0)), ((0, 1), (0, 1)),
+            ((F(1, 3), F(2, 3)), (F(1, 2), F(1, 2))),
+        )
+        machines = [GoalTable((1, 0), {"a": a, "b": b}, (0, 1))
+                    for a, b in product(transitions, repeat=2)]
+        words = [w for n in range(3) for w in product(("a", "b"), repeat=n)]
+        for left, right in combinations_with_replacement(machines, 2):
+            brute = next((w for w in words if left.score(w) != right.score(w)), None)
+            certificate = compare(left, right)
+            self.assertEqual(certificate.witness, brute)
+
+    def test_sharp_runtime_error_and_holding_threshold(self):
+        from experiments.r0008_goal_equivalence import GoalTable
+        for leak in (F(1, 100), F(1, 50)):
+            rho = F(9, 10)
+            table = GoalTable((1, 0), {"hold": ((1-leak, leak), (1-rho-leak, rho+leak))}, (F(3, 5), 0))
+            for k in (0, 1, 10, 11, 80):
+                score = table.score(("hold",) * k)
+                expected = F(3, 5) * (1 - leak * (1 - rho**k) / (1-rho))
+                self.assertEqual(score, expected)
+                self.assertEqual(score > F(13, 25), leak == F(1, 100) or k <= 10)
