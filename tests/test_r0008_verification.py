@@ -122,3 +122,73 @@ class GoalCertificateTests(unittest.TestCase):
                 expected = F(3, 5) * (1 - leak * (1 - rho**k) / (1-rho))
                 self.assertEqual(score, expected)
                 self.assertEqual(score > F(13, 25), leak == F(1, 100) or k <= 10)
+
+
+class ReceiptGameTests(unittest.TestCase):
+    def test_complete_strategies_recover_all_three_productive_rates(self):
+        from experiments.r0008_receipt_game import complete_plans, equilibrium_intervals
+
+        price = F(1, 5)
+        rates = [F(0), F(5, 302), F(166, 375), F(10, 19), F(15, 26)]
+        self.assertEqual(equilibrium_intervals(price), [(f, f) for f in rates])
+        plans = complete_plans(price)
+        values = [max(plan.buyer_value(f) for plan in plans) for f in rates]
+        self.assertEqual(values, [0, 0, F(48257, 46875), F(117, 95), F(89, 65)])
+
+    def test_price_branches_against_complete_plan_enumeration(self):
+        from experiments.r0008_receipt_game import equilibrium_intervals
+
+        a, e = F(166, 375), F(44, 75)
+        def after_pass(f):
+            return 9 * (5 - 4 * f) / (25 * (8 * f + 1))
+        def after_failure(f):
+            return (116 * f - 45) / (25 * (9 - 8 * f))
+
+        prices = {F(k, 100) for k in range(31)}
+        prices.update([after_failure(a), F(9, 50), after_failure(e), after_pass(a)])
+        for c in prices:
+            with self.subTest(price=c):
+                productive = set()
+                from_pass = (45 - 25*c) / (36 + 200*c)
+                from_failure = (45 + 225*c) / (116 + 200*c)
+                if c <= after_failure(a) or F(9, 50) <= c <= after_failure(e):
+                    productive.add(from_failure)
+                if after_failure(a) <= c <= after_pass(a):
+                    productive.add(a)
+                if F(9, 50) <= c <= after_pass(a):
+                    productive.add(from_pass)
+                if c >= after_failure(e):
+                    productive.add(e)
+                exact = [(lo, hi) for lo, hi in equilibrium_intervals(c) if hi > F(5, 68)]
+                self.assertEqual(exact, [(f, f) for f in sorted(productive)])
+
+    def test_full_disclosure_bond_against_raw_state_laws(self):
+        from experiments.r0008_receipt_game import Q, SIGN_LAWS
+
+        p_h = [(Q*g + (1-Q)*m) / 100 for g, m in zip(*SIGN_LAWS[:2])]
+        p_d = [F(d, 100) for d in SIGN_LAWS[2]]
+        old, new = (1, 1, 0, 0), (1, 1, 1, 0)
+        transfer = [F(16, 100), F(16, 100), F(-1, 10), F(-1, 10)]
+        f = F(44, 75)
+        def payoffs(decisions, fees):
+            founder = []
+            buyer = []
+            for i, law in enumerate(SIGN_LAWS):
+                founder.append(sum(F(w, 100) * ((2 if i == 0 else 4)*r + t)
+                                   for w, r, t in zip(law, decisions, fees)))
+                buyer.append(sum(F(w, 100) * ((4 if i == 0 else -2)*r - t)
+                                 for w, r, t in zip(law, decisions, fees)))
+            cutoff = Q*founder[0] + (1-Q)*founder[1] - founder[2]
+            value = f*(Q*buyer[0] + (1-Q)*buyer[1]) + (1-f)*buyer[2]
+            return cutoff, founder[2], value
+        d_old, base_old, value_old = payoffs(old, [0]*4)
+        d_new, base_new, value_new = payoffs(new, transfer)
+        self.assertEqual(d_old, d_new)
+        self.assertEqual(base_new-base_old, F(143, 500))
+        self.assertEqual(value_new-value_old, F(1657, 37500))
+        for s, release in enumerate(new):
+            mass = f*p_h[s] + (1-f)*p_d[s]
+            posterior = f*Q*F(SIGN_LAWS[0][s], 100)/mass
+            gain = 6*posterior-2
+            temptation = max(0, -gain if release else gain)
+            self.assertGreater(F(72, 100) - transfer[s], temptation)
