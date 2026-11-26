@@ -305,3 +305,13 @@ notes 112–139 and the findings report.
 | A187 | A visible finite-cost return to a former goal can change a later offer | 201 allows a late ordinary release payment and an earlier individually contingent offer, then compares the actual successor's current valuation of restoration, negotiated retention and an archive. Availability of a cheaper backup or unamendable local delegation changes the result. |
 | A188 | Future production for an informed owner can depend on current completion | 202 bounds all nonnegative continuation gains, and attains the bound with paid orders on B- and C-destination intact jobs. The conditional capacity, loss of the opportunity after dispute and actual construction rights enter the intervention. |
 | A189 | Locally readable evidence can also be publicly certified before release | 204 permits a paid public posting of the actual destination or silence. Other original sites have remaining release rights and can verify the posting. No third party can sell a private exemption from disclosure in the baseline. |
+
+## R0008 — evidence of a negotiated goal
+
+| ID | Assumption or variation | Consequence and boundary |
+| --- | --- | --- |
+| A190 | Agreed reference lotteries, the active chooser and a justified loss bound | 205 identifies normalized expected utility on named consequences. Other features, an observing proxy or future inducements can alter the feasible interval. |
+| A191 | The report of an attempted installation precedes the uncertain result | 206 distinguishes a successful change, an honest failure and an intentional false claim. The first commissioning readout sees the controller and has the same distribution for the latter two states. |
+| A192 | Either party can contest until its last physical release | 206–207 compare returned stocks to strength-dependent recovery. A changed supplier can accept a return that an unchanged supplier would contest. After final conversion there is no remaining time to reallocate the batch. |
+| A193 | Private installation expense and a discretionary buyer-funded test | Signing may be chosen by both honest and false suppliers. 206–208 solve costly testing under the prior produced by that choice, with a uniform expense distribution in the numerical examples. |
+| A194 | Bounded collateral and observable final delivery | 209 prices custody and distinguishes a transfer of principal from real rental work. The meter can bind default payments without certifying a terminal preference. |

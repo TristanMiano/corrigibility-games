@@ -1,0 +1,65 @@
+{
+  "run_id": "r0008",
+  "status": "IN-PROGRESS",
+  "input_commit": "cb349eaec22f951187a9576c5f16123cb66d1452",
+  "floor_seconds": 14400,
+  "theory_share_min": 0.75,
+  "accounting": "Observed nonoverlapping UTC bounds. Active seconds are estimates rounded down after excluding administration, reporting, uncertain intervals and tool latency. No earlier run or concurrent worker time is counted.",
+  "segments": [
+    {
+      "id": "T01",
+      "category": "theory",
+      "start_utc": "2026-11-26T19:52:51Z",
+      "end_utc": "2026-11-26T19:55:53Z",
+      "wall_seconds": 182,
+      "active_seconds_estimate": 170,
+      "work": "Derived the sharp feasible utility intervals from consequential lottery choices, the tolerance and grid separation tests, the midpoint obstruction and persistence under adaptive probes. Checked the strict and tie cases and the distinction between a current match and an actual change.",
+      "artifact": "research/notes/205-which-preferences-do-the-observations-identify.md",
+      "excluded_seconds": 12
+    },
+    {
+      "id": "T02",
+      "category": "theory",
+      "start_utc": "2026-11-26T19:55:53Z",
+      "end_utc": "2026-11-26T20:00:31Z",
+      "wall_seconds": 278,
+      "active_seconds_estimate": 270,
+      "work": "Derived the three-history commissioning game, endogenous attempt cutoff, quantitative posteriors and the sequential purchase condition. Checked stock and contest continuations and began the buyer and installer power analysis with state-dependent refusal payoffs.",
+      "artifact": "research/notes/206-when-a-truthful-attempt-can-fail.md",
+      "excluded_seconds": 8
+    },
+    {
+      "id": "T03",
+      "category": "theory",
+      "start_utc": "2026-11-26T20:00:31Z",
+      "end_utc": "2026-11-26T20:04:43Z",
+      "wall_seconds": 252,
+      "active_seconds_estimate": 243,
+      "work": "Classified all active buyer inspection/trust/decline mixtures, solved the piecewise strength diagram for both controllers, verified the maximum audit gain in the strong-installer band, and derived how a transfer on non-delivery changes that comparison.",
+      "artifact": "research/notes/207-who-can-walk-away-from-a-doubtful-installation.md",
+      "excluded_seconds": 9
+    },
+    {
+      "id": "T04",
+      "category": "theory",
+      "start_utc": "2026-11-26T20:04:43Z",
+      "end_utc": "2026-11-26T20:06:39Z",
+      "wall_seconds": 116,
+      "active_seconds_estimate": 109,
+      "work": "Proved the capability plateau and the changing mixture of honest failures and deliberate claims. Derived the endogenous collateral crossing, globally optimal buyer offer in the capacity-one class, paid bilateral consent and the ordinary high-capacity repair.",
+      "artifact": "research/notes/208-when-better-installers-change-the-reason-for-doubt.md; research/notes/209-how-much-collateral-will-the-parties-choose.md",
+      "excluded_seconds": 7
+    },
+    {
+      "id": "L01",
+      "category": "literature",
+      "start_utc": "2026-11-26T20:06:39Z",
+      "end_utc": "2026-11-26T20:08:15Z",
+      "wall_seconds": 96,
+      "active_seconds_estimate": 86,
+      "work": "Compared the proceedings' planner-ambiguity and cross-environment identification results, the paid lottery procedure and invariance, independence and label orientation in the original two-population calibration model. Recorded versions and audit scope.",
+      "artifact": "research/LITERATURE.md#r0008--recognizing-an-agreed-preference-under-uncertain-capabilities",
+      "excluded_seconds": 10
+    }
+  ]
+}
