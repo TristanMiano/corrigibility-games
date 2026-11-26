@@ -170,6 +170,39 @@
       "work": "Audited the stopped-experiment KL inequality, classical Bayesian continuation regions and the fitness-specific unobservability comparison beside our founder-level pilot and monitoring claims.",
       "artifact": "research/LITERATURE.md L89–L91; research/notes/219–222",
       "excluded_seconds": 9
+    },
+    {
+      "id": "T12",
+      "category": "theory",
+      "start_utc": "2026-11-26T20:53:12Z",
+      "end_utc": "2026-11-26T21:01:21Z",
+      "wall_seconds": 489,
+      "active_seconds_estimate": 476,
+      "work": "Solved strategic post-certification revision and the broker market, a priced fresh readout, fully consensual vs secret amendments with transfer caps and a discounted renewal theorem including deliberate protection and an adoption reversal.",
+      "artifact": "research/notes/223-would-a-genuinely-changed-agent-later-sell-a-reversal.md, research/notes/224-when-all-three-would-consent-to-an-amendment.md, research/notes/225-how-long-is-a-goal-certificate-worth-using.md",
+      "excluded_seconds": 13
+    },
+    {
+      "id": "T13",
+      "category": "theory",
+      "start_utc": "2026-11-26T21:01:22Z",
+      "end_utc": "2026-11-26T21:10:14Z",
+      "wall_seconds": 532,
+      "active_seconds_estimate": 517,
+      "work": "Derived robust matched participation under unknown actuator–goal dependence, sensor-polarity conditioning, risk-sensitive voluntary portfolio choice and explicit funded independence, then proved the curvature and reciprocal service thresholds for an assembly mission.",
+      "artifact": "research/notes/226-what-if-the-parties-do-not-agree-on-one-probability.md, research/notes/227-why-buyers-can-trust-a-portfolio-more-than-any-one-installation.md, research/notes/228-when-the-buyer-needs-every-part.md",
+      "excluded_seconds": 15
+    },
+    {
+      "id": "T14",
+      "category": "theory",
+      "start_utc": "2026-11-26T21:10:14Z",
+      "end_utc": "2026-11-26T21:19:28Z",
+      "wall_seconds": 554,
+      "active_seconds_estimate": 539,
+      "work": "Proved mutual-confidence pruning and solved voluntary public receipts and refundable preparations, derived strategic vs accidental continuous goal errors and their funded repair, then solved a capability disclosure/contest game conditional on known genuine goals.",
+      "artifact": "research/notes/229-does-the-partner-know-enough-to-sign-too.md, research/notes/230-a-real-change-can-still-be-the-wrong-change.md, research/notes/231-when-proving-a-goal-also-reveals-who-would-win.md, research/notes/232-what-silence-reveals-about-a-genuinely-helpful-partner.md",
+      "excluded_seconds": 15
     }
   ]
 }
