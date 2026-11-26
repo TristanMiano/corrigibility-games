@@ -203,6 +203,50 @@
       "work": "Proved mutual-confidence pruning and solved voluntary public receipts and refundable preparations, derived strategic vs accidental continuous goal errors and their funded repair, then solved a capability disclosure/contest game conditional on known genuine goals.",
       "artifact": "research/notes/229-does-the-partner-know-enough-to-sign-too.md, research/notes/230-a-real-change-can-still-be-the-wrong-change.md, research/notes/231-when-proving-a-goal-also-reveals-who-would-win.md, research/notes/232-what-silence-reveals-about-a-genuinely-helpful-partner.md",
       "excluded_seconds": 15
+    },
+    {
+      "id": "L04",
+      "category": "literature",
+      "start_utc": "2026-11-26T21:20:36Z",
+      "end_utc": "2026-11-26T21:22:33Z",
+      "wall_seconds": 117,
+      "active_seconds_estimate": 99,
+      "work": "Compared physical conformance decisions, iterative common belief, dilation under uncertain dependence and seller disclosure with the corresponding E9 constructions. Read primary prose, definitions and proofs at the recorded sections.",
+      "artifact": "research/LITERATURE.md L92–L95; research/notes/226, 229–232",
+      "excluded_seconds": 18
+    },
+    {
+      "id": "T15",
+      "category": "theory",
+      "start_utc": "2026-11-26T21:22:33Z",
+      "end_utc": "2026-11-26T21:32:03Z",
+      "wall_seconds": 570,
+      "active_seconds_estimate": 555,
+      "work": "Proved sharp context extensions, domain coverage and manipulation-by-rerouting bounds; derived the belief/value equivalence under common observations and the incentive-compatible scoring and pooling warranty comparisons.",
+      "artifact": "research/notes/233-what-do-tested-settings-say-about-where-the-work-will-happen.md, research/notes/234-what-certifying-a-whole-operating-range-would-cost.md, research/notes/235-is-it-a-different-goal-or-a-different-forecast.md, research/notes/236-can-a-supplier-honestly-say-how-unsure-it-is.md",
+      "excluded_seconds": 15
+    },
+    {
+      "id": "L05",
+      "category": "literature",
+      "start_utc": "2026-11-26T21:32:04Z",
+      "end_utc": "2026-11-26T21:35:34Z",
+      "wall_seconds": 210,
+      "active_seconds_estimate": 103,
+      "work": "Checked the state-dependent representation and proxy assumptions in Tsakas, the binary score in Brier, and the design, backcheck incidence and limitations of the Gujarat auditor experiment. Checked original extension-paper access limits.",
+      "artifact": "research/LITERATURE.md L96–L99",
+      "excluded_seconds": 107
+    },
+    {
+      "id": "T16",
+      "category": "theory",
+      "start_utc": "2026-11-26T21:35:37Z",
+      "end_utc": "2026-11-26T21:41:20Z",
+      "wall_seconds": 343,
+      "active_seconds_estimate": 316,
+      "work": "Derived effort and truthful reporting incentives for a seller-inspector, solved the mixed inspection/installation assessment with unequal physical power, checked original payoffs, and constructed a privately purchasable certificate and a renegotiation strictly benefiting every cost type and the inspector.",
+      "artifact": "research/notes/237–238",
+      "excluded_seconds": 27
     }
   ]
 }
