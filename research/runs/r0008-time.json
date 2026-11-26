@@ -401,6 +401,72 @@
       "work": "Checked primary articles on delivery options against hold-up, ownership and relational incentives, imperfectly observed reputation, empirical shifts of task versus ability, and invariances of reward data. Compared the actual model statements and experiments with E9.",
       "artifact": "research/LITERATURE.md L105–109",
       "excluded_seconds": 23
+    },
+    {
+      "id": "T28",
+      "category": "theory",
+      "start_utc": "2026-11-26T22:44:34Z",
+      "end_utc": "2026-11-26T22:50:16Z",
+      "wall_seconds": 342,
+      "active_seconds_estimate": 318,
+      "work": "Derived the excess-agreement covariance exactly with endogenous founder effort, including a competing shared-mark equilibrium. Proved separate measurement and truthful joint reports under hidden independent controls even with communicating laboratories and adaptive acquisition, compared a common reference, and priced a compensation-supported switch to two readers for a buyer facing a large loss.",
+      "artifact": "research/notes/256–257",
+      "excluded_seconds": 24
+    },
+    {
+      "id": "T29",
+      "category": "theory",
+      "start_utc": "2026-11-26T22:51:36Z",
+      "end_utc": "2026-11-26T22:56:44Z",
+      "wall_seconds": 308,
+      "active_seconds_estimate": 288,
+      "work": "Proved exact agreement of normalized lottery orderings on all finite event histories using a reachable-space certificate, the stochastic m+n−2 witness bound and a black-box sample lower bound. Derived a sharp physical-error tolerance under contraction, a counterexample for persistent memory and a voluntary precision purchase whose thresholds distinguish actual change from achieving the agreed tolerance.",
+      "artifact": "research/notes/258–259",
+      "excluded_seconds": 20
+    },
+    {
+      "id": "C04",
+      "category": "computation",
+      "start_utc": "2026-11-26T22:56:47Z",
+      "end_utc": "2026-11-26T22:58:11Z",
+      "wall_seconds": 84,
+      "active_seconds_estimate": 74,
+      "work": "Implemented exact rational comparison and separate checking of a supplied closure certificate. Compared proof search with direct enumeration for 136 pairs of stochastic tables, detected every tested single-word exception including the empty history, and checked the sharp runtime tolerance and eleven-hold decision boundary.",
+      "artifact": "experiments/r0008_goal_equivalence.py; tests/test_r0008_verification.py",
+      "excluded_seconds": 10
+    },
+    {
+      "id": "T30",
+      "category": "theory",
+      "start_utc": "2026-11-26T22:58:38Z",
+      "end_utc": "2026-11-26T23:04:27Z",
+      "wall_seconds": 349,
+      "active_seconds_estimate": 259,
+      "work": "Derived bilateral founder consent for an uncertain single joint successor, the optimal physical prepaid output reserve and its response to semantic reliability. Solved the target-share and power thresholds for a biased compiler, its legacy owner's bypass incentive and a funded process receipt that buys mutual assent.",
+      "artifact": "research/notes/260–261",
+      "excluded_seconds": 90
+    },
+    {
+      "id": "T31",
+      "category": "theory",
+      "start_utc": "2026-11-26T23:05:12Z",
+      "end_utc": "2026-11-26T23:08:22Z",
+      "wall_seconds": 190,
+      "active_seconds_estimate": 181,
+      "work": "Characterized a finite class of devices that distinguish an honest failed installation from a false declaration, including buyer obedience, original consent, confidence and combat. Derived the effort-only versus goal-only cutoff and the buyer's net gain, and solved the two-reading mixed assessment and a jointly beneficial delayed-disclosure purchase.",
+      "artifact": "research/notes/262–263",
+      "excluded_seconds": 9
+    },
+    {
+      "id": "T32",
+      "category": "theory",
+      "start_utc": "2026-11-26T23:08:46Z",
+      "end_utc": "2026-11-26T23:10:24Z",
+      "wall_seconds": 98,
+      "active_seconds_estimate": 90,
+      "work": "Solved the applicant and buyer fixed points when an active-goal read can be purchased after either process result. Derived all six branches on the productive domain, their overlap and raw-signal bound, the three distinct equilibria at one price, and a physically costly custody choice that every founder strictly prefers.",
+      "artifact": "research/notes/264",
+      "excluded_seconds": 8
     }
   ]
 }
