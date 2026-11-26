@@ -247,6 +247,50 @@
       "work": "Derived effort and truthful reporting incentives for a seller-inspector, solved the mixed inspection/installation assessment with unequal physical power, checked original payoffs, and constructed a privately purchasable certificate and a renegotiation strictly benefiting every cost type and the inspector.",
       "artifact": "research/notes/237–238",
       "excluded_seconds": 27
+    },
+    {
+      "id": "T17",
+      "category": "theory",
+      "start_utc": "2026-11-26T21:42:05Z",
+      "end_utc": "2026-11-26T21:48:14Z",
+      "wall_seconds": 369,
+      "active_seconds_estimate": 340,
+      "work": "Characterized the implementable genuine rates and posterior assurance across all finite signal recommendations with endogenous effort. Derived the receiver's optimal endpoint at a fixed rate, both founders' margins, strict-vs-lenient confidence tradeoff and combat slope. Constructed a mutually improved amendment holding both private information and the ordinary transfer cap fixed.",
+      "artifact": "research/notes/239–240",
+      "excluded_seconds": 29
+    },
+    {
+      "id": "T18",
+      "category": "theory",
+      "start_utc": "2026-11-26T21:48:26Z",
+      "end_utc": "2026-11-26T21:54:14Z",
+      "wall_seconds": 348,
+      "active_seconds_estimate": 328,
+      "work": "Derived a sharp opportunity bound over adaptive in-production tests with state-specific follow-up and endogenous installation; priced continuation of the same partnership. Solved one-kit postponement versus two-kit recourse with current-self decisions and exact dated confidence on a losing first batch.",
+      "artifact": "research/notes/241–242",
+      "excluded_seconds": 20
+    },
+    {
+      "id": "L06",
+      "category": "literature",
+      "start_utc": "2026-11-26T21:54:17Z",
+      "end_utc": "2026-11-26T21:55:43Z",
+      "wall_seconds": 86,
+      "active_seconds_estimate": 71,
+      "work": "Read the classical finite-test comparison, discounted stopping-time rationale, counterfactual attribution bounds and primary randomized conservation design; checked the access limit on the certifier comparison.",
+      "artifact": "research/LITERATURE.md L100–L104",
+      "excluded_seconds": 15
+    },
+    {
+      "id": "T19",
+      "category": "theory",
+      "start_utc": "2026-11-26T21:55:47Z",
+      "end_utc": "2026-11-26T22:00:19Z",
+      "wall_seconds": 272,
+      "active_seconds_estimate": 260,
+      "work": "Separated current compatibility, historical changes and causal conversions. Solved endogenous monitoring with initially compatible entrants and priced buyer switching between pools. Derived sharp attribution bounds and a strategic pre/post grant with dated-archive repair, checking both the temporarily changed successor and the grant payer's incentives.",
+      "artifact": "research/notes/243–244",
+      "excluded_seconds": 12
     }
   ]
 }
