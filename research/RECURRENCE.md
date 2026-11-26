@@ -37,7 +37,7 @@ Give consensual genuine utility change a modest priority over unchanged-goal com
 
 ## Portfolio breadth and task selection
 
-Before choosing the next target, briefly compare the accumulated families along the dimensions that matter: original and successor preferences; information and control; productive or distributive opportunity; number and choice of parties; repeated opportunities and resource renewal; physical conflict and implementation. State which dimensions the last run advanced, which remain thin, and why another refinement or a different environment is now the better test. Use the current coverage review and existing run records; avoid a separate administrative exercise or fixed quotas of scenarios.
+Before choosing the next target, read the [research map](MAP.md) alongside the latest handoff and existing coverage review. Briefly compare original and successor preferences, information and control, production and distribution, number and choice of parties, repeated opportunities and resource renewal, and the physics of conflict and implementation. State which dimensions the last run advanced, which remain thin, and why another refinement or a different environment is now the better test. Let the question determine how many scenarios merit study.
 
 An additional parameter range within one family establishes robustness there. A broader interpretation needs a comparison with materially different conditions. Keep a common explanatory question and test whether its mechanism transfers, changes or fails; a catalog of disconnected models is also insufficient. Preserve open implementation obligations as backlog without requiring every detail of one family to be closed before studying another. At a handoff, choose one next task using both depth and coverage, rather than automatically continuing the most recent model.
 
@@ -89,6 +89,10 @@ The long-run target is whether refusal remains advantageous when agents anticipa
 Separate continued choice by long-lived agents from reproduction of types. For claims extending to innovation or descendants, specify available goal innovation, encounter/counterparty selection, resource renewal and inherited information/preferences, plus what current agents value about descendants. Preserve current-self evaluation throughout. A finite template population is a diagnostic model; broader persistence or extinction claims need justified robustness to its consequential restrictions. These are cumulative research obligations for the relevant claim, not a demand to solve every extension in each invocation.
 
 ## Required artifacts
+
+Maintain [the research map](MAP.md) for readers across runs. At each completed recurrence, update the run covered and revise the affected entries in the same pull request. Also update the map at a partial handoff or an out-of-run correction when the evidence changes the picture. Record what widened, deepened, changed direction or became a new question in the existing handoff or pull request. If the assessment still fits, say why.
+
+Link the evidence for each change. Keep conditions favoring genuine adoption, ordinary compromise, retention or combat at the scope actually tested. Distinguish worked results, named questions still open and possible blind spots. Ask what the current map may be missing and add or split questions when warranted. Give any coverage count a named inventory and a clear meaning. Map upkeep is reporting time.
 
 Use `research/runs/TEMPLATE.md` for a record under `research/runs/rNNNN.md`. Provide the input commit, settings, actual work accounting, substantive target, mathematical artifact paths, claim/assumption changes, tests performed, relevant literature additions, successful and unsuccessful approaches worth preserving, and one next action.
 

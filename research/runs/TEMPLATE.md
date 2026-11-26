@@ -88,6 +88,7 @@ Do not declare completion while this required review or an identified framing co
 
 ## Coverage and handoff
 
+- [Research map](../MAP.md) through this handoff. Which answer broadened, which boundary sharpened or shifted, or which new question appeared? Link the evidence or explain why the previous assessment still fits.
 - Changes to answers on physics, combat availability, modification, freezing, and selection:
 - Synthesis gate status; integrated class result or obstruction surviving feasible repairs, and specific remaining obligations:
 - One recommended next action:

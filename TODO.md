@@ -38,9 +38,9 @@ Exit with a compact source-to-question table, checked theorem assumptions for th
 
 ## CG-R001 — Main recurrence: physical conflict, compromise, and preference evolution
 
-**Status: OPEN / REPEATABLE; r0001–r0006 COMPLETE.** R0001's one-run focus was the seed essay's strength/control, probabilistic combat, split/merge/deception model. R0006's focus was exclusive final goods with overlapping production. Neither fixes the preference or environment class of future invocations. All floors and theory minimums were met without override; individual records preserve the remaining obligations. Execute the detailed [recurrence protocol](research/RECURRENCE.md) for any new invocation.
+**Status: OPEN / REPEATABLE; r0001–r0007 COMPLETE.** R0001's one-run focus was the seed essay's strength/control, probabilistic combat, split/merge/deception model. R0006's focus was exclusive final goods with overlapping production. Neither fixes the preference or environment class of future invocations. All floors and theory minimums were met without override; individual records preserve the remaining obligations. Execute the detailed [recurrence protocol](research/RECURRENCE.md) for any new invocation.
 
-**Next recommended invocation, after [r0006](research/runs/r0006.md):** study endogenous three-party productive coalition formation with a rival input and negotiated scope of concern (R626), including nonlinear current goals. Build on E6's investment results and E7's asymmetric sharing, networks and current-goal broadening. Construct funded consensual-change selections and equally test capture incentives, competing alliances, ordinary alternatives and feasible repairs. Identify who chooses productive form, partner or concern scope, how it is funded, and what happens after others respond. This advances R522 and the [portfolio review](research/reports/2026-11-03-scope-and-incentives-review.md) beyond symmetric pairwise verification games. Preserve R625/R521 and earlier diagnostic obligations without requiring every earlier extension to close first. No automatic next invocation or synthesis is authorized.
+The [next-agent handoff](#next-agent-handoff) gives the current recommendation. Use the [research map](research/MAP.md) to see how it fits among other open questions.
 
 **Defaults per invocation:** minimum four hours of active research; at least 75% of counted research time on substantial mathematical work. Both are overridable. Record the actual override, duration, time split, and completion status. Never silently shorten the floor.
 
@@ -68,7 +68,7 @@ Do not require a universal positive theorem, convergence of all agents, or a sol
 
 ## CG-03 — Synthesize and audit the research
 
-**Status: BLOCKED — synthesis gate not met.** R0006 advances a connected productive class with paid reciprocal adoption and broader goal/repair comparisons; see [coverage and next action](research/runs/r0006.md#coverage-and-next-action). Initial formation and verification beyond the declared interfaces, rival-resource coalition/scope choice, and broader long-run innovation and population analysis remain consequential gaps. Completing a recurrence does not authorize synthesis.
+**Status: BLOCKED — synthesis gate not met.** R0006 and r0007 supply worked cases of reciprocal adoption and coalition choice. Formation and verification beyond the specified technologies, changing coalition membership and the population effects of innovation remain consequential gaps. See the [research map](research/MAP.md) and the [seventh-round handoff](research/runs/r0007.md).
 
 Select a coherent contribution, freeze its model version, audit every main proof and counterexample, verify citations and comparisons, reproduce supporting calculations, and map every headline to a claim ID. Seek an independent agent review when available and label its scope. Separate results, limitations, and remaining conjectures. Additional mathematical repairs return to CG-R001 rather than spawning a second research loop.
 
