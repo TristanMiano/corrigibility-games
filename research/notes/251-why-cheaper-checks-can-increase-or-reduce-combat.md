@@ -1,0 +1,32 @@
+# Why cheaper checks can increase or reduce combat
+
+A cheaper inspection can make more founders actually change their goals. It can simultaneously produce more combat if the customer now tests and refuses many batches it used to accept on trust. Here all original supplier types and the customer can agree to buy the cheaper inspection, including in the case where the resulting combat rate rises.
+
+## Which effect buys more peace?
+
+Keep the mixed testing/trust region of [250](250-how-installation-reliability-and-physical-power-interact.md). A fall in marginal test price increases π=π_U at rate 1/[(1−e)h+(1−t)g] per unit saved, until another regime is reached. Testing becomes more frequent because a larger original-supplier premium is required to support this larger π. Suppose j_N=1 and j_G is zero or one. Put A=1−e and B=(1−e)−j_G(1−t)>0. Combat per offer is
+
+    C(π)=(Kπ/q²+d)(A−Bπ)/(Z+d).
+
+In this region cheaper checks increase combat exactly when π<A/(2B)−d q²/(2K) locally, and reduce it above that boundary. This follows by differentiating the displayed quadratic. Increases in genuine adoption and stronger reasons for refusing doubtful offers act in opposite directions. When both accept a peaceful return there is no combat on either test policy.
+
+Give the buyer a .05 chance of recovering a damaged batch. The original supplier can recover 2.85 expected own units after conflict versus two on return, so it contests a refusal. The genuinely changed supplier also values the buyer's recovered goods and prefers peaceful return. For a test-price change from .10 to .09, π rises from 7/107 to 9/107 in both rows.
+
+| Honest installation reliability | Fraction of all applicants actually tested, before → after | Combat per offer, before → after |
+| --- | ---: | ---: |
+| q=.60 | .8556 → .8832 | .71963 → .72798 |
+| q=.80 | .8133 → .8288 | .68410 → .68321 |
+
+The same technology change makes war more frequent in the first market and less frequent in the second. Test prices, output and recovery value are the same. In the first row the prior stays below the combat maximum; in the second it stays above. The changes are strict in open neighborhoods around the quoted parameters. The high absolute combat rates are features of this weak-buyer recovery game, with a scarce one-shot consumable and a sharply restricted settlement technology. They are not empirical estimates.
+
+## A purchase every original signer would accept
+
+On these selected mixed continuations B earns the same absolute material payoff as always releasing at the equilibrium prior, namely 6π. The new hardware therefore gains it 12/107≈.11215 per offered job before purchase. The largest loss for any incumbent supplier is X(1−e)Δx: its fake's rent falls when a test replaces trust, and its option to attempt at cutoff Kπ/q becomes more valuable. Here X=3.15. The bound is below .079 in the first row and below .045 in the second. Suppose the new test plant costs .02 per job and B can transfer .08 once to every enrolled supplier. Those two expenditures fit within B's .11215 gain and make every supplier strictly prefer the change over its existing arrangement. Payment is due regardless of the later reading or recovery. Neither party has to value conflict to favor this particular marginal investment.
+
+Now enlarge the settlement technology. Suppose the largest formerly usable transferable reserve per job is .15, while a separate escrow facility can secure a further .90 on a refused batch. The buyer can offer an immediate stand-down payment on a .10 grid. At .90 original A gets 2.90 rather than 2.85 from contest. A genuine successor also prefers the paid return; a smaller payment below .85 still leaves a retained supplier preferring combat. Offering zero instead gives B two against G or .15 against N. Thus a customer prefers paying .90 on a refusal when its genuine posterior there is below 19/37. Smaller positive payments would pay a G that would already accept return and still lose the batch to a retained supplier. The closed-batch meter is in custody and releases only at an actual peaceful return.
+
+Under the paid return both types' physical fallbacks are (2.9,1.1). Hence g=4.9, h=1.1 and Z=.9(4−2.9)−.1(6−2.9)=.68. At the .09 inspection price the new equilibrium uses pure testing, with π=q²(.68)/1.4, about .17486 and .31086 for the two rows. Both lie strictly between the new π_L and π_U. After a negative the two posteriors are below .05, so B really pays the settlement. After a positive it strictly prefers production to either a paid return or offering zero and risking the old contest. Before inspection its best unconditional refusal is the paid return; the test comparison thus includes its cheaper refusal options. All participants can still initiate combat and none does on this selected path.
+
+B's absolute expected production and transfers net of the .09 test, before facility and enrollment payments, are .90+4.52π. The new values exceed 1.69 and 2.30, respectively, against about .505 in the unprotected .09-price agreement. The original supplier's minimum rent is now 2.9+.1×3.1=3.21; its new private attempt cutoff q×.68 exceeds its previous one in both cases. Comparing the terms type by type, the largest loss before new signing payments is below .29 and .45 respectively. B can keep the earlier .08 enrollment payment, pay another .46 per enrollee, and incur .10 per job to provide the new facility if it can fund both principal and transfers. Each party strictly prefers the repaired agreement even with a veto on changing the preceding one. For B, signing also beats simply paying .90 to settle an unused batch with the same facility. In the lower row of profitability its productive value before that common facility bill exceeds 1.69−.54>1.1.
+
+**Naturality and limits.** An improvement in the cost of an existing sensor and access to a much larger return deposit are different investments. The first replaces some untested trust with costly refusals. The second makes a peaceful refusal worth taking even to the physically stronger party and changes the incentive to attempt a real edit. Both purchases have prices, available actors and subsequent choices. The settlement assumes genuine fungible collateral at the handover, sufficient liquidity for the enrollment payments and no cheaper way to recover those deposits by contest. Additional partners, divisible batches or enforceable ordinary delivery can change the ranking of the resulting contracts.

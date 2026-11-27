@@ -1,0 +1,42 @@
+# 262 — Which agreements can use evidence of both effort and goal?
+
+A customer can observe equipment spent on a promised change, a test of the active goal, or both. Those observations can have different laws under a success G, an honest installation failure M and a deliberate omission D. This extends [the two-state certificate design](239-which-bargains-can-a-finite-inspection-actually-support.md) to three histories and several credible continuations. It gives a finite feasibility test for bargains accepted under uncertainty and includes costly refusal and conflict in their outcome measures.
+
+## A conditional characterization
+
+Use a finite calibrated reading set S, with P_z(s) the law at history z∈{G,M,D}. A chosen device translates each s into a recommendation j from a finite menu J by probabilities r_sj. Require r_sj≥0 and Σⱼr_sj=1. The buyer observes only j. Let Y_zj=ΣₛP_z(s)r_sj. For each j, A_zj is the *original* supplier's expected physical utility and B_zj is the buyer's. They already include the actions the actual successor will choose, combat, and the material costs downstream. All available unilateral continuations for the buyer must be represented, including refusal, recovery and any feasible repair. A staged continuation where the supplier learns its history and chooses to pursue rework can also be used once its downstream incentives have been solved. If j has distinct private meanings to the later actors, specify those meanings in its continuation.
+
+An attempt of private cost k with continuous strictly increasing CDF F succeeds with probability q. The physical reading laws and continuation outcomes conditional on z do not otherwise depend on k. An unattempted declaration gives D. Let f be the proposed fraction of founders who attempt, p=(qf,(1−q)f,1−f), and define the linear difference
+
+    D(r) = Σⱼ [q A_Gj Y_Gj + (1−q) A_Mj Y_Mj − A_Dj Y_Dj].       (262.1)
+
+Let every founder have the same outside value A₀ and a genuine opportunity to refuse enrollment. For 0<f<1 the following conditions characterize a positive assessment using the chosen device with all types signing. Common fixed enrollment charges belong in the corresponding payoff or participation comparison.
+
+1. Require D(r)=F⁻¹(f). Before k is paid, a real attempt gains D(r) over omission. A founder's best signing value is ΣⱼA_DjY_Dj+max(D(r)−k,0). The least advantaged signing types obtain the first term, which must reach A₀. Strict participation and a continuous cost distribution remove consequential ties at signing and at the cutoff.
+2. At every recommendation j and alternative l, require Σ_z p_zY_zj(B_zj−B_zl)≥0. Multiplying posterior best responses by the probability of j yields precisely these linear inequalities. Zero-probability recommendations can be removed, with credible continuations specified wherever a unilateral deviation can reach them. An arbitrary previously omitted action might bind a new inequality.
+3. The buyer's expected return Σ_zj p_zY_zj B_zj minus the price must reach its outside option at enrollment. If it can abandon or substitute the test *after* effort has been chosen, it must also prefer the proposed acquisition to each available replacement at the same prior p. A replacement with fixed reading laws and finitely many choices has a definite best-response value at fixed p. Announcing a device does not make its unavailable alternatives costly.
+4. Any ex ante choice among several offers requires the proposer to prefer the selected offer given the different effort it induces. A physical right to acquire information after the offer has a different value. Continued supplier vetoes require the associated type-and-history-specific incentive comparisons. On equal payoffs these conditions allow support without predicting selection.
+
+**Proof.** The recommendations and the two founder strategies induce the three joint masses p_zY_zj. Bayes' rule wherever the mass is positive and comparison of any unilateral decision give necessity. Conversely, choose a recommendation device implementing r, let precisely k<D(r) attempt, and use the indicated best responses and tested continuations. The proposed prior reproduces itself, participation is credible, and no named buyer decision is a profitable deviation. At f=1 or 0 use D(r)≥sup k or D(r)≤inf k with the appropriate signing constraints, including the actual lowest payoff when every founder tries. If some type declines, its selection into observation needs a new denominator. The claim concerns this class of finite devices with the specified, physically available downstream decisions.
+
+**Consequences.** At fixed f these tests are linear in r. Even before buyer obedience, the largest possible incentive D is Σₛ maxⱼ [qP_G(s)A_Gj+(1−q)P_M(s)A_Mj−P_D(s)A_Dj]. Choose a maximizing recommendation separately for each reading to attain this upper bound on the unrestricted device. Obedience and consent can lower it. A minimum confidence w for a release j adds qfY_Gj≥wΣ_zp_zY_zj and requires positive release mass. If J_zj is the chance that the continuation includes combat, its frequency is Σ_zj p_zY_zj J_zj. The chances of a served job, an honest failure getting useful rework, and an unattempted supplier obtaining stock are separate linear objectives. Thus a single finite class accommodates the parties' ability to detect effort, the buyer's residual freedom to fight, and which genuine agreements each side would accept under uncertainty.
+
+## When can a receipt for effort suffice?
+
+Suppose release gains the original founder a if G delivers, X if a retained controller keeps the batch. Declining gives a common safe return. The buyer gains g on delivery and loses h on retention. A process instrument passes a genuine *attempt* with probability t and an omission with e<t, independently of whether the attempt actually worked. A goal instrument instead passes the actual agreed *goal* with t and every retained controller with e. Hold the hardware's two error probabilities fixed for this comparison. Independent manufacture of equally informative instruments for these two different objects is a real premise.
+
+On the positive-only release branch, the incentive cutoffs are
+
+    d_process = [qa+(1−q)X]t − Xe,
+    d_goal    = q(at−Xe).
+    d_process−d_goal = (1−q)X(t−e).                               (262.2)
+
+Good-faith effort gets more orders, including some on which the old goal survived and the founder keeps the stock. Thus f_P≥f_G with strict increase when the new cutoffs move interior mass. With f held fixed the buyer would pay h(1−q)f(t−e) to replace the process instrument by the goal instrument. That is the expected loss from honoring more failed attempts. Before the founders decide, the process instrument is preferred exactly when
+
+    q(tg+eh)(f_P−f_G) > h(1−q)(t−e)f_P + c_process−c_goal,         (262.3)
+
+provided both devices' assumed replies and acquisition are credible. Subtract the two buyer values using the goal instrument as the intermediate comparison at f_P. This separates the extra good installations bought by an effort promise from the extra mistaken releases the buyer funds.
+
+A process-only signal gives posterior Pr(G | j)=q Pr(attempt | j) when q is independent of that signal conditional on effort. If q<h/(g+h), even certainty that the founder attempted cannot induce profitable release with this output risk. A more reliable installer, insurance that reduces h, an ordinary controller or a goal-sensitive additional reading can then enable trade. When q already exceeds that threshold, a process receipt can justify trusting an uncertain actual goal. [An example with three purchasable displays](263-when-suppressing-a-second-read-makes-both-founders-better-off.md) checks both directions.
+
+**Reach.** Process logs arise as a byproduct of resource consumption and commissioning. Separate access to a live goal evaluator can be much more difficult. The processed recommendation needs a sealed interface if the buyer could otherwise act on the discarded details. The theory prices such a device as an available option. The parties' incentives to construct one depend on the two participation values, on the physical independence of the witness, and on whether a lower-cost ordinary guarantee can use the same resources. The three probability laws could in practice share an unknown fault, change when the supplier selects which trial is shown, or depend on the supplier's skill. Those premises require their own evidence.

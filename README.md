@@ -22,6 +22,8 @@ We distinguish terminal-goal preservation, utility-freezing preferences, policy 
 
 ## Start here
 
+- **[Eighth-round findings on trust, goal change and uncertain bargains](research/reports/r0008-findings.md)**. When will both founders consent to an uncertain change, what would convince a partner that it happened, and when does a refusal lead to combat? The [research map](research/MAP.md) places the evidence and its limits alongside the earlier rounds.
+
 - **[Seventh-round findings on productive coalitions](research/reports/r0007-findings.md)**. Which founders change depends on recoverable output, future access, the cost of binding local behavior and who can learn or disclose the recipient. The [model and proof guide](research/models/E8.md) and [completed handoff](research/runs/r0007.md) explain how a founder can create these incentives and when it chooses ordinary cooperation.
 
 - **[Sixth-round findings: shared means and exclusive paperclip goals](research/reports/r0006-findings.md)**: useful shared production can pay for consensual genuine changes; asymmetric negotiation, actual audits and durable implementation determine adoption. Common capturable assets and costly execution can instead favor combat, with paid safeguards and earlier bargains supplying repairs. [E7](research/models/E7.md) separates types of overlap from none to nearly all upstream steps.
@@ -51,6 +53,8 @@ Research is not an automatically scheduled service; each recurrence is explicitl
 ## Status and checks
 
 The [run index](research/runs/README.md) links the latest handoff. The summaries below record what each round established and the questions open at the time.
+
+**[R0008 is complete](research/runs/r0008.md)** with 4h 00m 14s of estimated active research, including 3h 37m 26s of theory (90.51%). The [findings](research/reports/r0008-findings.md) and [proof guide](research/models/E9.md) cover verification, sincere failure, strategic claims and voluntary acceptance under uncertain outcomes. Repeated entry by equipment and verification providers remains open.
 
 **[R0006 is COMPLETE](research/runs/r0006.md): 4h 04m 05s counted active-research estimate, 91.84% theory.** [E7](research/models/E7.md) connects exclusive own-color values to negotiated shared goals through useful research, productive responses and paid reciprocal implementation. The [findings report](research/reports/r0006-findings.md) explains ordinary alternatives, asymmetric gains, chosen compatibility, capture, safeguards and timing. Its question about three-party coalitions with a rival input became the focus of the [seventh recurrence](research/runs/r0007.md).
 

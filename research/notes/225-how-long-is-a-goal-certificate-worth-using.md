@@ -1,0 +1,35 @@
+# How long is a goal certificate worth using?
+
+A customer can rationally release several batches under one fallible commissioning receipt. The best date for paying to refresh it can arrive while another uninspected batch would still make money. A more durable installation can also prompt the customer to wait longer, increasing its own return while reducing the proportion of work done under the agreed goal.
+
+## Aging information and a renewable production line
+
+For a two-state controller that moves from the agreed goal to another with probability l per step and back with probability m, a present probability p becomes m+(1−l−m)p after one step with no new observations. For 0<l+m≤1 its forecast after j steps is p_*+(1−l−m)^j(p−p_*), where p_*=m/(l+m). High confidence in a good installation can decay; under active automatic repair a poor initial reading can also age toward a level at which the next order is worthwhile. This is a known transition law. A strategic sale like that in [223](223-would-a-genuinely-changed-agent-later-sell-a-reversal.md) requires deriving the transitions from current incentives.
+
+Consider one-way accidental mismatch between renewals. At the start of a renewal, both parties can authorize a real procedure for the active line. It succeeds with probability q independent of its incoming state. Until refreshed, a genuine goal survives each subsequent period with probability s in (0,1), and an existing mismatch persists. The parties can witness the operation; its eventual outcome is private. Each new customer order gains g over the safe alternative if the supplier is genuine, and loses h if retained. At age j before the next renewal the margin is
+
+    w_j = q(g+h)s^j − h.
+
+Output is collected in a closed process and is available for the parties' dated objectives but gives the customer no *prompt* signal about the current controller. An immediate itemized delivery would change the filtering problem. New batches arrive each period. The customer's discount is D in (0,1), and its real expense for commissioning is c. It can withhold a batch, continue without renewal, renew, or exit. The state ages with calendar time. No party can take an unopened parcel without a physical contest.
+
+With n successive released orders per commissioning, B's discounted value over taking its per-period safe option is
+
+    V_n = [−c + Σ_{j=0}^{n−1} D^j w_j] / (1−D^n).
+
+B can sustain positive value exactly when c < Σ_{j≥0} D^j max(w_j,0). Necessity holds even for a single term because later w_j decrease. Sufficiency follows by renewing just after the last positive margin. When positive, a maximizing n is characterized by
+
+    C_(n−1) ≤ c ≤ C_n,     C_n = Σ_{j=0}^{n−1} D^j(w_j−w_n),   C_0=0.   (225.1)
+
+To see this, V_(n+1) exceeds V_n exactly when w_n>(1−D)V_n. Rearranging gives c>C_n. The C_n increase strictly since w_j decrease. In an optimal cycle w_(n−1)≥(1−D)V_n≥w_n. Strict interior prices give a unique length. Any other sequence of renewal dates gives, per interval of length k, a discounted cycle payoff at most (1−D^k)max_n V_n. Discounting and summing bounds the whole sequence by the same maximum. A withheld job produces no extra information or improvement in state, so taking a positive job dominates withholding at its date, and renewing now dominates postponing a profitable fresh start after returns have become negative. Random dates independent of the hidden current state cannot improve the bound. This establishes the customer's discretionary choice as well as a comparison of calendars.
+
+## Will both supplier selves renew?
+
+Use the equal-strength physical payoffs of 206. Actual G delivers, giving the original founder two extra units over return, while N retains and gives the original founder four extra. A current successor with criterion x+y/2 values these same gains at four and three respectively. A renewal expense of .2 at each start leaves either current self strictly ahead of losing access to these orders. Each new commissioned period holds at least one order; every phase gives a positive current-goal margin to both possible supplier selves, even accounting for repeated expenses. At expiry both can voluntarily authorize the risky new attempt even if the incoming controller already had the agreed goal. If the supplier refuses, unverified claims of continued service can be made by both selves. A continuation in which the customer withholds after a refusal it attributes to an old controller supports the renewal assessment. Competing end-of-term bargains require their actual release and participation incentives.
+
+The same per-date return physically dominates the strength-dependent contest here, also for a changed supplier. A local processing change consumes the dated batch, with separate opportunity for voluntary renewal on new stock. A current supplier with private knowledge might want to sell that information, or delay access to a future parcel. Those signal and custody opportunities are outside the stated receipt interface. The calendar is a voluntary choice under a specified information flow.
+
+Take q=.8, g=4, h=2, D=.9. With survivorship s=.75 and c=1.5, the optimum is two released orders per renewal, with genuine chances .8 and .6. A third order would have positive expected margin .7 in isolation. B instead pays to restart the more valuable production cycle. Its discounted value expressed as a per-date annuity (1−D)V is 1.442. If improved casing changes survival to .9 at the additional price .3 per renewal, reoptimizing gives three orders per commissioning and annuity 1.704. The customer can pay the casing cost and both supplier selves still prefer the offered contract to exit. An equally durable local binding router can compete without changing the founder's utility.
+
+At the same 1.5 cost, a smaller capability comparison reverses the direction of two outcome measures. With s=.88 the customer renews every two orders and the calendar-average genuine fraction is .752. With s=.89 it renews every three orders and the fraction is **.7152**. Its annuity rises from 1.738 to 1.773. Each fixed-age controller is at least as likely to preserve the agreed goal; the chosen ages of production change. This is a share of offered dates in the specified repeated agreement. It is distinct from the initial success rate, a maintained population frequency and original-agent welfare. Within a fixed calendar increasing s raises the genuine fraction. The fall across this boundary persists for small changes on each side.
+
+**Naturality and reach.** A remote buyer may commission a controller today while receiving only pooled or delayed output records. Parts drift, maintenance consumes work, and preserving custody of fresh inputs can make periodic requalification an available choice. Visible timely service, free immediate retries and independent customers bearing the benefit of the same check alter the decision. A sibling lets the supplier disclose a drift event early and obtain repair. The broader question is whose information remains current when evidence is used many periods after it was obtained.

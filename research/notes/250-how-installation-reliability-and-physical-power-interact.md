@@ -1,0 +1,29 @@
+# How installation reliability and physical power interact
+
+In the factory game a more reliable installation can increase genuine change, or leave its frequency fixed while more applicants knowingly skip the procedure. In the latter range the customer accepts more batches on trust. More genuine suppliers receive work and more unchanged suppliers do too. Fewer rejected batches go to combat. These implications follow across a continuous range of capabilities.
+
+## Which region is the game in?
+
+Let q be a real attempt's chance of success and s B's chance of recovering the contested line. Take the publicly priced one-reading experiment of [207](207-who-can-walk-away-from-a-doubtful-installation.md), with sensitivity t=.9, false-positive rate e=.1, cost c=.1 and private installation costs uniform on [0,K], K=1.4. An initial supplier can return the stocks, genuinely attempt the agreed edit or falsely represent an attempt. A live G delivers if released; a live N keeps. Selection here follows the positive equilibrium with most installations when available. At equality both best responses and physical fallback choices may be multiple.
+
+For B's incremental gain g from entrusting G and loss h from entrusting N, put π_L=(c+eh)/(tg+eh) and π_U=[(1−e)h−c]/[(1−e)h+(1−t)g]. Define Z as the original supplier's gain from a successful edit over a retained controller if B tests and releases only positives. The actual prior under full testing is π_Q=min(q,q²Z/K). The endpoint capability for a target π is therefore
+
+    q(π)=max(π, sqrt(Kπ/Z)).                                     (250.1)
+
+In the weak-buyer region 0<s<1/3, (g,h,Z)=(4,3s,.5+2.7s). In the middle third these are (4,2,1.4). Above 2/3 they are (6−3s,3s,.6+2.4s). When c≥gh(t−e)/(g+h) there is no strictly profitable testing interval. At the stated c, s<4/93 gives this result even with an excellent installer. When an interval exists, q below q(π_L) leaves no positive trade. Between q(π_L) and q(π_U) the high branch tests all signed batches and installs at π_Q; above q(π_U) it mixes testing and unexamined trust and installs at π_U. A boundary beyond one is unreachable with this technology. These conditions follow by checking both inequalities in π_Q=min(q,q²Z/K); positive and negative beliefs must come from the induced prior.
+
+## Physical outcomes within the region of mixed trust
+
+Write U_A=a−A_G>0 and X=a+d−A_N>0 for founder rents on released G and N relative to their actual respective refusal continuations. Here d=2 is the extra own output from keeping. As q increases within a mixed-trust region put π=π_U, with
+
+    x=(Kπ/q²+d)/(Z+d)
+
+the buyer's testing frequency. It falls strictly with q. All offers are signed, so the honest attempt share π/q falls, honest failures π(1−q)/q fall, and deliberate nonattempts 1−π/q rise. Among all released applicants the likelihood ratio is [1−(1−t)x]/[1−(1−e)x]. It strictly increases with x because t>e. Thus confidence among **all releases** falls with q even though confidence among **tested positives** is fixed. The eligible suppliers with genuine goals deliver on a larger fraction π[1−(1−t)x] of all offers. The buyer is indifferent between testing and trusting, so its mean material return is constant here.
+
+Every original supplier type gains at the new reliability in this region. Its expected return is A_N+X[1−(1−e)x]+max(Kπ/q−k,0). Differentiating away from its cutoff gives a strictly positive X(1−e)2Kπ/[q³(Z+d)] and, for an attempt, a deduction Kπ/q². Since Z+d=(1−e)X−(1−t)U_A<(1−e)X and q≤1, the first term exceeds the deduction. Continuity covers private types crossing the cutoff. A fee for purchasing the reliability increase still needs to be compared to these gains; changing q in the diagram alone does not buy it.
+
+Let j_G,j_N be the probabilities of combat on a refused batch in the two states. Then C=x[π(1−t)j_G+(1−π)(1−e)j_N] is combat per offer. In the mixed range the square bracket is fixed and higher q lowers C whenever combat is possible on refusal. In the pure-test range, increasing π lowers C whenever (1−t)j_G<(1−e)j_N. With a common refusal and combat lottery and an agreed goal that positively weights both founders' original expected utilities under the same beliefs, peaceful return preferred by *both* originals is also preferred by the changed supplier. With unilateral contest available to each and strict comparisons this implies j_G≤j_N for those fallbacks. It explains the sign in this factory. New military technology conditional on the controller, different beliefs or a target that ranks joint lotteries differently would need its own refusal calculation.
+
+At s=.8, compare q=.85 and 1 on the mixed branch. Actual installations remain 103/126≈81.75%. Deliberate false claims rise from 3.83% to 18.25% of applicants. The buyer tests 79.29% versus 69.57%, genuine service rises from 75.26% to 76.06% of offers, and combat falls from 19.51% to 17.12%. Confidence among all released applicants falls from 93.51% to 91.77%. The fixed posterior after a *tested positive* is instead 927/950≈97.58%. No one in this model intrinsically values combat. Which party can recover productive stock if talks break down determines what a rejected job actually becomes.
+
+**Reach.** The resource and deadline interpretation is in 206–207. The strength comparison varies upstream conditions; the inspector has discretion and the supplier has a private, profitable reason for its choice. A high-adoption selection, one purpose for a reading, stable test errors and the resources available for settlement determine where this map applies. The adjoining calculation allows firms to *purchase* a price reduction for the instrument and to buy a more peaceful fallback. [Purchasing cheaper evidence or a settlement reserve](251-why-cheaper-checks-can-increase-or-reduce-combat.md)
