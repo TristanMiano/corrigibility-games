@@ -4,7 +4,7 @@ A counterparty can check exact agreement on infinitely many possible jobs by ins
 
 ## What the parties are comparing
 
-A consequence is a finite history of grounded events from a finite alphabet, such as delivery, return or project completion. Two agreed reference consequences have values zero and one. A terminal evaluator assigns the history w=s₁…s_k the normalized score
+A consequence is a finite history of grounded events from a finite alphabet, such as delivery, return or project completion. Two agreed reference consequences have values zero and one. These may be separate physical prizes, including for a table constant on all event words. With independent numerical units the [lottery-order comparison](286-checking-an-agreed-ordering-without-a-shared-utility-scale.md) instead constructs an affine certificate or two concrete, differently ranked lotteries. A terminal evaluator assigns the history w=s₁…s_k the normalized score
 
     f(w)=p M_(s₁)…M_(s_k) r.
 

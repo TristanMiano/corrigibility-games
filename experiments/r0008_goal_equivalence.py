@@ -1,7 +1,8 @@
-"""Exact all-history comparison of the finite goal tables in E9, note 258.
+"""Compare finite goal tables and price lottery disagreement in E9, notes 258 and 286–288.
 
 Run with python experiments/r0008_goal_equivalence.py. Reference consequences
-of utility zero and one are shared and physically grounded by assumption.
+of utility zero and one may be shared for score comparison. Preference
+comparison needs only a common domain of events and objective lotteries.
 This program checks table semantics; whether the table actually controls a
 deployed agent is a separate physical question.
 """
@@ -9,6 +10,7 @@ deployed agent is a separate physical question.
 from collections import deque
 from dataclasses import dataclass
 from fractions import Fraction as F
+from itertools import combinations
 
 
 def probability_vector(row, size):
@@ -69,29 +71,134 @@ class Certificate:
     basis_words: tuple
 
 
-def compare(left, right):
-    """Find a disagreement or a closed word basis proving exact agreement."""
+@dataclass(frozen=True)
+class HistoryDomain:
+    """Complete deterministic recognizer for the histories covered by a contract."""
+    initial: str
+    accepting: frozenset
+    transitions: dict
+
+    def validate(self, alphabet):
+        states = self.transitions.keys()
+        if self.initial not in states or not self.accepting <= states:
+            raise ValueError("The domain's initial and accepting states must exist.")
+        for moves in self.transitions.values():
+            if moves.keys() != alphabet or any(next_state not in states for next_state in moves.values()):
+                raise ValueError("The history domain needs a defined transition for every event and state.")
+
+    def accepts(self, word):
+        state = self.initial
+        for symbol in word:
+            state = self.transitions[state][symbol]
+        return state in self.accepting
+
+
+def _search_words(left, right, terminal, domain=None):
     if left.events.keys() != right.events.keys():
         raise ValueError("A common grounded event alphabet is required.")
     alphabet = sorted(left.events)
     initial = left.initial + tuple(-x for x in right.initial)
-    terminal = left.terminal + right.terminal
     split = len(left.initial)
-    basis = {}
+    if domain is not None:
+        domain.validate(left.events.keys())
+    # Separate domain states occupy disjoint blocks in the product automaton.
+    bases = {}
     words = []
-    pending = deque([((), initial)])
+    pending = deque([((), initial, domain.initial if domain is not None else None)])
     while pending:
-        word, row = pending.popleft()
-        if dot(row, terminal):
+        word, row, state = pending.popleft()
+        if (terminal is not None and (domain is None or state in domain.accepting)
+                and dot(row, terminal)):
             return Certificate(word, tuple(words))
-        if not extend_basis(row, basis):
+        if not extend_basis(row, bases.setdefault(state, {})):
             continue
         words.append(word)
         for symbol in alphabet:
             next_row = (apply_event(row[:split], left.events[symbol])
                         + apply_event(row[split:], right.events[symbol]))
-            pending.append((word + (symbol,), next_row))
+            next_state = domain.transitions[state][symbol] if domain is not None else None
+            pending.append((word + (symbol,), next_row, next_state))
     return Certificate(None, tuple(words))
+
+
+def compare(left, right):
+    """Find unequal normalized scores or a closed word basis certifying equality."""
+    return _search_words(left, right, left.terminal + right.terminal)
+
+
+@dataclass(frozen=True)
+class PreferenceCertificate:
+    scale: F | None
+    offset: F | None
+    # A witness contains two lotteries, each a tuple of (probability, event word).
+    witness: tuple | None
+    basis_words: tuple
+
+
+def compare_preferences(left, right, *, domain=None):
+    """Certify the same lottery ordering in independent units, or return a witness."""
+    words = _search_words(left, right, None, domain).basis_words
+    scores = [(left.score(w), right.score(w), w) for w in words
+              if domain is None or domain.accepts(w)]
+    if not scores:
+        return PreferenceCertificate(F(1), F(0), None, words)
+    lo = min(scores, key=lambda point: point[0])
+    hi = max(scores, key=lambda point: point[0])
+
+    def pure(point):
+        return ((F(1), point[2]),)
+
+    def disagreement(first, second):
+        return PreferenceCertificate(None, None, (first, second), words)
+
+    if lo[0] == hi[0]:
+        for point in scores:
+            if point[1] != lo[1]:
+                return disagreement(pure(lo), pure(point))
+        return PreferenceCertificate(F(1), F(lo[1] - lo[0]), None, words)
+
+    scale = F(hi[1] - lo[1]) / (hi[0] - lo[0])
+    if scale <= 0:
+        return disagreement(pure(lo), pure(hi))
+    offset = lo[1] - scale * lo[0]
+    for point in scores:
+        if point[1] != scale * point[0] + offset:
+            high_weight = F(point[0] - lo[0]) / (hi[0] - lo[0])
+            mixture = tuple((weight, end[2]) for weight, end in
+                            ((1 - high_weight, lo), (high_weight, hi)) if weight)
+            return disagreement(pure(point), mixture)
+    return PreferenceCertificate(scale, offset, None, words)
+
+
+def worst_lottery_loss(values, measure, *, target_slack=None):
+    """Largest loss in values(P)-values(Q) over two objective lotteries.
+
+    Without a slack, allow Q whenever the installed measure ranks it at
+    least as high as P (note 287). With a slack, allow Q when it scores
+    from zero to that amount below P on the target measure (note 288).
+    Each entry can also be an expected score for an attainable recipe.
+    """
+    if len(values) != len(measure) or not values:
+        raise ValueError("Both columns must describe the same nonempty outcome set.")
+    if target_slack is not None and target_slack < 0:
+        raise ValueError("A target-value tolerance must be nonnegative.")
+    points = tuple(zip(map(F, values), map(F, measure)))
+    # Between crossings the maximum and minimum residuals are linear.
+    slopes = {F(0)}
+    for (value_i, m_i), (value_j, m_j) in combinations(points, 2):
+        if m_i == m_j:
+            continue
+        slope = (value_i - value_j) / (m_i - m_j)
+        if target_slack is not None or slope >= 0:
+            slopes.add(slope)
+    costs = []
+    for slope in slopes:
+        residuals = [value - slope * m for value, m in points]
+        width = max(residuals) - min(residuals)
+        if target_slack is not None:
+            width += F(target_slack) * max(0, slope)
+        costs.append(width)
+    return min(costs)
 
 
 def check_equality_proof(left, right, basis_words):
@@ -155,6 +262,10 @@ def main():
     assert result.witness == altered_word
     print("Disagree on:", " ".join(result.witness))
     print("Scores:", routine.score(result.witness), altered.score(result.witness))
+    target = (F(0), F(1, 2), F(1))
+    near = (F(0), F(4, 5), F(1))
+    print("Largest target loss across lotteries:", worst_lottery_loss(target, near))
+    print("Blue's exposure among equal joint totals:", worst_lottery_loss((2, 8), (10, 10), target_slack=0))
 
 
 if __name__ == "__main__":

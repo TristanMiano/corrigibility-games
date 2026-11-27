@@ -71,6 +71,55 @@ class CommissioningTests(unittest.TestCase):
         self.assertIn(rate, equilibrium_rates(job))
 
 class GoalCertificateTests(unittest.TestCase):
+    def test_impossible_histories_leave_an_independent_offset_free(self):
+        from experiments.r0008_goal_equivalence import GoalTable, HistoryDomain, compare_preferences
+
+        events = {"tick": ((0, 1, 0), (0, 0, 1), (0, 0, 1))}
+        left = GoalTable((1, 0, 0), events, (0, F(1, 4), F(1, 2)))
+        right = GoalTable((1, 0, 0), events, (0, F(1, 2), F(3, 4)))
+        moves = {"new": {"tick": "running"}, "running": {"tick": "running"}}
+        admitted = HistoryDomain("new", frozenset({"running"}), moves)
+        self.assertIsNotNone(compare_preferences(left, right).witness)
+        cert = compare_preferences(left, right, domain=admitted)
+        self.assertEqual((cert.scale, cert.offset), (1, F(1, 4)))
+        self.assertIn((), cert.basis_words)
+        empty = HistoryDomain("new", frozenset(), moves)
+        self.assertIsNone(compare_preferences(left, right, domain=empty).witness)
+        malformed = HistoryDomain("new", frozenset({"running"}), {"new": {"tick": "absent"}})
+        with self.assertRaises(ValueError):
+            compare_preferences(left, right, domain=malformed)
+
+    def test_preference_proofs_and_short_lottery_witnesses(self):
+        from itertools import product
+        from experiments.r0008_goal_equivalence import GoalTable, compare_preferences
+
+        def table(terminal):
+            # All three terminal states can be reached within two ticks.
+            return GoalTable((1, 0, 0), {"tick": ((0, 1, 0), (0, 0, 1), (0, 0, 1))},
+                             tuple(terminal))
+
+        def ordering(machine, lotteries):
+            x, y = (sum(weight * machine.score(word) for weight, word in lottery)
+                    for lottery in lotteries)
+            return (x > y) - (x < y)
+
+        cases = list(product((F(0), F(1, 2), F(1)), repeat=3))
+        for f, g in product(cases, repeat=2):
+            left, right = table(f), table(g)
+            cert = compare_preferences(left, right)
+            if cert.witness is None:
+                self.assertGreater(cert.scale, 0)
+                self.assertEqual(tuple(cert.scale*v + cert.offset for v in f), g)
+            else:
+                self.assertNotEqual(ordering(left, cert.witness), ordering(right, cert.witness))
+                for lottery in cert.witness:
+                    self.assertEqual(sum(weight for weight, _ in lottery), 1)
+                    self.assertTrue(all(weight > 0 and len(word) <= 4 for weight, word in lottery))
+        aligned = compare_preferences(table((0, F(1, 2), 1)), table((F(1, 4), F(1, 2), F(3, 4))))
+        self.assertEqual((aligned.scale, aligned.offset), (F(1, 2), F(1, 4)))
+        nonlinear = compare_preferences(table((0, F(1, 2), 1)), table((0, F(4, 5), 1)))
+        self.assertEqual(sorted(map(len, nonlinear.witness)), [1, 2])
+
     def test_distinct_representations_and_incomplete_proofs(self):
         from experiments.r0008_goal_equivalence import GoalTable, check_equality_proof, compare
         small = GoalTable((1, 0), {"tick": ((0, 1), (0, 1)), "hold": ((1, 0), (0, 1))},
