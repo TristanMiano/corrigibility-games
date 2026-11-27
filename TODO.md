@@ -16,6 +16,8 @@ Status: CG-01 and CG-02 completed 2026-10-30; see [preparation handoff](research
 
 **[Seventh recurrence r0007 is complete](research/runs/r0007.md)** under [exploration mode](research/EXPLORATION_MODE.md). Its [findings](research/reports/r0007-findings.md) and [E8](research/models/E8.md) price genuine and ordinary coalition arrangements under unequal strengths, private information and future access. Each model states its grounds for naturality or actor-funded construction. CG-03 remains blocked.
 
+**[Eighth recurrence r0008 is complete](research/runs/r0008.md)**. Its [findings](research/reports/r0008-findings.md) explain when a partner can verify the agreed ordering, when both founders accept uncertain outcomes, and how power can make a refusal peaceful or contested. The [map](research/MAP.md) tracks these boundaries and their dependence on access to evidence. Estimated active research was 4h 00m 14s, with 90.51% theory.
+
 ## CG-00 — Initialize the project
 
 **Status: DONE for workflow initialization.** Preserve the existing license; establish the charter, agent instructions, task queue, and recurrence protocol. Seed model/literature/claim files and elementary checks are initialization aids, not completed substantive research milestones.
@@ -38,7 +40,7 @@ Exit with a compact source-to-question table, checked theorem assumptions for th
 
 ## CG-R001 — Main recurrence: physical conflict, compromise, and preference evolution
 
-**Status: OPEN / REPEATABLE; r0001–r0007 COMPLETE.** R0001's one-run focus was the seed essay's strength/control, probabilistic combat, split/merge/deception model. R0006's focus was exclusive final goods with overlapping production. Neither fixes the preference or environment class of future invocations. All floors and theory minimums were met without override; individual records preserve the remaining obligations. Execute the detailed [recurrence protocol](research/RECURRENCE.md) for any new invocation.
+**Status: OPEN / REPEATABLE; r0001–r0008 COMPLETE.** R0001's one-run focus was the seed essay's strength/control, probabilistic combat, split/merge/deception model. R0006's focus was exclusive final goods with overlapping production. Neither fixes the preference or environment class of future invocations. All floors and theory minimums were met without override; individual records preserve the remaining obligations. Execute the detailed [recurrence protocol](research/RECURRENCE.md) for any new invocation.
 
 The [next-agent handoff](#next-agent-handoff) gives the current recommendation. Use the [research map](research/MAP.md) to see how it fits among other open questions.
 
@@ -68,7 +70,7 @@ Do not require a universal positive theorem, convergence of all agents, or a sol
 
 ## CG-03 — Synthesize and audit the research
 
-**Status: BLOCKED — synthesis gate not met.** R0006 and r0007 supply worked cases of reciprocal adoption and coalition choice. Formation and verification beyond the specified technologies, changing coalition membership and the population effects of innovation remain consequential gaps. See the [research map](research/MAP.md) and the [seventh-round handoff](research/runs/r0007.md).
+**Status: BLOCKED — synthesis gate not met.** R0006–r0008 supply worked cases of reciprocal adoption, coalition choice, fallible verification and consent under uncertainty. Competitive entry, continued control over revised goals and population effects of innovation remain consequential gaps. See the [research map](research/MAP.md) and [eighth-round handoff](research/runs/r0008.md).
 
 Select a coherent contribution, freeze its model version, audit every main proof and counterexample, verify citations and comparisons, reproduce supporting calculations, and map every headline to a claim ID. Seek an independent agent review when available and label its scope. Separate results, limitations, and remaining conjectures. Additional mathematical repairs return to CG-R001 rather than spawning a second research loop.
 
@@ -82,4 +84,4 @@ Check notation, figures, links, citations, proof dependencies, rendering, and cl
 
 ## Next-agent handoff
 
-Read the [aim-preservation policy](research/AIM_BALANCE.md), [current research phase](research/EXPLORATION_MODE.md), [scope review](research/reports/2026-11-03-scope-and-incentives-review.md), [r0007 findings](research/reports/r0007-findings.md), [handoff and exploratory frontier](research/runs/r0007.md), the evidence ledgers and [recurrence protocol](research/RECURRENCE.md). R766 recommends a market with repeated entry and replacement by suppliers of productive equipment or ordinary commitment. Determine when genuine concern is voluntarily chosen and retained, and separately when it spreads through an explicit population process. Give each new model its own independent rationale or an actor with authority, resources and a current-goal reason to create the conditions. Pair constructive and limiting searches, with equity for realistic ordinary alternatives. Revisit R625/R521 and outstanding launch questions as appropriate. Continue CG-R001 on owner invocation. CG-03 remains blocked.
+Read the [aim-preservation policy](research/AIM_BALANCE.md), [current research phase](research/EXPLORATION_MODE.md), [scope review](research/reports/2026-11-03-scope-and-incentives-review.md), [r0008 findings](research/reports/r0008-findings.md), [handoff and exploratory frontier](research/runs/r0008.md), the evidence ledgers and [recurrence protocol](research/RECURRENCE.md). R766 recommends a market with repeated entry and replacement by suppliers of productive equipment, goal verification or ordinary commitment. Price which providers enter, which agreements that makes attractive, and which founders actually change or keep their goals. Determine when genuine concern is voluntarily chosen and retained, and separately when it spreads through an explicit population process. Give each new model its own independent rationale or an actor with authority, resources and a current-goal reason to create the conditions. Pair constructive and limiting searches, with equity for realistic ordinary alternatives. Revisit R625/R521 and outstanding launch questions as appropriate. Continue CG-R001 on owner invocation. CG-03 remains blocked.
