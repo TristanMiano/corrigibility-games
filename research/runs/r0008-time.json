@@ -632,6 +632,50 @@
       "work": "Built and ran a physical-state enumeration of independent and correlated attempts, gate errors, two random gifts, unilateral omissions and participation. Checked the effort optimizer against direct stock-utility comparisons; bracketed the threshold at 0.55746717798–0.55746717803. Cross-checked six population assignments, every named private-skill deviation, raw and protected evidence and a grid of asymmetric transfer schedules.",
       "artifact": "experiments/r0008_joint_consent.py; tests/test_r0008_joint_consent.py",
       "excluded_seconds": 7
+    },
+    {
+      "id": "T44",
+      "category": "theory",
+      "start_utc": "2026-11-27T00:01:28Z",
+      "end_utc": "2026-11-27T00:05:16Z",
+      "wall_seconds": 228,
+      "active_seconds_estimate": 219,
+      "work": "Compared verification for fixed hidden types against feasible configurations that can respond to each new diagnostic. Derived the necessary and sufficient separation criterion for adaptive compact response sets, a finite-sample bound, the distinction between a public and late-random assignment, and the original founders’ incentives to buy, try, omit or use a matched ordinary router.",
+      "artifact": "research/notes/205,210,219–221,233–234,281",
+      "excluded_seconds": 9
+    },
+    {
+      "id": "L10",
+      "category": "literature",
+      "start_utc": "2026-11-27T00:05:16Z",
+      "end_utc": "2026-11-27T00:06:21Z",
+      "wall_seconds": 65,
+      "active_seconds_estimate": 54,
+      "work": "Checked the adaptive hypothesis-testing model and exact classical results in Brandão et al. against the finite sufficient bound in 281. Traced primary examples of announced proficiency assessments, agreed hidden reference signals and a faulty test reference to distinguish information timing from semantic fidelity.",
+      "artifact": "research/LITERATURE.md L119–L121; research/notes/281",
+      "excluded_seconds": 11
+    },
+    {
+      "id": "T45",
+      "category": "theory",
+      "start_utc": "2026-11-27T00:06:28Z",
+      "end_utc": "2026-11-27T00:10:21Z",
+      "wall_seconds": 233,
+      "active_seconds_estimate": 224,
+      "work": "Audited strength-dependent refusal, verification, successor revision and intertemporal learning calculations. Derived the exact finite criterion for confidence-qualified admission with peace on denials and releases. Found the sharp loss of truthful coverage, an acceptance-with-uncertainty repair, and compared priced disclosure, stand-down rights and compensated blind trust under two physical spoilage regimes.",
+      "artifact": "research/notes/207,221,223–224,228,241–242,250–251,282",
+      "excluded_seconds": 9
+    },
+    {
+      "id": "T46",
+      "category": "theory",
+      "start_utc": "2026-11-27T00:11:45Z",
+      "end_utc": "2026-11-27T00:18:09Z",
+      "wall_seconds": 384,
+      "active_seconds_estimate": 371,
+      "work": "Re-derived the reliability and renewal proof for 253–255 and replaced perfect success attribution with positive output likelihood under both goals. Solved discounted replacement, all-date imitation incentives and almost-sure genuine tenure. Derived a shared public decision model with strict unilateral and bilateral consent, separable forecast competence, authority rotation and an upgrade the powerful district actually pays for. Checked contested exits including a district known to receive no incremental protection.",
+      "artifact": "research/notes/253–255,283–284",
+      "excluded_seconds": 13
     }
   ]
 }
