@@ -1,0 +1,32 @@
+# 273 — What can separate surveys of capability and strength say about a population?
+
+A colored region in a map of possible games has no intrinsic population weight. Suppose we can measure the distribution of installation skill and the distribution of bargaining power, but do not know which ones occur together. What conclusions are then warranted about the prevalence of verified accommodation or conflict? Here the participants know their own local conditions before they choose; the incomplete information belongs to the researcher.
+
+Use the finite set of factory environments in [250](250-how-installation-reliability-and-physical-power-interact.md). At each strength s, let T(s) be the minimum installer reliability q for viable inspection on the highest-adoption branch. When a strictly profitable testing interval exists, (250.1) gives T(s)=max(π_L,√(Kπ_L/Z)); otherwise set it to infinity. This follows by requiring both q and q²Z/K to clear the buyer's lower prior. Away from equality, q>T(s) means some verified trade can actually operate in that local game. Define activity at equality according to whether strict purchase is required. The bounds below use strict crossing, and the numerical example has no ties.
+
+Write Q for a randomly drawn skill and T for the local threshold. If only their marginal cumulative distributions F_Q,F_T are known on finite ordered support, the **sharp interval** for the proportion Q>T is
+
+    max(0, max_x [F_T(x)−F_Q(x)])
+       ≤ Pr(Q>T) ≤
+    1−max(0, max_x [F_Q(x)−F_T(x−)]).                              (273.1)
+
+For the lower bound at least the excess of thresholds at or below x over skill at or below x must be paired with a larger skill. For the upper bound, a skill at or below x cannot strictly exceed a threshold at or above x. Sharpness follows by matching ordered types. To maximize success, match the lowest remaining skill to the largest as-yet unmatched threshold strictly below it when one exists. If none exists it goes into the unmatched set. For every processed skill prefix ending at x, the shortage of eligible thresholds is its cumulative skill mass less the mass of thresholds strictly below x, clipped at zero. The largest such shortage is exactly the unmatched mass: an unmatchable current unit increases it to the current prefix shortage, and a matchable unit does not increase it. Assign the remaining unmatched types arbitrarily. The same greedy argument maximizes failure using Q≤T and gives the lower bound. Splitting atoms permits arbitrary masses and mixtures attain intermediate values. One may equally derive these bounds by finite bipartite flow. If several strengths give the same T, subdivide the matched mass by their conditional distribution. This step is valid when no other dependence information is available.
+
+## Three strengths and three skill levels
+
+Suppose equal thirds of jobs have buyer recovery probability .05, .50 and .80. Separately, equal thirds have installation reliability .24, .27 and .30. With the standard .10 check cost the three thresholds, in the listed strength order, are approximately **.26483, .28098 and .23298**. The middle-strength pair can return both stocks safely. At both outer strengths the stronger party may profitably contest a refusal. The two physical ends of the strength range have different incentives to use the available test.
+
+| Skills assigned at buyer strengths (.05,.50,.80) | Sites with active trade | Genuine changes per applicant | Combat per original offer | Genuine among released jobs |
+| --- | ---: | ---: | ---: | ---: |
+| (.24,.27,.30) | 1/3 | .05400 | .59013 | .63502 |
+| (.24,.30,.27) | 2/3 | .07374 | .59834 | .52815 |
+| (.27,.24,.30) | 2/3 | .06502 | .54688 | .49307 |
+| (.27,.30,.24) | 1 | .07558 | .56243 | .42391 |
+| (.30,.24,.27) | 2/3 | .05735 | .55276 | .45860 |
+| (.30,.27,.24) | 2/3 | .04817 | .56011 | .41208 |
+
+The two surveys allow anywhere from **one third to all sites** to have active trade on that branch. They also allow genuine changes on as few as .04817 or as many as .07558 of all initial offers. A site with some profitable verified trade still contains unverifiable attempts, honest failures and in some cases deliberate omission. A strong customer can justifiably require a high posterior at release although its refusals frequently become physical disputes. Confidence in the table divides total genuine service by total releases, including the different numbers of admissions across sites.
+
+For general finite margins place mass w_ij≥0 in each strength/skill cell with the known row and column sums. For any given equilibrium selection the totals of changes, combat, deliveries and releases are linear sums using the solved local rates. Optimizing them over this transportation polytope gives sharp joint bounds, including trade-offs between outcomes. A confidence target k adds the linear inequality total genuine service ≥ k times total releases, with positive denominators. In the equal-thirds example every table is a mixture of the six displayed assignments. To see this, a set of occupied rows must have at least as many neighboring columns because all row and column masses are equal. Its support therefore admits a perfect matching. Subtract the smallest matched mass, leaving common row and column sums and at least one fewer nonzero entry. Repeat to obtain the mixture. A ratio with positive denominators lies between its extremal component ratios.
+
+**Which population is this?** These are conditional bounds for the mass of encounters, not an estimate for people, firms or AI systems. A survey finding these two marginals, without linked measurements, would still leave the range above. If local markets can coordinate on refusal, zero adoption remains possible even in jointly suitable cells; the lower one-third bound concerns the opportunity under the stated operating selection. A prepaid process institution can change that selection, as in [268](268-how-a-buyer-can-start-trade-from-distrust.md). If a plant with more jobs appears repeatedly in the sample, a survey weighted by factories answers a different question. Private skill unknown to local participants alters their equilibrium, and births, entry, inherited goals and innovation alter the composition of later populations. [274](274-who-would-pay-to-reassign-the-available-installers.md) asks whether parties could deliberately change the pairing while keeping these same two physical margins.

@@ -555,6 +555,83 @@
       "work": "Audited the finite behavioral identification and sequential-testing arguments in 205,219–221 against changes of the live state. Derived a sharp reachable-confidence ceiling and a guarantee over all late-record policies, solved voluntary early effort versus independent later maintenance, and checked three mutually funded timing and durability choices.",
       "artifact": "research/notes/205,219–221,225,271–272",
       "excluded_seconds": 13
+    },
+    {
+      "id": "T39",
+      "category": "theory",
+      "start_utc": "2026-11-26T23:37:27Z",
+      "end_utc": "2026-11-26T23:40:34Z",
+      "wall_seconds": 187,
+      "active_seconds_estimate": 180,
+      "work": "Derived sharp attainable activity bounds from marginal strength and skill distributions, a joint transport characterization for confidence, combat and adoption, and all six exact assignments. Derived and priced a private-cost-robust equipment reallocation and a separate neighboring agent's incentive to fund lower combat relative to the commercial assignment.",
+      "artifact": "research/notes/273–274",
+      "excluded_seconds": 7
+    },
+    {
+      "id": "T40",
+      "category": "theory",
+      "start_utc": "2026-11-26T23:40:42Z",
+      "end_utc": "2026-11-26T23:43:27Z",
+      "wall_seconds": 165,
+      "active_seconds_estimate": 157,
+      "work": "Audited the grounding, endogenous trial disclosure and strength-leakage arguments in 217–218 and 231–232. Derived a necessary and sufficient row-space and dual-distance criterion for preserving evidence of a goal while hiding strength, checked its failure under correlated enrollment, and constructed a protected instrument that both founders finance over raw access.",
+      "artifact": "research/notes/217–218,231–232,275",
+      "excluded_seconds": 8
+    },
+    {
+      "id": "L09",
+      "category": "literature",
+      "start_utc": "2026-11-26T23:43:34Z",
+      "end_utc": "2026-11-26T23:45:48Z",
+      "wall_seconds": 134,
+      "active_seconds_estimate": 33,
+      "work": "Checked the primary ordinal strict-order bounds against the tie convention in 273, compared private conditional reporting to the formal postprocessing constraint, and inspected a primary warranty analysis for private supplier-quality assumptions.",
+      "artifact": "research/LITERATURE.md L116–L118",
+      "excluded_seconds": 101
+    },
+    {
+      "id": "T41",
+      "category": "theory",
+      "start_utc": "2026-11-26T23:45:54Z",
+      "end_utc": "2026-11-26T23:51:12Z",
+      "wall_seconds": 318,
+      "active_seconds_estimate": 303,
+      "work": "Derived private-skill self-selection under below-enforcement output warranties, calculated both founders’ posterior and participation comparisons and found a profitable matched ordinary half-batch that reverses the screening incentive. Derived the sharp threshold for restoring separate high-skill genuine attempts and low-skill ordinary delivery with a goal-contingent receipt while allowing deliberate admission without any attempt.",
+      "artifact": "research/notes/276–277",
+      "excluded_seconds": 15
+    },
+    {
+      "id": "T42",
+      "category": "theory",
+      "start_utc": "2026-11-26T23:51:13Z",
+      "end_utc": "2026-11-26T23:53:57Z",
+      "wall_seconds": 164,
+      "active_seconds_estimate": 155,
+      "work": "Checked whether the same payment stock would enforce ordinary delivery. Derived the optimal contractible output spread from total variation, the joint feasibility wedge for a goal-reading versus an output-reading device, and buyer investment thresholds under three timings of information. Audited whether a relational invoice and an affordable reset would change the result and corrected which observations the local meter actually exports.",
+      "artifact": "research/notes/276–278",
+      "excluded_seconds": 9
+    },
+    {
+      "id": "T43",
+      "category": "theory",
+      "start_utc": "2026-11-26T23:53:57Z",
+      "end_utc": "2026-11-26T23:58:13Z",
+      "wall_seconds": 256,
+      "active_seconds_estimate": 246,
+      "work": "Derived the upper-envelope cutoff for joint private installation skill and cost over a finite menu, characterized nonparticipation intervals and the effect of crediting an honest failure. Derived uniform price/effort feasibility under incompatible forecasts and a sharp minimax settlement over a bounded symmetric meter, including honest failures, unilateral attempts and ordinary controls.",
+      "artifact": "research/notes/269–270,279–280",
+      "excluded_seconds": 10
+    },
+    {
+      "id": "C06",
+      "category": "computation",
+      "start_utc": "2026-11-26T23:58:13Z",
+      "end_utc": "2026-11-27T00:00:28Z",
+      "wall_seconds": 135,
+      "active_seconds_estimate": 128,
+      "work": "Built and ran a physical-state enumeration of independent and correlated attempts, gate errors, two random gifts, unilateral omissions and participation. Checked the effort optimizer against direct stock-utility comparisons; bracketed the threshold at 0.55746717798–0.55746717803. Cross-checked six population assignments, every named private-skill deviation, raw and protected evidence and a grid of asymmetric transfer schedules.",
+      "artifact": "experiments/r0008_joint_consent.py; tests/test_r0008_joint_consent.py",
+      "excluded_seconds": 7
     }
   ]
 }
